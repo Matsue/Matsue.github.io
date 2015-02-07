@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Meetup | Matsue Blog]]></title>
+  <link href="http://matsue.github.io/blog/categories/meetup/atom.xml" rel="self"/>
+  <link href="http://matsue.github.io/"/>
+  <updated>2015-02-07T14:54:26+09:00</updated>
+  <id>http://matsue.github.io/</id>
+  <author>
+    <name><![CDATA[Hiroki Matsue]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Unityで3D野球盤を作った]]></title>
+    <link href="http://matsue.github.io/blog/2015/02/04/unity-workshop/"/>
+    <updated>2015-02-04T22:15:42+09:00</updated>
+    <id>http://matsue.github.io/blog/2015/02/04/unity-workshop</id>
+    <content type="html"><![CDATA[<p><img class="<a" src="href="https://lh6.googleusercontent.com/-jREUCZKPIRA/VNIwE0Q0JBI/AAAAAAAAR_A/bkdtFf09lvE/w1056-h692-no/unity-baseball-game.png">https://lh6.googleusercontent.com/-jREUCZKPIRA/VNIwE0Q0JBI/AAAAAAAAR_A/bkdtFf09lvE/w1056-h692-no/unity-baseball-game.png</a>&#8221;></p>
+
+<p><a href="http://8a1-apc.connpass.com/event/11282/">&ldquo;【ハンズオン】初めてのUnityで作る「3D野球盤」APC勉強会 #14&rdquo;</a>に参加してきた。</p>
+
+<!-- more -->
+
+
+<p>当日の資料はこちら: <a href="http://www.slideshare.net/apc_8a1/8a120150204-unity">http://www.slideshare.net/apc_8a1/8a120150204-unity</a></p>
+
+<p>上記の資料に沿ってUnityで3D野球盤を作ってきた。
+資料がスクリーンショットを交えながら丁寧に作られていたし、
+事前にオブジェクトやスクリプトが用意されていたこともあって、ちゃんと動くところまでいけた。
+細かい操作で詰まっても質問してすぐに解決しながら作成できたのも良かった。
+今回使用させてもらったオブジェクトやスクリプトが含まれるパッケージは、パスワード付きのリンクだったのでここには貼ってない。</p>
+
+<p>今回のハンズオンでスクリプトの定義方法、コンポーネントの追加の仕方、Assetsの登録方法など基本的な操作が理解できた。</p>
+
+<p>今回は時間短縮のためにパッケージで済ませた、
+オブジェクトやゲームスクリプトの作成でトライ&amp;エラーを繰り返していたら、
+とても１時間程度では終わらなかったと思う。</p>
+
+<p>ほとんど用意されていたものを使ったとはいえ、動くとやっぱり嬉しい。</p>
+
+<p>Unityで作成したアプリなので、この野球盤アプリはAndroidでも動いた。
+ただ、ラップトップではキー操作で動く部分が、Androidでは画面タップにする必要があるのでそこは修正しないといけない。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Paris Tech Talks 8th に参加した]]></title>
+    <link href="http://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th/"/>
+    <updated>2014-09-23T06:36:15+09:00</updated>
+    <id>http://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th</id>
+    <content type="html"><![CDATA[<p><a href="http://www.meetup.com/Paris-Tech-Talks/events/206595892/">Paris Tech Talks #8</a> に参加してきた。
+Paris Tech Talksは新しい技術や事業の紹介をする場。
+<a href="http://matsue.github.io/blog/2014/08/06/paris-dot-rb/">Paris.rb</a> に続きパリでは2回目の勉強会参加になる。
+珍しく英語開催のイベントということもあって参加してみた。</p>
+
+<p><img class="<a" src="href="https://lh3.googleusercontent.com/-a9Jgv7TzM-A/VCCTzKMc0mI/AAAAAAAAFGk/wa4WihFt4fg/w924-h693-no/IMG_20140922_194645.jpg">https://lh3.googleusercontent.com/-a9Jgv7TzM-A/VCCTzKMc0mI/AAAAAAAAFGk/wa4WihFt4fg/w924-h693-no/IMG_20140922_194645.jpg</a>&#8221;></p>
+
+<!-- more -->
+
+
+<h2>セッション</h2>
+
+<h3>Detctive.io</h3>
+
+<p><a href="https://www.detective.io/tour/">Detctive.io</a>というデータジャーナリズムを扱うサービスの紹介。<br/>
+サービスの裏側ではNeo4jとDjangoを使用していて、<a href="https://github.com/scholrly/neo4django">neo4django</a>を使っているらしい。
+ただ、neo4djangoはまだ使える機能が限られており困っているとのこと。</p>
+
+<h3>webプラットフォーム開発コミュニティ</h3>
+
+<p>共通環境でのブラウザテストや標準化をするコミュニティの話。<br/>
+十分なテストや、ライセンスにCCを用いたり、開発練習の場としてスナップショットを用意したり、トピックブランチを活用してもらうというような取り組みで人を増やそうとしているとのこと。</p>
+
+<p>関連リンク:</p>
+
+<ul>
+<li><a href="http://extensiblewebmanifesto.org/">http://extensiblewebmanifesto.org/</a></li>
+<li><a href="http://www.webplatform.com/">http://www.webplatform.com/</a></li>
+</ul>
+
+
+<h3>Platform.sh</h3>
+
+<p>Ori pekelmanさんによる<a href="https://platform.sh/">Platform.sh</a>の紹介。<br/>
+Gitにpushするだけでデプロイとかできる、という趣旨のサービス。
+懇親会で話を聞く限り、発表者の方は開発ミートアップイベントの常連さんらしい。</p>
+
+<h3>ドットカンファレンスの紹介</h3>
+
+<p>パリで開催される<a href="http://www.dotgo.eu/">dotGO</a>、<a href="http://www.dotcss.eu/">dotCSS</a>、<a href="http://www.dotjs.eu/">dotJS</a>の紹介。<br/>
+割引コード紹介や、<a href="http://www.dotjs.eu/prize">dotJS prize</a>の紹介があった。
+dotJSプライズはOSSならノミネートできるとのこと。</p>
+
+<p>その他にも以下のイベントが近くパリで開催される。</p>
+
+<ul>
+<li>Rails Girls</li>
+<li><a href="http://scala.io/">Scala.io</a></li>
+<li><a href="http://www.dotswift.io/">dotSwift</a></li>
+</ul>
+
+
+<h3>Pulsar</h3>
+
+<p>Pulsarという開発中のビデオストリーミングソフトの紹介。<br/>
+Kodi(XBMC)の上で動くtorrentの検索、ストリームエンジン。
+Raspberry Piでも動くらしく、Chromecastのような機器も開発中とのこと。</p>
+
+<p>関連リンク:</p>
+
+<ul>
+<li><a href="https://github.com/steeve/script.pulsar.dummy">https://github.com/steeve/script.pulsar.dummy</a></li>
+<li><a href="http://forum.xbmc.org/showthread.php?tid=200957">http://forum.xbmc.org/showthread.php?tid=200957</a></li>
+</ul>
+
+
+<h2>イベント運営</h2>
+
+<p>会場は<a href="http://www.deezer.com/">Deezer</a>のオフィスだった。
+Deezerは音楽ストリーミングサイトで、日本とアメリカでは展開していない模様。</p>
+
+<p><img class="<a" src="href="https://lh3.googleusercontent.com/dngAX2MxhhqSbqgqTjp4lPiMJfdnRhn14T7Gi26M8Fc=s207-p-no">https://lh3.googleusercontent.com/dngAX2MxhhqSbqgqTjp4lPiMJfdnRhn14T7Gi26M8Fc=s207-p-no</a>&#8221;>
+<img class="<a" src="href="https://lh3.googleusercontent.com/cJUh3ZZi_yP1Vw7GPR37k5FrXxsbifHl_0mDpZsCfTQ=s207-p-no">https://lh3.googleusercontent.com/cJUh3ZZi_yP1Vw7GPR37k5FrXxsbifHl_0mDpZsCfTQ=s207-p-no</a>&#8221;>
+<img class="<a" src="href="https://lh6.googleusercontent.com/a3JdQ8u_kuXnhxQdcSU-DA_9loRsaNZIeTrfXZwOZ0A=s207-p-no">https://lh6.googleusercontent.com/a3JdQ8u_kuXnhxQdcSU-DA_9loRsaNZIeTrfXZwOZ0A=s207-p-no</a>&#8221;></p>
+
+<p>会場にはキッチン、ソファ、テーブルサッカー等があり、カジュアルな雰囲気。
+オフィスの雰囲気がなさすぎて何度か前を通り過ぎてしまった。</p>
+
+<p>登録221名に対して、実際の参加者は100名程度だったように見えた。</p>
+
+<p>ピザもビールも十分あったのでお腹いっぱいになった。
+ピザとビールはスポンサーによって提供。ありがとうございます。<br/>
+いろいろなビールが用意されており、私は<a href="http://ja.wikipedia.org/wiki/%E3%83%87%E3%83%AA%E3%83%AA%E3%82%A6%E3%83%A0%E3%83%BB%E3%83%88%E3%83%AC%E3%83%A1%E3%83%B3%E3%82%B9">Delirium Beer</a>というのをいただいた。ありがとうございます。</p>
+
+<p><img class="<a" src="href="https://lh6.googleusercontent.com/-rcr_ovLpHnQ/VCRsYtJDfmI/AAAAAAAAFPU/V0l_-qMjccc/w520-h693-no/IMG_20140922_222017.jpg">https://lh6.googleusercontent.com/-rcr_ovLpHnQ/VCRsYtJDfmI/AAAAAAAAFPU/V0l_-qMjccc/w520-h693-no/IMG_20140922_222017.jpg</a>&#8221;></p>
+
+<p>スライドの位置は少し低めだったので、後ろの席の方々はときどき立ち上がって資料を確認していた。</p>
+
+<p><img class="<a" src="href="https://lh4.googleusercontent.com/-RYTu2eKjjlo/VCRsYmYDyDI/AAAAAAAAFPU/rzevcRScXfI/w924-h693-no/IMG_20140922_200426.jpg">https://lh4.googleusercontent.com/-RYTu2eKjjlo/VCRsYmYDyDI/AAAAAAAAFPU/rzevcRScXfI/w924-h693-no/IMG_20140922_200426.jpg</a>&#8221;></p>
+
+<h2>懇親会</h2>
+
+<p><img class="<a" src="href="https://lh5.googleusercontent.com/-yRyxQymMeBw/VCRsYsowoAI/AAAAAAAAFPU/sfBL2mvHcwo/w924-h693-no/IMG_20140922_211742.jpg">https://lh5.googleusercontent.com/-yRyxQymMeBw/VCRsYsowoAI/AAAAAAAAFPU/sfBL2mvHcwo/w924-h693-no/IMG_20140922_211742.jpg</a>&#8221;></p>
+
+<p>知ってる人がいないので、ピザをいただきつつ<a href="http://d.hatena.ne.jp/hyoshiok/20130602">よしおかさんメソッド</a>で何名かの方に話を聞いた。</p>
+
+<p>話の中ではDevOpsという単語と共に、Puppet、Chef、Ansibleや<a href="https://github.com/saltstack/salt">Salt</a>の名前があがっていた。あとはDocker。</p>
+
+<p>また<a href="https://www.mailjet.com/">Mailjet</a>というサービスで働いている方にどの言語でサービスを実装してるか聞いた所、<a href="http://blog.mailjet.com/post/93317385400/developer-evangelists-faq">Free Pascalという回答</a>がきて驚いた。
+メールを処理する時にバッファオーバフローが起こらないから安全なので使っている、というようなお話だった。</p>
+
+<p>ストレージに興味があるなら、<a href="http://www.meetup.com/Paris-Datageeks/">Paris DataGeeks</a>というミートアップがオススメとのこと。</p>
+
+<hr />
+
+<p>英語のミートアップではあったが、フランス語が喋れると活動の幅が広がるだろうなあ、改めて感じた。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang User Conference 2014 に参加した]]></title>
+    <link href="http://matsue.github.io/blog/2014/06/12/euc2014/"/>
+    <updated>2014-06-12T14:09:40+09:00</updated>
+    <id>http://matsue.github.io/blog/2014/06/12/euc2014</id>
+    <content type="html"><![CDATA[<p>ストックホルムで開催された<a href="http://www.erlang-factory.com/euc2014">Erlang User Conference 2014</a>に参加した。</p>
+
+<p><img src="/images/2014-06-12-euc2014/euc2014_sponsors.jpg" title="&lsquo;euc2014_sponsors&rsquo; &lsquo;The flag of sponsors ato Erlang User Conference 2014&rsquo;" ></p>
+
+<p>大変有難いことに<a href="http://www.erlang-factory.com/euc2014/yosuke-hara">LeoFSのセッション</a>の一部で、7分ほど登壇させていただいた。</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/35673208" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/rakutentech/scaling-and-high-performance-storage-system-leofs" title="Scaling and High Performance Storage System: LeoFS" target="_blank">Scaling and High Performance Storage System: LeoFS</a> </strong> from <strong><a href="http://www.slideshare.net/rakutentech" target="_blank">Rakuten, Inc</a></strong> </div></p>
+
+<!-- more -->
+
+
+<p>私が話したのは主にLeoFSのユースケースで、</p>
+
+<ul>
+<li>現時点で600TB程度のディスク総量でクラスタを組んでいる
+
+<ul>
+<li>データセンター間のレプリケーション機能を使っていきたい</li>
+</ul>
+</li>
+<li>社内のファイル共有にownCloudをLeoFSと組み合わせて使っている
+
+<ul>
+<li>各国のグループ会社との動画の共有などに使われている</li>
+</ul>
+</li>
+</ul>
+
+
+<p>というようなことを紹介した。<br/>
+私たちのセッションには30名ほどの方が聞きにきてくれていたかと思う。</p>
+
+<h2>Day1</h2>
+
+<p>初日は以下のセッションに参加した。</p>
+
+<ol>
+<li>Welcome to the Erlang User Conference!</li>
+<li>Keynote: Composing a Functional Community (Katie Miller)</li>
+<li>Scaling and High Performance Storage System: LeoFS (Yosuke Hara) => 発表</li>
+<li>The Last REST Client You Will Ever Need (Loïc Hoguin)</li>
+<li>Concuerror: Into Real Code (Stavros Aronis)</li>
+<li>Building a Distributed Data Ingestion System with RabbitMQ (Alvaro Videla)</li>
+<li>Building a Cloud with Erlang and SmartOS - How Hard Could it Possibly Be? (Heinz Gies)</li>
+<li>Locks - Erlang-style Scalable Distributed Locking (Ulf Wiger)</li>
+</ol>
+
+
+<h3>Composing a Functional Community</h3>
+
+<p>初日のキーノートは<a href="http://www.lambdaladies.com/">Lambda Ladies</a>という関数型言語の女性コミュニティから、Katieさんによる発表。</p>
+
+<p>FP(Functional Programming)コミュニティの発展には以下が必要というお話でした。</p>
+
+<ul>
+<li>Education ビギナー向けの教育</li>
+<li>Safe space ハラスメント対策とか</li>
+<li>Mentoring 励ます メンティーはメンターになっていく</li>
+</ul>
+
+
+<p>今のテックスペースやコミュニティはデフォルトで男性向けである話や、実際に女性達が感じていることが紹介されていて、ほとんど男性で埋まっていた会場に対してパンチの効いた発表。<br/>
+<a href="http://www.codemiller.com/blog/2013/07/06/functional-frock-a-dress-fit-for-a-lambda-lady/">Haskellによる6つのソートアルゴリズムがプリントされたギークドレス</a>も印象的でした。</p>
+
+<ul>
+<li>発表者プロフィール: <a href="http://www.erlang-factory.com/euc2014/katie-miller">http://www.erlang-factory.com/euc2014/katie-miller</a></li>
+<li>スライド: <a href="http://community.codemiller.com/#/">http://community.codemiller.com/#/</a></li>
+</ul>
+
+
+<h3>The Last REST Client You Will Ever Need</h3>
+
+<p>webサーバの<a href="https://github.com/extend/cowboy">cowboy</a>の開発者であるLoicさんによる発表。</p>
+
+<p>REST APIに使うMedia TypeにJSON、Msgpack、HTML、XMLに代わってBEDというのを考えてるよ、という話。<br/>
+Media Typeは独自の定義が使えるので、以下のようなタイプを提唱していた。</p>
+
+<ul>
+<li>application/x-bed</li>
+<li>application/x-bed-stream</li>
+</ul>
+
+
+<p>バイト数は短く、圧縮もなしで、relationも定義できて・・というようなものを目指しているよう。<br/>
+現時点では構想の段階でレポジトリはないが、プロジェクトは作成されている。
+<a href="https://github.com/bed-project">https://github.com/bed-project</a></p>
+
+<p>ヘルプ絶賛募集中とのことなので、BEDが気になった方はLoicさんにコンタクトをとるといいと思う。</p>
+
+<ul>
+<li>発表者プロフィール: <a href="http://www.erlang-factory.com/euc2014/loc-hoguin">http://www.erlang-factory.com/euc2014/loc-hoguin</a></li>
+<li>スライド: <a href="http://ninenines.eu/talks/bed/bed.html">http://ninenines.eu/talks/bed/bed.html</a></li>
+</ul>
+
+
+<h3>Building a Distributed Data Ingestion System with RabbitMQ</h3>
+
+<p>&ldquo;RabbitMQ in Action&#8221;の著者のAlvaroさんによるRabbitMQのデザインパターン紹介。</p>
+
+<p>複数のDC間でのログ集めにRabbitMQを使ってるらしい。<br/>
+スケールしていくには<a href="http://www.rabbitmq.com/federation.html">Federation Plugin</a>を使うといいよという内容。<br/>
+性能が必要だが、メッセージのロスが許されるような場合はno-ackモードという選択肢もあるとのこと。</p>
+
+<p>以下のデモページでメッセージが分配される様子を紹介しながらの発表だった。</p>
+
+<ul>
+<li>デモ実行ページ: <a href="http://tryrabbitmq.com/">http://tryrabbitmq.com/</a></li>
+<li>デモのソース: <a href="https://github.com/RabbitMQSimulator/RabbitMQSimulator">https://github.com/RabbitMQSimulator/RabbitMQSimulator</a></li>
+</ul>
+
+
+<p>各workerにメッセージが分散される様子を見れるデモページは、ついついポチポチ押したくなってしまう。<br/>
+正規表現を使ってのメッセージの内容に応じたルーティングもできる模様。</p>
+
+<p>Fedarationを使った分散の例は以下のリンクでもJavaのコードを交えて紹介されているようだ。
+<a href="http://jaxenter.com/distributed-log-aggregation-with-rabbitmq-federation-49154.html">http://jaxenter.com/distributed-log-aggregation-with-rabbitmq-federation-49154.html</a></p>
+
+<ul>
+<li>発表者プロフィール: <a href="http://www.erlang-factory.com/euc2014/alvaro-videla">http://www.erlang-factory.com/euc2014/alvaro-videla</a></li>
+<li>スライド: <a href="http://www.erlang-factory.com/static/upload/media/1402395255933144rabbitmq_data_ingestion_euc.pdf">http://www.erlang-factory.com/static/upload/media/1402395255933144rabbitmq_data_ingestion_euc.pdf</a></li>
+</ul>
+
+
+<h2>Day2</h2>
+
+<p>二日目に参加したセッションはこちら。</p>
+
+<ol>
+<li>Welcome to the 2nd Day of the EUC!</li>
+<li>Keynote: Erlang, Open Networking, and the Future of Computing (Stuart Bailey)</li>
+<li>Powering your Web and Mobile Applications (Jordan Wilberding)</li>
+<li>Monitoring Erlang Systems with WombatOAM (Richard Jonas)</li>
+<li>Scaling Erlang on 10K or More Cores: An Overview of the RELEASE Project (Simon Thompson)</li>
+<li>Real-Time Performance at Massive Scale (Francois Orsini)</li>
+<li>Where Shall I Parallelize? (Tamás Kozsik)</li>
+<li>Elixir Tooling: Exploring Beyond the Language (Eric Meadows-Jönsson)</li>
+<li>Latest News from the OTP Team - Kenneth Lundin</li>
+<li>Announcement of the Erlang User of the Year &amp; the Most Influential Talk of 1999</li>
+</ol>
+
+
+<h3>Elixir Tooling: Exploring Beyond the Language</h3>
+
+<p>ElixirコミッターのEricさんによる発表。</p>
+
+<p>はじめにElixirの今年のニュースとして以下の３つを挙げていた。</p>
+
+<ul>
+<li>version1.0がリリース予定</li>
+<li><a href="http://elixirconf.com/">ElixirConf</a>が開催予定</li>
+<li>パッケージマネージャの<a href="https://hex.pm/">Hex</a>がリリースされた</li>
+</ul>
+
+
+<h4>Mix</h4>
+
+<p>Mixというのはプロジェクト作成、コンパイル、テスト、などなどをサポートしてくれるツール。
+ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様。</p>
+
+<p>以下のツールを入れると、Mixのコマンドが拡張されるようだ。</p>
+
+<ul>
+<li>ecto <a href="https://github.com/elixir-lang/ecto">https://github.com/elixir-lang/ecto</a></li>
+<li>exrm <a href="https://github.com/bitwalker/exrm">https://github.com/bitwalker/exrm</a></li>
+</ul>
+
+
+<p>ectoはDBのラッパーや管理を提供し、exrmはリリースをサポートしてくれる模様。</p>
+
+<h4>Hex</h4>
+
+<p>Elixirのパッケージマネージャで最近リリースされたばかりのようだ。<br/>
+パッケージはS3でホスティングされてるとのこと。</p>
+
+<h4>IEx</h4>
+
+<p>Erlangでいうところのerl, Rubyでいうところのirbにあたる、Elixirの実行ターミナル。</p>
+
+<p>IEx.pryを書いておくと実行中のコードの途中でiexに入ってデバッグできるらしい。pryにインスパイアされたものだそうだ。</p>
+
+<p>iexシェルの中では<code>h Enum.map/2</code>とかするとヘルプも見えるとのこと。</p>
+
+<h4>ExUnit</h4>
+
+<p>tagsやfilter機能を使うと環境毎にテストを分けたり、特定ケースだけ実行することができるようだ。</p>
+
+<p>またElixirではdoctestも提供されているとのこと。この形式で書かれたコメントは、後でドキュメントとして生成されるだけでなく、書かれているコードはテストとしての実行もしてくれる。</p>
+
+<h4>Standard library</h4>
+
+<ul>
+<li><a href="http://elixir-lang.org/docs/stable/elixir/Stream.html">Stream</a>
+
+<ul>
+<li>再帰的にファイルの各行に処理するコードが、eachにブロック渡すだけのコードにできる。</li>
+<li>遅延評価されるので必要になったときだけ実際にファイルをオープンしてる。</li>
+</ul>
+</li>
+<li><a href="http://elixir-lang.org/docs/stable/elixir/Agent.html">Agent</a>
+
+<ul>
+<li>OTPを抽象化してくれるライブラリ</li>
+</ul>
+</li>
+<li><p><a href="http://elixir-lang.org/docs/stable/elixir/Task.html">Task</a></p>
+
+<ul>
+<li>非同期に処理をするために使うライブラリ</li>
+<li>Task.asyncでタスクを作って、Task.awaitで待つ、というような使い方。</li>
+</ul>
+</li>
+<li><p>発表者プロフィール: <a href="http://www.erlang-factory.com/euc2014/eric-meadowsjnsson">http://www.erlang-factory.com/euc2014/eric-meadowsjnsson</a></p></li>
+<li>スライド: <a href="http://www.erlang-factory.com/static/upload/media/1402598794815412elixirtooling.pdf">http://www.erlang-factory.com/static/upload/media/1402598794815412elixirtooling.pdf</a></li>
+</ul>
+
+
+<h3>Latest News from the OTP Team</h3>
+
+<p>OTPチームからの17系以降の変更点の紹介。</p>
+
+<ul>
+<li>新しいデータ型のMaps</li>
+<li>binary周りで発生していた、スレッドにおけるブロックが減る</li>
+<li>ライセンスがEPL(Erlang Public License)からApache License Version 2.0に代わる</li>
+</ul>
+
+
+<p>ライセンスに関しては以前、Mozilla Public Licenseへの移行も検討されていたようだ。
+ライセンス変更にあたり、コミッターの方々にはメールで同意を求めるので&#8221;Yes&#8221;という準備しておいてね！というようなことを言っていた。</p>
+
+<h2>Day3</h2>
+
+<p>最終日は以下のチュートリアルに参加した。</p>
+
+<ol>
+<li>Introduction to Load Testing with Tsung (Radosław Szymczyszyn)</li>
+<li>Erlang in Production - Tricks and Tools for Running Erlang Production Systems (Jesper Louis Andersen)</li>
+<li>Load Testing Made Easy (Diana Corbacho)</li>
+<li>Deploying and Monitoring Erlang Nodes in the Cloud (Csaba Hoch)</li>
+</ol>
+
+
+<p><img src="/images/2014-06-12-euc2014/euc2014_ericsson.jpg" title="&lsquo;euc2014_ericsson&rsquo; &lsquo;Ericsson Group headquarters&rsquo;" ></p>
+
+<p>WombatOAMやMegaloadといったErlang監視ツール、ロードテストサポートツールにも実際に触れることができたがこちらはOSSではないようだ。</p>
+
+<h3>Introduction to Load Testing with Tsung</h3>
+
+<p>ロードテストツールであるTsungの紹介。こちら、Erlang製のJMeterのようなもの。</p>
+
+<p>チュートリアルは以下の資料に従い、Vagrantで構築された複数VMを使って行われた。Tsungの資料はあまりないと思われるので貴重だ。</p>
+
+<ul>
+<li><a href="https://github.com/lavrin/euc-2014">https://github.com/lavrin/euc-2014</a></li>
+<li><a href="https://github.com/lavrin/tsung-scenarios">https://github.com/lavrin/tsung-scenarios</a></li>
+</ul>
+
+
+<p>Tsungに関するメモ。</p>
+
+<ul>
+<li>指定されたユーザ数でランダムなアクセスをシミュレーションできる
+
+<ul>
+<li>XMPP、TCP、HTTPなどのロードテストができる</li>
+<li>ログインパスワード指定できる</li>
+<li>ユーザによってはログインしかしないとかシミュレーションできる</li>
+<li>パスにIDとかいれてリクエスト生成してくれる</li>
+</ul>
+</li>
+<li>今回のサンプルでdurationが14400 minutesなのは十分に大きくするため</li>
+<li>ディレクトリ構成やログインユーザ、elrangのcookieなど環境揃っている必要があるが、複数のノードからtsungの実行もできるらしい</li>
+<li>テストの結果はtsplotとかでグラフにできるらしい</li>
+<li>テスト時に、<code>ulimit -n</code>の上限に引っかかる可能性あるので注意しておく</li>
+<li>クラスタでやるときはtsung-controllerというのもあるらしいが、使用には注意らしい(SPOF?)</li>
+<li>dumptrafficというオプションをオンにすると、大量のログがでるので注意</li>
+<li><p>JMeterと違ってErlangなので、テスト時にはerlangのメソッドを直接呼ぶようなテストもできるらしい</p></li>
+<li><p>発表者プロフィール: <a href="http://www.erlang-factory.com/euc2014/radosaw-szymczyszyn">http://www.erlang-factory.com/euc2014/radosaw-szymczyszyn</a></p></li>
+</ul>
+
+
+<h3>Erlang in Production</h3>
+
+<p>運用者が朝まで寝ていられるシステムをつくるにはどうすればいいかという話。</p>
+
+<p>まず、システムはいつ壊れるのかという話を&#8221;How Complex Systems Fail&#8221;というRichard Cookさんの資料を引用しつつ紹介。
+たぶん元の資料は<a href="http://www.ctlab.org/documents/How%20Complex%20Systems%20Fail.pdf">こちら</a>。</p>
+
+<p>紹介されていたライブラリの一部。
+- <a href="https://github.com/feuerlabs/exometer">https://github.com/feuerlabs/exometer</a><br/>
+- <a href="https://github.com/klarna/circuit_breaker">https://github.com/klarna/circuit_breaker</a>
+- <a href="https://github.com/basho/sidejob">https://github.com/basho/sidejob</a>
+- <a href="https://github.com/uwiger/jobs">https://github.com/uwiger/jobs</a>
+- <a href="https://github.com/massemanet/eper">https://github.com/massemanet/eper</a></p>
+
+<p>上記のライブラリは、Erlangプロセスの情報を収集したり、ジョブスケジューリングをしてくれるもののようだ。</p>
+
+<p>以降は、使ってるライブラリや設定の話。</p>
+
+<h4>sys.configについて</h4>
+
+<p><code>erl -man config</code>でも確認できるがconfigは、他のファイルも読めるので環境ごとのファイルを置いておくようにするといいらしい。</p>
+
+<h4>Lager</h4>
+
+<p><a href="https://github.com/basho/lager">https://github.com/basho/lager</a></p>
+
+<p>logライブラリにはlagerを使って、どこかに集めている。
+<a href="https://github.com/boundary/folsom">folsom</a>のデータ飛ばしてるらしい。</p>
+
+<h4>alarm_handler</h4>
+
+<p>SASLの一部。アラートは自分で定義できて、Nagiosサーバにもデータ飛ばすこともできる。
+アラームがオフになる時(?)にlagerに流し込むとかもできる。</p>
+
+<p>Nagiosと組み合わせる際は、ファイル書き出されたステータスをNagiosが定期的に確認するようにしていたらしい。</p>
+
+<h4>os_mon</h4>
+
+<p><a href="http://erlang.org/doc/man/os_mon_app.html">http://erlang.org/doc/man/os_mon_app.html</a></p>
+
+<p>cpu usageみたりもできる。mem_supでメモリ使い過ぎ検知もできる。</p>
+
+<h4>fuse</h4>
+
+<p><a href="https://github.com/jlouis/fuse">https://github.com/jlouis/fuse</a></p>
+
+<p>マウントに使うfuseとは別のErlangライブラリ。<br/>
+たとえばmysql落ちた時にほかのノードの処理をキックするのに使う。</p>
+
+<h4>Folsom</h4>
+
+<p><a href="https://github.com/boundary/folsom">https://github.com/boundary/folsom</a></p>
+
+<p>メトリクスのライブラリ。</p>
+
+<p>データ転送にはUDP使ってる、リモートが落ちてたり遅いことに影響されないように。<br/>
+counters, gauges, spirals, histogramsなどのグラフが用意されている。<br/>
+グラフを見るに当たっての注意点としては、平均を見るのは危険。低い方と高い方に値が固まっているかもしれないので。なので、95th、99thパーセンタイルの情報をみるべき。</p>
+
+<h4>なにを集計する？</h4>
+
+<p>取れるものすべてを集計してる。</p>
+
+<ul>
+<li>query times</li>
+<li>internal heavy weight processing</li>
+<li>API endpoints</li>
+<li>every cascading subsystem</li>
+<li>cache hit/miss, あとDBたたいた時にどうだったのか</li>
+</ul>
+
+
+<h4>Tracing / Recon</h4>
+
+<ul>
+<li><a href="http://ferd.github.io/recon/">http://ferd.github.io/recon/</a></li>
+<li><a href="https://github.com/ferd/recon">https://github.com/ferd/recon</a></li>
+</ul>
+
+
+<p>reconは各pidが何を実行しているかわかるようにしてくれるらしい。
+recon_traceでオンラインtracingもできるらしい。</p>
+
+<h2>会場の写真</h2>
+
+<p>カンファレンス会場に使われた建物。
+<img src="/images/2014-06-12-euc2014/euc2014_venue.jpg" title="&lsquo;euc2014_venue&rsquo; &lsquo;The venue of EUC2014&rsquo;" ></p>
+
+<p>カンファレンス会場では何故かファミコンが置かれていて、グラディウスやボンバーマンをプレイされていた。コナミコマンドは使っていないようだ。
+<img src="/images/2014-06-12-euc2014/euc2014_game.jpg" title="&lsquo;euc2014_game&rsquo; &lsquo;Game space at EUC2014&rsquo;" ></p>
+
+<p>カンファレンス会場でのランチの様子。
+<img src="/images/2014-06-12-euc2014/euc2014_lunch.jpg" title="&lsquo;euc2014_lunch&rsquo; &lsquo;Lunch time at EUC2014&rsquo;" ></p>
+
+<p>チュートリアルで使われたEricssonの一室。
+<img src="/images/2014-06-12-euc2014/euc2014_tutorial_room.jpg" title="&lsquo;euc2014_tutorial_room&rsquo; &lsquo;Tutorial room at Ericsson&rsquo;" ></p>
+
+<p>Ericssonでのランチ。スウェーデンではサンドイッチの出る場面が多い。
+<img src="/images/2014-06-12-euc2014/euc2014_tutorial_lunch.jpg" title="&lsquo;euc2014_tutorial_lunch&rsquo; &lsquo;Lunch time at Ericsson&rsquo;" ></p>
+
+<h2>おわりに</h2>
+
+<p>EUCに参加するのは二度目で、前回は<a href="http://www.erlang-factory.com/conference/ErlangUserConference2012">2012年のEUC</a>に参加していた。</p>
+
+<p>以前は日に何度かあるコーヒブレイクの45分が非常に長く感じられたのだが、今回は会場で知り合った方と話せたこともあってか、あっという間に感じられた。<br/>
+英語への敷居が前よりも下がったのかもしれない。<a href="http://d.hatena.ne.jp/hyoshiok/20130602">コーヒーを取るタイミング</a>で、目が合ったら&#8221;hi&#8221;と言ってみたりもした。<br/>
+わずかだがJoe Armstrongさんとも話せて嬉しい限りだ。</p>
+
+<p>また、あまり前回は意識していなかったが、発表者はみんな英語が母国語とは限らない。<br/>
+よく聞いていると、言いたいことが出てこなかったり、発音を気にして言い直したりしている。<br/>
+ヨーロッパの各地から来ている人がいるので、イントネーションも様々だった。<br/>
+英語での発表には、多少の不自由を感じながらもみんなやっているのかもしれない。</p>
+
+<p>最後に、今回の発表・参加にあたってレビューや調整をしてくれた皆様に感謝します。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[第21回 AWS User Group - Japan 東京勉強会に参加しました]]></title>
+    <link href="http://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521/"/>
+    <updated>2014-05-21T00:12:13+09:00</updated>
+    <id>http://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521</id>
+    <content type="html"><![CDATA[<p>AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。<br/>
+コード化された運用は形式知化である。そして手順であれコードであれ、「なんでそうしてるのか？」ということも共有されないといけない。なるほど、なるほど。<br/>
+紹介されていたQiita teamは使ったことないけれど、Markdownで書けて、気軽に投稿して、検索可能な情報共有の場があると、たしかに良さそうです。</p>
+
+<p>以下、イベント参加時のメモです。</p>
+
+<!-- more -->
+
+
+<hr />
+
+<h2>イベント関連link</h2>
+
+<ul>
+<li>イベントページ: <a href="http://jawsug-tokyo.doorkeeper.jp/events/11269">http://jawsug-tokyo.doorkeeper.jp/events/11269</a></li>
+<li>Twitter: <a href="https://twitter.com/search?q=%23jawsug">https://twitter.com/search?q=%23jawsug</a></li>
+</ul>
+
+
+<h2>伊藤 直也さん</h2>
+
+<p>資料: <a href="https://speakerdeck.com/naoya/sukerusurukai-fa-zu-zhi-falsezuo-rifang-number-jawsug">https://speakerdeck.com/naoya/sukerusurukai-fa-zu-zhi-falsezuo-rifang-number-jawsug</a></p>
+
+<h3>手作業はなぜダメなのか</h3>
+
+<p>暗黙知になる = 言語化されてないノウハウ<br/>
+ログ何処にあるか、サーバ止めていいかわからない</p>
+
+<p>しっかり手順書？いいえ、infrastracture as a code<br/>
+コードにするだけでいい？いいえ</p>
+
+<p>コードにすると&hellip;</p>
+
+<ul>
+<li>オブジェクト指向になる。</li>
+<li><p>アプリケーション開発の文脈で使える、業務フローが変わる<br/>
+フローとはgithubでpull requestとか</p></li>
+<li><p>べきとうである</p></li>
+<li><p>変更が可視化される</p>
+
+<ul>
+<li>たとえばnginxの設定を変えたとか</li>
+<li>pull requestないと普段だれも見てない</li>
+</ul>
+</li>
+<li><p>2時間が10分はそれほど重要ではない</p></li>
+<li>属人化して不明なことを減らす
+
+<ul>
+<li>わからないことには保守的になる。不透明な課金部分とか触れない。</li>
+<li>組織のスケールアウトを阻害する</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>スタートアップの機動力</h3>
+
+<ul>
+<li>暗黙知が少ないので自律的に動きやすい(全能感)
+
+<ul>
+<li>フィードバックも得やすく自信を得られる</li>
+</ul>
+</li>
+<li>暗黙知の圧力で保守的になりスタートアップがスタートアップでなくなる</li>
+</ul>
+
+
+<p>ref: &ldquo;the tweleve factor app&rdquo;</p>
+
+<p>フロー情報の共有による知識のチーム間の横展開、連鎖<br/>
+Qiita teamとか</p>
+
+<h3>まだできてないこと</h3>
+
+<ul>
+<li>メンタルモデルのコードへの反映
+
+<ul>
+<li>野生動物を見たら危険だと判断するといった判断</li>
+</ul>
+</li>
+<li>「なぜ」が暗黙知化されがち
+
+<ul>
+<li>パーミッションかえる => なんで？とか</li>
+<li>そこはドキュメント化するしかない。そこでフロー情報の共有。</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>質問タイム</h3>
+
+<h4>Q. フロー情報の共有にQiita team以外に試したツールは？</h4>
+
+<p>上手く行かなかった物があるが名前は出せない。wikiのようなもの使っていた。<br/>
+wikiだと更新しなかったことも、Qiita teamのようなものだと気軽に投稿できてよい。</p>
+
+<hr />
+
+<h2>Wantedly株式会社 川崎 禎紀さん</h2>
+
+<p>サービス開始からの2年間Heroku</p>
+
+<p>サーバの使い分け
+- staging: 本番と同じデータ、デプロイ前のテスト<br/>
+- QA: topicブランチのテスト、ユーザなどに見てもらう</p>
+
+<p>travis, circleではなくwercker使ってる</p>
+
+<p>新しい機能試すこと目的ではなく、ユーザに価値を届けるのが大事にするべし</p>
+
+<hr />
+
+<h2>Sansan株式会社 宍倉 功一さん</h2>
+
+<p>Eightの話</p>
+
+<h3>KPI</h3>
+
+<p>PDCAの効果測定、検証での指標</p>
+
+<p>評価、状態の共有方法
+- メール
+- Dashboard => ducsdataを40インチディスプレイに映してる
+- その他 fluentd + slash7</p>
+
+<hr />
+
+<h2>株式会社スマートエデュケーション 谷川裕之さん</h2>
+
+<p>世界への配信にS3 + CloudFront必須<br/>
+MBaasSはParseを参考に自作してる</p>
+
+<hr />
+
+<h2>ChatWork株式会社 山本 正喜さん</h2>
+
+<p>RDSにmroogaでラップして検索インデックスつくってる<br/>
+mroogaからelasticsearchの導入を検討していたが、amazon cloudsearchを導入予定<br/>
+コードはPHPからScalaへ乗り換え予定</p>
+
+<hr />
+
+<h2>株式会社nanapi 和田 修一さん</h2>
+
+<p>logはfluentd<br/>
+生でs3へ<br/>
+あとはelasticsearch + kibanaで視覚化</p>
+
+<hr />
+
+<h2>ランサーズ株式会社 田邊 賢司さん</h2>
+
+<ul>
+<li>4000人が毎月収入</li>
+<li>生活出来るひと: 200人</li>
+</ul>
+
+
+<hr />
+
+<h2>株式会社アカツキ 田中 勇輔さん</h2>
+
+<p>CloudFormationのテンプレート: yusuketのgist<br/>
+asset_sync gem利用中<br/>
+filepath + MD5をs3にで管理し、ファイル自体はダウンロードせずに存在確認してる<br/>
+cloudwatchのアラートをhipchatに送ってる<br/>
+github/blacklineのプラグイン使用中</p>
+
+<hr />
+
+<h2>Kaizen platform Inc. 石橋 利真さん</h2>
+
+<p>調整さん、plat BCD(ABテストツール)<br/>
+リモートワークしてる</p>
+
+<h3>インフラ運用の見える化</h3>
+
+<p>暗黙知era => 見える化era</p>
+
+<p>事件</p>
+
+<ul>
+<li>ec2keypairなくなった。</li>
+<li>RAILS_ENVはどこ。/etc/profile.d/rail.shで設定されてた。</li>
+</ul>
+
+
+<p>chef(knife-solo) + serverspec<br/>
+ref: github時代のデプロイ戦略</p>
+
+<hr />
+
+<h2>株式会社ビズリーチ 竹内 真さん</h2>
+
+<p>LUXAの話</p>
+
+<p>メール1億通/月<br/>
+外部サービス、SESは使ってない<br/>
+送る時にSMTPサーバ数増やす<br/>
+EC2の金額抑えるために稼働時間は30~45分でコントロールしてる</p>
+
+<hr />
+
+<h2>イベントレジスト株式会社 池田 大輔さん</h2>
+
+<p>翻訳にはTransifex使ってる</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RubyWorld Conference 2013に参加しました]]></title>
+    <link href="http://matsue.github.io/blog/2013/11/24/rubyworld-conference-2013/"/>
+    <updated>2013-11-24T16:56:35+09:00</updated>
+    <id>http://matsue.github.io/blog/2013/11/24/rubyworld-conference-2013</id>
+    <content type="html"><![CDATA[<p>RubyWorld Conference 2013に参加しました</p>
+
+<p>島根県松江市で開催された<a href="http://www.rubyworld-conf.org/ja/">RubyWorld Conference 2013</a>に参加してきたので、特に印象に残ったところをメモ(<a href="http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/">day1</a>, <a href="http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/">day2</a>)からピックアップ。
+<img class="<a" src="href="https://lh3.googleusercontent.com/-3JJ6G6q-fII/UpHwGGIrhhI/AAAAAAAAADs/lWJGFVGj18U/w955-h716-no/P1020968.JPG">https://lh3.googleusercontent.com/-3JJ6G6q-fII/UpHwGGIrhhI/AAAAAAAAADs/lWJGFVGj18U/w955-h716-no/P1020968.JPG</a>&#8221;></p>
+
+<!-- more -->
+
+
+<h2>Aiming the Moving Target</h2>
+
+<p><img class="<a" src="href="https://lh5.googleusercontent.com/-QoldzB7PULE/UpHwE29ap5I/AAAAAAAAADY/Bl6DMHQqD-M/w955-h716-no/P1020969.JPG">https://lh5.googleusercontent.com/-QoldzB7PULE/UpHwE29ap5I/AAAAAAAAADY/Bl6DMHQqD-M/w955-h716-no/P1020969.JPG</a>&#8221;></p>
+
+<p>まつもとさんによる初日の基調講演。個人的には特に不思議の国のアリスに登場する赤の女王の言葉を用いた例えと、&#8221;Nice try&#8221;という言葉が印象的でした。<br/>
+スライドの写真がないので <a href="http://ja.wikipedia.org/wiki/%E8%B5%A4%E3%81%AE%E5%A5%B3%E7%8E%8B%E4%BB%AE%E8%AA%AC">Wikipedia</a>より赤の女王の言葉を引用すると</p>
+
+<blockquote><p>「その場にとどまるためには、全力で走り続けなければならない（It takes all the running you can do, to keep in the same place.）」</p></blockquote>
+
+<p>この言葉が示すように、ソフトウェアのように価値の変化するものを追うには、OSSのコミュニティ、そして会社も、変化し進み続けなければ死んでしまう。<br/>
+そして&#8221;動くターゲット&#8221;である価値あるソフトウェアを提供するには、<strong>巨人の肩に乗り、なるべく速く、何度もためして、何度も撤退すべき</strong>。「失敗したらもう終わり」というプロジェクトの進め方をせず、「失敗してもいい」、そして失敗のことも&#8221;Nice try&#8221;と言い換えるところから始めてみませんか、というようなお話をされていました。</p>
+
+<p>昨年の発表もそうでしたが、まつもとさんの「エンジニア主導の世界になっていくんだ」「世界を変えていこう」というメッセージにワクワクしながら聞いていました。&#8221;Nice try!&ldquo;、使っていきたいです。</p>
+
+<p>非常にエンジニア心に響くセッションですので、気になった方は<a href="http://tech.rakuten.co.jp/">Rakuten Technology Conference 2013</a>のビデオをご覧下さい。こちらの動画は英語での発表ですし、言い回しや構成も異なる部分がありますが、同じタイトルで発表をされています。</p>
+
+<p>
+<div class="ratio-4-3 embed-video-container" onclick="var myAnchor = document.getElementById('obiljftVy0g');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;http://www.youtube.com/embed/obiljftVy0g?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play">
+<a class="youtube-lazy-link" style="width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/obiljftVy0g/0.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=obiljftVy0g" id="obiljftVy0g" onclick="return false;">
+<div class="youtube-lazy-link-div"></div>
+<div class="youtube-lazy-link-info">[RakutenTechConf2013] Aming the Moving Target (Yukihiro Matsumoto)</div>
+</a>
+<div class="video-info" >Rakuten Technology Conference 2013 (26, Oct 2013)
+http://tech.rakuten.co.jp/timetable.html
+(Schedule may be changed without notice.)
+
+Twitter hashtag: #rakutentech
+https://twitter.com/search?q=%23rakutentech</div>
+</div>
+
+</p>
+
+<h2>クックパッドの継続的デリバリー</h2>
+
+<p>こちらは高井さんによるクックパッドにおける開発手法の紹介。「いいなー！」「参考になる！」と思った所を並べると、</p>
+
+<ul>
+<li>毎日11以上の本番デプロイがされている</li>
+<li>14,432のテストが10分で終わるよう分散実行している</li>
+<li>ブランチ管理はGitHub Flowを採用</li>
+<li>開発環境のDBは本番同様のDBサイズになるようレプリケーションしている</li>
+<li>デザイナもpull requestを送っていて、月間で約800のリクエストがとびかっている</li>
+<li>jenkinsとhipchatを連携させて、デプロイ結果を通知している</li>
+<li>デプロイ結果は自動でwikiにも追記されており、速度低下などあるとインフラエンジニアがそのログを漁って原因究明をする</li>
+</ul>
+
+
+<p>ユーザの属性や時期(例えばハロウィンシーズン)のフラグが立ったらUIを自動で切り替えてるといったことは<a href="https://github.com/cookpad/chanko">chanko</a>を使うと簡単にできるとのこと。また、テストの並列実行をサポートするツールも抽象化してOSSとして公開したいとのことでした。素敵です。</p>
+
+<p>余談ですが、クックパッドさんはDevOps Tokyoでの発表も非常に熱いものでした。そのとき特に印象的だった<a href="https://www.google.co.jp/search?q=%E8%BF%B7%E3%81%A3%E3%81%9F%E3%82%89%E5%81%A5%E5%85%A8%E3%81%AA%E6%96%B9">「迷ったら健全な方」</a>について高井さんに聞いたのですが、実はこれYahooさんの<a href="https://www.google.co.jp/search?q=%E8%BF%B7%E3%81%A3%E3%81%9F%E3%82%89%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%81%AA%E6%96%B9">「迷ったらワイルドな方」</a>にかけているのだとか。いやー、どちらも格好いいっす。</p>
+
+<script async class="speakerdeck-embed" data-id="391a240035690131b25126ccc4851787" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+
+<h2>The Internet Axiom: Escaping the Tyranny of Time and Space</h2>
+
+<p>GitHubのCEOであるTomさんが2日目の基調講演でした。</p>
+
+<p>Tomさんによる自己紹介。新しいスライドの使い方です笑
+<img class="<a" src="href="https://lh6.googleusercontent.com/-PpxOz94e9Bc/UpHxP_FfArI/AAAAAAAAALU/VkyPZ7IPBQA/w955-h716-no/P1030025.JPG">https://lh6.googleusercontent.com/-PpxOz94e9Bc/UpHxP_FfArI/AAAAAAAAALU/VkyPZ7IPBQA/w955-h716-no/P1030025.JPG</a>&#8221;></p>
+
+<p>そして自己紹介の後、&#8221;In the Year 2525&#8221;という曲に合わせた動画が流れ始める。動画の一場面で「どうぞうどうぞ」と2色のピルを奨めるTomさん。
+<img class="<a" src="href="https://lh3.googleusercontent.com/-e5M1nbjPseE/UpIm4gB2EHI/AAAAAAAAAfw/RykwCcfgF7Y/w544-h318-no/tom_2525.png">https://lh3.googleusercontent.com/-e5M1nbjPseE/UpIm4gB2EHI/AAAAAAAAAfw/RykwCcfgF7Y/w544-h318-no/tom_2525.png</a>&#8221;></p>
+
+<p>インターネットがもたらす3つの変化を軸にスタートアップを紹介していました。紹介していたサービスは以下。もちろん最後はGitHubです。</p>
+
+<ul>
+<li>WEIGHTLESS DATA
+
+<ul>
+<li><a href="https://lockitron.com/">Lockitron</a></li>
+<li><a href="https://squareup.com/">Square</a></li>
+<li>MasterCardの<a href="https://www.paypass.com/">PayPass</a></li>
+<li><a href="http://bitcoin.org/">Bitcoin</a></li>
+</ul>
+</li>
+<li>WEIGHTLESS DATA MOVES FAST
+
+<ul>
+<li><a href="https://www.drchrono.com/">drchrono</a></li>
+<li><a href="http://www.snapchat.com/">Snapchat</a></li>
+</ul>
+</li>
+<li>COMMUNIATION BECOMES EASY
+
+<ul>
+<li><a href="https://www.uber.com/">Uber</a></li>
+<li><a href="https://www.spoonrocket.com/">SpooRocket</a></li>
+<li><a href="https://github.com/">GitHub</a></li>
+</ul>
+</li>
+</ul>
+
+
+<p>「なんだかみんな笑ってるが完璧な日本語だろ？Google翻訳さ！」というようなやりとりのシーン。どうしてこうなった。。ラップにでもなりそうだ一興。
+<img class="<a" src="href="https://lh3.googleusercontent.com/-OpifbUXay8w/UpHy5a2a3AI/AAAAAAAAAZk/kne68mWa2qY/w955-h716-no/PB221058.JPG">https://lh3.googleusercontent.com/-OpifbUXay8w/UpHy5a2a3AI/AAAAAAAAAZk/kne68mWa2qY/w955-h716-no/PB221058.JPG</a>&#8221;></p>
+
+<p>GitHub社員の位置情報。みんなバラバラの位置にいることが分かりますが、これで仕事ができているのは非同期(Ashynchronus)なやりとりで仕事が出来るからで、それをサポートするのがpull requestやissueという機能。こういった仕事のやり方についてTomさんは、Linusさんとも話しあったことがあるようです。
+<img class="<a" src="href="https://lh6.googleusercontent.com/-ne99KZ1aWHc/UpHxUP5qecI/AAAAAAAAAL4/ObRa5Ahu0ZM/w955-h716-no/P1030029.JPG">https://lh6.googleusercontent.com/-ne99KZ1aWHc/UpHxUP5qecI/AAAAAAAAAL4/ObRa5Ahu0ZM/w955-h716-no/P1030029.JPG</a>&#8221;></p>
+
+<p>ここ1ヶ月のGitHub内のプロジェクトのコミット数など。GitHubが今も活発に改善を重ねていることが分かります。</p>
+
+<ul>
+<li>931 active pull requests</li>
+<li>815 merged</li>
+<li>113 authors</li>
+<li>5273 commits</li>
+<li>443 active issues</li>
+<li>248 closed issues</li>
+<li>195 new issues</li>
+</ul>
+
+
+<p><img class="<a" src="href="https://lh5.googleusercontent.com/-qCiyytvva98/UpHxVY7oISI/AAAAAAAAAL8/A01iDj80Wzk/w955-h716-no/P1030030.JPG">https://lh5.googleusercontent.com/-qCiyytvva98/UpHxVY7oISI/AAAAAAAAAL8/A01iDj80Wzk/w955-h716-no/P1030030.JPG</a>&#8221;></p>
+
+<p>GitHubでは Beer30という、社員みんなで集まって新しいプロジェクトや新しいビジョンの話をする場があるそう。サンフランシスコで実施するので、参加できなかったメンバのために動画を共有しているとのこと。
+<img class="<a" src="href="https://lh3.googleusercontent.com/-4yLMUCoXTbs/UpHxWanmqgI/AAAAAAAAAME/FZSuAR0ytQw/w955-h716-no/P1030031.JPG">https://lh3.googleusercontent.com/-4yLMUCoXTbs/UpHxWanmqgI/AAAAAAAAAME/FZSuAR0ytQw/w955-h716-no/P1030031.JPG</a>&#8221;></p>
+
+<p>hipchatとhubotで運用状態を見ているところ。
+<img class="<a" src="href="https://lh6.googleusercontent.com/-7mOe_fkuW6A/UpHxYA7--qI/AAAAAAAAAMU/dXhPp-Ik4yo/w955-h716-no/P1030033.JPG">https://lh6.googleusercontent.com/-7mOe_fkuW6A/UpHxYA7&#8211;qI/AAAAAAAAAMU/dXhPp-Ik4yo/w955-h716-no/P1030033.JPG</a>&#8221;></p>
+
+<p>Tomさんの話からは終始、「時代は変わるんだよ」というメッセージをビリビリと感じました。きっとVCの人たちに話す時も、様々な例を出して、イノベーションを感じさせる話をしているのだろうなーと思って聞いていました。</p>
+
+<p><a href="https://github.com/mojombo/jekyll">jekyll</a>を作ったの、Tomさんだったんですね。最近はビジネスが忙しく、家族もいるので、奥さんと子供が出かけている間にコードは書いているとのこと。うーん、凄いです。</p>
+
+<h2>その他の印象に残っているところ</h2>
+
+<p>安川さん、八田さんによる&#8221;Social Translating&#8221;もとても興味をひかれました。<a href="http://railstutorial.jp/">Ruby on Rails チュートリアル</a>が日本語で読めるって凄いです。4.0対応は2人で約1ヶ月で対応されたとのこと。</p>
+
+<p><img class="<a" src="href="https://lh4.googleusercontent.com/-mvcjoOpiUlU/UpHwhsjCkuI/AAAAAAAAAGw/_61I-u9Ihng/w955-h716-no/P1020993.JPG">https://lh4.googleusercontent.com/-mvcjoOpiUlU/UpHwhsjCkuI/AAAAAAAAAGw/_61I-u9Ihng/w955-h716-no/P1020993.JPG</a>&#8221;></p>
+
+<p>相澤さんの『クラウド時代のRubyアプリケーション設計』で取り上げられた<a href="http://12factor.net/">The Twelve-Factor App</a>は必ず読んでおこう。嬉しいことにこちらも<a href="http://twelve-factor-ja.herokuapp.com/">翻訳されており</a>、日本語で読むことができます！</p>
+
+<p>Herokuユーザが視覚化されている様子。ユーザ数、日本は4位らしいです。</p>
+
+<ol>
+<li>アメリカ</li>
+<li>UK</li>
+<li>カナダ</li>
+<li>日本</li>
+</ol>
+
+
+<p><img class="<a" src="href="https://lh5.googleusercontent.com/-Og9LoT8cu1k/UpHxn0QWNxI/AAAAAAAAAOE/trvu8_efFzQ/w955-h716-no/P1030047.JPG">https://lh5.googleusercontent.com/-Og9LoT8cu1k/UpHxn0QWNxI/AAAAAAAAAOE/trvu8_efFzQ/w955-h716-no/P1030047.JPG</a>&#8221;></p>
+
+<p>川端さんによる『Rubyistによるアジャイル開発事例紹介と進め方』では最後に引用されていたKent Beckさんの言葉が印象的でした。</p>
+
+<p><img class="<a" src="href="https://lh4.googleusercontent.com/-29p9-vARPWU/UpHx2MuQUUI/AAAAAAAAAPg/nXCr7OYm2S8/w955-h716-no/P1030058.JPG">https://lh4.googleusercontent.com/-29p9-vARPWU/UpHx2MuQUUI/AAAAAAAAAPg/nXCr7OYm2S8/w955-h716-no/P1030058.JPG</a>&#8221;></p>
+
+<p>というメッセージに対する答えが以下。
+<img class="<a" src="href="https://lh3.googleusercontent.com/-57IBURBQo74/UpHx2wbkrSI/AAAAAAAAAPw/DHNxIEND3_I/w955-h716-no/P1030059.JPG">https://lh3.googleusercontent.com/-57IBURBQo74/UpHx2wbkrSI/AAAAAAAAAPw/DHNxIEND3_I/w955-h716-no/P1030059.JPG</a>&#8221;></p>
+
+<blockquote><p>『自分が変えられるのは自分だけ』</p></blockquote>
+
+<p>まずは自分を変える努力をしなければ。</p>
+
+<p>Ruby Prize 2013は、近永さんが授賞されました。おめでとうございます！
+<img class="<a" src="href="https://lh4.googleusercontent.com/-ibbxGO3xQQw/UpHwrDzcO8I/AAAAAAAAAH0/72z2KkrkjBE/w955-h716-no/P1030002.JPG">https://lh4.googleusercontent.com/-ibbxGO3xQQw/UpHwrDzcO8I/AAAAAAAAAH0/72z2KkrkjBE/w955-h716-no/P1030002.JPG</a>&#8221;></p>
+
+<h2>最後に</h2>
+
+<p>講演を聞いていて、ただ聞いているだけではなく早く自分のアクションに繋げていかないといけないなと強く感じさせられるカンファレンスでした。</p>
+
+<p>また、ここでは取り上げませんでしたが、まつもとさんのオリンピックネタや突然のダジャレ賞授賞式、攻めの司会などなど賑やかな場面がたくさんあり、とても楽しいイベントでした。スタッフ、講演者の皆様ありがとうございました！</p>
+
+<p><img class="<a" src="href="https://lh6.googleusercontent.com/-2mqRdSUqikw/UpHzjMnesHI/AAAAAAAAAbs/PlX0O7BvdYY/w955-h716-no/PB221127.JPG">https://lh6.googleusercontent.com/-2mqRdSUqikw/UpHzjMnesHI/AAAAAAAAAbs/PlX0O7BvdYY/w955-h716-no/PB221127.JPG</a>&#8221;></p>
+]]></content>
+  </entry>
+  
+</feed>
