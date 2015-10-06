@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | Matsue Blog]]></title>
   <link href="http://matsue.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://matsue.github.io/"/>
-  <updated>2015-03-05T21:34:51+09:00</updated>
+  <updated>2015-10-06T19:08:28+09:00</updated>
   <id>http://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
@@ -102,21 +102,7 @@
 
 <p>非常にエンジニア心に響くセッションですので、気になった方は<a href="http://tech.rakuten.co.jp/">Rakuten Technology Conference 2013</a>のビデオをご覧下さい。こちらの動画は英語での発表ですし、言い回しや構成も異なる部分がありますが、同じタイトルで発表をされています。</p>
 
-<p>
-<div class="ratio-4-3 embed-video-container" onclick="var myAnchor = document.getElementById('obiljftVy0g');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;http://www.youtube.com/embed/obiljftVy0g?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play">
-<a class="youtube-lazy-link" style="width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/obiljftVy0g/0.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=obiljftVy0g" id="obiljftVy0g" onclick="return false;">
-<div class="youtube-lazy-link-div"></div>
-<div class="youtube-lazy-link-info">[RakutenTechConf2013] Aming the Moving Target (Yukihiro Matsumoto)</div>
-</a>
-<div class="video-info" >Rakuten Technology Conference 2013 (26, Oct 2013)
-http://tech.rakuten.co.jp/timetable.html
-(Schedule may be changed without notice.)
-
-Twitter hashtag: #rakutentech
-https://twitter.com/search?q=%23rakutentech</div>
-</div>
-
-</p>
+<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/obiljftVy0g" allowfullscreen></iframe></div></p>
 
 <h2>クックパッドの継続的デリバリー</h2>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scrum | Matsue Blog]]></title>
   <link href="http://matsue.github.io/blog/categories/scrum/atom.xml" rel="self"/>
   <link href="http://matsue.github.io/"/>
-  <updated>2015-03-05T21:34:51+09:00</updated>
+  <updated>2015-10-06T19:08:28+09:00</updated>
   <id>http://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
@@ -454,25 +454,7 @@
 
 <p>公演中に紹介されていたKen Schwaberさんの動画は多分これ。</p>
 
-<p>
-<div class="ratio-4-3 embed-video-container" onclick="var myAnchor = document.getElementById('_47VWIvOKH8');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;http://www.youtube.com/embed/_47VWIvOKH8?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play">
-<a class="youtube-lazy-link" style="width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/_47VWIvOKH8/0.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=_47VWIvOKH8" id="_47VWIvOKH8" onclick="return false;">
-<div class="youtube-lazy-link-div"></div>
-<div class="youtube-lazy-link-info">Scrum et al.</div>
-</a>
-<div class="video-info" >Google Tech Talks
-September 5, 2006
-
-Ken Schwaber co-developed the Agile process, Scrum. He is a founder of the Agile Alliance and Scrum Alliance, and signatory to the Agile Manifesto. Ken has been a software developer for over thirty years. He is an active advocate and evangelist for Agile processes.
-
-ABSTRACT
-Scrum is an amazingly simple process that causes many, many changes when it is implemented. This seminar presents the basic framework of Scrum and some of the implementation issues associated with it.
-
-Google engEDU
-Speaker: Ken Schwaber</div>
-</div>
-
-</p>
+<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/_47VWIvOKH8" allowfullscreen></iframe></div></p>
 
 <p>また、メモ上では大分省略しているが、
 2タイプのペルソナに対して継続・ゴール設定といった状況に合わせた具体的なメッセージの紹介があった。</p>
@@ -771,16 +753,7 @@ Speaker: Ken Schwaber</div>
 <table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:260px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d240x240&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d80x80" alt="発見から納品へ [ Gottesdiener，Ellen ]" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f" target="_blank">発見から納品へ [ Gottesdiener，Ellen ]</a><br><span style="">価格：3,500円（税込、送料込）</span><br></p></div></td></tr></table>
 
 
-<p>
-<div class="ratio-4-3 embed-video-container" onclick="var myAnchor = document.getElementById('x9oIpZaXTDs');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;http://www.youtube.com/embed/x9oIpZaXTDs?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play">
-<a class="youtube-lazy-link" style="width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/x9oIpZaXTDs/0.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=x9oIpZaXTDs" id="x9oIpZaXTDs" onclick="return false;">
-<div class="youtube-lazy-link-div"></div>
-<div class="youtube-lazy-link-info">Discover to Deliver Explained</div>
-</a>
-<div class="video-info" >This 2-minute of key concepts on how product partners conduct structured conversations to discover and deliver high value products. This framework, from the acclaimed book Discover to Deliver: Agile Product Planning and Analysis (see www.DiscoverToDeliver.com), is applied by organizations globally to identify the right software-intensive product to build, and build it right.</div>
-</div>
-
-</p>
+<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/x9oIpZaXTDs" allowfullscreen></iframe></div></p>
 
 <p>イメージ的にはスコープや要件に新たな切り口を定義する感じだろうか。</p>
 
