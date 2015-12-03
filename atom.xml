@@ -4,7 +4,7 @@
   <title><![CDATA[Matsue Blog]]></title>
   <link href="http://matsue.github.io/atom.xml" rel="self"/>
   <link href="http://matsue.github.io/"/>
-  <updated>2015-10-06T19:08:28+09:00</updated>
+  <updated>2015-12-03T22:26:10+09:00</updated>
   <id>http://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rakuten Technology Conference 2015に参加しました]]></title>
+    <link href="http://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015/"/>
+    <updated>2015-11-24T20:07:45+09:00</updated>
+    <id>http://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015</id>
+    <content type="html"><![CDATA[<p><a href="http://rakutentechnologyconference2015.sched.org/">Rakuten Technology Conference 2015</a>に参加しました。二子玉川にある楽天の新社屋Crimson Houseでの開催でした。</p>
+
+<p>並行して複数のセッションが行われていたので見逃したセッションも多いですが、以下のタイムテーブルの各セッション詳細にYoutubeへのリンクがあるので安心です。
+<a href="http://rakutentechnologyconference2015.sched.org/grid/">http://rakutentechnologyconference2015.sched.org/grid/</a></p>
+
+<p>全てのセッションが英語ですので、その点でも動画で再確認できるのは素敵です。</p>
+
+<p>以下は参加したセッションについてのまとめです。</p>
+
+ <a rel="full-article" href="http://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015/">Read on &rarr;</a>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Regional Scrum Gathering Tokyo 2015に参加した]]></title>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015/</loc>
+    <lastmod>2015-11-24T20:07:45+09:00</lastmod>
+  </url>
+  <url>
     <loc>http://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/</loc>
     <lastmod>2015-03-05T20:43:28+09:00</lastmod>
   </url>
@@ -76,5 +80,14 @@
   </url>
   <url>
     <loc>http://matsue.github.io/blog/categories/scrum/</loc>
+  </url>
+  <url>
+    <loc>http://matsue.github.io/blog/categories/devops/</loc>
+  </url>
+  <url>
+    <loc>http://matsue.github.io/posts/2/</loc>
+  </url>
+  <url>
+    <loc>http://matsue.github.io/posts/3/</loc>
   </url>
 </urlset>

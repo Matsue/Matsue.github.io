@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | Matsue Blog]]></title>
   <link href="http://matsue.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://matsue.github.io/"/>
-  <updated>2015-10-06T19:08:28+09:00</updated>
+  <updated>2015-12-03T22:26:10+09:00</updated>
   <id>http://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
@@ -12,6 +12,267 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rakuten Technology Conference 2015に参加しました]]></title>
+    <link href="http://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015/"/>
+    <updated>2015-11-24T20:07:45+09:00</updated>
+    <id>http://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015</id>
+    <content type="html"><![CDATA[<p><a href="http://rakutentechnologyconference2015.sched.org/">Rakuten Technology Conference 2015</a>に参加しました。二子玉川にある楽天の新社屋Crimson Houseでの開催でした。</p>
+
+<p>並行して複数のセッションが行われていたので見逃したセッションも多いですが、以下のタイムテーブルの各セッション詳細にYoutubeへのリンクがあるので安心です。
+<a href="http://rakutentechnologyconference2015.sched.org/grid/">http://rakutentechnologyconference2015.sched.org/grid/</a></p>
+
+<p>全てのセッションが英語ですので、その点でも動画で再確認できるのは素敵です。</p>
+
+<p>以下は参加したセッションについてのまとめです。</p>
+
+<!--more-->
+
+
+<h2>　Will AI surpass human intelligence? &ndash; Beyond Deep Learning (Yutaka Matsuo)</h2>
+
+<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/s7yey8hfQII" allowfullscreen></iframe></div></p>
+
+<p><a href="http://rakutentechnologyconference2015.sched.org/event/4B4g/will-ai-surpass-human-intelligence-beyond-deep-hellip">http://rakutentechnologyconference2015.sched.org/event/4B4g/will-ai-surpass-human-intelligence-beyond-deep-hellip</a></p>
+
+<p>松尾先生による、これまでのAIの歴史とディープラーニングを用いた研究成果、そして今後の展望についてのお話。</p>
+
+<p>上記動画の28分あたりから紹介されている、ディープラーニングに関連する映像が衝撃的です。
+画像解析とゲームスコアによる評価付けで、ブロック崩しやレースゲームをAIが効率良く解いている様子が紹介されています。
+どの動画でも前半はやみくもにゲームをプレイしているAIも学習が進むと、ブロック崩しで端に穴をあけてまとめてブロックを崩したり、レースゲームで最適なコース取りをしていて、その急成長ぶりは気味の悪さも感じさせます。</p>
+
+<p>近年の画像解析のアルゴリズムコンペでも、同一人物の顔を見つける処理をした場合の誤認識率は5%を下回り、同一人物・別人物と誤認識していた画像は人間が見ても判別が難しいそうです。</p>
+
+<p>また近年の学習をしていくAIのことを<strong>&ldquo;Child AI&rdquo;</strong>、過去のAIにあったような人間が直接に解法や知識を与えておくアプローチでつくるAIを<strong>&ldquo;Adult AI&rdquo;</strong>と呼び分けていました。</p>
+
+<h2>Programmable IoT Platform “SORACOM&#8221; (Ken Tamagawa)</h2>
+
+<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/XtdijMoKC1o" allowfullscreen></iframe></div></p>
+
+<p><a href="http://rakutentechnologyconference2015.sched.org/event/4N57/programmable-iot-platform-soracom">http://rakutentechnologyconference2015.sched.org/event/4N57/programmable-iot-platform-soracom</a></p>
+
+<p>玉川さんによるSORACOMのお話。</p>
+
+<p>キャリアが提供するパケット通信、帯域制限といった機能を賄うデータセンターのサーバーは、すべて用意しようとすると700億円近くもするらしいです。。</p>
+
+<p>そこでMVNO。SORACOMはIoT向けのMVNOでAWSのようなWebコンソールから管理下のSIMの帯域制限などができます。</p>
+
+<p>使っている例として大手企業や、以下の様なデバイスが紹介されていました。</p>
+
+<ul>
+<li><a href="https://akerun.com/">Akerun</a></li>
+<li><a href="http://kibi-dango.jp/info.php?type=items&amp;id=I0000137">LiveConnect</a></li>
+</ul>
+
+
+<h3>SORACOM Beam</h3>
+
+<p>SIMカードから送られたパケットをキャリアネットワークから先で自動で暗号化してくれるサービス。例えば<strong>HTTP通信はHTTPS通信に</strong>してくれます。デバイス側ではSSL通信の処理をしなくてよいので、<strong>バッテリーの使用量削減</strong>も期待できます。
+<a href="http://whill.us/">WHILL</a>でも使われてるらしいです。</p>
+
+<h3>今後の展開</h3>
+
+<p>最近ではカスタムDNS等の機能をリリースしており、今後も既存のプラットフォームをAWS上で各国にリリースすることでグローバルに展開していくとのことです。</p>
+
+<h3>Q&amp;A</h3>
+
+<ul>
+<li>物理サーバは使ってないのか？それはボトルネックにならないのか？
+
+<ul>
+<li>ドコモのデータセンターにあるが、拡張可能なためボトルネックにはならない。</li>
+</ul>
+</li>
+<li>なぜSORACOMをやろうと決心したのか？
+
+<ul>
+<li>AWSにいたころ、時差ボケで眠れない夜にSORACOMのプレスリリースを書いて、翌日の朝にそのプレスリリースを読んでこれはいけると思ったのがきっかけ</li>
+</ul>
+</li>
+<li>SORACOM Beamはどのくらい電力使用量を減らすのか？
+
+<ul>
+<li>具体的なデータは持ってないが、HTTPSの処理は多大なリソースを使っていた部分をHTTPで処理できる分、削減できると考える。</li>
+</ul>
+</li>
+<li>Software SIMについてどう考えるか？
+
+<ul>
+<li>いまのSORACOMはSIMカードが必要。リモートでプロファイルが書き換えられるSoftware SIMはSORACOMとも相性が良いので、調査中。実際にEU諸国での例もあるので展開が楽しみ。</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Rakuten and Microsoft talk DevOps in Real world (Kotaro Ogino / Drew Robbins / Tsuyoshi Ushio)</h2>
+
+<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/mZ8tgEtubGE" allowfullscreen></iframe></div></p>
+
+<p><a href="http://rakutentechnologyconference2015.sched.org/event/3iON/rakuten-and-microsoft-talk-devops-in-real-world">http://rakutentechnologyconference2015.sched.org/event/3iON/rakuten-and-microsoft-talk-devops-in-real-world</a></p>
+
+<p>動画冒頭の&#8221;DevOps!!!&ldquo;コールは音量に注意してください笑</p>
+
+<p><strong>The Phoenix Project</strong>がアメリカではDevOpsのバイブル本とのことです。</p>
+
+<table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d128x128&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d80x80" alt="The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f" target="_blank">The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win</a><br><span style="">著者：Gene Kim</span><br><span style="">価格：3,421円（税込、送料込）</span></p></div></td>
+<td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d128x128&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d80x80" alt="The　DevOps逆転だ！" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f" target="_blank">The　DevOps逆転だ！</a><br><span style="">著者：ジーン・キム</span><br><span style="">価格：2,376円（税込、送料込）</span></p></div></td></tr></table>
+
+
+<h3>DevOps Journey (Micorsoft)</h3>
+
+<p>Visual Studioは1997年にリリースされ、当時は2、3年おきにリリースするというサイクルでした。
+そして最初のリリース後はバグ修正だけに終始してユーザのフィードバックに応えることはありませんでした。</p>
+
+<p>2008年移行にその体制は変わって、2013年にはVisual Studio Onlineという形でリリースがされました。</p>
+
+<p>DevとOpsとPMに分かれていたチームは</p>
+
+<ol>
+<li>Dev &amp; Opsで<strong>Development Team</strong>になり、</li>
+<li>Dev &amp; Ops &amp; PMで<strong>Feature Team</strong>になり、</li>
+</ol>
+
+
+<p>顧客とコラボレーションして動くようになりました。
+その結果、いまでは1週間で80デプロイを行い、それでもインシデント数は1ヶ月で10個だけになったそうです。</p>
+
+<p>さらに凄いのは、この変化は会社のサポートが最初からあって起きたわけではなく、以下のフェーズを経て少数の熱意から変化したそうです。</p>
+
+<ol>
+<li><strong>Change agent(s)</strong> : DevOpsを始める少数の人、ユニコーンによるDevOps開始</li>
+<li><strong>Grassroots</strong> : 著名人などを招いた会社内でのイベントの実施</li>
+<li><strong>Tops down</strong></li>
+<li><strong>Scale</strong> : Dojoシステム</li>
+</ol>
+
+
+<p>今では<strong>Dojoシステム</strong>というものがあり、週一程度で定期開催される会でCI等についていつでも学ぶことができます。
+それでもまだDevOps Journeyの途上だということです。</p>
+
+<p>他社のDevOps Journeyとしては以下のストーリーが紹介されました。</p>
+
+<ul>
+<li>Rakuten: <strong>Microservices</strong>により、大きな企業の中であっても、各チームはスタートアップのように振る舞う</li>
+<li>Yahoo! Japan: DevとOpsの壁をなくすために、<strong>Devチームのユニコーン(リーダー格)の人をOpsに入れる</strong>ことで、Opsに自動化の文化を生み出す</li>
+</ul>
+
+
+<h3>Test Automation for DevOps (Rakuten)</h3>
+
+<p>発表者の荻野さんは楽天のIDやポイント、決済を管理するGroup Core Serviceという部署で働いていており、多くのビジネス要求がある中でどのようにDevOpsを回しているかの紹介がありました。</p>
+
+<p>スケール可能なパフォーマンステストを行うため、楽天内のOpenStack環境を使い、数クリックでGatlingによるテストを実行できるとのことです。そして全てのCI結果はKibanaにより集計されていました。かっこいい。</p>
+
+<h3>CI Strategies (Microsoft)</h3>
+
+<p>Microsoftでは以下のような戦略・手法をとっています。</p>
+
+<ul>
+<li>クラウドとオンプレミスのコードベースを共有する</li>
+<li>いつでもデプロイ可能にする</li>
+<li>Canary testing (カナリアテスト) : 一部のサーバクラスタにだけ新機能をリリースし、問題がなければ他のクラスタにもスケールしていく</li>
+<li>Feature flags : ランタイムで機能のON/OFF</li>
+</ul>
+
+
+<h3>Continuous Delivery Strategy Map</h3>
+
+<p>牛尾さんがDevOpsインタビューをする中で気づいた戦略マップにはSpeed、Qualityの2つの軸があります。</p>
+
+<p>Cookpadが行っているような、いつでもロールバックできるようにする戦略はSpeed重視、荻野さんの例やカナリアテストを使う戦略はQuality重視になります。</p>
+
+<h2>Building Smart Applications with an Algorithm Marketplace : Diego Oppenheimer, Algorithmia &amp; DEX &amp; DEX(TRA) : Dextra (Daryl Arnold / Diego Oppenheimer)</h2>
+
+<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/T0Pob0hyRps" allowfullscreen></iframe></div></p>
+
+<p><a href="http://rakutentechnologyconference2015.sched.org/event/4B5P/building-smart-applications-with-an-algorithm-markehellip">http://rakutentechnologyconference2015.sched.org/event/4B5P/building-smart-applications-with-an-algorithm-markehellip</a></p>
+
+<h3>Algorithmia</h3>
+
+<p>Algorithmiaは人々がアルゴリズムを発見・利用できる状態にすることを目的とする会社で、様々なアルゴリズムをサイト上で試用・購入することができます。</p>
+
+<p>アルゴリズムエコノミーが必要な背景としては以下の事例を挙げていました。</p>
+
+<ul>
+<li>2009年には8ゼタバイト(テラ->ペタ->エクサ->ゼタ)のデータが生み出され、2020年には35ゼタバイトに上る</li>
+<li>1時間あたり、100万台の新しいデバイスがオンラインになっている</li>
+<li>1分あたり、20時間分の動画がアップロードされている</li>
+</ul>
+
+
+<p>実際のアルゴリズムの例は、以下が挙げられていました。</p>
+
+<ul>
+<li>Nudity detection: <a href="https://isitnude.com/">isitnude</a> / <a href="http://blog.algorithmia.com/post/121967357859/isitnude">ブログ</a></li>
+<li>Face recognition: <a href="http://fr-demo.aerobaticapp.com/">Name That Actor</a> / <a href="http://blog.algorithmia.com/post/130768558569/whos-who-facial-recognition-made-simple">ブログ</a></li>
+<li>Web page recommender: <a href="https://algorithmia.com/recommends">https://algorithmia.com/recommends</a></li>
+<li>keyword tags for a URL: <a href="https://algorithmia.com/algorithms/tags/AutoTagURL">https://algorithmia.com/algorithms/tags/AutoTagURL</a></li>
+</ul>
+
+
+<p>他の事例については以下のリンク先を見て、いくつか試してみるとわかりやすいです。</p>
+
+<p><a href="https://algorithmia.com/use-cases">https://algorithmia.com/use-cases</a></p>
+
+<h2>DevOps with Lego and Chocolate simulation game (Dana Pylayeva)</h2>
+
+<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/Lup62Wf783Y" allowfullscreen></iframe></div></p>
+
+<p><a href="http://rakutentechnologyconference2015.sched.org/event/4B4r/devops-with-lego-and-chocolate-simulation-game">http://rakutentechnologyconference2015.sched.org/event/4B4r/devops-with-lego-and-chocolate-simulation-game</a></p>
+
+<p>DevOpsについて、ワークショップ形式で実際に他の方々とゲームで学べるセッションです。
+文章では伝わりづらいかと思いますが、概ね以下のようなルールのゲームが行われました。</p>
+
+<ul>
+<li>ビジネス、Dev、Opsを持つ3つのチームにわかれ、さらにチーム内でそれぞれに、アドミンやテスターといった役割が割り振られる</li>
+<li>ビジネスの要求を基に、レゴで組み立てられたプロダクトを各チームはたくさん生産することを目的に取り組む</li>
+<li>生産する時間な数スプリント用意されていて、各スプリント間には振り返りの時間と、ルール変更がある</li>
+</ul>
+
+
+<p>上記のルール変更が大きなポイントで、例えばゲーム開始当初は</p>
+
+<ul>
+<li>Devのみがレゴを組み立てて良い</li>
+<li>Opsだけが使用できるレゴの種類を知っていて納品できる</li>
+</ul>
+
+
+<p>という風に完全に役割が分かれています。</p>
+
+<p>スプリントが進むとルールが変化し、</p>
+
+<ul>
+<li>Devも使用できるレゴを知って良いし、納品しても良い</li>
+<li>Opsもレゴを組み立てて良い</li>
+</ul>
+
+
+<p>となります。</p>
+
+<p>そうするとDevもOpsも待っているだけの時間がなくなり、スプリントを進めるごとに納品できるプロダクトが増えていきます。</p>
+
+<p><img class="<a" src="href="https://lh3.googleusercontent.com/-B-9FHwzzITE/VmA3C9cA6XI/AAAAAAAAfzU/J5vvP4t3gWo/w530-h707-p-rw/IMG_3748.JPG">https://lh3.googleusercontent.com/-B-9FHwzzITE/VmA3C9cA6XI/AAAAAAAAfzU/J5vvP4t3gWo/w530-h707-p-rw/IMG_3748.JPG</a>&#8221;></p>
+
+<p>このワークショップでは、以下の様な実際の現場にありそうなイベント・体験が用意されていたのが印象的でした。</p>
+
+<ul>
+<li>Devが作ったものが完成してから、Opsの段階で<strong>セキュリティの要件でプロダクトが差し戻される</strong>イベントがある</li>
+<li>セキュリティ要件を修正したあと、<strong>ビジネス判断で完成品のデプロイが延期になる</strong>イベントがある</li>
+<li>スプリントが進んでDevがOpsを兼ねるようになると、Ops陣もDevに入らないと<strong>やることがなくなる</strong>(逆も然り)</li>
+</ul>
+
+
+<p>また、突然その場であった人たちとお互いの会社も国籍も分からないまま、ルールも手探りで、英語と日本語であれこれ言いながらやれた体験が特に面白く感じました。</p>
+
+<p><a href="http://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/">Regional Scrum Gathering Tokyo 2015</a>でもそうでしたが、こういったワークショップは気づきが多く、個人的には満足感が高いです。</p>
+
+<hr />
+
+<p>以上です。さいごに、講演者・スタッフの皆様、素敵なカンファレンスをありがとうございました！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Paris.rbに参加した]]></title>
