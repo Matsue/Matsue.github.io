@@ -1,0 +1,16 @@
+.post-excerpt img {
+  max-width: 100%;
+  height: auto;
+}
+.genericon-hatena:before {
+  content: "B!";
+}
+.icon-hatena:before {
+  content: "B!";
+  font-family: Verdana;
+  font-weight: bold;
+  vertical-align: top;
+}
+.icon-pocket:before {
+  content: "\f224";
+}

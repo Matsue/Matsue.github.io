@@ -1,93 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015/</loc>
-    <lastmod>2015-11-24T20:07:45+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/</loc>
-    <lastmod>2015-03-05T20:43:28+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2015/02/06/useful-apps-in-paris/</loc>
-    <lastmod>2015-02-06T15:01:38+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2015/02/04/unity-workshop/</loc>
-    <lastmod>2015-02-04T22:15:42+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th/</loc>
-    <lastmod>2014-09-23T06:36:15+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2014/08/22/tour-de-france-2014/</loc>
-    <lastmod>2014-08-22T05:18:06+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2014/08/06/paris-dot-rb/</loc>
-    <lastmod>2014-08-06T07:21:32+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2014/06/12/euc2014/</loc>
-    <lastmod>2014-06-12T14:09:40+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521/</loc>
-    <lastmod>2014-05-21T00:12:13+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2013/11/24/rubyworld-conference-2013/</loc>
-    <lastmod>2013-11-24T16:56:35+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/</loc>
-    <lastmod>2013-11-23T01:14:19+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/</loc>
-    <lastmod>2013-11-23T01:01:58+09:00</lastmod>
-  </url>
-  <url>
-    <loc>http://matsue.github.io/blog/archives/</loc>
-  </url>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
   <url>
     <loc>http://matsue.github.io/</loc>
+    <lastmod>2015-11-24T20:07:45+09:00</lastmod>
+    <priority>0</priority>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/blog/categories/ruby/</loc>
+    <loc>http://matsue.github.io/post/2015-11-24-rakuten-technology-conference-2015/</loc>
+    <lastmod>2015-11-24T20:07:45+09:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/blog/categories/meetup/</loc>
+    <loc>http://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</loc>
+    <lastmod>2015-03-05T20:43:28+09:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/blog/categories/aws/</loc>
+    <loc>http://matsue.github.io/post/2015-02-06-useful-apps-in-paris/</loc>
+    <lastmod>2015-02-06T15:01:38+09:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/blog/categories/erlang/</loc>
+    <loc>http://matsue.github.io/post/2015-02-04-unity-workshop/</loc>
+    <lastmod>2015-02-04T22:15:42+09:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/blog/categories/paris/</loc>
+    <loc>http://matsue.github.io/post/2014-09-22-paris-tech-talks-8th/</loc>
+    <lastmod>2014-09-22T23:36:15+02:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/blog/categories/bicycle/</loc>
+    <loc>http://matsue.github.io/post/2014-08-21-tour-de-france-2014/</loc>
+    <lastmod>2014-08-21T22:18:06+02:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/blog/categories/unity/</loc>
+    <loc>http://matsue.github.io/post/2014-08-06-paris-dot-rb/</loc>
+    <lastmod>2014-08-06T00:21:32+02:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/blog/categories/mobile/</loc>
+    <loc>http://matsue.github.io/post/2014-06-12-euc2014/</loc>
+    <lastmod>2014-06-12T14:09:40+09:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/blog/categories/scrum/</loc>
+    <loc>http://matsue.github.io/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</loc>
+    <lastmod>2014-05-21T00:12:13+09:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/blog/categories/devops/</loc>
+    <loc>http://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</loc>
+    <lastmod>2013-11-24T16:56:35+09:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/posts/2/</loc>
+    <loc>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</loc>
+    <lastmod>2013-11-23T01:14:19+09:00</lastmod>
   </url>
+  
   <url>
-    <loc>http://matsue.github.io/posts/3/</loc>
+    <loc>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</loc>
+    <lastmod>2013-11-23T01:01:58+09:00</lastmod>
   </url>
+  
 </urlset>
