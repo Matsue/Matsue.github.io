@@ -65,7 +65,7 @@
 &lt;p&gt;というようなことを紹介した。&lt;br /&gt;
 私たちのセッションには30名ほどの方が聞きにきてくれていたかと思う。&lt;/p&gt;
 
-&lt;h2 id=&#34;day1:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Day1&lt;/h2&gt;
+&lt;h2 id=&#34;day1&#34;&gt;Day1&lt;/h2&gt;
 
 &lt;p&gt;初日は以下のセッションに参加した。&lt;/p&gt;
 
@@ -80,7 +80,7 @@
 &lt;li&gt;Locks - Erlang-style Scalable Distributed Locking (Ulf Wiger)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;composing-a-functional-community:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Composing a Functional Community&lt;/h3&gt;
+&lt;h3 id=&#34;composing-a-functional-community&#34;&gt;Composing a Functional Community&lt;/h3&gt;
 
 &lt;p&gt;初日のキーノートは&lt;a href=&#34;http://www.lambdaladies.com/&#34;&gt;Lambda Ladies&lt;/a&gt;という関数型言語の女性コミュニティから、Katieさんによる発表。&lt;/p&gt;
 
@@ -100,7 +100,7 @@
 &lt;li&gt;スライド: &lt;a href=&#34;http://community.codemiller.com/#/&#34;&gt;http://community.codemiller.com/#/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;the-last-rest-client-you-will-ever-need:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;The Last REST Client You Will Ever Need&lt;/h3&gt;
+&lt;h3 id=&#34;the-last-rest-client-you-will-ever-need&#34;&gt;The Last REST Client You Will Ever Need&lt;/h3&gt;
 
 &lt;p&gt;webサーバの&lt;a href=&#34;https://github.com/extend/cowboy&#34;&gt;cowboy&lt;/a&gt;の開発者であるLoicさんによる発表。&lt;/p&gt;
 
@@ -123,7 +123,7 @@ Media Typeは独自の定義が使えるので、以下のようなタイプを�
 &lt;li&gt;スライド: &lt;a href=&#34;http://ninenines.eu/talks/bed/bed.html&#34;&gt;http://ninenines.eu/talks/bed/bed.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;building-a-distributed-data-ingestion-system-with-rabbitmq:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Building a Distributed Data Ingestion System with RabbitMQ&lt;/h3&gt;
+&lt;h3 id=&#34;building-a-distributed-data-ingestion-system-with-rabbitmq&#34;&gt;Building a Distributed Data Ingestion System with RabbitMQ&lt;/h3&gt;
 
 &lt;p&gt;&amp;ldquo;RabbitMQ in Action&amp;rdquo;の著者のAlvaroさんによるRabbitMQのデザインパターン紹介。&lt;/p&gt;
 
@@ -149,7 +149,7 @@ Media Typeは独自の定義が使えるので、以下のようなタイプを�
 &lt;li&gt;スライド: &lt;a href=&#34;http://www.erlang-factory.com/static/upload/media/1402395255933144rabbitmq_data_ingestion_euc.pdf&#34;&gt;http://www.erlang-factory.com/static/upload/media/1402395255933144rabbitmq_data_ingestion_euc.pdf&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;day2:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Day2&lt;/h2&gt;
+&lt;h2 id=&#34;day2&#34;&gt;Day2&lt;/h2&gt;
 
 &lt;p&gt;二日目に参加したセッションはこちら。&lt;/p&gt;
 
@@ -166,7 +166,7 @@ Media Typeは独自の定義が使えるので、以下のようなタイプを�
 &lt;li&gt;Announcement of the Erlang User of the Year &amp;amp; the Most Influential Talk of 1999&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;elixir-tooling-exploring-beyond-the-language:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Elixir Tooling: Exploring Beyond the Language&lt;/h3&gt;
+&lt;h3 id=&#34;elixir-tooling-exploring-beyond-the-language&#34;&gt;Elixir Tooling: Exploring Beyond the Language&lt;/h3&gt;
 
 &lt;p&gt;ElixirコミッターのEricさんによる発表。&lt;/p&gt;
 
@@ -178,7 +178,7 @@ Media Typeは独自の定義が使えるので、以下のようなタイプを�
 &lt;li&gt;パッケージマネージャの&lt;a href=&#34;https://hex.pm/&#34;&gt;Hex&lt;/a&gt;がリリースされた&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;mix:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Mix&lt;/h4&gt;
+&lt;h4 id=&#34;mix&#34;&gt;Mix&lt;/h4&gt;
 
 &lt;p&gt;Mixというのはプロジェクト作成、コンパイル、テスト、などなどをサポートしてくれるツール。
 ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様。&lt;/p&gt;
@@ -192,12 +192,12 @@ ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様�
 
 &lt;p&gt;ectoはDBのラッパーや管理を提供し、exrmはリリースをサポートしてくれる模様。&lt;/p&gt;
 
-&lt;h4 id=&#34;hex:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Hex&lt;/h4&gt;
+&lt;h4 id=&#34;hex&#34;&gt;Hex&lt;/h4&gt;
 
 &lt;p&gt;Elixirのパッケージマネージャで最近リリースされたばかりのようだ。&lt;br /&gt;
 パッケージはS3でホスティングされてるとのこと。&lt;/p&gt;
 
-&lt;h4 id=&#34;iex:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;IEx&lt;/h4&gt;
+&lt;h4 id=&#34;iex&#34;&gt;IEx&lt;/h4&gt;
 
 &lt;p&gt;Erlangでいうところのerl, Rubyでいうところのirbにあたる、Elixirの実行ターミナル。&lt;/p&gt;
 
@@ -205,13 +205,13 @@ ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様�
 
 &lt;p&gt;iexシェルの中では&lt;code&gt;h Enum.map/2&lt;/code&gt;とかするとヘルプも見えるとのこと。&lt;/p&gt;
 
-&lt;h4 id=&#34;exunit:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;ExUnit&lt;/h4&gt;
+&lt;h4 id=&#34;exunit&#34;&gt;ExUnit&lt;/h4&gt;
 
 &lt;p&gt;tagsやfilter機能を使うと環境毎にテストを分けたり、特定ケースだけ実行することができるようだ。&lt;/p&gt;
 
 &lt;p&gt;またElixirではdoctestも提供されているとのこと。この形式で書かれたコメントは、後でドキュメントとして生成されるだけでなく、書かれているコードはテストとしての実行もしてくれる。&lt;/p&gt;
 
-&lt;h4 id=&#34;standard-library:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Standard library&lt;/h4&gt;
+&lt;h4 id=&#34;standard-library&#34;&gt;Standard library&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://elixir-lang.org/docs/stable/elixir/Stream.html&#34;&gt;Stream&lt;/a&gt;
@@ -238,7 +238,7 @@ ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様�
 &lt;li&gt;&lt;p&gt;スライド: &lt;a href=&#34;http://www.erlang-factory.com/static/upload/media/1402598794815412elixirtooling.pdf&#34;&gt;http://www.erlang-factory.com/static/upload/media/1402598794815412elixirtooling.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;latest-news-from-the-otp-team:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Latest News from the OTP Team&lt;/h3&gt;
+&lt;h3 id=&#34;latest-news-from-the-otp-team&#34;&gt;Latest News from the OTP Team&lt;/h3&gt;
 
 &lt;p&gt;OTPチームからの17系以降の変更点の紹介。&lt;/p&gt;
 
@@ -251,7 +251,7 @@ ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様�
 &lt;p&gt;ライセンスに関しては以前、Mozilla Public Licenseへの移行も検討されていたようだ。
 ライセンス変更にあたり、コミッターの方々にはメールで同意を求めるので&amp;rdquo;Yes&amp;rdquo;という準備しておいてね！というようなことを言っていた。&lt;/p&gt;
 
-&lt;h2 id=&#34;day3:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Day3&lt;/h2&gt;
+&lt;h2 id=&#34;day3&#34;&gt;Day3&lt;/h2&gt;
 
 &lt;p&gt;最終日は以下のチュートリアルに参加した。&lt;/p&gt;
 
@@ -283,7 +283,7 @@ ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様�
 
 &lt;p&gt;WombatOAMやMegaloadといったErlang監視ツール、ロードテストサポートツールにも実際に触れることができたがこちらはOSSではないようだ。&lt;/p&gt;
 
-&lt;h3 id=&#34;introduction-to-load-testing-with-tsung:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Introduction to Load Testing with Tsung&lt;/h3&gt;
+&lt;h3 id=&#34;introduction-to-load-testing-with-tsung&#34;&gt;Introduction to Load Testing with Tsung&lt;/h3&gt;
 
 &lt;p&gt;ロードテストツールであるTsungの紹介。こちら、Erlang製のJMeterのようなもの。&lt;/p&gt;
 
@@ -317,7 +317,7 @@ ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様�
 &lt;li&gt;&lt;p&gt;発表者プロフィール: &lt;a href=&#34;http://www.erlang-factory.com/euc2014/radosaw-szymczyszyn&#34;&gt;http://www.erlang-factory.com/euc2014/radosaw-szymczyszyn&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;erlang-in-production:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Erlang in Production&lt;/h3&gt;
+&lt;h3 id=&#34;erlang-in-production&#34;&gt;Erlang in Production&lt;/h3&gt;
 
 &lt;p&gt;運用者が朝まで寝ていられるシステムをつくるにはどうすればいいかという話。&lt;/p&gt;
 
@@ -335,38 +335,38 @@ ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様�
 
 &lt;p&gt;以降は、使ってるライブラリや設定の話。&lt;/p&gt;
 
-&lt;h4 id=&#34;sys-configについて:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;sys.configについて&lt;/h4&gt;
+&lt;h4 id=&#34;sys-configについて&#34;&gt;sys.configについて&lt;/h4&gt;
 
 &lt;p&gt;&lt;code&gt;erl -man config&lt;/code&gt;でも確認できるがconfigは、他のファイルも読めるので環境ごとのファイルを置いておくようにするといいらしい。&lt;/p&gt;
 
-&lt;h4 id=&#34;lager:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Lager&lt;/h4&gt;
+&lt;h4 id=&#34;lager&#34;&gt;Lager&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/basho/lager&#34;&gt;https://github.com/basho/lager&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;logライブラリにはlagerを使って、どこかに集めている。
 &lt;a href=&#34;https://github.com/boundary/folsom&#34;&gt;folsom&lt;/a&gt;のデータ飛ばしてるらしい。&lt;/p&gt;
 
-&lt;h4 id=&#34;alarm-handler:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;alarm_handler&lt;/h4&gt;
+&lt;h4 id=&#34;alarm-handler&#34;&gt;alarm_handler&lt;/h4&gt;
 
 &lt;p&gt;SASLの一部。アラートは自分で定義できて、Nagiosサーバにもデータ飛ばすこともできる。
 アラームがオフになる時(?)にlagerに流し込むとかもできる。&lt;/p&gt;
 
 &lt;p&gt;Nagiosと組み合わせる際は、ファイル書き出されたステータスをNagiosが定期的に確認するようにしていたらしい。&lt;/p&gt;
 
-&lt;h4 id=&#34;os-mon:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;os_mon&lt;/h4&gt;
+&lt;h4 id=&#34;os-mon&#34;&gt;os_mon&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://erlang.org/doc/man/os_mon_app.html&#34;&gt;http://erlang.org/doc/man/os_mon_app.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;cpu usageみたりもできる。mem_supでメモリ使い過ぎ検知もできる。&lt;/p&gt;
 
-&lt;h4 id=&#34;fuse:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;fuse&lt;/h4&gt;
+&lt;h4 id=&#34;fuse&#34;&gt;fuse&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/jlouis/fuse&#34;&gt;https://github.com/jlouis/fuse&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;マウントに使うfuseとは別のErlangライブラリ。&lt;br /&gt;
 たとえばmysql落ちた時にほかのノードの処理をキックするのに使う。&lt;/p&gt;
 
-&lt;h4 id=&#34;folsom:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Folsom&lt;/h4&gt;
+&lt;h4 id=&#34;folsom&#34;&gt;Folsom&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/boundary/folsom&#34;&gt;https://github.com/boundary/folsom&lt;/a&gt;&lt;/p&gt;
 
@@ -376,7 +376,7 @@ ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様�
 counters, gauges, spirals, histogramsなどのグラフが用意されている。&lt;br /&gt;
 グラフを見るに当たっての注意点としては、平均を見るのは危険。低い方と高い方に値が固まっているかもしれないので。なので、95th、99thパーセンタイルの情報をみるべき。&lt;/p&gt;
 
-&lt;h4 id=&#34;なにを集計する:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;なにを集計する？&lt;/h4&gt;
+&lt;h4 id=&#34;なにを集計する&#34;&gt;なにを集計する？&lt;/h4&gt;
 
 &lt;p&gt;取れるものすべてを集計してる。&lt;/p&gt;
 
@@ -388,7 +388,7 @@ counters, gauges, spirals, histogramsなどのグラフが用意されている�
 &lt;li&gt;cache hit/miss, あとDBたたいた時にどうだったのか&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;tracing-recon:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;Tracing / Recon&lt;/h4&gt;
+&lt;h4 id=&#34;tracing-recon&#34;&gt;Tracing / Recon&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://ferd.github.io/recon/&#34;&gt;http://ferd.github.io/recon/&lt;/a&gt;&lt;/li&gt;
@@ -398,7 +398,7 @@ counters, gauges, spirals, histogramsなどのグラフが用意されている�
 &lt;p&gt;reconは各pidが何を実行しているかわかるようにしてくれるらしい。
 recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
 
-&lt;h2 id=&#34;会場の写真:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;会場の写真&lt;/h2&gt;
+&lt;h2 id=&#34;会場の写真&#34;&gt;会場の写真&lt;/h2&gt;
 
 &lt;p&gt;カンファレンス会場に使われた建物。
 
@@ -500,7 +500,7 @@ recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
 
 &lt;/p&gt;
 
-&lt;h2 id=&#34;おわりに:9da3f0553ce003d0108bc87f772b3e0d&#34;&gt;おわりに&lt;/h2&gt;
+&lt;h2 id=&#34;おわりに&#34;&gt;おわりに&lt;/h2&gt;
 
 &lt;p&gt;EUCに参加するのは二度目で、前回は&lt;a href=&#34;http://www.erlang-factory.com/conference/ErlangUserConference2012&#34;&gt;2012年のEUC&lt;/a&gt;に参加していた。&lt;/p&gt;
 

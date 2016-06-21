@@ -14,3 +14,7 @@
 .icon-pocket:before {
   content: "\f224";
 }
+.rakuten-affiliate td {
+  background-color: #FFFFFF !important;
+  border-top: 0;
+}

@@ -46,7 +46,7 @@
 
 &lt;p&gt;また近年の学習をしていくAIのことを&lt;strong&gt;&amp;ldquo;Child AI&amp;rdquo;&lt;/strong&gt;、過去のAIにあったような人間が直接に解法や知識を与えておくアプローチでつくるAIを&lt;strong&gt;&amp;ldquo;Adult AI&amp;rdquo;&lt;/strong&gt;と呼び分けていました。&lt;/p&gt;
 
-&lt;h2 id=&#34;programmable-iot-platform-soracom-ken-tamagawa:b00348718011b5588732fa2402fd79d1&#34;&gt;Programmable IoT Platform “SORACOM&amp;rdquo; (Ken Tamagawa)&lt;/h2&gt;
+&lt;h2 id=&#34;programmable-iot-platform-soracom-ken-tamagawa&#34;&gt;Programmable IoT Platform “SORACOM&amp;rdquo; (Ken Tamagawa)&lt;/h2&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
   &lt;iframe src=&#34;http://www.youtube.com/embed/XtdijMoKC1o&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -68,16 +68,16 @@
 &lt;li&gt;&lt;a href=&#34;http://kibi-dango.jp/info.php?type=items&amp;amp;id=I0000137&#34;&gt;LiveConnect&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;soracom-beam:b00348718011b5588732fa2402fd79d1&#34;&gt;SORACOM Beam&lt;/h3&gt;
+&lt;h3 id=&#34;soracom-beam&#34;&gt;SORACOM Beam&lt;/h3&gt;
 
 &lt;p&gt;SIMカードから送られたパケットをキャリアネットワークから先で自動で暗号化してくれるサービス。例えば&lt;strong&gt;HTTP通信はHTTPS通信に&lt;/strong&gt;してくれます。デバイス側ではSSL通信の処理をしなくてよいので、&lt;strong&gt;バッテリーの使用量削減&lt;/strong&gt;も期待できます。
 &lt;a href=&#34;http://whill.us/&#34;&gt;WHILL&lt;/a&gt;でも使われてるらしいです。&lt;/p&gt;
 
-&lt;h3 id=&#34;今後の展開:b00348718011b5588732fa2402fd79d1&#34;&gt;今後の展開&lt;/h3&gt;
+&lt;h3 id=&#34;今後の展開&#34;&gt;今後の展開&lt;/h3&gt;
 
 &lt;p&gt;最近ではカスタムDNS等の機能をリリースしており、今後も既存のプラットフォームをAWS上で各国にリリースすることでグローバルに展開していくとのことです。&lt;/p&gt;
 
-&lt;h3 id=&#34;q-a:b00348718011b5588732fa2402fd79d1&#34;&gt;Q&amp;amp;A&lt;/h3&gt;
+&lt;h3 id=&#34;q-a&#34;&gt;Q&amp;amp;A&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;物理サーバは使ってないのか？それはボトルネックにならないのか？
@@ -102,7 +102,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;rakuten-and-microsoft-talk-devops-in-real-world-kotaro-ogino-drew-robbins-tsuyoshi-ushio:b00348718011b5588732fa2402fd79d1&#34;&gt;Rakuten and Microsoft talk DevOps in Real world (Kotaro Ogino / Drew Robbins / Tsuyoshi Ushio)&lt;/h2&gt;
+&lt;h2 id=&#34;rakuten-and-microsoft-talk-devops-in-real-world-kotaro-ogino-drew-robbins-tsuyoshi-ushio&#34;&gt;Rakuten and Microsoft talk DevOps in Real world (Kotaro Ogino / Drew Robbins / Tsuyoshi Ushio)&lt;/h2&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
   &lt;iframe src=&#34;http://www.youtube.com/embed/mZ8tgEtubGE&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -118,7 +118,7 @@
 &lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d128x128&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d80x80&#34; alt=&#34;The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f&#34; target=&#34;_blank&#34;&gt;The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：Gene Kim&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：3,421円（税込、送料込）&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;
 &lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d128x128&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d80x80&#34; alt=&#34;The　DevOps逆転だ！&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f&#34; target=&#34;_blank&#34;&gt;The　DevOps逆転だ！&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：ジーン・キム&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：2,376円（税込、送料込）&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
-&lt;h3 id=&#34;devops-journey-micorsoft:b00348718011b5588732fa2402fd79d1&#34;&gt;DevOps Journey (Micorsoft)&lt;/h3&gt;
+&lt;h3 id=&#34;devops-journey-micorsoft&#34;&gt;DevOps Journey (Micorsoft)&lt;/h3&gt;
 
 &lt;p&gt;Visual Studioは1997年にリリースされ、当時は2、3年おきにリリースするというサイクルでした。
 そして最初のリリース後はバグ修正だけに終始してユーザのフィードバックに応えることはありませんでした。&lt;/p&gt;
@@ -154,13 +154,13 @@
 &lt;li&gt;Yahoo! Japan: DevとOpsの壁をなくすために、&lt;strong&gt;Devチームのユニコーン(リーダー格)の人をOpsに入れる&lt;/strong&gt;ことで、Opsに自動化の文化を生み出す&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;test-automation-for-devops-rakuten:b00348718011b5588732fa2402fd79d1&#34;&gt;Test Automation for DevOps (Rakuten)&lt;/h3&gt;
+&lt;h3 id=&#34;test-automation-for-devops-rakuten&#34;&gt;Test Automation for DevOps (Rakuten)&lt;/h3&gt;
 
 &lt;p&gt;発表者の荻野さんは楽天のIDやポイント、決済を管理するGroup Core Serviceという部署で働いていており、多くのビジネス要求がある中でどのようにDevOpsを回しているかの紹介がありました。&lt;/p&gt;
 
 &lt;p&gt;スケール可能なパフォーマンステストを行うため、楽天内のOpenStack環境を使い、数クリックでGatlingによるテストを実行できるとのことです。そして全てのCI結果はKibanaにより集計されていました。かっこいい。&lt;/p&gt;
 
-&lt;h3 id=&#34;ci-strategies-microsoft:b00348718011b5588732fa2402fd79d1&#34;&gt;CI Strategies (Microsoft)&lt;/h3&gt;
+&lt;h3 id=&#34;ci-strategies-microsoft&#34;&gt;CI Strategies (Microsoft)&lt;/h3&gt;
 
 &lt;p&gt;Microsoftでは以下のような戦略・手法をとっています。&lt;/p&gt;
 
@@ -171,13 +171,13 @@
 &lt;li&gt;Feature flags : ランタイムで機能のON/OFF&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;continuous-delivery-strategy-map:b00348718011b5588732fa2402fd79d1&#34;&gt;Continuous Delivery Strategy Map&lt;/h3&gt;
+&lt;h3 id=&#34;continuous-delivery-strategy-map&#34;&gt;Continuous Delivery Strategy Map&lt;/h3&gt;
 
 &lt;p&gt;牛尾さんがDevOpsインタビューをする中で気づいた戦略マップにはSpeed、Qualityの2つの軸があります。&lt;/p&gt;
 
 &lt;p&gt;Cookpadが行っているような、いつでもロールバックできるようにする戦略はSpeed重視、荻野さんの例やカナリアテストを使う戦略はQuality重視になります。&lt;/p&gt;
 
-&lt;h2 id=&#34;building-smart-applications-with-an-algorithm-marketplace-diego-oppenheimer-algorithmia-dex-dex-tra-dextra-daryl-arnold-diego-oppenheimer:b00348718011b5588732fa2402fd79d1&#34;&gt;Building Smart Applications with an Algorithm Marketplace : Diego Oppenheimer, Algorithmia &amp;amp; DEX &amp;amp; DEX(TRA) : Dextra (Daryl Arnold / Diego Oppenheimer)&lt;/h2&gt;
+&lt;h2 id=&#34;building-smart-applications-with-an-algorithm-marketplace-diego-oppenheimer-algorithmia-dex-dex-tra-dextra-daryl-arnold-diego-oppenheimer&#34;&gt;Building Smart Applications with an Algorithm Marketplace : Diego Oppenheimer, Algorithmia &amp;amp; DEX &amp;amp; DEX(TRA) : Dextra (Daryl Arnold / Diego Oppenheimer)&lt;/h2&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
   &lt;iframe src=&#34;http://www.youtube.com/embed/T0Pob0hyRps&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -186,7 +186,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/4B5P/building-smart-applications-with-an-algorithm-markehellip&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/4B5P/building-smart-applications-with-an-algorithm-markehellip&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;algorithmia:b00348718011b5588732fa2402fd79d1&#34;&gt;Algorithmia&lt;/h3&gt;
+&lt;h3 id=&#34;algorithmia&#34;&gt;Algorithmia&lt;/h3&gt;
 
 &lt;p&gt;Algorithmiaは人々がアルゴリズムを発見・利用できる状態にすることを目的とする会社で、様々なアルゴリズムをサイト上で試用・購入することができます。&lt;/p&gt;
 
@@ -211,7 +211,7 @@
 
 &lt;p&gt;&lt;a href=&#34;https://algorithmia.com/use-cases&#34;&gt;https://algorithmia.com/use-cases&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;devops-with-lego-and-chocolate-simulation-game-dana-pylayeva:b00348718011b5588732fa2402fd79d1&#34;&gt;DevOps with Lego and Chocolate simulation game (Dana Pylayeva)&lt;/h2&gt;
+&lt;h2 id=&#34;devops-with-lego-and-chocolate-simulation-game-dana-pylayeva&#34;&gt;DevOps with Lego and Chocolate simulation game (Dana Pylayeva)&lt;/h2&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
   &lt;iframe src=&#34;http://www.youtube.com/embed/Lup62Wf783Y&#34; allowfullscreen&gt;&lt;/iframe&gt;

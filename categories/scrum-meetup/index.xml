@@ -29,7 +29,7 @@
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/search?q=%23rsgt2015&#34;&gt;https://twitter.com/search?q=%23rsgt2015&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;day1:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;Day1&lt;/h2&gt;
+&lt;h2 id=&#34;day1&#34;&gt;Day1&lt;/h2&gt;
 
 &lt;p&gt;初日は以下の4つのセッションに参加した。&lt;/p&gt;
 
@@ -40,7 +40,7 @@
 &lt;li&gt;林 栄一さんとMasanari Motohasiさんの&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/event/e8ab120c5e4a83383b7da588da120a83#.VPLl71PadrM&#34;&gt;アジャイルコミュニケーションプラログラム ~チームワークに関する心理学的アプローチ~&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;scrum-patterns-the-new-defacto-scrum-standard:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;Scrum Patterns: The New Defacto Scrum Standard&lt;/h3&gt;
+&lt;h3 id=&#34;scrum-patterns-the-new-defacto-scrum-standard&#34;&gt;Scrum Patterns: The New Defacto Scrum Standard&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://picasaweb.google.com/lh/photo/34HCmZmvOTJlDDlJU2EebNMTjNZETYmyPJy0liipFm0?feat=embedwebsite&#34;&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-RNmV-m2WKJs/VPfPzR7rtsI/AAAAAAAASj8/_y55odF2IN8/s800/_20150228_103457.jpg&#34; height=&#34;600&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -92,7 +92,7 @@
 &lt;p&gt;Copeさん節はいつも通りかなりの破壊力があったし、理想の組織での話のように感じる部分はあるが、原点となるマインドと強いパッションには共感を覚える。
 スクラムというと色んな要素はあるものの、価値を生み出すのがゴール。&lt;/p&gt;
 
-&lt;h3 id=&#34;開発モデルの作り方-守破離の破:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;開発モデルの作り方 ～守破離の破！～&lt;/h3&gt;
+&lt;h3 id=&#34;開発モデルの作り方-守破離の破&#34;&gt;開発モデルの作り方 ～守破離の破！～&lt;/h3&gt;
 
 &lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/45257394&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/aratafuji/ss-45257394&#34; title=&#34;開発モデルの作り方(守破離の破)&#34; target=&#34;_blank&#34;&gt;開発モデルの作り方(守破離の破)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/aratafuji&#34; target=&#34;_blank&#34;&gt;Arata Fujimura&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
 
@@ -109,7 +109,7 @@
 &lt;p&gt;現状、良かれと思って基本や事例から変化させて取り込んでる手法についてはプラクティス厨になっている気もする。
 色んな方々の知識によってスクラムの基本形ができていて、それから学べる要素も多いと思うので基本形をもう一度見直したくなった。&lt;/p&gt;
 
-&lt;h3 id=&#34;スクラムマスターは要らない:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;スクラムマスターは要らない&lt;/h3&gt;
+&lt;h3 id=&#34;スクラムマスターは要らない&#34;&gt;スクラムマスターは要らない&lt;/h3&gt;
 
 &lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/45257107&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/bufferings/ss-45257107&#34; title=&#34;スクラムマスターは要らない&#34; target=&#34;_blank&#34;&gt;スクラムマスターは要らない&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/bufferings&#34; target=&#34;_blank&#34;&gt;Mitsuyuki Shiiba&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
 
@@ -161,7 +161,7 @@
 質問への回答にも少しあるが、コミュニケーション的な部分でぶつかった壁や解決したことが多々あったんじゃないかと思う。
 今の状況ではKPTやるとどんなものが上がっているのか気になる。&lt;/p&gt;
 
-&lt;h3 id=&#34;アジャイルコミュニケーションプラログラム-チームワークに関する心理学的アプローチ:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;アジャイルコミュニケーションプラログラム ~チームワークに関する心理学的アプローチ~&lt;/h3&gt;
+&lt;h3 id=&#34;アジャイルコミュニケーションプラログラム-チームワークに関する心理学的アプローチ&#34;&gt;アジャイルコミュニケーションプラログラム ~チームワークに関する心理学的アプローチ~&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://picasaweb.google.com/lh/photo/FIwv2PGb2QfTk2b6gT-4xdMTjNZETYmyPJy0liipFm0?feat=embedwebsite&#34;&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-PoT7anCuYzI/VPfPzW6bDPI/AAAAAAAASj4/-V2AiFZQ66Q/s800/_20150228_165337.jpg&#34; height=&#34;600&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -173,7 +173,7 @@
 &lt;p&gt;こういうセッションはむずむずするが、ワークと割り切って普段やらないことを試したり、意識できてないようなところを確認できるので面白い。
 あーあるある、という状況に名前をつけて認識できるようにする感じ。関連する本を1冊読んでみたくなった。&lt;/p&gt;
 
-&lt;h3 id=&#34;クロージング:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;クロージング&lt;/h3&gt;
+&lt;h3 id=&#34;クロージング&#34;&gt;クロージング&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://picasaweb.google.com/lh/photo/-8m3QTZ1cMGw8ZXEb4n0J9MTjNZETYmyPJy0liipFm0?feat=embedwebsite&#34;&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/-KW_oTBU3pZo/VPfPzaRiGKI/AAAAAAAASj4/ESG_jlF9J1s/s800/_20150228_173624.jpg&#34; height=&#34;600&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -190,9 +190,9 @@
 &lt;p&gt;意外に感じたのは、チーム内で我先にとファシリテーター役出るかと思ったらそうでもなかった。お見合い。
 そんな雰囲気の中でも活発に意見を出して、雰囲気をつくっていた女性の方々すごいと思いました。&lt;/p&gt;
 
-&lt;h2 id=&#34;day2:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;Day2&lt;/h2&gt;
+&lt;h2 id=&#34;day2&#34;&gt;Day2&lt;/h2&gt;
 
-&lt;h3 id=&#34;open-space-technology:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;Open Space Technology&lt;/h3&gt;
+&lt;h3 id=&#34;open-space-technology&#34;&gt;Open Space Technology&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://picasaweb.google.com/lh/photo/wTFS1FiWL85lr_cuRREbSdMTjNZETYmyPJy0liipFm0?feat=embedwebsite&#34;&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/--NZKsShM8S0/VPfPzZsy1nI/AAAAAAAASj4/10eN7so2MPA/s800/_20150301_130543.jpg&#34; height=&#34;600&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -307,7 +307,7 @@
 &lt;p&gt;もっとはやくデリバリーしたいと思っても、どこが原因になってるか見えてないことは多いので、
 上がったような項目からアイデアを得て改善できると嬉しい。&lt;/p&gt;
 
-&lt;h3 id=&#34;lean-coffee:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;Lean Coffee&lt;/h3&gt;
+&lt;h3 id=&#34;lean-coffee&#34;&gt;Lean Coffee&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://picasaweb.google.com/lh/photo/EB0j90S5-Rpu7hQuoLYjvNMTjNZETYmyPJy0liipFm0?feat=embedwebsite&#34;&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/-nxVFGEs0Hhc/VPfPzQlwsjI/AAAAAAAASj8/YJxjadGNobU/s800/_20150301_123951.jpg&#34; height=&#34;600&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -321,7 +321,7 @@
 ビジョンが共有されてなければ、全く違うものが出てそれに気づくだろうし、
 見返した時に何をしてきたのか、何が不足しているのかの考えるヒントになる。&lt;/p&gt;
 
-&lt;h2 id=&#34;day3:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;Day3&lt;/h2&gt;
+&lt;h2 id=&#34;day3&#34;&gt;Day3&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://picasaweb.google.com/lh/photo/6HOUhH24kW39OgxzcL3JHNMTjNZETYmyPJy0liipFm0?feat=embedwebsite&#34;&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/-tEUEtwrX5vY/VPfPzdNNIJI/AAAAAAAASj4/87n2Lmag_6w/s800/_20150302_144630.jpg&#34; height=&#34;800&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -334,7 +334,7 @@
 &lt;li&gt;Mary Gormanさんの&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/event/1fe726ea088481ce98590a251857d1fb#.VPfjJFPadrM&#34;&gt;アジャイルな発見プラクティスを革新し、活性化させましょう Innovate and Invigorate Your Agile Discovery Practices&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;promotion-of-growth-led-by-scrum-road-to-agile-kaizen-improve-the-experience-for-challenger:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;Promotion of Growth Led by Scrum. ~ Road to Agile/KAIZEN. Improve THE Experience for Challenger ~&lt;/h3&gt;
+&lt;h3 id=&#34;promotion-of-growth-led-by-scrum-road-to-agile-kaizen-improve-the-experience-for-challenger&#34;&gt;Promotion of Growth Led by Scrum. ~ Road to Agile/KAIZEN. Improve THE Experience for Challenger ~&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;ul&gt;
@@ -458,7 +458,7 @@
 また、2タイプにわけて考えるという切り口は面白い。
 相手の求めるフィードバックに役立つのはもちろん、自分がどっちかを意識しておくことで、人との違いに変にイライラせずに済みそう。&lt;/p&gt;
 
-&lt;h3 id=&#34;レビューの課題と対策-モダンコードレビューの動向:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;レビューの課題と対策、モダンコードレビューの動向&lt;/h3&gt;
+&lt;h3 id=&#34;レビューの課題と対策-モダンコードレビューの動向&#34;&gt;レビューの課題と対策、モダンコードレビューの動向&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;モダン: どの時点でのモダンかわからない。
@@ -641,7 +641,7 @@
 
 &lt;p&gt;そして紹介されていたアンチパターンは、耳の痛いものばかり。。&lt;/p&gt;
 
-&lt;h3 id=&#34;state-of-agile-software-dev-in-vietnam-and-relationship-between-japan-and-vietnam:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;State of Agile / Software Dev in Vietnam and relationship between Japan and Vietnam&lt;/h3&gt;
+&lt;h3 id=&#34;state-of-agile-software-dev-in-vietnam-and-relationship-between-japan-and-vietnam&#34;&gt;State of Agile / Software Dev in Vietnam and relationship between Japan and Vietnam&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;ul&gt;
@@ -677,7 +677,7 @@
 ベトナムでは多くの講演が英語らしい。
 ベトナム行きたい。&lt;/p&gt;
 
-&lt;h3 id=&#34;innovate-and-invigorate-your-agile-discovery-practices:b006ce5bcd06942e5ebd94fe4307c1ef&#34;&gt;Innovate and Invigorate Your Agile Discovery Practices&lt;/h3&gt;
+&lt;h3 id=&#34;innovate-and-invigorate-your-agile-discovery-practices&#34;&gt;Innovate and Invigorate Your Agile Discovery Practices&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;ul&gt;
