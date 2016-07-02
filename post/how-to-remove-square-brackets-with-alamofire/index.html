@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="jp-ja">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" How to remove square brackets from Alamofire array values &middot;  Matsue Blog" />
+  	<meta property="og:site_name" content="Matsue Blog" />
+  	<meta property="og:url" content="http://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2016-07-02T17:59:16&#43;09:00" />
+
+    
+    <meta property="og:article:tag" content="ios" />
+    
+    <meta property="og:article:tag" content="swift" />
+    
+    
+
+  <title>
+     How to remove square brackets from Alamofire array values &middot;  Matsue Blog
+  </title>
+
+    <meta name="description" content="Hiroki Matsueのブログ。イベントの参加記録や日々の出来事の記録。" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://matsue.github.io/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://matsue.github.io/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="http://matsue.github.io/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://matsue.github.io/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+        <link href="http://matsue.github.io/atom.xml" rel="alternate" type="application/rss+xml" title="Matsue Blog" />
+    
+    <meta name="generator" content="Hugo 0.16" />
+
+    <link rel="canonical" href="http://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-45951684-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+        <link rel="apple-touch-icon" sizes="57x57" href="http://matsue.github.io/images/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://matsue.github.io/images/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://matsue.github.io/images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://matsue.github.io/images/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://matsue.github.io/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://matsue.github.io/images/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://matsue.github.io/images/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://matsue.github.io/images/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://matsue.github.io/images/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="http://matsue.github.io/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://matsue.github.io/images/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="http://matsue.github.io/images/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="http://matsue.github.io/images/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="http://matsue.github.io/manifest.json">
+<link rel="mask-icon" href="http://matsue.github.io/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="http://matsue.github.io/images/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" type="text/css" href="http://matsue.github.io/css/custom-main.css" />
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://matsue.github.io/">Blog posts</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://matsue.github.io/atom.xml">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">How to remove square brackets from Alamofire array values</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2016-07-02T17:59:16&#43;09:00">
+            Jul 2, 2016
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://matsue.github.io/tags/ios/">#ios</a></span>
+         
+          <span class="post-tag small"><a href="http://matsue.github.io/tags/swift/">#swift</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p><a href="https://github.com/Alamofire/Alamofire">Alamofire</a> will add square brackets for the key of array values. This article will show you how to remove those brackets.</p>
+
+<p>By default, array values will be encoded to parameters like this.</p>
+
+<p><code>foo[]=bar1&amp;foo[]=bar2</code></p>
+
+<p>This time we will make no square brackets parameters with ParameterEncoding.</p>
+
+<p><code>foo=bar1&amp;foo=bar2</code></p>
+
+<h2 id="examples-with-parameterencoding">Examples with ParameterEncoding</h2>
+
+<p>Alamofire allow to change encoding formats with ParameterEncoding.</p>
+
+<pre><code class="language-swift">// Remove square brackets for GET request
+let parameterEncoding = ParameterEncoding.Custom { requestConvertible, parameters in
+    let (mutableRequest, error) = ParameterEncoding.URL.encode(requestConvertible, parameters: parameters)
+    mutableRequest.URL = NSURL(string: mutableRequest.URLString.stringByReplacingOccurrencesOfString(&quot;%5B%5D=&quot;, withString: &quot;=&quot;))
+    return (mutableRequest, error)
+}
+
+Alamofire.request(.GET, &quot;http://example.com&quot;, parameters: [&quot;foo&quot;: [&quot;bar1&quot;, &quot;bar2&quot;]], encoding: parameterEncoding)
+</code></pre>
+
+<pre><code class="language-swift">// Remove square brackets for POST request
+let parameterEncoding = ParameterEncoding.Custom { requestConvertible, parameters in
+    let (mutableRequest, error) = ParameterEncoding.URL.encode(requestConvertible, parameters: parameters)
+    let httpBody = NSString(data: mutableRequest.HTTPBody!, encoding: NSUTF8StringEncoding)!
+    mutableRequest.HTTPBody = httpBody.stringByReplacingOccurrencesOfString(&quot;%5B%5D=&quot;, withString: &quot;=&quot;).dataUsingEncoding(NSUTF8StringEncoding)
+    return (mutableRequest, error)
+}
+
+Alamofire.request(.POST, &quot;http://example.com&quot;, parameters: [&quot;foo&quot;: [&quot;bar1&quot;, &quot;bar2&quot;]], encoding: parameterEncoding)
+</code></pre>
+
+<h2 id="why-collection-types-have-multiple-implementation-ways">Why collection types have multiple implementation ways</h2>
+
+<p>Current RFC does not define clear ways for how to encode collection types. Alamofire&rsquo;s <a href="https://github.com/Alamofire/Alamofire/blob/dae3ed1b22d33c28de0f50e1271fb4e0d54ad44a/README.md">README</a> mentioned it.</p>
+
+<blockquote>
+<p>Since there is no published specification for how to encode collection types, Alamofire follows the convention of appending [] to the key for array values (foo[]=1&amp;foo[]=2), and appending the key surrounded by square brackets for nested dictionary values (foo[bar]=baz).</p>
+</blockquote>
+
+<h2 id="references">References</h2>
+
+<p><a href="https://github.com/Alamofire/Alamofire/issues/965">https://github.com/Alamofire/Alamofire/issues/965</a></p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://matsue.github.io/">Hiroki Matsue</a></h4>
+  
+  <p>Ruby/iOS developer</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Tokyo, Japan</span>
+    <span class="author-link icon-link"><a href="http://matsue.github.io/">http://matsue.github.io/</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=How%20to%20remove%20square%20brackets%20from%20Alamofire%20array%20values&amp;url=http%3a%2f%2fmatsue.github.io%2fpost%2fhow-to-remove-square-brackets-with-alamofire%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmatsue.github.io%2fpost%2fhow-to-remove-square-brackets-with-alamofire%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-hatena" style="font-size: 1.4em" href="http://b.hatena.ne.jp/entry/http://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/"
+      onclick="window.open(this.href, 'hatena-share', 'width=550,height=235');return false;">
+      <span class="hidden">Hatena</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fmatsue.github.io%2fpost%2fhow-to-remove-square-brackets-with-alamofire%2f&amp;description=How%20to%20remove%20square%20brackets%20from%20Alamofire%20array%20values"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fmatsue.github.io%2fpost%2fhow-to-remove-square-brackets-with-alamofire%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+  <a class="icon-pocket" style="font-size: 1.4em" href="http://getpocket.com/edit?url=http%3a%2f%2fmatsue.github.io%2fpost%2fhow-to-remove-square-brackets-with-alamofire%2f"
+      onclick="window.open(this.href, 'pocket-share', 'width=550,height=235');return false;">
+      <span class="hidden">Pocket</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'waytoa';
+  var disqus_url = 'http:\/\/matsue.github.io\/post\/how-to-remove-square-brackets-with-alamofire\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Matsue Blog</a> All rights reserved - 2015</section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://matsue.github.io/js/jquery.js"></script>
+    <script type="text/javascript" src="http://matsue.github.io/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://matsue.github.io/js/index.js"></script>
+    
+</body>
+</html>
+

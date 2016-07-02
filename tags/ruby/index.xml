@@ -1,0 +1,2452 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Matsue Blog</title>
+    <link>http://matsue.github.io/tags/ruby/</link>
+    <description>Recent content in Ruby on Matsue Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp-ja</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Tue, 24 Nov 2015 20:07:45 +0900</lastBuildDate>
+    <atom:link href="http://matsue.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rakuten Technology Conference 2015に参加しました</title>
+      <link>http://matsue.github.io/post/2015-11-24-rakuten-technology-conference-2015/</link>
+      <pubDate>Tue, 24 Nov 2015 20:07:45 +0900</pubDate>
+      
+      <guid>http://matsue.github.io/post/2015-11-24-rakuten-technology-conference-2015/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/&#34;&gt;Rakuten Technology Conference 2015&lt;/a&gt;に参加しました。二子玉川にある楽天の新社屋Crimson Houseでの開催でした。&lt;/p&gt;
+
+&lt;p&gt;並行して複数のセッションが行われていたので見逃したセッションも多いですが、以下のタイムテーブルの各セッション詳細にYoutubeへのリンクがあるので安心です。
+&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/grid/&#34;&gt;http://rakutentechnologyconference2015.sched.org/grid/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;全てのセッションが英語ですので、その点でも動画で再確認できるのは素敵です。&lt;/p&gt;
+
+&lt;p&gt;以下は参加したセッションについてのまとめです。&lt;/p&gt;
+
+&lt;p&gt;##　Will AI surpass human intelligence? &amp;ndash; Beyond Deep Learning (Yutaka Matsuo)&lt;/p&gt;
+
+&lt;div class=&#34;embed-video-container&#34;&gt;
+  &lt;iframe src=&#34;http://www.youtube.com/embed/s7yey8hfQII&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/4B4g/will-ai-surpass-human-intelligence-beyond-deep-hellip&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/4B4g/will-ai-surpass-human-intelligence-beyond-deep-hellip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;松尾先生による、これまでのAIの歴史とディープラーニングを用いた研究成果、そして今後の展望についてのお話。&lt;/p&gt;
+
+&lt;p&gt;上記動画の28分あたりから紹介されている、ディープラーニングに関連する映像が衝撃的です。
+画像解析とゲームスコアによる評価付けで、ブロック崩しやレースゲームをAIが効率良く解いている様子が紹介されています。
+どの動画でも前半はやみくもにゲームをプレイしているAIも学習が進むと、ブロック崩しで端に穴をあけてまとめてブロックを崩したり、レースゲームで最適なコース取りをしていて、その急成長ぶりは気味の悪さも感じさせます。&lt;/p&gt;
+
+&lt;p&gt;近年の画像解析のアルゴリズムコンペでも、同一人物の顔を見つける処理をした場合の誤認識率は5%を下回り、同一人物・別人物と誤認識していた画像は人間が見ても判別が難しいそうです。&lt;/p&gt;
+
+&lt;p&gt;また近年の学習をしていくAIのことを&lt;strong&gt;&amp;ldquo;Child AI&amp;rdquo;&lt;/strong&gt;、過去のAIにあったような人間が直接に解法や知識を与えておくアプローチでつくるAIを&lt;strong&gt;&amp;ldquo;Adult AI&amp;rdquo;&lt;/strong&gt;と呼び分けていました。&lt;/p&gt;
+
+&lt;h2 id=&#34;programmable-iot-platform-soracom-ken-tamagawa&#34;&gt;Programmable IoT Platform “SORACOM&amp;rdquo; (Ken Tamagawa)&lt;/h2&gt;
+
+&lt;div class=&#34;embed-video-container&#34;&gt;
+  &lt;iframe src=&#34;http://www.youtube.com/embed/XtdijMoKC1o&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/4N57/programmable-iot-platform-soracom&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/4N57/programmable-iot-platform-soracom&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;玉川さんによるSORACOMのお話。&lt;/p&gt;
+
+&lt;p&gt;キャリアが提供するパケット通信、帯域制限といった機能を賄うデータセンターのサーバーは、すべて用意しようとすると700億円近くもするらしいです。。&lt;/p&gt;
+
+&lt;p&gt;そこでMVNO。SORACOMはIoT向けのMVNOでAWSのようなWebコンソールから管理下のSIMの帯域制限などができます。&lt;/p&gt;
+
+&lt;p&gt;使っている例として大手企業や、以下の様なデバイスが紹介されていました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://akerun.com/&#34;&gt;Akerun&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kibi-dango.jp/info.php?type=items&amp;amp;id=I0000137&#34;&gt;LiveConnect&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;soracom-beam&#34;&gt;SORACOM Beam&lt;/h3&gt;
+
+&lt;p&gt;SIMカードから送られたパケットをキャリアネットワークから先で自動で暗号化してくれるサービス。例えば&lt;strong&gt;HTTP通信はHTTPS通信に&lt;/strong&gt;してくれます。デバイス側ではSSL通信の処理をしなくてよいので、&lt;strong&gt;バッテリーの使用量削減&lt;/strong&gt;も期待できます。
+&lt;a href=&#34;http://whill.us/&#34;&gt;WHILL&lt;/a&gt;でも使われてるらしいです。&lt;/p&gt;
+
+&lt;h3 id=&#34;今後の展開&#34;&gt;今後の展開&lt;/h3&gt;
+
+&lt;p&gt;最近ではカスタムDNS等の機能をリリースしており、今後も既存のプラットフォームをAWS上で各国にリリースすることでグローバルに展開していくとのことです。&lt;/p&gt;
+
+&lt;h3 id=&#34;q-a&#34;&gt;Q&amp;amp;A&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;物理サーバは使ってないのか？それはボトルネックにならないのか？
+
+&lt;ul&gt;
+&lt;li&gt;ドコモのデータセンターにあるが、拡張可能なためボトルネックにはならない。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;なぜSORACOMをやろうと決心したのか？
+
+&lt;ul&gt;
+&lt;li&gt;AWSにいたころ、時差ボケで眠れない夜にSORACOMのプレスリリースを書いて、翌日の朝にそのプレスリリースを読んでこれはいけると思ったのがきっかけ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;SORACOM Beamはどのくらい電力使用量を減らすのか？
+
+&lt;ul&gt;
+&lt;li&gt;具体的なデータは持ってないが、HTTPSの処理は多大なリソースを使っていた部分をHTTPで処理できる分、削減できると考える。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Software SIMについてどう考えるか？
+
+&lt;ul&gt;
+&lt;li&gt;いまのSORACOMはSIMカードが必要。リモートでプロファイルが書き換えられるSoftware SIMはSORACOMとも相性が良いので、調査中。実際にEU諸国での例もあるので展開が楽しみ。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;rakuten-and-microsoft-talk-devops-in-real-world-kotaro-ogino-drew-robbins-tsuyoshi-ushio&#34;&gt;Rakuten and Microsoft talk DevOps in Real world (Kotaro Ogino / Drew Robbins / Tsuyoshi Ushio)&lt;/h2&gt;
+
+&lt;div class=&#34;embed-video-container&#34;&gt;
+  &lt;iframe src=&#34;http://www.youtube.com/embed/mZ8tgEtubGE&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/3iON/rakuten-and-microsoft-talk-devops-in-real-world&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/3iON/rakuten-and-microsoft-talk-devops-in-real-world&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;動画冒頭の&amp;rdquo;DevOps!!!&amp;ldquo;コールは音量に注意してください笑&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Phoenix Project&lt;/strong&gt;がアメリカではDevOpsのバイブル本とのことです。&lt;/p&gt;
+
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d128x128&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d80x80&#34; alt=&#34;The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f&#34; target=&#34;_blank&#34;&gt;The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：Gene Kim&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：3,421円（税込、送料込）&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d128x128&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d80x80&#34; alt=&#34;The　DevOps逆転だ！&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f&#34; target=&#34;_blank&#34;&gt;The　DevOps逆転だ！&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：ジーン・キム&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：2,376円（税込、送料込）&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h3 id=&#34;devops-journey-micorsoft&#34;&gt;DevOps Journey (Micorsoft)&lt;/h3&gt;
+
+&lt;p&gt;Visual Studioは1997年にリリースされ、当時は2、3年おきにリリースするというサイクルでした。
+そして最初のリリース後はバグ修正だけに終始してユーザのフィードバックに応えることはありませんでした。&lt;/p&gt;
+
+&lt;p&gt;2008年移行にその体制は変わって、2013年にはVisual Studio Onlineという形でリリースがされました。&lt;/p&gt;
+
+&lt;p&gt;DevとOpsとPMに分かれていたチームは&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Dev &amp;amp; Opsで&lt;strong&gt;Development Team&lt;/strong&gt;になり、&lt;/li&gt;
+&lt;li&gt;Dev &amp;amp; Ops &amp;amp; PMで&lt;strong&gt;Feature Team&lt;/strong&gt;になり、&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;顧客とコラボレーションして動くようになりました。
+その結果、いまでは1週間で80デプロイを行い、それでもインシデント数は1ヶ月で10個だけになったそうです。&lt;/p&gt;
+
+&lt;p&gt;さらに凄いのは、この変化は会社のサポートが最初からあって起きたわけではなく、以下のフェーズを経て少数の熱意から変化したそうです。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Change agent(s)&lt;/strong&gt; : DevOpsを始める少数の人、ユニコーンによるDevOps開始&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grassroots&lt;/strong&gt; : 著名人などを招いた会社内でのイベントの実施&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tops down&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scale&lt;/strong&gt; : Dojoシステム&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;今では&lt;strong&gt;Dojoシステム&lt;/strong&gt;というものがあり、週一程度で定期開催される会でCI等についていつでも学ぶことができます。
+それでもまだDevOps Journeyの途上だということです。&lt;/p&gt;
+
+&lt;p&gt;他社のDevOps Journeyとしては以下のストーリーが紹介されました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rakuten: &lt;strong&gt;Microservices&lt;/strong&gt;により、大きな企業の中であっても、各チームはスタートアップのように振る舞う&lt;/li&gt;
+&lt;li&gt;Yahoo! Japan: DevとOpsの壁をなくすために、&lt;strong&gt;Devチームのユニコーン(リーダー格)の人をOpsに入れる&lt;/strong&gt;ことで、Opsに自動化の文化を生み出す&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;test-automation-for-devops-rakuten&#34;&gt;Test Automation for DevOps (Rakuten)&lt;/h3&gt;
+
+&lt;p&gt;発表者の荻野さんは楽天のIDやポイント、決済を管理するGroup Core Serviceという部署で働いていており、多くのビジネス要求がある中でどのようにDevOpsを回しているかの紹介がありました。&lt;/p&gt;
+
+&lt;p&gt;スケール可能なパフォーマンステストを行うため、楽天内のOpenStack環境を使い、数クリックでGatlingによるテストを実行できるとのことです。そして全てのCI結果はKibanaにより集計されていました。かっこいい。&lt;/p&gt;
+
+&lt;h3 id=&#34;ci-strategies-microsoft&#34;&gt;CI Strategies (Microsoft)&lt;/h3&gt;
+
+&lt;p&gt;Microsoftでは以下のような戦略・手法をとっています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;クラウドとオンプレミスのコードベースを共有する&lt;/li&gt;
+&lt;li&gt;いつでもデプロイ可能にする&lt;/li&gt;
+&lt;li&gt;Canary testing (カナリアテスト) : 一部のサーバクラスタにだけ新機能をリリースし、問題がなければ他のクラスタにもスケールしていく&lt;/li&gt;
+&lt;li&gt;Feature flags : ランタイムで機能のON/OFF&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;continuous-delivery-strategy-map&#34;&gt;Continuous Delivery Strategy Map&lt;/h3&gt;
+
+&lt;p&gt;牛尾さんがDevOpsインタビューをする中で気づいた戦略マップにはSpeed、Qualityの2つの軸があります。&lt;/p&gt;
+
+&lt;p&gt;Cookpadが行っているような、いつでもロールバックできるようにする戦略はSpeed重視、荻野さんの例やカナリアテストを使う戦略はQuality重視になります。&lt;/p&gt;
+
+&lt;h2 id=&#34;building-smart-applications-with-an-algorithm-marketplace-diego-oppenheimer-algorithmia-dex-dex-tra-dextra-daryl-arnold-diego-oppenheimer&#34;&gt;Building Smart Applications with an Algorithm Marketplace : Diego Oppenheimer, Algorithmia &amp;amp; DEX &amp;amp; DEX(TRA) : Dextra (Daryl Arnold / Diego Oppenheimer)&lt;/h2&gt;
+
+&lt;div class=&#34;embed-video-container&#34;&gt;
+  &lt;iframe src=&#34;http://www.youtube.com/embed/T0Pob0hyRps&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/4B5P/building-smart-applications-with-an-algorithm-markehellip&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/4B5P/building-smart-applications-with-an-algorithm-markehellip&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;algorithmia&#34;&gt;Algorithmia&lt;/h3&gt;
+
+&lt;p&gt;Algorithmiaは人々がアルゴリズムを発見・利用できる状態にすることを目的とする会社で、様々なアルゴリズムをサイト上で試用・購入することができます。&lt;/p&gt;
+
+&lt;p&gt;アルゴリズムエコノミーが必要な背景としては以下の事例を挙げていました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2009年には8ゼタバイト(テラ-&amp;gt;ペタ-&amp;gt;エクサ-&amp;gt;ゼタ)のデータが生み出され、2020年には35ゼタバイトに上る&lt;/li&gt;
+&lt;li&gt;1時間あたり、100万台の新しいデバイスがオンラインになっている&lt;/li&gt;
+&lt;li&gt;1分あたり、20時間分の動画がアップロードされている&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;実際のアルゴリズムの例は、以下が挙げられていました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nudity detection: &lt;a href=&#34;https://isitnude.com/&#34;&gt;isitnude&lt;/a&gt; / &lt;a href=&#34;http://blog.algorithmia.com/post/121967357859/isitnude&#34;&gt;ブログ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Face recognition: &lt;a href=&#34;http://fr-demo.aerobaticapp.com/&#34;&gt;Name That Actor&lt;/a&gt; / &lt;a href=&#34;http://blog.algorithmia.com/post/130768558569/whos-who-facial-recognition-made-simple&#34;&gt;ブログ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Web page recommender: &lt;a href=&#34;https://algorithmia.com/recommends&#34;&gt;https://algorithmia.com/recommends&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;keyword tags for a URL: &lt;a href=&#34;https://algorithmia.com/algorithms/tags/AutoTagURL&#34;&gt;https://algorithmia.com/algorithms/tags/AutoTagURL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;他の事例については以下のリンク先を見て、いくつか試してみるとわかりやすいです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://algorithmia.com/use-cases&#34;&gt;https://algorithmia.com/use-cases&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;devops-with-lego-and-chocolate-simulation-game-dana-pylayeva&#34;&gt;DevOps with Lego and Chocolate simulation game (Dana Pylayeva)&lt;/h2&gt;
+
+&lt;div class=&#34;embed-video-container&#34;&gt;
+  &lt;iframe src=&#34;http://www.youtube.com/embed/Lup62Wf783Y&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/4B4r/devops-with-lego-and-chocolate-simulation-game&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/4B4r/devops-with-lego-and-chocolate-simulation-game&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DevOpsについて、ワークショップ形式で実際に他の方々とゲームで学べるセッションです。
+文章では伝わりづらいかと思いますが、概ね以下のようなルールのゲームが行われました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ビジネス、Dev、Opsを持つ3つのチームにわかれ、さらにチーム内でそれぞれに、アドミンやテスターといった役割が割り振られる&lt;/li&gt;
+&lt;li&gt;ビジネスの要求を基に、レゴで組み立てられたプロダクトを各チームはたくさん生産することを目的に取り組む&lt;/li&gt;
+&lt;li&gt;生産する時間な数スプリント用意されていて、各スプリント間には振り返りの時間と、ルール変更がある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;上記のルール変更が大きなポイントで、例えばゲーム開始当初は&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Devのみがレゴを組み立てて良い&lt;/li&gt;
+&lt;li&gt;Opsだけが使用できるレゴの種類を知っていて納品できる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;という風に完全に役割が分かれています。&lt;/p&gt;
+
+&lt;p&gt;スプリントが進むとルールが変化し、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Devも使用できるレゴを知って良いし、納品しても良い&lt;/li&gt;
+&lt;li&gt;Opsもレゴを組み立てて良い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;となります。&lt;/p&gt;
+
+&lt;p&gt;そうするとDevもOpsも待っているだけの時間がなくなり、スプリントを進めるごとに納品できるプロダクトが増えていきます。&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/-B-9FHwzzITE/VmA3C9cA6XI/AAAAAAAAfzU/J5vvP4t3gWo/w530-h707-p-rw/_3748.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;このワークショップでは、以下の様な実際の現場にありそうなイベント・体験が用意されていたのが印象的でした。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Devが作ったものが完成してから、Opsの段階で&lt;strong&gt;セキュリティの要件でプロダクトが差し戻される&lt;/strong&gt;イベントがある&lt;/li&gt;
+&lt;li&gt;セキュリティ要件を修正したあと、&lt;strong&gt;ビジネス判断で完成品のデプロイが延期になる&lt;/strong&gt;イベントがある&lt;/li&gt;
+&lt;li&gt;スプリントが進んでDevがOpsを兼ねるようになると、Ops陣もDevに入らないと&lt;strong&gt;やることがなくなる&lt;/strong&gt;(逆も然り)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;また、突然その場であった人たちとお互いの会社も国籍も分からないまま、ルールも手探りで、英語と日本語であれこれ言いながらやれた体験が特に面白く感じました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;でもそうでしたが、こういったワークショップは気づきが多く、個人的には満足感が高いです。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;以上です。さいごに、講演者・スタッフの皆様、素敵なカンファレンスをありがとうございました！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paris.rbに参加した</title>
+      <link>http://matsue.github.io/post/2014-08-06-paris-dot-rb/</link>
+      <pubDate>Wed, 06 Aug 2014 00:21:32 +0200</pubDate>
+      
+      <guid>http://matsue.github.io/post/2014-08-06-paris-dot-rb/</guid>
+      <description>
+
+&lt;p&gt;7月より期間限定でパリにて勤務しており、せっかくの機会なのでParis.rbに参加してみた。
+今回、Meetup経由で申し込みをして参加した。
+&lt;a href=&#34;http://www.meetup.com/parisrb/events/146763542/&#34;&gt;http://www.meetup.com/parisrb/events/146763542/&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/-XVtwd3k_TpI/U-FKfo99LFI/AAAAAAAACK8/1mtcslNTBTU/w955-h716-no/_20140805_211811.jpg&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;19時半開始と書かれていたが最初の時間はピザ&amp;amp;ビールの時間だった。話してくれる方を見つけてSwiftのOptional型の話などしているうちに21時からセッションタイムへ。&lt;br /&gt;
+ちなみにパリは今22時頃まで外が明るい。&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh5.googleusercontent.com/-q7MQs9RJEbs/U-FKVwF0SUI/AAAAAAAACKk/n69VDfjy_nI/w955-h716-no/_20140805_202552.jpg&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;セッションは23時ごろまで開催していたと思われる。発表としては&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aircall.io/&#34;&gt;AirCall&lt;/a&gt;の話(採用？)&lt;/li&gt;
+&lt;li&gt;アジャイルの話&lt;/li&gt;
+&lt;li&gt;RioでのRubyの話&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などなどがあった。当然ながらほとんどがフランス語の資料であったり、字の少ない資料でのプレゼンだったので現状のフランス語力では理解が難しかった。残念。&lt;/p&gt;
+
+&lt;p&gt;かろうじて資料が英語だったRails Tipsの内容のメモは以下。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;skip_before_actionはなるべく避ける&lt;/li&gt;
+&lt;li&gt;Respondersを使う&lt;/li&gt;
+&lt;li&gt;less redirect_to more respond_with&lt;/li&gt;
+&lt;li&gt;less instance variables&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/voxdolo/decent_exposure&#34;&gt;decent_exposure&lt;/a&gt; gem&lt;/li&gt;
+&lt;li&gt;before_actionはリダイレクトや認証処理だけに使うようにしている&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mattt/sinatra-param&#34;&gt;sinatra-param&lt;/a&gt; gemでvalidation&lt;/li&gt;
+&lt;li&gt;rails-param gemの紹介&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;感想としては、どのセッションも詳細は分からなかったが、扱っているテーマと日本と大きく異なっていないような印象をうけた。&lt;br /&gt;
+それと話が始まってからはラップトップや携帯を触る人は少なく、熱心に話を聞いている人が多いのが印象的だった。&lt;br /&gt;
+あと、先に懇親会があって、セッションが21時スタートというのは日本ではあまりない気がする。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;追記&#34;&gt;追記&lt;/h2&gt;
+
+&lt;p&gt;運営周りについて簡単に追記。&lt;/p&gt;
+
+&lt;p&gt;置かれていたピザとビールはスポンサーがついていたようで、参加者はお金を払っていない。ただ、開始から1時間たたないうちにほぼ無くなっていたので食べ損ねてしまった。&lt;/p&gt;
+
+&lt;p&gt;参加者は80名程度程で登録は120名ほどあったかと思う。思った以上に人が多かったため、はじめはキャンセル待ちだったが最終的には参加することができた。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RubyWorld Conference 2013に参加しました</title>
+      <link>http://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</link>
+      <pubDate>Sun, 24 Nov 2013 16:56:35 +0900</pubDate>
+      
+      <guid>http://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</guid>
+      <description>
+
+&lt;p&gt;RubyWorld Conference 2013に参加しました&lt;/p&gt;
+
+&lt;p&gt;島根県松江市で開催された&lt;a href=&#34;http://www.rubyworld-conf.org/ja/&#34;&gt;RubyWorld Conference 2013&lt;/a&gt;に参加してきたので、特に印象に残ったところをメモ(&lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/&#34;&gt;day1&lt;/a&gt;, &lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/&#34;&gt;day2&lt;/a&gt;)からピックアップ。
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/-3JJ6G6q-fII/UpHwGGIrhhI/AAAAAAAAADs/lWJGFVGj18U/w955-h716-no/P1020968.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;h2 id=&#34;aiming-the-moving-target&#34;&gt;Aiming the Moving Target&lt;/h2&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh5.googleusercontent.com/-QoldzB7PULE/UpHwE29ap5I/AAAAAAAAADY/Bl6DMHQqD-M/w955-h716-no/P1020969.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;まつもとさんによる初日の基調講演。個人的には特に不思議の国のアリスに登場する赤の女王の言葉を用いた例えと、&amp;rdquo;Nice try&amp;rdquo;という言葉が印象的でした。&lt;br /&gt;
+スライドの写真がないので &lt;a href=&#34;http://ja.wikipedia.org/wiki/%E8%B5%A4%E3%81%AE%E5%A5%B3%E7%8E%8B%E4%BB%AE%E8%AA%AC&#34;&gt;Wikipedia&lt;/a&gt;より赤の女王の言葉を引用すると&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;「その場にとどまるためには、全力で走り続けなければならない（It takes all the running you can do, to keep in the same place.）」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;この言葉が示すように、ソフトウェアのように価値の変化するものを追うには、OSSのコミュニティ、そして会社も、変化し進み続けなければ死んでしまう。&lt;br /&gt;
+そして&amp;rdquo;動くターゲット&amp;rdquo;である価値あるソフトウェアを提供するには、&lt;strong&gt;巨人の肩に乗り、なるべく速く、何度もためして、何度も撤退すべき&lt;/strong&gt;。「失敗したらもう終わり」というプロジェクトの進め方をせず、「失敗してもいい」、そして失敗のことも&amp;rdquo;Nice try&amp;rdquo;と言い換えるところから始めてみませんか、というようなお話をされていました。&lt;/p&gt;
+
+&lt;p&gt;昨年の発表もそうでしたが、まつもとさんの「エンジニア主導の世界になっていくんだ」「世界を変えていこう」というメッセージにワクワクしながら聞いていました。&amp;rdquo;Nice try!&amp;ldquo;、使っていきたいです。&lt;/p&gt;
+
+&lt;p&gt;非常にエンジニア心に響くセッションですので、気になった方は&lt;a href=&#34;http://tech.rakuten.co.jp/&#34;&gt;Rakuten Technology Conference 2013&lt;/a&gt;のビデオをご覧下さい。こちらの動画は英語での発表ですし、言い回しや構成も異なる部分がありますが、同じタイトルで発表をされています。&lt;/p&gt;
+
+&lt;div class=&#34;embed-video-container&#34;&gt;
+  &lt;iframe src=&#34;http://www.youtube.com/embed/obiljftVy0g&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;クックパッドの継続的デリバリー&#34;&gt;クックパッドの継続的デリバリー&lt;/h2&gt;
+
+&lt;p&gt;こちらは高井さんによるクックパッドにおける開発手法の紹介。「いいなー！」「参考になる！」と思った所を並べると、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;毎日11以上の本番デプロイがされている&lt;/li&gt;
+&lt;li&gt;14,432のテストが10分で終わるよう分散実行している&lt;/li&gt;
+&lt;li&gt;ブランチ管理はGitHub Flowを採用&lt;/li&gt;
+&lt;li&gt;開発環境のDBは本番同様のDBサイズになるようレプリケーションしている&lt;/li&gt;
+&lt;li&gt;デザイナもpull requestを送っていて、月間で約800のリクエストがとびかっている&lt;/li&gt;
+&lt;li&gt;jenkinsとhipchatを連携させて、デプロイ結果を通知している&lt;/li&gt;
+&lt;li&gt;デプロイ結果は自動でwikiにも追記されており、速度低下などあるとインフラエンジニアがそのログを漁って原因究明をする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ユーザの属性や時期(例えばハロウィンシーズン)のフラグが立ったらUIを自動で切り替えてるといったことは&lt;a href=&#34;https://github.com/cookpad/chanko&#34;&gt;chanko&lt;/a&gt;を使うと簡単にできるとのこと。また、テストの並列実行をサポートするツールも抽象化してOSSとして公開したいとのことでした。素敵です。&lt;/p&gt;
+
+&lt;p&gt;余談ですが、クックパッドさんはDevOps Tokyoでの発表も非常に熱いものでした。そのとき特に印象的だった&lt;a href=&#34;https://www.google.co.jp/search?q=迷ったら健全な方&#34;&gt;「迷ったら健全な方」&lt;/a&gt;について高井さんに聞いたのですが、実はこれYahooさんの&lt;a href=&#34;https://www.google.co.jp/search?q=迷ったらワイルドな方&#34;&gt;「迷ったらワイルドな方」&lt;/a&gt;にかけているのだとか。いやー、どちらも格好いいっす。&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;391a240035690131b25126ccc4851787&#34; data-ratio=&#34;1.33333333333333img src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;the-internet-axiom-escaping-the-tyranny-of-time-and-space&#34;&gt;The Internet Axiom: Escaping the Tyranny of Time and Space&lt;/h2&gt;
+
+&lt;p&gt;GitHubのCEOであるTomさんが2日目の基調講演でした。&lt;/p&gt;
+
+&lt;p&gt;Tomさんによる自己紹介。新しいスライドの使い方です笑
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh6.googleusercontent.com/-PpxOz94e9Bc/UpHxP_FfArI/AAAAAAAAALU/VkyPZ7IPBQA/w955-h716-no/P1030025.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;そして自己紹介の後、&amp;rdquo;In the Year 2525&amp;rdquo;という曲に合わせた動画が流れ始める。動画の一場面で「どうぞうどうぞ」と2色のピルを奨めるTomさん。
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/-e5M1nbjPseE/UpIm4gB2EHI/AAAAAAAAAfw/RykwCcfgF7Y/w544-h318-no/tom_2525.png&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;インターネットがもたらす3つの変化を軸にスタートアップを紹介していました。紹介していたサービスは以下。もちろん最後はGitHubです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WEIGHTLESS DATA
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lockitron.com/&#34;&gt;Lockitron&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://squareup.com/&#34;&gt;Square&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;MasterCardの&lt;a href=&#34;https://www.paypass.com/&#34;&gt;PayPass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bitcoin.org/&#34;&gt;Bitcoin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;WEIGHTLESS DATA MOVES FAST
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.drchrono.com/&#34;&gt;drchrono&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.snapchat.com/&#34;&gt;Snapchat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;COMMUNIATION BECOMES EASY
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uber.com/&#34;&gt;Uber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.spoonrocket.com/&#34;&gt;SpooRocket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;「なんだかみんな笑ってるが完璧な日本語だろ？Google翻訳さ！」というようなやりとりのシーン。どうしてこうなった。。ラップにでもなりそうだ一興。
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/-OpifbUXay8w/UpHy5a2a3AI/AAAAAAAAAZk/kne68mWa2qY/w955-h716-no/PB221058.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;GitHub社員の位置情報。みんなバラバラの位置にいることが分かりますが、これで仕事ができているのは非同期(Ashynchronus)なやりとりで仕事が出来るからで、それをサポートするのがpull requestやissueという機能。こういった仕事のやり方についてTomさんは、Linusさんとも話しあったことがあるようです。
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh6.googleusercontent.com/-ne99KZ1aWHc/UpHxUP5qecI/AAAAAAAAAL4/ObRa5Ahu0ZM/w955-h716-no/P1030029.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;ここ1ヶ月のGitHub内のプロジェクトのコミット数など。GitHubが今も活発に改善を重ねていることが分かります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;931 active pull requests&lt;/li&gt;
+&lt;li&gt;815 merged&lt;/li&gt;
+&lt;li&gt;113 authors&lt;/li&gt;
+&lt;li&gt;5273 commits&lt;/li&gt;
+&lt;li&gt;443 active issues&lt;/li&gt;
+&lt;li&gt;248 closed issues&lt;/li&gt;
+&lt;li&gt;195 new issues&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh5.googleusercontent.com/-qCiyytvva98/UpHxVY7oISI/AAAAAAAAAL8/A01iDj80Wzk/w955-h716-no/P1030030.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;GitHubでは Beer30という、社員みんなで集まって新しいプロジェクトや新しいビジョンの話をする場があるそう。サンフランシスコで実施するので、参加できなかったメンバのために動画を共有しているとのこと。
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/-4yLMUCoXTbs/UpHxWanmqgI/AAAAAAAAAME/FZSuAR0ytQw/w955-h716-no/P1030031.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;hipchatとhubotで運用状態を見ているところ。
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh6.googleusercontent.com/-7mOe_fkuW6A/UpHxYA7--qI/AAAAAAAAAMU/dXhPp-Ik4yo/w955-h716-no/P1030033.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Tomさんの話からは終始、「時代は変わるんだよ」というメッセージをビリビリと感じました。きっとVCの人たちに話す時も、様々な例を出して、イノベーションを感じさせる話をしているのだろうなーと思って聞いていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/mojombo/jekyll&#34;&gt;jekyll&lt;/a&gt;を作ったの、Tomさんだったんですね。最近はビジネスが忙しく、家族もいるので、奥さんと子供が出かけている間にコードは書いているとのこと。うーん、凄いです。&lt;/p&gt;
+
+&lt;h2 id=&#34;その他の印象に残っているところ&#34;&gt;その他の印象に残っているところ&lt;/h2&gt;
+
+&lt;p&gt;安川さん、八田さんによる&amp;rdquo;Social Translating&amp;rdquo;もとても興味をひかれました。&lt;a href=&#34;http://railstutorial.jp/&#34;&gt;Ruby on Rails チュートリアル&lt;/a&gt;が日本語で読めるって凄いです。4.0対応は2人で約1ヶ月で対応されたとのこと。&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh4.googleusercontent.com/-mvcjoOpiUlU/UpHwhsjCkuI/AAAAAAAAAGw/_61I-u9Ihng/w955-h716-no/P1020993.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;相澤さんの『クラウド時代のRubyアプリケーション設計』で取り上げられた&lt;a href=&#34;http://12factor.net/&#34;&gt;The Twelve-Factor App&lt;/a&gt;は必ず読んでおこう。嬉しいことにこちらも&lt;a href=&#34;http://twelve-factor-ja.herokuapp.com/&#34;&gt;翻訳されており&lt;/a&gt;、日本語で読むことができます！&lt;/p&gt;
+
+&lt;p&gt;Herokuユーザが視覚化されている様子。ユーザ数、日本は4位らしいです。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;アメリカ&lt;/li&gt;
+&lt;li&gt;UK&lt;/li&gt;
+&lt;li&gt;カナダ&lt;/li&gt;
+&lt;li&gt;日本&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh5.googleusercontent.com/-Og9LoT8cu1k/UpHxn0QWNxI/AAAAAAAAAOE/trvu8_efFzQ/w955-h716-no/P1030047.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;川端さんによる『Rubyistによるアジャイル開発事例紹介と進め方』では最後に引用されていたKent Beckさんの言葉が印象的でした。&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh4.googleusercontent.com/-29p9-vARPWU/UpHx2MuQUUI/AAAAAAAAAPg/nXCr7OYm2S8/w955-h716-no/P1030058.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;というメッセージに対する答えが以下。
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh3.googleusercontent.com/-57IBURBQo74/UpHx2wbkrSI/AAAAAAAAAPw/DHNxIEND3_I/w955-h716-no/P1030059.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;『自分が変えられるのは自分だけ』&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;まずは自分を変える努力をしなければ。&lt;/p&gt;
+
+&lt;p&gt;Ruby Prize 2013は、近永さんが授賞されました。おめでとうございます！
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh4.googleusercontent.com/-ibbxGO3xQQw/UpHwrDzcO8I/AAAAAAAAAH0/72z2KkrkjBE/w955-h716-no/P1030002.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+
+&lt;p&gt;講演を聞いていて、ただ聞いているだけではなく早く自分のアクションに繋げていかないといけないなと強く感じさせられるカンファレンスでした。&lt;/p&gt;
+
+&lt;p&gt;また、ここでは取り上げませんでしたが、まつもとさんのオリンピックネタや突然のダジャレ賞授賞式、攻めの司会などなど賑やかな場面がたくさんあり、とても楽しいイベントでした。スタッフ、講演者の皆様ありがとうございました！&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://lh6.googleusercontent.com/-2mqRdSUqikw/UpHzjMnesHI/AAAAAAAAAbs/PlX0O7BvdYY/w955-h716-no/PB221127.JPG&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>RubyWorld Conference 2013 day2 memo</title>
+      <link>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</link>
+      <pubDate>Sat, 23 Nov 2013 01:14:19 +0900</pubDate>
+      
+      <guid>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</guid>
+      <description>
+
+&lt;p&gt;RubyWorld Conference 2013 2日目にとったメモです。&lt;br /&gt;
+個人メモなので誤字などご容赦ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;全体関連リンク&#34;&gt;全体関連リンク&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;公式サイト: &lt;a href=&#34;http://www.rubyworld-conf.org/&#34;&gt;http://www.rubyworld-conf.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;公式UST: &lt;a href=&#34;http://www.ustream.tv/channel/rubyw-conf-13&#34;&gt;http://www.ustream.tv/channel/rubyw-conf-13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;togetter day1: &lt;a href=&#34;http://togetter.com/li/592855&#34;&gt;http://togetter.com/li/592855&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;togetter day2: &lt;a href=&#34;http://togetter.com/li/593359&#34;&gt;http://togetter.com/li/593359&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;my memo day1: &lt;a href=&#34;https://gist.github.com/Matsue/7585061&#34;&gt;https://gist.github.com/Matsue/7585061&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;my memo day2: &lt;a href=&#34;https://gist.github.com/Matsue/7600639&#34;&gt;https://gist.github.com/Matsue/7600639&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Social Translatingの資料: &lt;a href=&#34;https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide&#34;&gt;https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;the-internet-axiom-escaping-the-tyranny-of-time-and-space&#34;&gt;The Internet Axiom: Escaping the Tyranny of Time and Space』&lt;/h2&gt;
+
+&lt;p&gt;by Tom Preston-Werner (GitHub Inc. CEO)&lt;/p&gt;
+
+&lt;h3 id=&#34;self-introduction&#34;&gt;self introduction&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ruby developer&lt;/li&gt;
+&lt;li&gt;php developer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;githubで変えたいことがあれば言ってくれ&lt;/p&gt;
+
+&lt;p&gt;(~ video上映 ~)&lt;/p&gt;
+
+&lt;p&gt;video作ったのは私が変わり者だからというのもあるが&lt;br /&gt;
+この歌が未来をとらえているから&lt;/p&gt;
+
+&lt;p&gt;このインターネットを使える時代素晴しく思う&lt;br /&gt;
+電気がうまれた時代に似てる&lt;/p&gt;
+
+&lt;p&gt;インターネットは多くの情報をはこべ、電力以上に素晴しい&lt;/p&gt;
+
+&lt;p&gt;これはキャンプしたときの写真&lt;br /&gt;
+電気が近くにあったわけではない&lt;br /&gt;
+あったのはケータイだけ&lt;br /&gt;
+これがインターネットの力&lt;/p&gt;
+
+&lt;p&gt;あなたのお気に入りのレストランのページはどうなってる？&lt;br /&gt;
+メニューとかのってるだろう&lt;br /&gt;
+それだけでいいのでしょうか&lt;/p&gt;
+
+&lt;p&gt;政府も考えるべき&lt;br /&gt;
+申請書をアップロードするだけでいいと思ってる人がいる&lt;/p&gt;
+
+&lt;p&gt;ほぼ全ての人がスマートフォン持っている&lt;br /&gt;
+10年後はいつでもどこでも使えることになってるだろう&lt;/p&gt;
+
+&lt;h3 id=&#34;weightless-data&#34;&gt;&amp;ldquo;WEIGHTLESS DATA&amp;rdquo;&lt;/h3&gt;
+
+&lt;p&gt;これからデータの重さがなくなる&lt;/p&gt;
+
+&lt;h4 id=&#34;例えば鍵&#34;&gt;例えば鍵&lt;/h4&gt;
+
+&lt;p&gt;みなさん持ってますね&lt;/p&gt;
+
+&lt;p&gt;数KBのデータがあれば鍵はデータで表せるだろう&lt;br /&gt;
+なぜ金属で持ち歩いているのか？&lt;br /&gt;
+何万もケータイで持てるのになぜ？&lt;br /&gt;
+インターネットの力使えてないといえる&lt;/p&gt;
+
+&lt;p&gt;実際にLockitronというサービスがある&lt;/p&gt;
+
+&lt;h4 id=&#34;お金&#34;&gt;お金&lt;/h4&gt;
+
+&lt;p&gt;お札を持ち運んでいるがこれも意味が無い&lt;/p&gt;
+
+&lt;p&gt;squareがあります&lt;br /&gt;
+ただ、リーダーがあるとデバイスが増えてる&lt;br /&gt;
+そこでsquare cachというものも出してる&lt;br /&gt;
+しかしemailなど管理は必要&lt;/p&gt;
+
+&lt;p&gt;iphoneだけでできないだろうか？&lt;br /&gt;
+master cardはそれを解決しようとしてる&lt;br /&gt;
+pay passというサービス&lt;/p&gt;
+
+&lt;p&gt;なんでこんな大変なのか&lt;br /&gt;
+不正起きないよう、さまざまな制約があるから&lt;/p&gt;
+
+&lt;p&gt;bitcoinがある&lt;br /&gt;
+これは問題もあるかもしれないが完全にオンラインで成り立っている&lt;/p&gt;
+
+&lt;h4 id=&#34;病院&#34;&gt;病院&lt;/h4&gt;
+
+&lt;p&gt;なんども同じ問診票に同じ情報を書き続けなければならない&lt;br /&gt;
+そして医者はまたそれをコンピュータにいれてる&lt;/p&gt;
+
+&lt;p&gt;drchronoはこれに対応している&lt;/p&gt;
+
+&lt;p&gt;みなさん仕事している中でいらつきを感じる場面あると思う&lt;br /&gt;
+それをメモしてください&lt;br /&gt;
+インターネットアクションをとってないことを&lt;/p&gt;
+
+&lt;h3 id=&#34;weightless-data-moves-fast&#34;&gt;WEIGHTLESS DATA MOVES FAST&lt;/h3&gt;
+
+&lt;p&gt;サンフランシスコからサクラメントにいって事務所に出さないと資料があった&lt;br /&gt;
+1.5時間かけていった&lt;br /&gt;
+データでいうと400Byteくらいの内容を書いた&lt;br /&gt;
+そしてまた取りに戻った&lt;/p&gt;
+
+&lt;p&gt;つまりトータルで8時間もかかった&lt;br /&gt;
+なんと50Byte/h&lt;br /&gt;
+急いでもこれ&lt;br /&gt;
+なんでこんなかかるのか&lt;/p&gt;
+
+&lt;p&gt;これと真逆の状態とはどんな状態でしょう&lt;/p&gt;
+
+&lt;h4 id=&#34;snapchat&#34;&gt;snapchat&lt;/h4&gt;
+
+&lt;p&gt;革新的なのは数十秒でデータが消える&lt;br /&gt;
+たとえば人の顔に落書きしておくったり&lt;/p&gt;
+
+&lt;p&gt;これのなにが特別なのか？&lt;br /&gt;
+私たちは手紙をemailで代替している&lt;br /&gt;
+パラダイムにのって変わったもの&lt;br /&gt;
+しかし十分に適応していない部分がある&lt;/p&gt;
+
+&lt;p&gt;snapchatを使うと、送った馬鹿げた写真が広まることを気にしなくて良いのです&lt;/p&gt;
+
+&lt;h3 id=&#34;communiation-becomes-easy&#34;&gt;COMMUNIATION BECOMES EASY&lt;/h3&gt;
+
+&lt;h4 id=&#34;uber&#34;&gt;UBER&lt;/h4&gt;
+
+&lt;p&gt;サンフランシスコのtaxi状況はひどい&lt;br /&gt;
+UBERを使えばどこにいるか見えるし自分の場所に来てくれる&lt;br /&gt;
+待つ必要もないし、お金もその場で払わなくて良い&lt;br /&gt;
+インターネットの力が発揮されている&lt;/p&gt;
+
+&lt;p&gt;簡単だから毎日使っている&lt;/p&gt;
+
+&lt;h4 id=&#34;spoon-rocket&#34;&gt;SPOON ROCKET&lt;/h4&gt;
+
+&lt;p&gt;これの対象はタクシーではなくご飯&lt;br /&gt;
+6$で連れて行ってくれるて食べられる&lt;br /&gt;
+車の送迎サービスもある&lt;br /&gt;
+そして温かいご飯食べられる&lt;br /&gt;
+大学生の助けになる&lt;/p&gt;
+
+&lt;h4 id=&#34;github&#34;&gt;GitHub&lt;/h4&gt;
+
+&lt;p&gt;世界中で働いている&lt;/p&gt;
+
+&lt;p&gt;先月のmain GitHubのレポジトリを見ると&lt;br /&gt;
+- 931 pull requests
+- 815 merged
+- 113 authors
+- 5273 commits
+- 443 issues
+- 248 closed&lt;/p&gt;
+
+&lt;p&gt;pull requestすると見える化できるし、レビューできる&lt;br /&gt;
+ディスカッションができる&lt;/p&gt;
+
+&lt;p&gt;なぜこのような活動ができるのか？&lt;/p&gt;
+
+&lt;h4 id=&#34;asynchronus&#34;&gt;ASYNCHRONUS&lt;/h4&gt;
+
+&lt;p&gt;それは非同期にできるから&lt;br /&gt;
+実際、いま私は日本にいて時差あるわけだが&lt;br /&gt;
+リアルタイムではないがメッセージを送りあうことができる&lt;/p&gt;
+
+&lt;p&gt;これにより分散して仕事できる&lt;/p&gt;
+
+&lt;p&gt;非同期をサポートするのが
+- pull request
+- issue&lt;/p&gt;
+
+&lt;p&gt;という機能&lt;/p&gt;
+
+&lt;p&gt;Linusとも話した&lt;br /&gt;
+彼以外の人は多くの人が一緒に働くということについて考えていなかった&lt;br /&gt;
+大企業だけがそのような仕事していた&lt;br /&gt;
+linuxはまさにそういうパターンの仕事だった&lt;br /&gt;
+githubは分散された仕事を便利にしたもの&lt;/p&gt;
+
+&lt;h4 id=&#34;bear-13&#34;&gt;bear 13&lt;/h4&gt;
+
+&lt;p&gt;githubではbear13という取り組みをやっている&lt;br /&gt;
+集まって、新しいプロジェクトや新しいビジョンの話をする&lt;/p&gt;
+
+&lt;p&gt;サンフランシスコでやるが遠隔地のひとはどうするか？&lt;br /&gt;
+&amp;lsquo;remote by the fault&amp;rsquo;という考えでやっている&lt;br /&gt;
+videoを見えるようにしている&lt;/p&gt;
+
+&lt;h4 id=&#34;urls&#34;&gt;URLS&lt;/h4&gt;
+
+&lt;p&gt;URLも大事にしている&lt;br /&gt;
+githubのURLは見れば何を指しているか分かるようにしている&lt;/p&gt;
+
+&lt;p&gt;みなさんのサイトでも考えてほしい&lt;br /&gt;
+URLどれだけ読みやすいか&lt;/p&gt;
+
+&lt;h4 id=&#34;mentions&#34;&gt;@mentions&lt;/h4&gt;
+
+&lt;p&gt;これはtwitterにもある機能&lt;br /&gt;
+issueなどで使う&lt;br /&gt;
+これがあることで「いいね」というようなメッセージを引き出せる&lt;/p&gt;
+
+&lt;h4 id=&#34;chat&#34;&gt;CHAT&lt;/h4&gt;
+
+&lt;p&gt;(chatopsのことぽい)&lt;br /&gt;
+同期でも非同期でもできる&lt;br /&gt;
+cookpad Takaiさんの取り組みは似ている&lt;br /&gt;
+うちは28回なのでgithubの勝ちですw&lt;/p&gt;
+
+&lt;p&gt;1secでデプロイできるので何度も本番にデプロイできる&lt;/p&gt;
+
+&lt;p&gt;graph meで見るとかなりのメッセージが飛んでること確認できる&lt;/p&gt;
+
+&lt;p&gt;pagerやpuppetもchatで操作できる&lt;/p&gt;
+
+&lt;h3 id=&#34;qa&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h4 id=&#34;pull-requestなどの機能はユーザにはどう使ってほしいと思っている-あとこれから予定してる機能ある&#34;&gt;pull requestなどの機能はユーザにはどう使ってほしいと思っている?˙あとこれから予定してる機能ある？&lt;/h4&gt;
+
+&lt;p&gt;ソフトウェアエンジニアが使えやすい機能を考えている&lt;/p&gt;
+
+&lt;h4 id=&#34;遠隔地でのコミュニケーションどうしてる&#34;&gt;遠隔地でのコミュニケーションどうしてる&lt;/h4&gt;
+
+&lt;p&gt;基本的には非同期でコミュニケーションだが、&lt;br /&gt;
+face to faceするのは戦略的な話をするようなとき&lt;br /&gt;
+そういう時にはgoogle hangout使う&lt;/p&gt;
+
+&lt;h4 id=&#34;翻訳に使った時gitを分からない人がいてpull-request分からない人いた-なにか良い解決策ある&#34;&gt;翻訳に使った時gitを分からない人がいてpull request分からない人いた。なにか良い解決策ある？&lt;/h4&gt;
+
+&lt;p&gt;non engineerにgit教えるのは大変。&lt;br /&gt;
+githubはweb上だけでファイル編集とpull requestできるのでそれが使えるのでは&lt;/p&gt;
+
+&lt;h4 id=&#34;rubyやrailsに期待する機能ある&#34;&gt;rubyやrailsに期待する機能ある？&lt;/h4&gt;
+
+&lt;p&gt;いまそんなコーディングに時間使ってない   rubyはプロトタイプにとても適していて好きだ&lt;/p&gt;
+
+&lt;h4 id=&#34;問診票は手の震えや記憶も見ている-それをインターネットで解決できるアイデアある&#34;&gt;問診票は手の震えや記憶も見ている。それをインターネットで解決できるアイデアある？&lt;/h4&gt;
+
+&lt;p&gt;オンラインでビデオ問診とかある&lt;/p&gt;
+
+&lt;h4 id=&#34;さいきん開発してる&#34;&gt;さいきん開発してる？&lt;/h4&gt;
+
+&lt;p&gt;そんなしてない&lt;br /&gt;
+奥さんと子供がいないときだけしてる&lt;/p&gt;
+
+&lt;h4 id=&#34;cliでpull-requestみるオススメのツールある&#34;&gt;CLIでpull requestみるオススメのツールある？&lt;/h4&gt;
+
+&lt;p&gt;hubとか&lt;br /&gt;
+やっぱりwebが便利&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;行政業務システムのruby化-開発事例紹介&#34;&gt;行政業務システムのRuby化(開発事例紹介&lt;/h2&gt;
+
+&lt;p&gt;by 木島浩暁 (株式会社日立ソリューションズ)&lt;/p&gt;
+
+&lt;h3 id=&#34;ruby化の経緯&#34;&gt;Ruby化の経緯&lt;/h3&gt;
+
+&lt;p&gt;システム改修の短期化したかったから&lt;br /&gt;
+そこでruby+railsを提案&lt;/p&gt;
+
+&lt;h3 id=&#34;スケジュール&#34;&gt;スケジュール&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ruby化&lt;/li&gt;
+&lt;li&gt;変更分の取り込み&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;をウォーターフォールで計画&lt;/p&gt;
+
+&lt;h3 id=&#34;構成&#34;&gt;構成&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;web: java&lt;/li&gt;
+&lt;li&gt;バッチ: C&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;これがrubyとrailsになった&lt;/p&gt;
+
+&lt;h3 id=&#34;課題&#34;&gt;課題&lt;/h3&gt;
+
+&lt;h4 id=&#34;1-開発体制の構築&#34;&gt;1.開発体制の構築&lt;/h4&gt;
+
+&lt;p&gt;多数のruby技術者が必要だった&lt;br /&gt;
+=&amp;gt; 島根県企業と共同で行った&lt;/p&gt;
+
+&lt;p&gt;PROBIZMOと協力
+VPNや会議システムを構築して対応した&lt;/p&gt;
+
+&lt;h4 id=&#34;2-rails規約に沿わない機能の実装&#34;&gt;2.Rails規約に沿わない機能の実装&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;URLの難読化&lt;/li&gt;
+&lt;li&gt;外部ファイルの取り込み&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;rails拡張コンポーネントを挟んで対応した&lt;/p&gt;
+
+&lt;h5 id=&#34;2-1-urlの難読化&#34;&gt;2-1.URLの難読化&lt;/h5&gt;
+
+&lt;p&gt;URLを予測されて直接入力されるのを避けたかった&lt;br /&gt;
+開発者は通常通り開発し、難読化はコンポーネントが対応&lt;/p&gt;
+
+&lt;h5 id=&#34;2-2-外部ファイルの取り込み&#34;&gt;2-2.外部ファイルの取り込み&lt;/h5&gt;
+
+&lt;p&gt;申請書をweb画面から入力するのは難しいので&lt;br /&gt;
+外注パンチで作成したファイルを取り込み機能が必要だった&lt;br /&gt;
+ファイル解析用のDSLを定義した&lt;/p&gt;
+
+&lt;h4 id=&#34;3-バッチ処理の性能確保&#34;&gt;3.バッチ処理の性能確保&lt;/h4&gt;
+
+&lt;p&gt;C言語で書かれていたバッチと同等の速度確保を目標としていた&lt;/p&gt;
+
+&lt;p&gt;47万社のデータをCだと1h22minで処理してた&lt;br /&gt;
+そのままrubyにすると70hかかった・・&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Active RecordからSQL直接入力へ変更&lt;/li&gt;
+&lt;li&gt;GCタイミング修正&lt;/li&gt;
+&lt;li&gt;parralel gemでの並列実行&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;このような取り組みで1h10minにできた&lt;/p&gt;
+
+&lt;p&gt;Railsプロセスの起動時間も問題になっていた&lt;br /&gt;
+- プロセス常駐化し、&lt;br /&gt;
+- そこにプロセス間通信でキック、&lt;br /&gt;
+- 処理プロセスをforkする&lt;/p&gt;
+
+&lt;p&gt;という流れにすることで改善した&lt;/p&gt;
+
+&lt;h4 id=&#34;4-品質の維持&#34;&gt;4.品質の維持&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;rspec&lt;/li&gt;
+&lt;li&gt;C0は100%&lt;/li&gt;
+&lt;li&gt;テストコードが2.5倍以上を目標&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;テストに9hourかかる&lt;br /&gt;
+クックパッドのテスト並列実行のOSSに期待してます&lt;/p&gt;
+
+&lt;h3 id=&#34;最後に&#34;&gt;最後に&lt;/h3&gt;
+
+&lt;p&gt;rubyにしたことで次期以降での改修時間の短縮に期待している&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-1&#34;&gt;QA&lt;/h3&gt;
+
+&lt;p&gt;ruby関連の質問は開発担当のmakiさんが回答&lt;/p&gt;
+
+&lt;h4 id=&#34;rails起動の時間かかるというのはバッチ処理用のgem使ったのか-作ったのか&#34;&gt;rails起動の時間かかるというのはバッチ処理用のgem使ったのか、作ったのか？&lt;/h4&gt;
+
+&lt;p&gt;delayed jobも検討していたが自作した&lt;br /&gt;
+200行程度のもの&lt;br /&gt;
+作ってからzeusでできるよとも言われた&lt;/p&gt;
+
+&lt;h4 id=&#34;機関系でのruby使用は増えそう&#34;&gt;機関系でのruby使用は増えそう？&lt;/h4&gt;
+
+&lt;p&gt;全国のデータではなく行政単位の処理だったので並列処理できたが、&lt;br /&gt;
+もしこれが並列実行できないようなものだったらと考えると検討が必要だろう&lt;/p&gt;
+
+&lt;h4 id=&#34;処理が分割ができれば使えそうということ&#34;&gt;処理が分割ができれば使えそうということ？&lt;/h4&gt;
+
+&lt;p&gt;その認識で間違っていないと思う&lt;/p&gt;
+
+&lt;h4 id=&#34;rdmsがネックになるのでは&#34;&gt;RDMSがネックになるのでは&lt;/h4&gt;
+
+&lt;p&gt;それはある。&lt;br /&gt;
+他のプロジェクトで限界を感じている&lt;/p&gt;
+
+&lt;h4 id=&#34;active-record使うのやめたときエスケープ処理などはどうしたのか&#34;&gt;Active Record使うのやめたときエスケープ処理などはどうしたのか&lt;/h4&gt;
+
+&lt;p&gt;ORマッパーだけ使わず、サニタイジング機能などはrailsのものを使った&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;日本最大級のクラウドソーシング-クラウドワークス-の超速事業起ち上げにおいてrubyの果たした役割&#34;&gt;『日本最大級のクラウドソーシング「クラウドワークス」の超速事業起ち上げにおいてRubyの果たした役割』&lt;/h2&gt;
+
+&lt;p&gt;by 野村真一 (株式会社クラウドワークス)&lt;/p&gt;
+
+&lt;h3 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h3&gt;
+
+&lt;p&gt;モバイルCP -&amp;gt; クーポンサイト -&amp;gt; クラウドソーシング&lt;br /&gt;
+Ruby使い始めたのはクラウドワークスが初&lt;/p&gt;
+
+&lt;h3 id=&#34;クラウドワークスとは&#34;&gt;クラウドワークスとは&lt;/h3&gt;
+
+&lt;p&gt;依頼できる仕事はオンラインで完結するものなら何でも&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ウェブアプリとか&lt;/li&gt;
+&lt;li&gt;ランディングページとか&lt;/li&gt;
+&lt;li&gt;サーバ構築とか&lt;/li&gt;
+&lt;li&gt;デザインとか&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ミッション&#34;&gt;ミッション&lt;/h3&gt;
+
+&lt;p&gt;「21世紀の新しいワークスタイルを提案する」&lt;/p&gt;
+
+&lt;p&gt;背景は&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;正社員比率の減少&lt;/li&gt;
+&lt;li&gt;超高齢化社会&lt;/li&gt;
+&lt;li&gt;女性の終業ギャップ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;大切にしていること&#34;&gt;大切にしていること&lt;/h3&gt;
+
+&lt;p&gt;ユーザエクスペリエンス&lt;/p&gt;
+
+&lt;p&gt;機能で語る時代ではなくなってきた&lt;br /&gt;
+車のCMでも「モノより思い出」といっちゃうくらい&lt;/p&gt;
+
+&lt;p&gt;仕事の受発注において、&lt;br /&gt;
+お金だけでなくやりがいなどを期待しているはず&lt;br /&gt;
+そういった社会の満足度等を提供していきたい&lt;/p&gt;
+
+&lt;h4 id=&#34;働くを通して人々に笑顔を&#34;&gt;「働くを通して人々に笑顔を」&lt;/h4&gt;
+
+&lt;p&gt;クックパッドさん参考にしてる&lt;br /&gt;
+仕事を通じた満足やつながりを生みたい&lt;/p&gt;
+
+&lt;p&gt;「ありがとう」ボタン&lt;br /&gt;
+facebookのlikeのように感謝を可視化した&lt;br /&gt;
+リリース後スゴい押されてる&lt;br /&gt;
+採用しなかった受注者の方に押されること多い&lt;/p&gt;
+
+&lt;h4 id=&#34;1クリックで世界の仕事とスキルにアクセスを&#34;&gt;「1クリックで世界の仕事とスキルにアクセスを」&lt;/h4&gt;
+
+&lt;p&gt;これまでのクラウドソーシングサービスは&lt;br /&gt;
+予算や仕様が明確でないといけなかったりして複雑だった&lt;br /&gt;
+ちょっと電話かけて相談するくらいの感じを想定&lt;/p&gt;
+
+&lt;p&gt;「ショートメッセージ」機能もあり、気軽な相談できるようにしてる&lt;br /&gt;
+「お仕事相談所」というところで依頼方法や相場も教えてくれる&lt;/p&gt;
+
+&lt;h3 id=&#34;開発事例&#34;&gt;開発事例&lt;/h3&gt;
+
+&lt;p&gt;rails多い&lt;br /&gt;
+ポケットコンシェルジュも発注してる&lt;br /&gt;
+ポケットコンシェルジュは時給制を採用してる&lt;/p&gt;
+
+&lt;h3 id=&#34;ロゴコンペ&#34;&gt;ロゴコンペ&lt;/h3&gt;
+
+&lt;p&gt;新しい事業のロゴを依頼してたくさんのデザインが応募してくれる&lt;br /&gt;
+経産省Jump start Nipponでも使われた&lt;/p&gt;
+
+&lt;h3 id=&#34;選択と集中&#34;&gt;選択と集中&lt;/h3&gt;
+
+&lt;p&gt;受注と発注は鶏と卵&lt;br /&gt;
+発注者にフォーカスしてる&lt;br /&gt;
+目標設定も発注者の数&lt;br /&gt;
+受注者はあとからついてくるとしてる&lt;/p&gt;
+
+&lt;h3 id=&#34;スピード-スピード-スピード&#34;&gt;スピード!スピード!スピード!&lt;/h3&gt;
+
+&lt;p&gt;楽天を参考にしてる&lt;br /&gt;
+F1より自転車のほうがイメージあう&lt;br /&gt;
+守るものなく、エンジンは自身なので、スタートアップぽい&lt;/p&gt;
+
+&lt;h3 id=&#34;たちあげの話&#34;&gt;たちあげの話&lt;/h3&gt;
+
+&lt;p&gt;CTOと非常勤の2人でつくった&lt;br /&gt;
+rais使ってる&lt;br /&gt;
+サービス開発に集中できる&lt;/p&gt;
+
+&lt;p&gt;主に使ってるgem&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;capistrano&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;em-websocket
+railsモデルそのままチャット機能つくれるので選択&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;OAtuth-plugin&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;メタプログラミングも活用&lt;/p&gt;
+
+&lt;p&gt;今は4名くらいで開発&lt;br /&gt;
+PHPに飽きた方がjoinしてる&lt;br /&gt;
+rubyスキルはrubyぽく、railsぽく書けてるかで判断できる&lt;/p&gt;
+
+&lt;h3 id=&#34;審査&#34;&gt;審査&lt;/h3&gt;
+
+&lt;p&gt;ソースコード出してもらってやってもらっている&lt;/p&gt;
+
+&lt;h3 id=&#34;スキルの登録具合&#34;&gt;スキルの登録具合&lt;/h3&gt;
+
+&lt;p&gt;受注者のスキル層的にはPHPが多い&lt;/p&gt;
+
+&lt;h3 id=&#34;内部で使っている技術&#34;&gt;内部で使っている技術&lt;/h3&gt;
+
+&lt;p&gt;大半がRubyがらみ&lt;br /&gt;
+rails, fluentd, etc&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-2&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h4 id=&#34;今後の機能等あれば&#34;&gt;今後の機能等あれば&lt;/h4&gt;
+
+&lt;p&gt;3Dプリンタの仕事追加したら発注されてる&lt;br /&gt;
+マッチングにふっていきたい&lt;br /&gt;
+スケジュール管理、ファイル共有とかを使いたいという要望がきてる&lt;br /&gt;
+現状だとdropboxつかってくださいと言ってるが強化したいところ&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;クラウド時代のrubyアプリケーション設計&#34;&gt;『クラウド時代のRubyアプリケーション設計』&lt;/h2&gt;
+
+&lt;p&gt;by 相澤歩 (株式会社セールスフォース･ドットコム)&lt;/p&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://twelve-factor-ja.herokuapp.com/&#34;&gt;http://twelve-factor-ja.herokuapp.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;自己紹介-1&#34;&gt;自己紹介&lt;/h3&gt;
+
+&lt;p&gt;rubyコミッタになったのが２年前のrwcだったので感慨深い&lt;/p&gt;
+
+&lt;p&gt;herokuは買収され２年ほど経ち、&lt;br /&gt;
+herokuでありセールスフォース・ドットコムの社員&lt;/p&gt;
+
+&lt;p&gt;エバンジェリストとしてエンジニアむけのマーケティング活動してる&lt;br /&gt;
+大規模なキャンペーンのさい等にテクニカルアカウントマネージャーとしてサポートもしてる&lt;/p&gt;
+
+&lt;p&gt;製品開発以外やってる&lt;/p&gt;
+
+&lt;p&gt;エンタープライズレベルの契約をすると日本語でサポート受けられる&lt;/p&gt;
+
+&lt;h3 id=&#34;heroku&#34;&gt;Heroku&lt;/h3&gt;
+
+&lt;p&gt;2007年に3人で創設&lt;br /&gt;
+最初はrubyだけホスティングしていた&lt;/p&gt;
+
+&lt;p&gt;2011に買収されてからはjavaやpythonなどなどサポート開始&lt;/p&gt;
+
+&lt;p&gt;しかしユーザの使用言語、システムの言語はRubyが多い&lt;/p&gt;
+
+&lt;h3 id=&#34;課金&#34;&gt;課金&lt;/h3&gt;
+
+&lt;p&gt;使った分だけ&lt;/p&gt;
+
+&lt;h3 id=&#34;ユーザ分布&#34;&gt;ユーザ分布&lt;/h3&gt;
+
+&lt;p&gt;ランキングは上から&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;アメリカ&lt;/li&gt;
+&lt;li&gt;UK&lt;/li&gt;
+&lt;li&gt;カナダ&lt;/li&gt;
+&lt;li&gt;日本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;UKインスタンスできてからUKも増えた&lt;br /&gt;
+カナダと日本は僅差&lt;/p&gt;
+
+&lt;h3 id=&#34;the-twelve-factor-app&#34;&gt;&amp;lsquo;the twelve-factor app&amp;rsquo;&lt;/h3&gt;
+
+&lt;p&gt;heroku創業者が書いた論文のようなもの&lt;br /&gt;
+アプリ構築に必要な12の要素にまとめたもの&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;セットアップは宣言的に行う&lt;/li&gt;
+&lt;li&gt;依存を明確に定義する&lt;/li&gt;
+&lt;li&gt;クラウド環境を仕様&lt;/li&gt;
+&lt;li&gt;環境と本番の差異をなくす&lt;/li&gt;
+&lt;li&gt;アーキテクチャを変更せずに用意にスケールするように&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;というようなこと書かれてる&lt;/p&gt;
+
+&lt;p&gt;12のプラクティスのタイトル紹介&lt;/p&gt;
+
+&lt;p&gt;今日は3つだけとりあげる&lt;/p&gt;
+
+&lt;h3 id=&#34;1-codebase&#34;&gt;1.Codebase&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ひとつのアプリは１つのコードもつ&lt;/li&gt;
+&lt;li&gt;ひとつのアプリは複数の環境にデプロイされる&lt;/li&gt;
+&lt;li&gt;複数のコードベースは複数のアプリとして取り扱う&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;環境ごとに持つべきではない&lt;/p&gt;
+
+&lt;h4 id=&#34;gem化&#34;&gt;gem化&lt;/h4&gt;
+
+&lt;p&gt;共通コンポーネントはgemにして複数アプリで使う&lt;br /&gt;
+jeweler使うとgem化は楽&lt;/p&gt;
+
+&lt;h4 id=&#34;rails-12-factor&#34;&gt;rails_12_factor&lt;/h4&gt;
+
+&lt;p&gt;herokuではrails12_factorを入れるようにしてもらってる&lt;br /&gt;
+aasetsなどのサポートがはいる&lt;/p&gt;
+
+&lt;h4 id=&#34;gitのsubmodule&#34;&gt;gitのsubmodule&lt;/h4&gt;
+
+&lt;p&gt;これでgitレポジトリの入れ子できる&lt;/p&gt;
+
+&lt;h3 id=&#34;2-config&#34;&gt;2.Config&lt;/h3&gt;
+
+&lt;p&gt;これはデプロイに特化したものなのでコードベースと分離すべき&lt;br /&gt;
+環境変数にわける&lt;/p&gt;
+
+&lt;h3 id=&#34;3-build-release-run&#34;&gt;3.Build, release, run&lt;/h3&gt;
+
+&lt;p&gt;依存解決、リリース(実行準備)、実行&lt;/p&gt;
+
+&lt;h4 id=&#34;バージョン管理&#34;&gt;バージョン管理&lt;/h4&gt;
+
+&lt;p&gt;コードベースのバージョンとリリースのバージョンは違う&lt;br /&gt;
+rollbackはリリースのバージョン単位で行う&lt;br /&gt;
+heroku内ではbuildpackで依存解決し、最終的にDyno managerでリリースされる&lt;/p&gt;
+
+&lt;h3 id=&#34;日本語訳&#34;&gt;日本語訳&lt;/h3&gt;
+
+&lt;p&gt;ここ: &lt;a href=&#34;http://twelve-factor-ja.herokuapp.com/&#34;&gt;http://twelve-factor-ja.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-3&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h3 id=&#34;アーロンさん-ダジャレ賞さしあげます&#34;&gt;アーロンさん「ダジャレ賞さしあげます」&lt;/h3&gt;
+
+&lt;p&gt;これはダジャレクラブというハッシュタグがあり、その中でいいだじゃれ(たくさん?)つぶやいたのでもらえた&lt;/p&gt;
+
+&lt;h3 id=&#34;司会-最高のダジャレおねがいします&#34;&gt;司会「最高のダジャレおねがいします」&lt;/h3&gt;
+
+&lt;p&gt;「イベントで良い弁当」&lt;/p&gt;
+
+&lt;h3 id=&#34;なぜjewelerにした&#34;&gt;なぜjewelerにした？&lt;/h3&gt;
+
+&lt;p&gt;bundlerと悩んだが初心者にはjewelerのが良いと思った&lt;/p&gt;
+
+&lt;p&gt;slug compilerの中ではbundlerしてる&lt;br /&gt;
+rubyのバージョン管理もherokuではbundlerで管理してる&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;rubyからアジャイル開発-ビッグデータ対応のデータベース-4d-dam-を利用するためのapiの研究開発&#34;&gt;『Rubyからアジャイル開発･ビッグデータ対応のデータベース(4D DAM)を利用するためのAPIの研究開発』&lt;/h2&gt;
+
+&lt;p&gt;by 山本哲男 (株式会社八雲ソフトウェア)、高木丈智 (株式会社テクノプロジェクト)&lt;/p&gt;
+
+&lt;h3 id=&#34;山本さんの舞台裏&#34;&gt;山本さんの舞台裏&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5000人にrwc招待メールおくった&lt;/li&gt;
+&lt;li&gt;300人から返信&lt;/li&gt;
+&lt;li&gt;34名カンファレンス参加&lt;/li&gt;
+&lt;li&gt;20名ツアー参加&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;八雲ソフトウェアについて&#34;&gt;八雲ソフトウェアについて&lt;/h3&gt;
+
+&lt;p&gt;松江駅前にて開業&lt;/p&gt;
+
+&lt;p&gt;八雲は出雲のかかりことば&lt;br /&gt;
+8は無限も意味している&lt;/p&gt;
+
+&lt;p&gt;Uターン人材を募集して、これまで4名採用した&lt;/p&gt;
+
+&lt;h3 id=&#34;首都圏の状況&#34;&gt;首都圏の状況&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;人材不足&lt;/li&gt;
+&lt;li&gt;オフショア開発のリスク
+
+&lt;ul&gt;
+&lt;li&gt;文化も違うし&lt;/li&gt;
+&lt;li&gt;賃金あがってきた&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;なので東京で営業、地方で開発がよいと考える&lt;br /&gt;
+首都圏の技術者60%は仕事があれば地元に帰りたいと思ってるという背景もある&lt;/p&gt;
+
+&lt;h3 id=&#34;4d-dam&#34;&gt;4D DAM&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;アジャイル&lt;/li&gt;
+&lt;li&gt;ビッグデータ(高速処理)&lt;/li&gt;
+&lt;li&gt;シンプルなテーブル構造&lt;/li&gt;
+&lt;li&gt;メンテナンスが簡単
+
+&lt;ul&gt;
+&lt;li&gt;DB内でプログラム実行可能&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;データベースだが上記に対応&lt;/p&gt;
+
+&lt;p&gt;実際、東証ではSQLは1行しかかかれていない&lt;/p&gt;
+
+&lt;h3 id=&#34;東証での実例&#34;&gt;東証での実例&lt;/h3&gt;
+
+&lt;p&gt;2010年に東証に採用された&lt;br /&gt;
+不正検知などに貢献&lt;/p&gt;
+
+&lt;p&gt;契機は富士通のアローヘッドを使い始めたこと&lt;br /&gt;
+7ヶ月しかなかったがアジェイルで4ヶ月で仮稼働まで辿り着いた&lt;br /&gt;
+他社は数年予定だった&lt;/p&gt;
+
+&lt;p&gt;オリンピック殿でも実績ある&lt;/p&gt;
+
+&lt;h3 id=&#34;機能解説&#34;&gt;機能解説&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ダイナミックアレイ構造&lt;/li&gt;
+&lt;li&gt;ディクショナリードリブン&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;変更が用意であるため、アジャイルに適用できる&lt;/p&gt;
+
+&lt;h3 id=&#34;テクノプロジェクト&#34;&gt;テクノプロジェクト&lt;/h3&gt;
+
+&lt;p&gt;創立29年&lt;br /&gt;
+2007年からrubyに取り組んでいる&lt;/p&gt;
+
+&lt;h3 id=&#34;4d-dam-apiの紹介&#34;&gt;4D DAM APIの紹介&lt;/h3&gt;
+
+&lt;p&gt;4D DAM向けのAPIの提供の話&lt;br /&gt;
+Ruby版ドライバを作成したのでこれからはRubyから使える&lt;br /&gt;
+ドライバは年内完成予定&lt;br /&gt;
+来年２月にAPIは提供予定&lt;/p&gt;
+
+&lt;h3 id=&#34;4d-damの応用の可能性について&#34;&gt;4D DAMの応用の可能性について&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ECサイト&lt;/li&gt;
+&lt;li&gt;医療情報DB&lt;/li&gt;
+&lt;li&gt;通信監視&lt;/li&gt;
+&lt;li&gt;部品管理&lt;/li&gt;
+&lt;li&gt;フィールドクラウド&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;フィールドクラウド&#34;&gt;フィールドクラウド&lt;/h3&gt;
+
+&lt;p&gt;クラウドと統合したフィールド監視&lt;/p&gt;
+
+&lt;p&gt;example: 笹子トンネルの崩落&lt;br /&gt;
+情報は紙では管理はされていた&lt;/p&gt;
+
+&lt;p&gt;交通規制といった水害対策もセンサーと連動することでできるだろう&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-4&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h4 id=&#34;機関システムではrdbmsだが-4d-damに移行したらacid性は担保される-されないなら対策は&#34;&gt;機関システムではRDBMSだが、4D DAMに移行したらACID性は担保される？されないなら対策は？&lt;/h4&gt;
+
+&lt;p&gt;joinが問題だと思うが常にjoinしたような状態で動くので問題が起きない&lt;/p&gt;
+
+&lt;h4 id=&#34;api実装上-データの整合性に気をつけていると思うが-どのへん工夫している&#34;&gt;API実装上、データの整合性に気をつけていると思うが、どのへん工夫している？&lt;/h4&gt;
+
+&lt;p&gt;4D DAMの開発者にCで記述してもらっている&lt;br /&gt;
+主にrubyらしい命名の要望だけ開発者に伝えている&lt;/p&gt;
+
+&lt;h4 id=&#34;使用する上での懸念点を本音で言ってほしい&#34;&gt;使用する上での懸念点を本音で言ってほしい&lt;/h4&gt;
+
+&lt;p&gt;八雲ソフトウェアが大きい会社ではないので体力的に懸念はされることはあるだろう&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;rubyistによるアジャイル開発事例紹介と進め方&#34;&gt;『Rubyistによるアジャイル開発事例紹介と進め方』&lt;/h2&gt;
+
+&lt;p&gt;by 川端光義 (株式会社アジャイルウェア)&lt;/p&gt;
+
+&lt;h3 id=&#34;アジャイルウェア&#34;&gt;アジャイルウェア&lt;/h3&gt;
+
+&lt;p&gt;Rails4のシルバー試験の問題を作成中、来年４月から受けれるようになる&lt;/p&gt;
+
+&lt;p&gt;総メンバ数: 15名&lt;/p&gt;
+
+&lt;p&gt;Rubyの受託で12件ほど&lt;/p&gt;
+
+&lt;p&gt;XPS &amp;amp; XCSの実現を理念としている&lt;br /&gt;
+=&amp;gt; 究極のプログラマー満足と顧客満足&lt;/p&gt;
+
+&lt;h3 id=&#34;redmineのプラグイン開発事例&#34;&gt;Redmineのプラグイン開発事例&lt;/h3&gt;
+
+&lt;p&gt;2ヶ月で12個のプラグインを作成した&lt;br /&gt;
+4つはOSSとしてgithubに還元した&lt;br /&gt;
+ちょうどredmineのissueに上がっておりパッチを送った&lt;/p&gt;
+
+&lt;p&gt;発注先として選ばれたのは短期間の12個開発にOKと言えたから&lt;/p&gt;
+
+&lt;h3 id=&#34;次の開発フェーズ&#34;&gt;次の開発フェーズ&lt;/h3&gt;
+
+&lt;p&gt;redmineのガントチャートが使いにくい&lt;br /&gt;
+=&amp;gt; MS Projectのように使えるガントチャートを作成することに&lt;/p&gt;
+
+&lt;p&gt;そして Lychee Gantt Chart が生まれた&lt;br /&gt;
+Web上でマウス操作で各種期間などを操作できる&lt;/p&gt;
+
+&lt;h3 id=&#34;orange-project&#34;&gt;Orange project&lt;/h3&gt;
+
+&lt;p&gt;THIN REPORTSにお世話になってます&lt;/p&gt;
+
+&lt;h3 id=&#34;開発効率&#34;&gt;開発効率&lt;/h3&gt;
+
+&lt;p&gt;社内ではPivotal Trackerでチケット管理しているが、&lt;br /&gt;
+それを見ると日に(?)2,3時間だけ使われている状態で進んでいる&lt;/p&gt;
+
+&lt;p&gt;Ruby, Rubyistの生産性が高いと言える&lt;br /&gt;
+映画でリラックスするように彼らはプログラミングでリラックスしている&lt;/p&gt;
+
+&lt;h3 id=&#34;変わったこと&#34;&gt;変わったこと&lt;/h3&gt;
+
+&lt;p&gt;要件定義 == プログラミング&lt;br /&gt;
+要件も細かく伝えなくていい&lt;br /&gt;
+テストはあるがユニットレベルで仕様が柔らかいまま進む&lt;br /&gt;
+受け入れテストの前に顧客のacceptが出ながら進む&lt;br /&gt;
+スケジュールが前倒しになって管理がいらなくなってくる&lt;/p&gt;
+
+&lt;p&gt;これはRubyistのおかげ&lt;br /&gt;
+エンジニア合わせて組織も変えてきた&lt;/p&gt;
+
+&lt;p&gt;学歴ではなく、githubをみる&lt;br /&gt;
+プログラミング以外の物を引き取る&lt;br /&gt;
+マネジメントも厳しくしない&lt;/p&gt;
+
+&lt;h3 id=&#34;最後に-1&#34;&gt;最後に&lt;/h3&gt;
+
+&lt;p&gt;あるカンファレンスでのKent Beckのやりとり&lt;br /&gt;
+質問者「周囲を変えないと、アジャイルやXPができない」&lt;br /&gt;
+Kent Beck 「変えられるのは自分自身だけ、それにつられて周りは変わる」&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-5&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h4 id=&#34;テスト駆動開発できないというのは&#34;&gt;テスト駆動開発できないというのは？&lt;/h4&gt;
+
+&lt;p&gt;受け入れのテストから始められないということ&lt;br /&gt;
+ユニットテストは最初から書いてる&lt;br /&gt;
+仕様が固まった後半からCIも自動化してる&lt;/p&gt;
+
+&lt;h4 id=&#34;顧客との仕様固めは開発者が直接行ってる&#34;&gt;顧客との仕様固めは開発者が直接行ってる？&lt;/h4&gt;
+
+&lt;p&gt;間に担当が立つこともあります&lt;br /&gt;
+状況によります&lt;/p&gt;
+
+&lt;h4 id=&#34;なぜフルーツの中でもアケビをプロダクト名に選んだのか-ruby色関係ある&#34;&gt;なぜフルーツの中でもアケビをプロダクト名に選んだのか?ruby色関係ある？&lt;/h4&gt;
+
+&lt;p&gt;英語のpawpawが可愛いと思ったから&lt;br /&gt;
+ruby色だからではない&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;クロージングセレモニー&#34;&gt;クロージングセレモニー&lt;/h2&gt;
+
+&lt;p&gt;by 井上 浩 (Rubyアソシエーション　副理事長, しまねOSS協議会　会長)&lt;/p&gt;
+
+&lt;h3 id=&#34;来場者数&#34;&gt;来場者数&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;day1: 491人&lt;/li&gt;
+&lt;li&gt;day2: 410人&lt;/li&gt;
+&lt;li&gt;合計: 901人&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;開催趣意書&#34;&gt;開催趣意書&lt;/h3&gt;
+
+&lt;p&gt;趣意書どおり未来イメージできたと思ってる&lt;/p&gt;
+
+&lt;h3 id=&#34;開催テーマ&#34;&gt;開催テーマ&lt;/h3&gt;
+
+&lt;p&gt;様々なテーマ交換できましたね&lt;/p&gt;
+
+&lt;h3 id=&#34;各種紹介&#34;&gt;各種紹介&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;構成団体&lt;/li&gt;
+&lt;li&gt;実行委員会&lt;/li&gt;
+&lt;li&gt;事務局&lt;/li&gt;
+&lt;li&gt;ワーキンググループ&lt;/li&gt;
+&lt;li&gt;スポンサー&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;最大の危機&#34;&gt;最大の危機&lt;/h3&gt;
+
+&lt;p&gt;直前でmatz尿管結石に。。&lt;/p&gt;
+
+&lt;h3 id=&#34;各種おもてなしありましたね&#34;&gt;各種おもてなしありましたね&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;聖地 やぁ&lt;/li&gt;
+&lt;li&gt;夜も更けたり&lt;/li&gt;
+&lt;li&gt;今年も鉄板の石原さん&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;発表者の紹介-振り返り&#34;&gt;発表者の紹介、振り返り&lt;/h3&gt;
+
+&lt;p&gt;keynoteでは&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;あまりコーディングしない&lt;/li&gt;
+&lt;li&gt;ナイストライを重ねてchange the world&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;が印象的でしたね&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;三好さんからはなぜJavaを選ばなかったのかという話もありました&lt;/li&gt;
+&lt;li&gt;受賞者の書いた紙を温めていたのは舞姫隊のあやめ様でした&lt;/li&gt;
+&lt;li&gt;matzのTokyoはナイストライでした&lt;/li&gt;
+&lt;li&gt;笹田さんご結婚おめでとうございます&lt;/li&gt;
+&lt;li&gt;Tomからはインターネットとプロジェクタの新しい使い方を学びました&lt;/li&gt;
+&lt;li&gt;相澤さんダジャレ賞おめでとうございます&lt;/li&gt;
+&lt;li&gt;アジャイルウェアさんのウォータフォール万歳&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;アーロンさん壇上へ&#34;&gt;アーロンさん壇上へ&lt;/h3&gt;
+
+&lt;p&gt;今日は素晴しい通訳(matz)がいますので英語で&lt;br /&gt;
+いつもひとりで作業して疲れてる&lt;br /&gt;
+アメリカにはおつかれさまという言葉ない&lt;br /&gt;
+なので週末にハグをするというのを考えた&lt;br /&gt;
+(ここでみんなでhappy friday)&lt;/p&gt;
+
+&lt;h3 id=&#34;最後に-2&#34;&gt;最後に&lt;/h3&gt;
+
+&lt;p&gt;尿管結石にはご注意を&lt;br /&gt;
+石原さん「来年も待ってるんだからね！」&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RubyWorld Conference 2013 day1 memo</title>
+      <link>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</link>
+      <pubDate>Sat, 23 Nov 2013 01:01:58 +0900</pubDate>
+      
+      <guid>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</guid>
+      <description>
+
+&lt;p&gt;RubyWorld Conference 2013 1日目にとったメモです。&lt;br /&gt;
+個人メモなので誤字などご容赦ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;全体関連リンク&#34;&gt;全体関連リンク&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;公式サイト: &lt;a href=&#34;http://www.rubyworld-conf.org/&#34;&gt;http://www.rubyworld-conf.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;公式UST: &lt;a href=&#34;http://www.ustream.tv/channel/rubyw-conf-13&#34;&gt;http://www.ustream.tv/channel/rubyw-conf-13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;togetter day1: &lt;a href=&#34;http://togetter.com/li/592855&#34;&gt;http://togetter.com/li/592855&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;togetter day2: &lt;a href=&#34;http://togetter.com/li/593359&#34;&gt;http://togetter.com/li/593359&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;my memo day1: &lt;a href=&#34;https://gist.github.com/Matsue/7585061&#34;&gt;https://gist.github.com/Matsue/7585061&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;my memo day2: &lt;a href=&#34;https://gist.github.com/Matsue/7600639&#34;&gt;https://gist.github.com/Matsue/7600639&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Social Translatingの資料: &lt;a href=&#34;https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide&#34;&gt;https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;aiming-the-moving-target&#34;&gt;Aiming the Moving Target&lt;/h2&gt;
+
+&lt;p&gt;by matz&lt;/p&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;english memo
+&lt;a href=&#34;https://www.evernote.com/shard/s54/sh/9cd05cf6-6119-4baa-a1ae-31bd2f23ae34/16638f82bd08ac21c5ad4206d81630de&#34;&gt;https://www.evernote.com/shard/s54/sh/9cd05cf6-6119-4baa-a1ae-31bd2f23ae34/16638f82bd08ac21c5ad4206d81630de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;1990&#34;&gt;1990&lt;/h3&gt;
+
+&lt;p&gt;1990年に社会人&lt;br /&gt;
+その会社ではプロジェクトは3年単位で動いていた&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;日本語で設計書書いて&lt;/li&gt;
+&lt;li&gt;それをそのまま実装&lt;/li&gt;
+&lt;li&gt;テスト&lt;/li&gt;
+&lt;li&gt;納品&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;スゴく詳細なドキュメント&lt;br /&gt;
+ドキュメントは厚さ(センチ)ではかってたくらい&lt;br /&gt;
+ウォーターフォールだった&lt;/p&gt;
+
+&lt;p&gt;なにか違うと思ってたが説明できなかった&lt;br /&gt;
+経験もなかった&lt;br /&gt;
+20年経った今は説明できるようになった&lt;/p&gt;
+
+&lt;h3 id=&#34;間違った前提&#34;&gt;間違った前提&lt;/h3&gt;
+
+&lt;h4 id=&#34;その１&#34;&gt;その１&lt;/h4&gt;
+
+&lt;p&gt;「なにを作っているか把握してる」&lt;br /&gt;
+と、思ってること&lt;/p&gt;
+
+&lt;p&gt;softwareは物理法則に制限されない&lt;br /&gt;
+最近は記憶容量大きくなりプログラムサイズは制限されない&lt;br /&gt;
+いまや、もっとも複雑な被造物といえる&lt;/p&gt;
+
+&lt;p&gt;人間の能力を超え、ドキュメントでカバーできない&lt;br /&gt;
+ソフトウェアは柔らかくない&lt;br /&gt;
+ソフトウェアはハード(固く、難しい)&lt;/p&gt;
+
+&lt;p&gt;更新は大変&lt;/p&gt;
+
+&lt;h4 id=&#34;その２&#34;&gt;その２&lt;/h4&gt;
+
+&lt;p&gt;「何を作りたいか把握してる」&lt;br /&gt;
+なにをしたらビジネスが成功するかわかっている人は少ない&lt;/p&gt;
+
+&lt;p&gt;ソフトウェアを使った時の状態を想像するのは今も昔も難しい&lt;br /&gt;
+納品すると大体、「私が思ったのと違う」&lt;/p&gt;
+
+&lt;p&gt;上司や顧客がバカ扱いになりがちだが&lt;br /&gt;
+何を作ったらビジネス価値を最大化できるか分かる人は少ない&lt;br /&gt;
+実際はみんなバカだった&lt;/p&gt;
+
+&lt;h4 id=&#34;その3&#34;&gt;その3&lt;/h4&gt;
+
+&lt;p&gt;「状況は変化しない」という前提&lt;/p&gt;
+
+&lt;h3 id=&#34;対策&#34;&gt;対策&lt;/h3&gt;
+
+&lt;p&gt;無知であることを認めるべきだった&lt;br /&gt;
+我々ができることは少ない&lt;/p&gt;
+
+&lt;h4 id=&#34;保守的戦略&#34;&gt;保守的戦略&lt;/h4&gt;
+
+&lt;p&gt;過去から学ぶ&lt;br /&gt;
+状況が変化しないなら、良い戦略&lt;br /&gt;
+ITでは変化が激しいので成立しない&lt;/p&gt;
+
+&lt;p&gt;アリスの赤の女王いわく、&lt;br /&gt;
+留まるには速く動き、移動するにはもっと速く動かないといけない&lt;/p&gt;
+
+&lt;h4 id=&#34;ダチョウアルゴリズム&#34;&gt;ダチョウアルゴリズム&lt;/h4&gt;
+
+&lt;p&gt;ダチョウは砂嵐きたら砂に頭を埋める&lt;br /&gt;
+なにもかも投げ出して、ただ待つ&lt;br /&gt;
+冬眠も似てる&lt;/p&gt;
+
+&lt;p&gt;状況が回復するなら良い戦略&lt;/p&gt;
+
+&lt;h4 id=&#34;これまでの2つの戦略&#34;&gt;これまでの2つの戦略&lt;/h4&gt;
+
+&lt;p&gt;ここまでの２つは現実に反しており、おとぎの国に向かうような戦略&lt;br /&gt;
+20年前は上記の戦略をとっちゃってた&lt;/p&gt;
+
+&lt;p&gt;コンピュータは高価で持っているだけで差別化できていた&lt;br /&gt;
+ネットワークも高価&lt;br /&gt;
+なので失敗しないことを最優先してた&lt;br /&gt;
+たとえ満足度を犠牲にしても&lt;/p&gt;
+
+&lt;p&gt;それが唯一のソフトウェア開発の方法であると信じたかった&lt;/p&gt;
+
+&lt;p&gt;いまは持つだけでは差別化できない&lt;/p&gt;
+
+&lt;p&gt;いまもすごいソフトウェアの作り方は分からない&lt;br /&gt;
+無知の知&lt;/p&gt;
+
+&lt;p&gt;コンピュータ、クラウド、ネットワーク安くなった&lt;br /&gt;
+ソフト開発も安くなった&lt;br /&gt;
+ツールとか言語とかのおかげ&lt;/p&gt;
+
+&lt;p&gt;以前は海外にメールすることもできない世界だった&lt;/p&gt;
+
+&lt;p&gt;rubyはたくさんの海外の方からサポート&lt;br /&gt;
+母国語や住んでる場所、性別もしらないこともある&lt;/p&gt;
+
+&lt;p&gt;いまや、巨人の方に乗ることができる&lt;/p&gt;
+
+&lt;h4 id=&#34;試行錯誤-try-errors&#34;&gt;試行錯誤(try &amp;amp; errors)&lt;/h4&gt;
+
+&lt;p&gt;何度でも挑戦できることが必要&lt;br /&gt;
+コスト最小化が大事&lt;br /&gt;
+そこをrubyはサポートしてきた&lt;br /&gt;
+それができるようになって初めて動く標的を狙うことができる&lt;br /&gt;
+Aiming the Moving Target&lt;/p&gt;
+
+&lt;p&gt;動くターゲットとは本当に価値のあるソフトウェア&lt;br /&gt;
+価値は人間の欲求に基づく&lt;/p&gt;
+
+&lt;p&gt;リリースがいまや個人でできる&lt;br /&gt;
+プリウスは一人でつくれないだろうが、&lt;br /&gt;
+ソフトウェアでは一人でつくったもので世界を変えられる&lt;br /&gt;
+当たらなかったらピボットできる&lt;/p&gt;
+
+&lt;p&gt;「安く速く何度も」が成功の秘訣&lt;/p&gt;
+
+&lt;p&gt;アジャイルもそれを反映している&lt;br /&gt;
+変化に対応する&lt;/p&gt;
+
+&lt;p&gt;成功するかは分からないが成功確率は上がる&lt;/p&gt;
+
+&lt;p&gt;自戒を込めて、&lt;br /&gt;
+熱心にコードを書かない&lt;/p&gt;
+
+&lt;p&gt;複雑になり失敗したときのダメージも大きい&lt;br /&gt;
+コードを書かないために熱心に働く&lt;/p&gt;
+
+&lt;p&gt;最初のボールだけ転がして、みんなに頑張ってもらう&lt;br /&gt;
+rubyもひとりで作っていない&lt;/p&gt;
+
+&lt;p&gt;ここも巨人の肩にのる&lt;/p&gt;
+
+&lt;p&gt;競争力維持に必要な物以外はOSSにしてしまうのが正しい戦略&lt;br /&gt;
+コアパートも小さくとどめる&lt;/p&gt;
+
+&lt;p&gt;OSSの定義にはないがコミュニティというのは不可欠&lt;br /&gt;
+OSSでなくてもコミュニティは有効だろう&lt;/p&gt;
+
+&lt;p&gt;プロジェクトを最小化し、プロジェクトの組織というものが解体されるだろう&lt;br /&gt;
+技術ベースでプロジェクトをわたり歩くようになるだろう&lt;/p&gt;
+
+&lt;p&gt;OSSコミュニティはサメ&lt;br /&gt;
+進み続けなければ、死ぬ&lt;br /&gt;
+大部分は技術的に面白いことで参加してるので、止まると人が離れる&lt;br /&gt;
+rubyもコミュニティ開いたり、新しい技術応援したり、カンファレンス開いたりしている&lt;br /&gt;
+OSSでなくても進み続けることは必要だろう&lt;/p&gt;
+
+&lt;p&gt;アリスの世界と同様、なるべく速く、何度もためして、何度も撤退すべき&lt;br /&gt;
+そして大局的構造を変えられるだろう&lt;/p&gt;
+
+&lt;p&gt;「失敗したら終わりだ」から「失敗してもいい」へ&lt;br /&gt;
+まずは失敗をナイストライに言い換えるところから&lt;/p&gt;
+
+&lt;p&gt;コードかかず、&lt;br /&gt;
+いいソフトウェアをつくり、&lt;br /&gt;
+世界を変えよう&lt;/p&gt;
+
+&lt;h3 id=&#34;qa&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h4 id=&#34;これからrubyで挑戦したいことある&#34;&gt;これからrubyで挑戦したいことある？&lt;/h4&gt;
+
+&lt;p&gt;webでは流行ってきてるがもっと広い世界で使えるようになるといいと思う&lt;br /&gt;
+たとえば大学の科学技術計算など助成してる&lt;/p&gt;
+
+&lt;p&gt;あとはmrubyで組み込み目指してる&lt;/p&gt;
+
+&lt;h4 id=&#34;公開するもの公開しないものの判断は&#34;&gt;公開するもの公開しないものの判断は？&lt;/h4&gt;
+
+&lt;p&gt;競争力に関わる物であるか&lt;br /&gt;
+最小になるか&lt;/p&gt;
+
+&lt;p&gt;たとえばビジネスロジックだけ出さない&lt;/p&gt;
+
+&lt;p&gt;クックパッドをすべてOSSにしても問題ないと思ってる&lt;br /&gt;
+レシピ・ユーザデータが大事&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;speeding-up-rails-internals-using-unique-ruby-techniques&#34;&gt;Speeding up Rails internals using unique Ruby techniques.&lt;/h2&gt;
+
+&lt;p&gt;by Aaron Patterson (AT &amp;amp; T)&lt;/p&gt;
+
+&lt;h3 id=&#34;yak-shaving&#34;&gt;Yak Shaving&lt;/h3&gt;
+
+&lt;p&gt;バグを見つけたらわかるまで調べてる&lt;br /&gt;
+なのでYak Shavingになる&lt;br /&gt;
+よくコンピュータ壊す&lt;/p&gt;
+
+&lt;h3 id=&#34;とあるバグ報告の調査を開始&#34;&gt;とあるバグ報告の調査を開始&lt;/h3&gt;
+
+&lt;p&gt;シンボルはGCされない&lt;br /&gt;
+Dos攻撃になるのが心配なので文字列にしたが遅くなったとの報告&lt;br /&gt;
+rubyソースを追った&lt;/p&gt;
+
+&lt;p&gt;とあるソースでruby安全性と速度を担保するには？&lt;br /&gt;
+=&amp;gt; 定数を使う&lt;/p&gt;
+
+&lt;p&gt;2.1のフローズン文字列を使うと、安全で速い&lt;/p&gt;
+
+&lt;p&gt;しかし、define_methodはmodue_evalより遅いとのコメントがつく&lt;br /&gt;
+そこでベンチマークで確認した&lt;br /&gt;
+たしかに遅かったが&lt;br /&gt;
+しかしdefine_methodは異なるインタフェースも用意されており、そちらで呼んだら速度改善した&lt;/p&gt;
+
+&lt;p&gt;メモリ使用量についてもコメントあったのでベンチマークをして調査した&lt;br /&gt;
+module_evalのほうが消費する&lt;/p&gt;
+
+&lt;p&gt;速くて、メモリ使用量も少ない方法はないか？&lt;br /&gt;
+を考え改善に至る&lt;/p&gt;
+
+&lt;p&gt;数値列(?)からselectすると文字列で返るというバグから始まり、&lt;br /&gt;
+rubyのVMを学び、&lt;br /&gt;
+DoS攻撃の対策になり、&lt;br /&gt;
+railsの高速化に寄与でき、&lt;br /&gt;
+railsのメモリ効率がよくなった&lt;/p&gt;
+
+&lt;p&gt;ただしバグはまだ直ってないがw&lt;/p&gt;
+
+&lt;p&gt;大事なことは&lt;br /&gt;
+「知りたがりましょう」&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-1&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h4 id=&#34;どれくらいそのバグ修正時間かかった&#34;&gt;どれくらいそのバグ修正時間かかった？&lt;/h4&gt;
+
+&lt;p&gt;1monthくらい&lt;br /&gt;
+まだ直ってないがw&lt;/p&gt;
+
+&lt;h4 id=&#34;どれくらい日本語勉強してる&#34;&gt;どれくらい日本語勉強してる？&lt;/h4&gt;
+
+&lt;p&gt;日本語は7年勉強してて&lt;br /&gt;
+プレゼンは３週間くらい練習した&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;クックパッドの継続的デリバリー&#34;&gt;クックパッドの継続的デリバリー&lt;/h2&gt;
+
+&lt;p&gt;by 高井直人 (クックパッド株式会社)&lt;/p&gt;
+
+&lt;p&gt;20M UU/month&lt;br /&gt;
+1.5Mrecipes&lt;/p&gt;
+
+&lt;p&gt;14432 testsが&lt;br /&gt;
+10minutesで終わる&lt;/p&gt;
+
+&lt;p&gt;デプロイ頻度&lt;br /&gt;
+11+ deploys/days&lt;/p&gt;
+
+&lt;h2 id=&#34;継続的デリバリーの方法&#34;&gt;継続的デリバリーの方法&lt;/h2&gt;
+
+&lt;p&gt;デプロイメントパイプラインで行う&lt;br /&gt;
+今日はこれに追って解説&lt;/p&gt;
+
+&lt;p&gt;DBは本番のものをレプリケーションしてdevで使ってる&lt;br /&gt;
+少ないデータでは遅い処理検知できない&lt;/p&gt;
+
+&lt;p&gt;github enterprise使ってる&lt;/p&gt;
+
+&lt;p&gt;テストは分散実行してるので10分で終わる&lt;/p&gt;
+
+&lt;h2 id=&#34;ブランチ戦略&#34;&gt;ブランチ戦略&lt;/h2&gt;
+
+&lt;p&gt;GitHub Flow&lt;br /&gt;
+feature toggle&lt;br /&gt;
+ターゲットユーザに新しい機能出してる&lt;br /&gt;
+それをするのがchanko&lt;/p&gt;
+
+&lt;h3 id=&#34;ハロウィンデザイン&#34;&gt;ハロウィンデザイン&lt;/h3&gt;
+
+&lt;p&gt;chankoで時期になったらフラグたって表示される&lt;br /&gt;
+デザイナがpull requestだしたり&lt;br /&gt;
+それがレビューされてデプロイされる&lt;/p&gt;
+
+&lt;p&gt;月間 800 くらいのpull request&lt;/p&gt;
+
+&lt;p&gt;github enterpiseがEC2で動かないのでサーバわけてる&lt;/p&gt;
+
+&lt;p&gt;clone pusherをsinatraで作成&lt;br /&gt;
+omkinsというjenkinsで管理してる&lt;br /&gt;
+hipchat連携してる&lt;br /&gt;
+プラグインは公開してる&lt;/p&gt;
+
+&lt;p&gt;CIサーバは8くらいいる&lt;br /&gt;
+テスト増加にあわせて増えている&lt;br /&gt;
+目標時間を10分にしてる&lt;br /&gt;
+その時間もhipchatに出してる&lt;/p&gt;
+
+&lt;p&gt;テストは本番と同じ環境のSTGで実施&lt;/p&gt;
+
+&lt;p&gt;最新のCI通過分が&lt;br /&gt;
+平日の9:30am - 5:00pmでデプロイされる&lt;br /&gt;
+金曜は3:00pmまで&lt;/p&gt;
+
+&lt;p&gt;bundle exec cap production deployでデプロイ&lt;/p&gt;
+
+&lt;p&gt;デプロイ後はhipchat, wikiに自動で投稿される&lt;br /&gt;
+infraµモニターおかしかったら、インフラ担当がログ見る&lt;br /&gt;
+音も出せるが使われてない&lt;/p&gt;
+
+&lt;p&gt;デプロイしてほしくないときは&lt;br /&gt;
+deploy:lockも用意してる&lt;br /&gt;
+たとえばバグでロールバック中、サーバスケール中とか&lt;/p&gt;
+
+&lt;h2 id=&#34;qa-2&#34;&gt;QA&lt;/h2&gt;
+
+&lt;h3 id=&#34;db-migrationはどうやってる&#34;&gt;DB migrationはどうやってる？&lt;/h3&gt;
+
+&lt;p&gt;devは変えたいタイミングでやってる&lt;br /&gt;
+変更時にdumpしてgithubにpushしてる&lt;br /&gt;
+本番はインフラと相談しながら&lt;/p&gt;
+
+&lt;h3 id=&#34;ci-のメンテナンスに割いてるコスト割合は&#34;&gt;CI のメンテナンスに割いてるコスト割合は？&lt;/h3&gt;
+
+&lt;p&gt;むらたさん、ふくもりさんの２名&lt;/p&gt;
+
+&lt;h3 id=&#34;ソース全部公開する予定とかは&#34;&gt;ソース全部公開する予定とかは？&lt;/h3&gt;
+
+&lt;p&gt;依存してない部分は抽象化して出してる
+- chanko
+- 分散テスト環境(予定)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;jrubyを用いたrailsアプリ開発の実情&#34;&gt;JRubyを用いたRailsアプリ開発の実情&lt;/h2&gt;
+
+&lt;p&gt;by 三好秀徳 (株式会社日立ソリューションズ)&lt;/p&gt;
+
+&lt;h3 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OSSフォーラム推進&lt;/li&gt;
+&lt;li&gt;yokohama.rb&lt;/li&gt;
+&lt;li&gt;ruby world conf 2012のまとめしてる&lt;/li&gt;
+&lt;li&gt;るびま編集者になった&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;jrubyの紹介&#34;&gt;Jrubyの紹介&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Java API使える&lt;/li&gt;
+&lt;li&gt;処理速度はCRubyと遜色無し
+JVMの起動がボトルネックになることはある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Jruby使う理由: Javaの資産を活用したい&lt;/p&gt;
+
+&lt;h3 id=&#34;実例&#34;&gt;実例&lt;/h3&gt;
+
+&lt;p&gt;内製Accesssアプリケーションの移行の話
+メンテナンス性と速度が低下していたので移行になった&lt;/p&gt;
+
+&lt;h3 id=&#34;用件&#34;&gt;用件&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;パスワードzipファイル出力&lt;/li&gt;
+&lt;li&gt;excel出力&lt;/li&gt;
+&lt;li&gt;既存のJavaサーバで動かす&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;=&amp;gt; rubygemsから使えそうな物をピックアップ
+=&amp;gt; warblerでwarファイル化&lt;/p&gt;
+
+&lt;h3 id=&#34;gemの選定&#34;&gt;gemの選定&lt;/h3&gt;
+
+&lt;p&gt;xlsを使えるgem
+- spreadsheet
+- axlsx&lt;/p&gt;
+
+&lt;p&gt;それぞれバージョン対応しなかったり、開けないことがあった。。&lt;br /&gt;
+のでApache POIで代替することになった。&lt;br /&gt;
+それなら動作も問題なかった。&lt;/p&gt;
+
+&lt;h3 id=&#34;動かないgem&#34;&gt;動かないgem&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pg&lt;/li&gt;
+&lt;li&gt;therubyraer&lt;/li&gt;
+&lt;li&gt;unicorn&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などなどあるが、&lt;br /&gt;
+railsが自動で代替用意してくれる&lt;/p&gt;
+
+&lt;p&gt;jrubyのwikiにもまとまってる&lt;br /&gt;
+ただし、全て網羅しているわけではない&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;zipruby&lt;/li&gt;
+&lt;li&gt;SimpleCov&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;が実際には動かなかった&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ziprubyはJavaのライブラリで代替&lt;/li&gt;
+&lt;li&gt;SimpleCovはgithubのissue確認してJRubyのバージョンアップで対応&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ここ、ソースだけでなく解決状況を見れるOSSのいいとこ&lt;/p&gt;
+
+&lt;h3 id=&#34;rails-rake遅い問題&#34;&gt;rails/rake遅い問題&lt;/h3&gt;
+
+&lt;p&gt;JVMの起動が遅かった
+- CRuby: 0.8sec
+- JRuby: 8.5sec&lt;/p&gt;
+
+&lt;p&gt;高速化ライブラリもJRubyだと使えない
+- Zeus
+- Spring&lt;/p&gt;
+
+&lt;h4 id=&#34;対策-1&#34;&gt;対策&lt;/h4&gt;
+
+&lt;h5 id=&#34;java-vmのオプションを修正&#34;&gt;Java VMのオプションを修正&lt;/h5&gt;
+
+&lt;p&gt;Client VMを利用
+8.5 -&amp;gt; 3.62秒になった&lt;/p&gt;
+
+&lt;h4 id=&#34;個々のpcで処理しないようにした&#34;&gt;個々のPCで処理しないようにした&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;guard gem&lt;/li&gt;
+&lt;li&gt;sextant&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;jrubyは互換性あがってきてる&#34;&gt;JRubyは互換性あがってきてる&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;passenger&lt;/li&gt;
+&lt;li&gt;spork&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;等は対応済み&lt;/p&gt;
+
+&lt;p&gt;新たな高速化gemも出てきた&lt;br /&gt;
+=&amp;gt; commands gem&lt;/p&gt;
+
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+
+&lt;p&gt;gemの互換性注意&lt;br /&gt;
+Java利用環境でJRubyは使いどころがある&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-3&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h4 id=&#34;文字コード対応できる&#34;&gt;文字コード対応できる？&lt;/h4&gt;
+
+&lt;p&gt;parameter-encodingで指定すれば対応できる&lt;/p&gt;
+
+&lt;h4 id=&#34;jrubyを選定に加えた理由は&#34;&gt;JRubyを選定に加えた理由は?&lt;/h4&gt;
+
+&lt;p&gt;一部の要件がRubyではできないがJavaでできることはわかっていたから&lt;/p&gt;
+
+&lt;h4 id=&#34;なぜjavaで開発しなかったのか&#34;&gt;なぜJavaで開発しなかったのか？&lt;/h4&gt;
+
+&lt;p&gt;Ruby好きだから!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;ruby開発者を増やすための教育について-8年間のruby教育で得た知見&#34;&gt;Ruby開発者を増やすための教育について－8年間のRuby教育で得た知見&lt;/h2&gt;
+
+&lt;p&gt;by 吉田裕美 (有限会社EY-Office)&lt;/p&gt;
+
+&lt;h3 id=&#34;ruby教育の現状&#34;&gt;Ruby教育の現状&lt;/h3&gt;
+
+&lt;p&gt;一般データはもっていないのでEY-Officeの教育を紹介&lt;br /&gt;
+2012年から研修申し込みが入るようになってきた&lt;/p&gt;
+
+&lt;h3 id=&#34;教育業者を使うことのメリット&#34;&gt;教育業者を使うことのメリット&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;講義や教育のノウハウがある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;社内で教えることのメリット&#34;&gt;社内で教えることのメリット&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企業のノウハウを伝えられる&lt;/li&gt;
+&lt;li&gt;教える側もスキルが上がる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;研修期間設定に関連するパラメータ&#34;&gt;研修期間設定に関連するパラメータ&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;経験値&lt;/li&gt;
+&lt;li&gt;能力&lt;/li&gt;
+&lt;li&gt;etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ey-officeの教育コース&#34;&gt;EY-Officeの教育コース&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1日コース&lt;/li&gt;
+&lt;li&gt;3日コース - 5日コース&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3日が人気&lt;br /&gt;
+1日で済む人は本でも済む&lt;br /&gt;
+5日は期間として取りづらい&lt;/p&gt;
+
+&lt;h3 id=&#34;コース内容&#34;&gt;コース内容&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1日目&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rubyの基本&lt;/li&gt;
+&lt;li&gt;ループとか正規表現&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;2日目&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;web application&lt;/li&gt;
+&lt;li&gt;scaffold使いつつrails&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;3日目&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;国際化対応&lt;/li&gt;
+&lt;li&gt;TDD体験&lt;/li&gt;
+&lt;li&gt;脆弱性対応など&lt;/li&gt;
+&lt;li&gt;ブログアプリ等のソースコードリーディング&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;教育の場でやるべきこと&#34;&gt;教育の場でやるべきこと&lt;/h3&gt;
+
+&lt;h4 id=&#34;英語ドキュメントの読み方も教える&#34;&gt;英語ドキュメントの読み方も教える&lt;/h4&gt;
+
+&lt;p&gt;exampleから見るとか&lt;/p&gt;
+
+&lt;h4 id=&#34;デバッグ方法&#34;&gt;デバッグ方法&lt;/h4&gt;
+
+&lt;p&gt;エラーメッセージはどう読むのか&lt;/p&gt;
+
+&lt;h4 id=&#34;良いコードの書き方&#34;&gt;良いコードの書き方&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;なぜ必要か&lt;/li&gt;
+&lt;li&gt;名前重要&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;webアプリの基本&#34;&gt;webアプリの基本&lt;/h4&gt;
+
+&lt;p&gt;html, cssとか&lt;/p&gt;
+
+&lt;h4 id=&#34;webの脆弱性&#34;&gt;webの脆弱性&lt;/h4&gt;
+
+&lt;p&gt;XSS, SQL injectionとか&lt;br /&gt;
+実際のデモが良い&lt;/p&gt;
+
+&lt;h3 id=&#34;ポイント&#34;&gt;ポイント&lt;/h3&gt;
+
+&lt;h4 id=&#34;関係者の顔を見えるように&#34;&gt;関係者の顔を見えるように&lt;/h4&gt;
+
+&lt;p&gt;開発者はmatzだよとか&lt;/p&gt;
+
+&lt;h4 id=&#34;メタ教育&#34;&gt;メタ教育&lt;/h4&gt;
+
+&lt;p&gt;&amp;ndash;helpで大体ヘルプでるとか&lt;br /&gt;
+manコマンドとか&lt;/p&gt;
+
+&lt;h4 id=&#34;定着&#34;&gt;定着&lt;/h4&gt;
+
+&lt;p&gt;実際に作って、発表&lt;/p&gt;
+
+&lt;h4 id=&#34;コミュニケーション&#34;&gt;コミュニケーション&lt;/h4&gt;
+
+&lt;p&gt;確認しながら進める&lt;/p&gt;
+
+&lt;h4 id=&#34;場数をふむ&#34;&gt;場数をふむ&lt;/h4&gt;
+
+&lt;p&gt;同僚に聞いてもらうとか&lt;br /&gt;
+練習の場を作る&lt;/p&gt;
+
+&lt;h3 id=&#34;環境&#34;&gt;環境&lt;/h3&gt;
+
+&lt;p&gt;windowsは入門程度なら問題ないが動かないgemなどある&lt;br /&gt;
+多いのはwindows+VM+Linux&lt;br /&gt;
+VMイメージ渡してる&lt;/p&gt;
+
+&lt;p&gt;印刷物はJekyllでつくってpdfにしてキンコーズで対応してる&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-4&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h4 id=&#34;その場でいれると環境ずれて困るのでは&#34;&gt;その場でいれると環境ずれて困るのでは？&lt;/h4&gt;
+
+&lt;p&gt;bundle済みのrubyごと渡してる&lt;/p&gt;
+
+&lt;h4 id=&#34;ideは使わないの&#34;&gt;IDEは使わないの？&lt;/h4&gt;
+
+&lt;p&gt;隠蔽されてしまうので基本的には使ってない&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;social-translating-rails-tutorialとruby-hacking-guideの翻訳を支える仕組み&#34;&gt;Social Translating: Rails TutorialとRuby Hacking Guideの翻訳を支える仕組み&lt;/h2&gt;
+
+&lt;p&gt;by 安川要平 (YasuLab)、八田昌三 (ビヨンド・パースペクティブ・ソリューションズ株式会社)&lt;/p&gt;
+
+&lt;h3 id=&#34;links-1&#34;&gt;links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://railstutorial.jp/&#34;&gt;http://railstutorial.jp/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;事例1-rail-tutorialの事例&#34;&gt;(事例1) Rail Tutorialの事例&lt;/h3&gt;
+
+&lt;p&gt;約600page&lt;br /&gt;
+Twitter-likeなページをサンプルで作るとかが書かれてる&lt;/p&gt;
+
+&lt;p&gt;7/1に日本語版も公開&lt;br /&gt;
+約10人で1ヶ月で対応&lt;br /&gt;
+4.0対応は2人で1ヶ月で対応&lt;/p&gt;
+
+&lt;h3 id=&#34;事例2-rubyソースコード完全解説&#34;&gt;(事例2) Rubyソースコード完全解説&lt;/h3&gt;
+
+&lt;p&gt;Ruby Hacking Guideの英語化&lt;/p&gt;
+
+&lt;h3 id=&#34;どうやって対応したのか&#34;&gt;どうやって対応したのか？&lt;/h3&gt;
+
+&lt;p&gt;githubを使って実施した&lt;br /&gt;
+RHGはJekyllで実施&lt;/p&gt;
+
+&lt;p&gt;7.5 yearsかかった&lt;br /&gt;
+GitHub移行後は1.3年&lt;br /&gt;
+これを踏まえてRails Tutorialは工夫した&lt;/p&gt;
+
+&lt;h3 id=&#34;改善点&#34;&gt;改善点&lt;/h3&gt;
+
+&lt;h4 id=&#34;みんなgitに慣れてる訳ではない&#34;&gt;みんなgitに慣れてる訳ではない&lt;/h4&gt;
+
+&lt;p&gt;word使いたい人とか&lt;br /&gt;
+プロの翻訳者に相談して仕組みを変えた&lt;br /&gt;
+social coding のような social translating&lt;br /&gt;
+なるべくみんなが使いやすいwebツールで対処&lt;/p&gt;
+
+&lt;h4 id=&#34;ツール1-facebook-group&#34;&gt;ツール1: facebook group&lt;/h4&gt;
+
+&lt;p&gt;pin機能を使ってREADMEのような投稿を常に表示
+- 概要
+- 役割分担
+- 参加方法&lt;/p&gt;
+
+&lt;h4 id=&#34;ツール2-google-translator-toolkit&#34;&gt;ツール2: google translator toolkit&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;翻訳サポートツール&lt;/li&gt;
+&lt;li&gt;URL指定で翻訳できる&lt;/li&gt;
+&lt;li&gt;翻訳メモリ、用語集を使える&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;翻訳メモリとは&#34;&gt;翻訳メモリとは&lt;/h4&gt;
+
+&lt;p&gt;原文と訳文のペアが蓄積したもの&lt;br /&gt;
+次の翻訳開始時にメモリから一気に翻訳できる&lt;br /&gt;
+原文の更新の追尾が楽になる&lt;/p&gt;
+
+&lt;p&gt;メモリの記述形式はテキストやXML&lt;br /&gt;
+翻訳のボリュームが大きい時は非常に効果的&lt;br /&gt;
+web記事などは効果薄い&lt;/p&gt;
+
+&lt;p&gt;続きはtechrachoの技術ブログにhachi8833で掲載予定&lt;/p&gt;
+
+&lt;h3 id=&#34;deploy部分の工夫&#34;&gt;deploy部分の工夫&lt;/h3&gt;
+
+&lt;p&gt;エンジニアが自動化&lt;br /&gt;
+toolkit上のタグ単位でzipダウンロードしてheroku push&lt;/p&gt;
+
+&lt;h3 id=&#34;問題点&#34;&gt;問題点&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pull requestが使えない&lt;/li&gt;
+&lt;li&gt;diffがとりづらい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;htmlからepub化した&#34;&gt;HTMLからepub化した!!&lt;/h3&gt;
+
+&lt;p&gt;達人出版ででてる&lt;br /&gt;
+Creative Commonsなので配布などOK!&lt;br /&gt;
+学生さん、割り勘購入とかもできるよ&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-5&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h4 id=&#34;複数人で翻訳すると言い回しの監修はどうしてる&#34;&gt;複数人で翻訳すると言い回しの監修はどうしてる？&lt;/h4&gt;
+
+&lt;p&gt;例も示してスタイルガイドを定義していた&lt;br /&gt;
+適宜きづいた点も指摘していた&lt;/p&gt;
+
+&lt;h4 id=&#34;翻訳メモリ-順番変わって言い回し変わったらどうなる&#34;&gt;翻訳メモリ、順番変わって言い回し変わったらどうなる？&lt;/h4&gt;
+
+&lt;p&gt;updateとか名詞なのか動詞なのかとか変わる&lt;br /&gt;
+明確な対処方法はない&lt;br /&gt;
+表が特に危ないので気をつけるべき&lt;/p&gt;
+
+&lt;h4 id=&#34;もしstackover-flowなどを追従翻訳しようとすると大変-なにかアイデアある&#34;&gt;もしstackover flowなどを追従翻訳しようとすると大変、なにかアイデアある？&lt;/h4&gt;
+
+&lt;p&gt;READMEを翻訳メモリのようにしてGitHub上でtoolkitにすることを考えたことはある&lt;br /&gt;
+toolkitにpull requestを追加することも考えたことがある&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;ひろがるrubyの学びの場&#34;&gt;ひろがるRubyの学びの場&lt;/h2&gt;
+
+&lt;p&gt;by 五十嵐邦明 (株式会社spice life・一橋大学)&lt;/p&gt;
+
+&lt;h3 id=&#34;links-2&#34;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/igaiga/hitotsubashi-ruby-2013&#34;&gt;https://github.com/igaiga/hitotsubashi-ruby-2013&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://c4sa.nifty.com/&#34;&gt;http://c4sa.nifty.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ruby-no-kai/official/wiki&#34;&gt;https://github.com/ruby-no-kai/official/wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;一橋でのruby講義&#34;&gt;一橋でのRuby講義&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ニフティの寄附講義&lt;/li&gt;
+&lt;li&gt;島根Ruby合宿でも単位がもらえる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;講義資料&#34;&gt;講義資料&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/igaiga/hitotsubashi-ruby-2013&#34;&gt;https://github.com/igaiga/hitotsubashi-ruby-2013&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;たのしいRuby&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などなど&lt;/p&gt;
+
+&lt;h3 id=&#34;講義内容&#34;&gt;講義内容&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ruby, shellの基本的な解説&lt;/li&gt;
+&lt;li&gt;wikipediaのアクセス数解析&lt;/li&gt;
+&lt;li&gt;twitterの解析&lt;/li&gt;
+&lt;li&gt;ニフティのC4SAでデプロイしたり
+
+&lt;ul&gt;
+&lt;li&gt;ブラウザ上で編集もできるクラウド&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://c4sa.nifty.com/&#34;&gt;http://c4sa.nifty.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;やってみて気づいたところ&#34;&gt;やってみて気づいたところ&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;そもそもshellとirbの違いとか分からないもの&lt;/li&gt;
+&lt;li&gt;文法よりもアルゴリズムが難しい
+
+&lt;ul&gt;
+&lt;li&gt;eachで中間データを持たしておくとか&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;hash理解されづらい&lt;/li&gt;
+&lt;li&gt;プログラマー向け入門書はあるが、初心者向け無い&lt;/li&gt;
+&lt;li&gt;エンジニアが教えることでで最新rubyなどに追従できる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;rails-girls&#34;&gt;rails girls&lt;/h3&gt;
+
+&lt;p&gt;参加者の動機
+- 同僚のやっている内容知りたい
+- 旦那さんの仕事知りたい
+などなど&lt;/p&gt;
+
+&lt;p&gt;万葉では卒業生むけの勉強会も開催中&lt;/p&gt;
+
+&lt;h3 id=&#34;rails-寺子屋&#34;&gt;rails 寺子屋&lt;/h3&gt;
+
+&lt;p&gt;学生向けrailsワークショップ&lt;br /&gt;
+いまは高専卒業生多い&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;講義&lt;/li&gt;
+&lt;li&gt;pull request道場&lt;/li&gt;
+&lt;li&gt;コード大喜利&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;pull-request道場&#34;&gt;pull request道場&lt;/h4&gt;
+
+&lt;p&gt;開発の流れに慣れるためのpull request練習&lt;br /&gt;
+ミサワ画像でコミュニケーションw&lt;/p&gt;
+
+&lt;h4 id=&#34;コード大喜利&#34;&gt;コード大喜利&lt;/h4&gt;
+
+&lt;p&gt;課題を解く形式&lt;br /&gt;
+うまく動けば○でる仕組みになってる&lt;br /&gt;
+動いてても師範が脆弱性ついたりする&lt;/p&gt;
+
+&lt;h3 id=&#34;環境-1&#34;&gt;環境&lt;/h3&gt;
+
+&lt;p&gt;VMはあまり使ってもらえなかったのでネイティブで&lt;/p&gt;
+
+&lt;h3 id=&#34;ゴール&#34;&gt;ゴール&lt;/h3&gt;
+
+&lt;p&gt;社会人も含めた未来に設定することが大事&lt;br /&gt;
+なので、たのしい雰囲気や仲間作りを大切にしてる&lt;/p&gt;
+
+&lt;h3 id=&#34;場所があるということは重要&#34;&gt;場所があるということは重要&lt;/h3&gt;
+
+&lt;p&gt;興味があっても始めるきっかけがなかったり方法がわからないことがある&lt;br /&gt;
+何が出来るのか、どうやってトラブル解決方法、勉強方法まなべる&lt;/p&gt;
+
+&lt;h3 id=&#34;五十嵐さんのrubyはじめたきっかけ&#34;&gt;五十嵐さんのrubyはじめたきっかけ&lt;/h3&gt;
+
+&lt;p&gt;先輩がtdiary使ってた&lt;br /&gt;
+そこから学ぶことが楽しかった&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-6&#34;&gt;QA&lt;/h3&gt;
+
+&lt;h4 id=&#34;vmなぜ使ってもらえなかった&#34;&gt;VMなぜ使ってもらえなかった？&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;linuxに慣れてない方が多い&lt;/li&gt;
+&lt;li&gt;ネイティブでないのでもっさりしてる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ので敬遠されている模様&lt;/p&gt;
+
+&lt;h4 id=&#34;初めての言語がrubyであることのメリット-デメリットは&#34;&gt;初めての言語がRubyであることのメリット・デメリットは？&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ライブラリが豊富であること&lt;/li&gt;
+&lt;li&gt;webですぐ動かせること&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;が条件だと考えていてそれをruby満たしてる&lt;/p&gt;
+
+&lt;p&gt;あとはくせがなく読みやすいという声も生徒からあった&lt;/p&gt;
+
+&lt;h4 id=&#34;参加者の学習状況に差が出た場合の対処は&#34;&gt;参加者の学習状況に差が出た場合の対処は？&lt;/h4&gt;
+
+&lt;p&gt;基本的に多数の方にあわせる&lt;br /&gt;
+演習の時間多いので、その時にサポートする&lt;br /&gt;
+初めてだと翌週でも忘れるし、新規の方もいるので、聞かれたらもう一度説明をするようにしている&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

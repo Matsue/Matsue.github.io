@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on Matsue Blog</title>
+    <link>http://matsue.github.io/tags/swift/</link>
+    <description>Recent content in Swift on Matsue Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp-ja</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sat, 02 Jul 2016 17:59:16 +0900</lastBuildDate>
+    <atom:link href="http://matsue.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to remove square brackets from Alamofire array values</title>
+      <link>http://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/</link>
+      <pubDate>Sat, 02 Jul 2016 17:59:16 +0900</pubDate>
+      
+      <guid>http://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Alamofire/Alamofire&#34;&gt;Alamofire&lt;/a&gt; will add square brackets for the key of array values. This article will show you how to remove those brackets.&lt;/p&gt;
+
+&lt;p&gt;By default, array values will be encoded to parameters like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;foo[]=bar1&amp;amp;foo[]=bar2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This time we will make no square brackets parameters with ParameterEncoding.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;foo=bar1&amp;amp;foo=bar2&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;examples-with-parameterencoding&#34;&gt;Examples with ParameterEncoding&lt;/h2&gt;
+
+&lt;p&gt;Alamofire allow to change encoding formats with ParameterEncoding.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-swift&#34;&gt;// Remove square brackets for GET request
+let parameterEncoding = ParameterEncoding.Custom { requestConvertible, parameters in
+    let (mutableRequest, error) = ParameterEncoding.URL.encode(requestConvertible, parameters: parameters)
+    mutableRequest.URL = NSURL(string: mutableRequest.URLString.stringByReplacingOccurrencesOfString(&amp;quot;%5B%5D=&amp;quot;, withString: &amp;quot;=&amp;quot;))
+    return (mutableRequest, error)
+}
+
+Alamofire.request(.GET, &amp;quot;http://example.com&amp;quot;, parameters: [&amp;quot;foo&amp;quot;: [&amp;quot;bar1&amp;quot;, &amp;quot;bar2&amp;quot;]], encoding: parameterEncoding)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-swift&#34;&gt;// Remove square brackets for POST request
+let parameterEncoding = ParameterEncoding.Custom { requestConvertible, parameters in
+    let (mutableRequest, error) = ParameterEncoding.URL.encode(requestConvertible, parameters: parameters)
+    let httpBody = NSString(data: mutableRequest.HTTPBody!, encoding: NSUTF8StringEncoding)!
+    mutableRequest.HTTPBody = httpBody.stringByReplacingOccurrencesOfString(&amp;quot;%5B%5D=&amp;quot;, withString: &amp;quot;=&amp;quot;).dataUsingEncoding(NSUTF8StringEncoding)
+    return (mutableRequest, error)
+}
+
+Alamofire.request(.POST, &amp;quot;http://example.com&amp;quot;, parameters: [&amp;quot;foo&amp;quot;: [&amp;quot;bar1&amp;quot;, &amp;quot;bar2&amp;quot;]], encoding: parameterEncoding)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;why-collection-types-have-multiple-implementation-ways&#34;&gt;Why collection types have multiple implementation ways&lt;/h2&gt;
+
+&lt;p&gt;Current RFC does not define clear ways for how to encode collection types. Alamofire&amp;rsquo;s &lt;a href=&#34;https://github.com/Alamofire/Alamofire/blob/dae3ed1b22d33c28de0f50e1271fb4e0d54ad44a/README.md&#34;&gt;README&lt;/a&gt; mentioned it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Since there is no published specification for how to encode collection types, Alamofire follows the convention of appending [] to the key for array values (foo[]=1&amp;amp;foo[]=2), and appending the key surrounded by square brackets for nested dictionary values (foo[bar]=baz).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Alamofire/Alamofire/issues/965&#34;&gt;https://github.com/Alamofire/Alamofire/issues/965&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
