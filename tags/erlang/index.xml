@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erlang on Matsue Blog</title>
-    <link>http://matsue.github.io/tags/erlang/</link>
+    <link>http://matsue.github.io/tags/erlang/index.xml</link>
     <description>Recent content in Erlang on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Thu, 12 Jun 2014 14:09:40 +0900</lastBuildDate>
     <atom:link href="http://matsue.github.io/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,9 +15,7 @@
       <pubDate>Thu, 12 Jun 2014 14:09:40 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2014-06-12-euc2014/</guid>
-      <description>
-
-&lt;p&gt;ストックホルムで開催された&lt;a href=&#34;http://www.erlang-factory.com/euc2014&#34;&gt;Erlang User Conference 2014&lt;/a&gt;に参加した。&lt;/p&gt;
+      <description>&lt;p&gt;ストックホルムで開催された&lt;a href=&#34;http://www.erlang-factory.com/euc2014&#34;&gt;Erlang User Conference 2014&lt;/a&gt;に参加した。&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -42,6 +39,8 @@
 &lt;p&gt;大変有難いことに&lt;a href=&#34;http://www.erlang-factory.com/euc2014/yosuke-hara&#34;&gt;LeoFSのセッション&lt;/a&gt;の一部で、7分ほど登壇させていただいた。&lt;/p&gt;
 
 &lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/35673208&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
   &lt;iframe src=&#34;https://player.vimeo.com/video/104514109#t=1658s?autoplay=0&amp;title=0&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -513,8 +512,7 @@ recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
 ヨーロッパの各地から来ている人がいるので、イントネーションも様々だった。&lt;br /&gt;
 英語での発表には、多少の不自由を感じながらもみんなやっているのかもしれない。&lt;/p&gt;
 
-&lt;p&gt;最後に、今回の発表・参加にあたってレビューや調整をしてくれた皆様に感謝します。&lt;/p&gt;
-</description>
+&lt;p&gt;最後に、今回の発表・参加にあたってレビューや調整をしてくれた皆様に感謝します。&lt;/p&gt;</description>
     </item>
     
   </channel>

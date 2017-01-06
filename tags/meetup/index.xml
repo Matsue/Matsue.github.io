@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meetup on Matsue Blog</title>
-    <link>http://matsue.github.io/tags/meetup/</link>
+    <link>http://matsue.github.io/tags/meetup/index.xml</link>
     <description>Recent content in Meetup on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Thu, 05 Mar 2015 20:43:28 +0900</lastBuildDate>
     <atom:link href="http://matsue.github.io/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,9 +15,7 @@
       <pubDate>Thu, 05 Mar 2015 20:43:28 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;に参加した。&lt;br /&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;に参加した。&lt;br /&gt;
 3日分の発表内容メモと感想のまとめ。長い。&lt;/p&gt;
 
 &lt;p&gt;3日間のイベントで、初日は主にスクラム実践者の方々のセッション、2日目はオープンスペーステクノロジーというディスカッション形式、
@@ -28,6 +25,8 @@
 &lt;li&gt;&lt;a href=&#34;https://www.facebook.com/ScrumGatheringTokyo&#34;&gt;https://www.facebook.com/ScrumGatheringTokyo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/search?q=%23rsgt2015&#34;&gt;https://twitter.com/search?q=%23rsgt2015&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;day1&#34;&gt;Day1&lt;/h2&gt;
 
@@ -744,8 +743,7 @@
 
 &lt;p&gt;今回のイベントに参加して、本家アジャイルカンファレンスにも行きたくなった。&lt;/p&gt;
 
-&lt;p&gt;最後に、実行委員の皆様ありがとうございました。&lt;/p&gt;
-</description>
+&lt;p&gt;最後に、実行委員の皆様ありがとうございました。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -754,8 +752,7 @@
       <pubDate>Wed, 04 Feb 2015 22:15:42 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2015-02-04-unity-workshop/</guid>
-      <description>
-&lt;figure &gt;
+      <description>&lt;figure &gt;
     
         &lt;img src=&#34;https://lh6.googleusercontent.com/-jREUCZKPIRA/VNIwE0Q0JBI/AAAAAAAAR_A/bkdtFf09lvE/w1056-h692-no/unity-baseball-game.png&#34;  /&gt;
     
@@ -765,6 +762,8 @@
 
 
 &lt;p&gt;&lt;a href=&#34;http://8a1-apc.connpass.com/event/11282/&#34;&gt;&amp;rdquo;【ハンズオン】初めてのUnityで作る「3D野球盤」APC勉強会 #14&amp;rdquo;&lt;/a&gt;に参加してきた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;当日の資料はこちら: &lt;a href=&#34;http://www.slideshare.net/apc_8a1/8a120150204-unity&#34;&gt;http://www.slideshare.net/apc_8a1/8a120150204-unity&lt;/a&gt;&lt;/p&gt;
 
@@ -783,8 +782,7 @@
 &lt;p&gt;ほとんど用意されていたものを使ったとはいえ、動くとやっぱり嬉しい。&lt;/p&gt;
 
 &lt;p&gt;Unityで作成したアプリなので、この野球盤アプリはAndroidでも動いた。
-ただ、ラップトップではキー操作で動く部分が、Androidでは画面タップにする必要があるのでそこは修正しないといけない。&lt;/p&gt;
-</description>
+ただ、ラップトップではキー操作で動く部分が、Androidでは画面タップにする必要があるのでそこは修正しないといけない。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -793,9 +791,7 @@
       <pubDate>Mon, 22 Sep 2014 23:36:15 +0200</pubDate>
       
       <guid>http://matsue.github.io/post/2014-09-22-paris-tech-talks-8th/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://www.meetup.com/Paris-Tech-Talks/events/206595892/&#34;&gt;Paris Tech Talks #8&lt;/a&gt; に参加してきた。
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.meetup.com/Paris-Tech-Talks/events/206595892/&#34;&gt;Paris Tech Talks #8&lt;/a&gt; に参加してきた。
 Paris Tech Talksは新しい技術や事業の紹介をする場。
 &lt;a href=&#34;http://matsue.github.io/blog/2014/08/06/paris-dot-rb/&#34;&gt;Paris.rb&lt;/a&gt; に続きパリでは2回目の勉強会参加になる。
 珍しく英語開催のイベントということもあって参加してみた。&lt;/p&gt;
@@ -809,6 +805,8 @@ Paris Tech Talksは新しい技術や事業の紹介をする場。
 &lt;/figure&gt;
 
 
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;セッション&#34;&gt;セッション&lt;/h2&gt;
 
@@ -950,8 +948,7 @@ Deezerは音楽ストリーミングサイトで、日本とアメリカでは�
 
 &lt;hr /&gt;
 
-&lt;p&gt;英語のミートアップではあったが、フランス語が喋れると活動の幅が広がるだろうなあ、改めて感じた。&lt;/p&gt;
-</description>
+&lt;p&gt;英語のミートアップではあったが、フランス語が喋れると活動の幅が広がるだろうなあ、改めて感じた。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -960,9 +957,7 @@ Deezerは音楽ストリーミングサイトで、日本とアメリカでは�
       <pubDate>Thu, 12 Jun 2014 14:09:40 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2014-06-12-euc2014/</guid>
-      <description>
-
-&lt;p&gt;ストックホルムで開催された&lt;a href=&#34;http://www.erlang-factory.com/euc2014&#34;&gt;Erlang User Conference 2014&lt;/a&gt;に参加した。&lt;/p&gt;
+      <description>&lt;p&gt;ストックホルムで開催された&lt;a href=&#34;http://www.erlang-factory.com/euc2014&#34;&gt;Erlang User Conference 2014&lt;/a&gt;に参加した。&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -986,6 +981,8 @@ Deezerは音楽ストリーミングサイトで、日本とアメリカでは�
 &lt;p&gt;大変有難いことに&lt;a href=&#34;http://www.erlang-factory.com/euc2014/yosuke-hara&#34;&gt;LeoFSのセッション&lt;/a&gt;の一部で、7分ほど登壇させていただいた。&lt;/p&gt;
 
 &lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/35673208&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
   &lt;iframe src=&#34;https://player.vimeo.com/video/104514109#t=1658s?autoplay=0&amp;title=0&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -1457,8 +1454,7 @@ recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
 ヨーロッパの各地から来ている人がいるので、イントネーションも様々だった。&lt;br /&gt;
 英語での発表には、多少の不自由を感じながらもみんなやっているのかもしれない。&lt;/p&gt;
 
-&lt;p&gt;最後に、今回の発表・参加にあたってレビューや調整をしてくれた皆様に感謝します。&lt;/p&gt;
-</description>
+&lt;p&gt;最後に、今回の発表・参加にあたってレビューや調整をしてくれた皆様に感謝します。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1467,13 +1463,13 @@ recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
       <pubDate>Wed, 21 May 2014 00:12:13 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</guid>
-      <description>
-
-&lt;p&gt;AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。&lt;br /&gt;
+      <description>&lt;p&gt;AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。&lt;br /&gt;
 コード化された運用は形式知化である。そして手順であれコードであれ、「なんでそうしてるのか？」ということも共有されないといけない。なるほど、なるほど。&lt;br /&gt;
 紹介されていたQiita teamは使ったことないけれど、Markdownで書けて、気軽に投稿して、検索可能な情報共有の場があると、たしかに良さそうです。&lt;/p&gt;
 
 &lt;p&gt;以下、イベント参加時のメモです。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -1669,8 +1665,7 @@ EC2の金額抑えるために稼働時間は30~45分でコントロールして
 
 &lt;h2 id=&#34;イベントレジスト株式会社-池田-大輔さん&#34;&gt;イベントレジスト株式会社 池田 大輔さん&lt;/h2&gt;
 
-&lt;p&gt;翻訳にはTransifex使ってる&lt;/p&gt;
-</description>
+&lt;p&gt;翻訳にはTransifex使ってる&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1679,9 +1674,7 @@ EC2の金額抑えるために稼働時間は30~45分でコントロールして
       <pubDate>Sun, 24 Nov 2013 16:56:35 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</guid>
-      <description>
-
-&lt;p&gt;RubyWorld Conference 2013に参加しました&lt;/p&gt;
+      <description>&lt;p&gt;RubyWorld Conference 2013に参加しました&lt;/p&gt;
 
 &lt;p&gt;島根県松江市で開催された&lt;a href=&#34;http://www.rubyworld-conf.org/ja/&#34;&gt;RubyWorld Conference 2013&lt;/a&gt;に参加してきたので、特に印象に残ったところをメモ(&lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/&#34;&gt;day1&lt;/a&gt;, &lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/&#34;&gt;day2&lt;/a&gt;)からピックアップ。
 
@@ -1693,6 +1686,8 @@ EC2の金額抑えるために稼働時間は30~45分でコントロールして
 &lt;/figure&gt;
 
 &lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aiming-the-moving-target&#34;&gt;Aiming the Moving Target&lt;/h2&gt;
 
@@ -1954,10 +1949,7 @@ EC2の金額抑えるために稼働時間は30~45分でコントロールして
         &lt;img src=&#34;https://lh6.googleusercontent.com/-2mqRdSUqikw/UpHzjMnesHI/AAAAAAAAAbs/PlX0O7BvdYY/w955-h716-no/PB221127.JPG&#34;  /&gt;
     
     
-&lt;/figure&gt;
-
-
-</description>
+&lt;/figure&gt;</description>
     </item>
     
     <item>
@@ -1966,10 +1958,10 @@ EC2の金額抑えるために稼働時間は30~45分でコントロールして
       <pubDate>Sat, 23 Nov 2013 01:14:19 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</guid>
-      <description>
-
-&lt;p&gt;RubyWorld Conference 2013 2日目にとったメモです。&lt;br /&gt;
+      <description>&lt;p&gt;RubyWorld Conference 2013 2日目にとったメモです。&lt;br /&gt;
 個人メモなので誤字などご容赦ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;全体関連リンク&#34;&gt;全体関連リンク&lt;/h2&gt;
 
@@ -2890,8 +2882,7 @@ ruby色だからではない&lt;/p&gt;
 &lt;h3 id=&#34;最後に-2&#34;&gt;最後に&lt;/h3&gt;
 
 &lt;p&gt;尿管結石にはご注意を&lt;br /&gt;
-石原さん「来年も待ってるんだからね！」&lt;/p&gt;
-</description>
+石原さん「来年も待ってるんだからね！」&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -2900,10 +2891,10 @@ ruby色だからではない&lt;/p&gt;
       <pubDate>Sat, 23 Nov 2013 01:01:58 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</guid>
-      <description>
-
-&lt;p&gt;RubyWorld Conference 2013 1日目にとったメモです。&lt;br /&gt;
+      <description>&lt;p&gt;RubyWorld Conference 2013 1日目にとったメモです。&lt;br /&gt;
 個人メモなので誤字などご容赦ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;全体関連リンク&#34;&gt;全体関連リンク&lt;/h2&gt;
 
@@ -3766,8 +3757,7 @@ toolkitにpull requestを追加することも考えたことがある&lt;/p&gt;
 
 &lt;p&gt;基本的に多数の方にあわせる&lt;br /&gt;
 演習の時間多いので、その時にサポートする&lt;br /&gt;
-初めてだと翌週でも忘れるし、新規の方もいるので、聞かれたらもう一度説明をするようにしている&lt;/p&gt;
-</description>
+初めてだと翌週でも忘れるし、新規の方もいるので、聞かれたらもう一度説明をするようにしている&lt;/p&gt;</description>
     </item>
     
   </channel>

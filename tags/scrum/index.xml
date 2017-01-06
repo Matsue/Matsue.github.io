@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scrum on Matsue Blog</title>
-    <link>http://matsue.github.io/tags/scrum/</link>
+    <link>http://matsue.github.io/tags/scrum/index.xml</link>
     <description>Recent content in Scrum on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Tue, 24 Nov 2015 20:07:45 +0900</lastBuildDate>
     <atom:link href="http://matsue.github.io/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,9 +15,7 @@
       <pubDate>Tue, 24 Nov 2015 20:07:45 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2015-11-24-rakuten-technology-conference-2015/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/&#34;&gt;Rakuten Technology Conference 2015&lt;/a&gt;に参加しました。二子玉川にある楽天の新社屋Crimson Houseでの開催でした。&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/&#34;&gt;Rakuten Technology Conference 2015&lt;/a&gt;に参加しました。二子玉川にある楽天の新社屋Crimson Houseでの開催でした。&lt;/p&gt;
 
 &lt;p&gt;並行して複数のセッションが行われていたので見逃したセッションも多いですが、以下のタイムテーブルの各セッション詳細にYoutubeへのリンクがあるので安心です。
 &lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/grid/&#34;&gt;http://rakutentechnologyconference2015.sched.org/grid/&lt;/a&gt;&lt;/p&gt;
@@ -26,6 +23,8 @@
 &lt;p&gt;全てのセッションが英語ですので、その点でも動画で再確認できるのは素敵です。&lt;/p&gt;
 
 &lt;p&gt;以下は参加したセッションについてのまとめです。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;##　Will AI surpass human intelligence? &amp;ndash; Beyond Deep Learning (Yutaka Matsuo)&lt;/p&gt;
 
@@ -273,8 +272,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;以上です。さいごに、講演者・スタッフの皆様、素敵なカンファレンスをありがとうございました！&lt;/p&gt;
-</description>
+&lt;p&gt;以上です。さいごに、講演者・スタッフの皆様、素敵なカンファレンスをありがとうございました！&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -283,9 +281,7 @@
       <pubDate>Thu, 05 Mar 2015 20:43:28 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;に参加した。&lt;br /&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;に参加した。&lt;br /&gt;
 3日分の発表内容メモと感想のまとめ。長い。&lt;/p&gt;
 
 &lt;p&gt;3日間のイベントで、初日は主にスクラム実践者の方々のセッション、2日目はオープンスペーステクノロジーというディスカッション形式、
@@ -295,6 +291,8 @@
 &lt;li&gt;&lt;a href=&#34;https://www.facebook.com/ScrumGatheringTokyo&#34;&gt;https://www.facebook.com/ScrumGatheringTokyo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/search?q=%23rsgt2015&#34;&gt;https://twitter.com/search?q=%23rsgt2015&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;day1&#34;&gt;Day1&lt;/h2&gt;
 
@@ -1011,8 +1009,7 @@
 
 &lt;p&gt;今回のイベントに参加して、本家アジャイルカンファレンスにも行きたくなった。&lt;/p&gt;
 
-&lt;p&gt;最後に、実行委員の皆様ありがとうございました。&lt;/p&gt;
-</description>
+&lt;p&gt;最後に、実行委員の皆様ありがとうございました。&lt;/p&gt;</description>
     </item>
     
   </channel>

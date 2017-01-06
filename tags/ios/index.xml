@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ios on Matsue Blog</title>
-    <link>http://matsue.github.io/tags/ios/</link>
+    <link>http://matsue.github.io/tags/ios/index.xml</link>
     <description>Recent content in Ios on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Sat, 02 Jul 2016 17:59:16 +0900</lastBuildDate>
     <atom:link href="http://matsue.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,9 +15,9 @@
       <pubDate>Sat, 02 Jul 2016 17:59:16 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Alamofire/Alamofire&#34;&gt;Alamofire&lt;/a&gt; will add square brackets for the key of array values. This article will show you how to remove those brackets.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/Alamofire/Alamofire&#34;&gt;Alamofire&lt;/a&gt; will add square brackets for the key of array values. This article will show you how to remove those brackets.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;By default, array values will be encoded to parameters like this.&lt;/p&gt;
 
@@ -31,6 +30,39 @@
 &lt;h2 id=&#34;examples-with-parameterencoding&#34;&gt;Examples with ParameterEncoding&lt;/h2&gt;
 
 &lt;p&gt;Alamofire allow to change encoding formats with ParameterEncoding.&lt;/p&gt;
+
+&lt;h3 id=&#34;swift3&#34;&gt;Swift3&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-swift&#34;&gt;// Remove square brackets for GET request
+struct CustomGetEncoding: ParameterEncoding {
+    func encode(_ urlRequest: URLRequestConvertible, with parameters: Parameters?) throws -&amp;gt; URLRequest {
+        var request = try URLEncoding().encode(urlRequest, with: parameters)
+        request.url = URL(string: request.url!.absoluteString.replacingOccurrences(of: &amp;quot;%5B%5D=&amp;quot;, with: &amp;quot;=&amp;quot;))
+        return request
+    }
+}
+
+...
+
+Alamofire.request(&amp;quot;http://example.com&amp;quot;, method: .get, parameters: [&amp;quot;foo&amp;quot;: [&amp;quot;bar1&amp;quot;, &amp;quot;bar2&amp;quot;]], encoding: CustomGetEncoding())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-swift&#34;&gt;// Remove square brackets for POST request
+struct CustomPostEncoding: ParameterEncoding {
+    func encode(_ urlRequest: URLRequestConvertible, with parameters: Parameters?) throws -&amp;gt; URLRequest {
+        var request = try URLEncoding().encode(urlRequest, with: parameters)
+        let httpBody = NSString(data: request.httpBody!, encoding: String.Encoding.utf8.rawValue)!
+        request.httpBody = httpBody.replacingOccurrences(of: &amp;quot;%5B%5D=&amp;quot;, with: &amp;quot;=&amp;quot;).data(using: .utf8)
+        return request
+    }
+}
+
+...
+
+Alamofire.request(&amp;quot;http://example.com&amp;quot;, method: .post, parameters: [&amp;quot;foo&amp;quot;: [&amp;quot;bar1&amp;quot;, &amp;quot;bar2&amp;quot;]], encoding: CustomPostEncoding())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;swift2&#34;&gt;Swift2&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-swift&#34;&gt;// Remove square brackets for GET request
 let parameterEncoding = ParameterEncoding.Custom { requestConvertible, parameters in
@@ -63,8 +95,7 @@ Alamofire.request(.POST, &amp;quot;http://example.com&amp;quot;, parameters: [&a
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/Alamofire/Alamofire/issues/965&#34;&gt;https://github.com/Alamofire/Alamofire/issues/965&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/Alamofire/Alamofire/issues/965&#34;&gt;https://github.com/Alamofire/Alamofire/issues/965&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

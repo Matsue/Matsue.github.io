@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://matsue.github.io/</loc>
-    <lastmod>2016-09-24T22:25:51+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://matsue.github.io/post/lifenet-marketing/</loc>
     <lastmod>2016-09-24T22:25:51+09:00</lastmod>
   </url>
@@ -84,6 +79,112 @@
   <url>
     <loc>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</loc>
     <lastmod>2013-11-23T01:01:58+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/aws/</loc>
+    <lastmod>2014-05-21T00:12:13+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/bicycle/</loc>
+    <lastmod>2014-08-21T22:18:06+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/book/</loc>
+    <lastmod>2016-09-24T22:25:51+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/devops/</loc>
+    <lastmod>2015-11-24T20:07:45+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/erlang/</loc>
+    <lastmod>2014-06-12T14:09:40+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/ios/</loc>
+    <lastmod>2016-07-02T17:59:16+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/</loc>
+    <lastmod>2016-09-24T22:25:51+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/meetup/</loc>
+    <lastmod>2015-03-05T20:43:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/mobile/</loc>
+    <lastmod>2015-02-06T15:01:38+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/paris/</loc>
+    <lastmod>2015-02-06T15:01:38+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/post/</loc>
+    <lastmod>2016-09-24T22:25:51+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/ruby/</loc>
+    <lastmod>2015-11-24T20:07:45+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/scrum/</loc>
+    <lastmod>2015-11-24T20:07:45+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/categories/scrum-devops-ruby/</loc>
+    <lastmod>2015-11-24T20:07:45+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/swift/</loc>
+    <lastmod>2016-07-02T17:59:16+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://matsue.github.io/tags/unity/</loc>
+    <lastmod>2015-02-04T22:15:42+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

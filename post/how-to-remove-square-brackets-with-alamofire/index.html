@@ -44,7 +44,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.16" />
+    <meta name="generator" content="Hugo 0.18.1" />
 
     <link rel="canonical" href="http://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/" />
 
@@ -154,9 +154,9 @@
     </header>
 
     <section class="post-content">
-      
+      <p><a href="https://github.com/Alamofire/Alamofire">Alamofire</a> will add square brackets for the key of array values. This article will show you how to remove those brackets.</p>
 
-<p><a href="https://github.com/Alamofire/Alamofire">Alamofire</a> will add square brackets for the key of array values. This article will show you how to remove those brackets.</p>
+<p></p>
 
 <p>By default, array values will be encoded to parameters like this.</p>
 
@@ -169,6 +169,39 @@
 <h2 id="examples-with-parameterencoding">Examples with ParameterEncoding</h2>
 
 <p>Alamofire allow to change encoding formats with ParameterEncoding.</p>
+
+<h3 id="swift3">Swift3</h3>
+
+<pre><code class="language-swift">// Remove square brackets for GET request
+struct CustomGetEncoding: ParameterEncoding {
+    func encode(_ urlRequest: URLRequestConvertible, with parameters: Parameters?) throws -&gt; URLRequest {
+        var request = try URLEncoding().encode(urlRequest, with: parameters)
+        request.url = URL(string: request.url!.absoluteString.replacingOccurrences(of: &quot;%5B%5D=&quot;, with: &quot;=&quot;))
+        return request
+    }
+}
+
+...
+
+Alamofire.request(&quot;http://example.com&quot;, method: .get, parameters: [&quot;foo&quot;: [&quot;bar1&quot;, &quot;bar2&quot;]], encoding: CustomGetEncoding())
+</code></pre>
+
+<pre><code class="language-swift">// Remove square brackets for POST request
+struct CustomPostEncoding: ParameterEncoding {
+    func encode(_ urlRequest: URLRequestConvertible, with parameters: Parameters?) throws -&gt; URLRequest {
+        var request = try URLEncoding().encode(urlRequest, with: parameters)
+        let httpBody = NSString(data: request.httpBody!, encoding: String.Encoding.utf8.rawValue)!
+        request.httpBody = httpBody.replacingOccurrences(of: &quot;%5B%5D=&quot;, with: &quot;=&quot;).data(using: .utf8)
+        return request
+    }
+}
+
+...
+
+Alamofire.request(&quot;http://example.com&quot;, method: .post, parameters: [&quot;foo&quot;: [&quot;bar1&quot;, &quot;bar2&quot;]], encoding: CustomPostEncoding())
+</code></pre>
+
+<h3 id="swift2">Swift2</h3>
 
 <pre><code class="language-swift">// Remove square brackets for GET request
 let parameterEncoding = ParameterEncoding.Custom { requestConvertible, parameters in
@@ -202,7 +235,6 @@ Alamofire.request(.POST, &quot;http://example.com&quot;, parameters: [&quot;foo&
 <h2 id="references">References</h2>
 
 <p><a href="https://github.com/Alamofire/Alamofire/issues/965">https://github.com/Alamofire/Alamofire/issues/965</a></p>
-
     </section>
 
 

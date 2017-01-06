@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unity on Matsue Blog</title>
-    <link>http://matsue.github.io/tags/unity/</link>
+    <link>http://matsue.github.io/tags/unity/index.xml</link>
     <description>Recent content in Unity on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Wed, 04 Feb 2015 22:15:42 +0900</lastBuildDate>
     <atom:link href="http://matsue.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,8 +15,7 @@
       <pubDate>Wed, 04 Feb 2015 22:15:42 +0900</pubDate>
       
       <guid>http://matsue.github.io/post/2015-02-04-unity-workshop/</guid>
-      <description>
-&lt;figure &gt;
+      <description>&lt;figure &gt;
     
         &lt;img src=&#34;https://lh6.googleusercontent.com/-jREUCZKPIRA/VNIwE0Q0JBI/AAAAAAAAR_A/bkdtFf09lvE/w1056-h692-no/unity-baseball-game.png&#34;  /&gt;
     
@@ -27,6 +25,8 @@
 
 
 &lt;p&gt;&lt;a href=&#34;http://8a1-apc.connpass.com/event/11282/&#34;&gt;&amp;rdquo;【ハンズオン】初めてのUnityで作る「3D野球盤」APC勉強会 #14&amp;rdquo;&lt;/a&gt;に参加してきた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;当日の資料はこちら: &lt;a href=&#34;http://www.slideshare.net/apc_8a1/8a120150204-unity&#34;&gt;http://www.slideshare.net/apc_8a1/8a120150204-unity&lt;/a&gt;&lt;/p&gt;
 
@@ -45,8 +45,7 @@
 &lt;p&gt;ほとんど用意されていたものを使ったとはいえ、動くとやっぱり嬉しい。&lt;/p&gt;
 
 &lt;p&gt;Unityで作成したアプリなので、この野球盤アプリはAndroidでも動いた。
-ただ、ラップトップではキー操作で動く部分が、Androidでは画面タップにする必要があるのでそこは修正しないといけない。&lt;/p&gt;
-</description>
+ただ、ラップトップではキー操作で動く部分が、Androidでは画面タップにする必要があるのでそこは修正しないといけない。&lt;/p&gt;</description>
     </item>
     
   </channel>

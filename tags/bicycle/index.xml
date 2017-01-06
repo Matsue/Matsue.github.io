@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bicycle on Matsue Blog</title>
-    <link>http://matsue.github.io/tags/bicycle/</link>
+    <link>http://matsue.github.io/tags/bicycle/index.xml</link>
     <description>Recent content in Bicycle on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Thu, 21 Aug 2014 22:18:06 +0200</lastBuildDate>
     <atom:link href="http://matsue.github.io/tags/bicycle/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,9 +15,7 @@
       <pubDate>Thu, 21 Aug 2014 22:18:06 +0200</pubDate>
       
       <guid>http://matsue.github.io/post/2014-08-21-tour-de-france-2014/</guid>
-      <description>
-
-&lt;script type=&#34;text/javascriptimg src=&#34;https://apis.google.com/js/plusone.js&#34;&gt;&lt;/script&gt;
+      <description>&lt;script type=&#34;text/javascriptimg src=&#34;https://apis.google.com/js/plusone.js&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;ツール・ド・フランス2014を見てきた。参加してから時間が経ってしまったが、情報が少なくて困ったので次に行く時のためにも記録に残しておく。&lt;/p&gt;
 
@@ -31,6 +28,8 @@
 &lt;/figure&gt;
 
 
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;会場の様子&#34;&gt;会場の様子&lt;/h2&gt;
 
@@ -155,8 +154,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;もし参加するときはピクニック気分で椅子やご飯を持って、ゆったりとした気持ちで気長に参加するのが良いと思う。&lt;/p&gt;
-</description>
+&lt;p&gt;もし参加するときはピクニック気分で椅子やご飯を持って、ゆったりとした気持ちで気長に参加するのが良いと思う。&lt;/p&gt;</description>
     </item>
     
   </channel>
