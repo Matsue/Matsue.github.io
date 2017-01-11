@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby Meetup on Matsue Blog</title>
-    <link>http://matsue.github.io/categories/ruby-meetup/</link>
+    <link>https://matsue.github.io/categories/ruby-meetup/</link>
     <description>Recent content in Ruby Meetup on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 24 Nov 2013 16:56:35 +0900</lastBuildDate>
-    <atom:link href="http://matsue.github.io/categories/ruby-meetup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://matsue.github.io/categories/ruby-meetup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>RubyWorld Conference 2013に参加しました</title>
-      <link>http://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</link>
+      <link>https://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</link>
       <pubDate>Sun, 24 Nov 2013 16:56:35 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</guid>
+      <guid>https://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</guid>
       <description>
 
 &lt;p&gt;RubyWorld Conference 2013に参加しました&lt;/p&gt;
 
-&lt;p&gt;島根県松江市で開催された&lt;a href=&#34;http://www.rubyworld-conf.org/ja/&#34;&gt;RubyWorld Conference 2013&lt;/a&gt;に参加してきたので、特に印象に残ったところをメモ(&lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/&#34;&gt;day1&lt;/a&gt;, &lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/&#34;&gt;day2&lt;/a&gt;)からピックアップ。
+&lt;p&gt;島根県松江市で開催された&lt;a href=&#34;http://www.rubyworld-conf.org/ja/&#34;&gt;RubyWorld Conference 2013&lt;/a&gt;に参加してきたので、特に印象に残ったところをメモ(&lt;a href=&#34;https://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/&#34;&gt;day1&lt;/a&gt;, &lt;a href=&#34;https://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/&#34;&gt;day2&lt;/a&gt;)からピックアップ。
 
 &lt;figure &gt;
     
@@ -58,7 +58,7 @@
 &lt;p&gt;非常にエンジニア心に響くセッションですので、気になった方は&lt;a href=&#34;http://tech.rakuten.co.jp/&#34;&gt;Rakuten Technology Conference 2013&lt;/a&gt;のビデオをご覧下さい。こちらの動画は英語での発表ですし、言い回しや構成も異なる部分がありますが、同じタイトルで発表をされています。&lt;/p&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/obiljftVy0g&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/obiljftVy0g&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -299,10 +299,10 @@
     
     <item>
       <title>RubyWorld Conference 2013 day2 memo</title>
-      <link>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</link>
+      <link>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</link>
       <pubDate>Sat, 23 Nov 2013 01:14:19 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</guid>
+      <guid>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</guid>
       <description>
 
 &lt;p&gt;RubyWorld Conference 2013 2日目にとったメモです。&lt;br /&gt;
@@ -1233,10 +1233,10 @@ ruby色だからではない&lt;/p&gt;
     
     <item>
       <title>RubyWorld Conference 2013 day1 memo</title>
-      <link>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</link>
+      <link>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</link>
       <pubDate>Sat, 23 Nov 2013 01:01:58 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</guid>
+      <guid>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</guid>
       <description>
 
 &lt;p&gt;RubyWorld Conference 2013 1日目にとったメモです。&lt;br /&gt;

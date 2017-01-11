@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aws Meetup on Matsue Blog</title>
-    <link>http://matsue.github.io/categories/aws-meetup/</link>
+    <link>https://matsue.github.io/categories/aws-meetup/</link>
     <description>Recent content in Aws Meetup on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 21 May 2014 00:12:13 +0900</lastBuildDate>
-    <atom:link href="http://matsue.github.io/categories/aws-meetup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://matsue.github.io/categories/aws-meetup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>第21回 AWS User Group - Japan 東京勉強会に参加しました</title>
-      <link>http://matsue.github.io/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</link>
+      <link>https://matsue.github.io/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</link>
       <pubDate>Wed, 21 May 2014 00:12:13 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</guid>
+      <guid>https://matsue.github.io/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</guid>
       <description>
 
 &lt;p&gt;AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。&lt;br /&gt;

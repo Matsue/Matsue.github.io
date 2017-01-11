@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Paris | Matsue Blog]]></title>
-  <link href="http://matsue.github.io/blog/categories/paris/atom.xml" rel="self"/>
-  <link href="http://matsue.github.io/"/>
+  <link href="https://matsue.github.io/blog/categories/paris/atom.xml" rel="self"/>
+  <link href="https://matsue.github.io/"/>
   <updated>2015-12-03T22:26:10+09:00</updated>
-  <id>http://matsue.github.io/</id>
+  <id>https://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[パリ生活に役立つアプリ10選+α]]></title>
-    <link href="http://matsue.github.io/blog/2015/02/06/useful-apps-in-paris/"/>
+    <link href="https://matsue.github.io/blog/2015/02/06/useful-apps-in-paris/"/>
     <updated>2015-02-06T15:01:38+09:00</updated>
-    <id>http://matsue.github.io/blog/2015/02/06/useful-apps-in-paris</id>
+    <id>https://matsue.github.io/blog/2015/02/06/useful-apps-in-paris</id>
     <content type="html"><![CDATA[<p>パリに滞在していた際に、便利だったり面白いと感じたアプリやサービスの紹介。</p>
 
 <ul>
@@ -246,12 +246,12 @@ Android: <a href="https://play.google.com/store/apps/details?id=com.booking">htt
   
   <entry>
     <title type="html"><![CDATA[Paris Tech Talks 8th に参加した]]></title>
-    <link href="http://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th/"/>
+    <link href="https://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th/"/>
     <updated>2014-09-23T06:36:15+09:00</updated>
-    <id>http://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th</id>
+    <id>https://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th</id>
     <content type="html"><![CDATA[<p><a href="http://www.meetup.com/Paris-Tech-Talks/events/206595892/">Paris Tech Talks #8</a> に参加してきた。
 Paris Tech Talksは新しい技術や事業の紹介をする場。
-<a href="http://matsue.github.io/blog/2014/08/06/paris-dot-rb/">Paris.rb</a> に続きパリでは2回目の勉強会参加になる。
+<a href="https://matsue.github.io/blog/2014/08/06/paris-dot-rb/">Paris.rb</a> に続きパリでは2回目の勉強会参加になる。
 珍しく英語開催のイベントということもあって参加してみた。</p>
 
 <p><img class="<a" src="href="https://lh3.googleusercontent.com/-a9Jgv7TzM-A/VCCTzKMc0mI/AAAAAAAAFGk/wa4WihFt4fg/w924-h693-no/IMG_20140922_194645.jpg">https://lh3.googleusercontent.com/-a9Jgv7TzM-A/VCCTzKMc0mI/AAAAAAAAFGk/wa4WihFt4fg/w924-h693-no/IMG_20140922_194645.jpg</a>&#8221;></p>
@@ -360,9 +360,9 @@ Deezerは音楽ストリーミングサイトで、日本とアメリカでは�
   
   <entry>
     <title type="html"><![CDATA[Tour De France 2014を見てきた]]></title>
-    <link href="http://matsue.github.io/blog/2014/08/22/tour-de-france-2014/"/>
+    <link href="https://matsue.github.io/blog/2014/08/22/tour-de-france-2014/"/>
     <updated>2014-08-22T05:18:06+09:00</updated>
-    <id>http://matsue.github.io/blog/2014/08/22/tour-de-france-2014</id>
+    <id>https://matsue.github.io/blog/2014/08/22/tour-de-france-2014</id>
     <content type="html"><![CDATA[<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
 
@@ -466,9 +466,9 @@ Deezerは音楽ストリーミングサイトで、日本とアメリカでは�
   
   <entry>
     <title type="html"><![CDATA[Paris.rbに参加した]]></title>
-    <link href="http://matsue.github.io/blog/2014/08/06/paris-dot-rb/"/>
+    <link href="https://matsue.github.io/blog/2014/08/06/paris-dot-rb/"/>
     <updated>2014-08-06T07:21:32+09:00</updated>
-    <id>http://matsue.github.io/blog/2014/08/06/paris-dot-rb</id>
+    <id>https://matsue.github.io/blog/2014/08/06/paris-dot-rb</id>
     <content type="html"><![CDATA[<p>7月より期間限定でパリにて勤務しており、せっかくの機会なのでParis.rbに参加してみた。
 今回、Meetup経由で申し込みをして参加した。
 <a href="http://www.meetup.com/parisrb/events/146763542/">http://www.meetup.com/parisrb/events/146763542/</a></p>

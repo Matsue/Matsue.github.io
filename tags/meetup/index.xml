@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meetup on Matsue Blog</title>
-    <link>http://matsue.github.io/tags/meetup/index.xml</link>
+    <link>https://matsue.github.io/tags/meetup/index.xml</link>
     <description>Recent content in Meetup on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <atom:link href="http://matsue.github.io/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://matsue.github.io/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Regional Scrum Gathering Tokyo 2015に参加した</title>
-      <link>http://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</link>
+      <link>https://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</link>
       <pubDate>Thu, 05 Mar 2015 20:43:28 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</guid>
+      <guid>https://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;に参加した。&lt;br /&gt;
 3日分の発表内容メモと感想のまとめ。長い。&lt;/p&gt;
 
@@ -446,7 +446,7 @@
 &lt;p&gt;公演中に紹介されていたKen Schwaberさんの動画は多分これ。&lt;/p&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/_47VWIvOKH8&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_47VWIvOKH8&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -723,10 +723,10 @@
 
 &lt;p&gt;今回紹介されたDtoD本は日本語に翻訳されている。紹介動画もある。&lt;/p&gt;
 
-&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:260px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d240x240&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d80x80&#34; alt=&#34;発見から納品へ [ Gottesdiener，Ellen ]&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f&#34; target=&#34;_blank&#34;&gt;発見から納品へ [ Gottesdiener，Ellen ]&lt;/a&gt;&lt;br&gt;&lt;span&gt;価格：3,500円（税込、送料込）&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:260px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/?pc=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d240x240&amp;amp;m=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d80x80&#34; alt=&#34;発見から納品へ [ Gottesdiener，Ellen ]&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f&#34; target=&#34;_blank&#34;&gt;発見から納品へ [ Gottesdiener，Ellen ]&lt;/a&gt;&lt;br&gt;&lt;span&gt;価格：3,500円（税込、送料込）&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/x9oIpZaXTDs&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/x9oIpZaXTDs&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -748,10 +748,10 @@
     
     <item>
       <title>Unityで3D野球盤を作った</title>
-      <link>http://matsue.github.io/post/2015-02-04-unity-workshop/</link>
+      <link>https://matsue.github.io/post/2015-02-04-unity-workshop/</link>
       <pubDate>Wed, 04 Feb 2015 22:15:42 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2015-02-04-unity-workshop/</guid>
+      <guid>https://matsue.github.io/post/2015-02-04-unity-workshop/</guid>
       <description>&lt;figure &gt;
     
         &lt;img src=&#34;https://lh6.googleusercontent.com/-jREUCZKPIRA/VNIwE0Q0JBI/AAAAAAAAR_A/bkdtFf09lvE/w1056-h692-no/unity-baseball-game.png&#34;  /&gt;
@@ -787,13 +787,13 @@
     
     <item>
       <title>Paris Tech Talks 8th に参加した</title>
-      <link>http://matsue.github.io/post/2014-09-22-paris-tech-talks-8th/</link>
+      <link>https://matsue.github.io/post/2014-09-22-paris-tech-talks-8th/</link>
       <pubDate>Mon, 22 Sep 2014 23:36:15 +0200</pubDate>
       
-      <guid>http://matsue.github.io/post/2014-09-22-paris-tech-talks-8th/</guid>
+      <guid>https://matsue.github.io/post/2014-09-22-paris-tech-talks-8th/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.meetup.com/Paris-Tech-Talks/events/206595892/&#34;&gt;Paris Tech Talks #8&lt;/a&gt; に参加してきた。
 Paris Tech Talksは新しい技術や事業の紹介をする場。
-&lt;a href=&#34;http://matsue.github.io/blog/2014/08/06/paris-dot-rb/&#34;&gt;Paris.rb&lt;/a&gt; に続きパリでは2回目の勉強会参加になる。
+&lt;a href=&#34;https://matsue.github.io/blog/2014/08/06/paris-dot-rb/&#34;&gt;Paris.rb&lt;/a&gt; に続きパリでは2回目の勉強会参加になる。
 珍しく英語開催のイベントということもあって参加してみた。&lt;/p&gt;
 
 
@@ -953,16 +953,16 @@ Deezerは音楽ストリーミングサイトで、日本とアメリカでは�
     
     <item>
       <title>Erlang User Conference 2014 に参加した</title>
-      <link>http://matsue.github.io/post/2014-06-12-euc2014/</link>
+      <link>https://matsue.github.io/post/2014-06-12-euc2014/</link>
       <pubDate>Thu, 12 Jun 2014 14:09:40 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2014-06-12-euc2014/</guid>
+      <guid>https://matsue.github.io/post/2014-06-12-euc2014/</guid>
       <description>&lt;p&gt;ストックホルムで開催された&lt;a href=&#34;http://www.erlang-factory.com/euc2014&#34;&gt;Erlang User Conference 2014&lt;/a&gt;に参加した。&lt;/p&gt;
 
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://matsue.github.io/images/2014-06-12-euc2014/euc2014_sponsors.jpg&#34; alt=&#34;euc2014_sponsors&#34; /&gt;
+        &lt;img src=&#34;https://matsue.github.io/images/2014-06-12-euc2014/euc2014_sponsors.jpg&#34; alt=&#34;euc2014_sponsors&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -1206,7 +1206,7 @@ ErlangのrebarやRubyでのrakeやbundleに似たことをしてくれる模様�
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://matsue.github.io/images/2014-06-12-euc2014/euc2014_ericsson.jpg&#34; alt=&#34;euc2014_ericsson&#34; /&gt;
+        &lt;img src=&#34;https://matsue.github.io/images/2014-06-12-euc2014/euc2014_ericsson.jpg&#34; alt=&#34;euc2014_ericsson&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -1345,7 +1345,7 @@ recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://matsue.github.io/images/2014-06-12-euc2014/euc2014_venue.jpg&#34; alt=&#34;euc2014_venue&#34; /&gt;
+        &lt;img src=&#34;https://matsue.github.io/images/2014-06-12-euc2014/euc2014_venue.jpg&#34; alt=&#34;euc2014_venue&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -1365,7 +1365,7 @@ recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://matsue.github.io/images/2014-06-12-euc2014/euc2014_game.jpg&#34; alt=&#34;euc2014_game&#34; /&gt;
+        &lt;img src=&#34;https://matsue.github.io/images/2014-06-12-euc2014/euc2014_game.jpg&#34; alt=&#34;euc2014_game&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -1385,7 +1385,7 @@ recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://matsue.github.io/images/2014-06-12-euc2014/euc2014_lunch.jpg&#34; alt=&#34;euc2014_lunch&#34; /&gt;
+        &lt;img src=&#34;https://matsue.github.io/images/2014-06-12-euc2014/euc2014_lunch.jpg&#34; alt=&#34;euc2014_lunch&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -1405,7 +1405,7 @@ recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://matsue.github.io/images/2014-06-12-euc2014/euc2014_tutorial_room.jpg&#34; alt=&#34;euc2014_tutorial_room&#34; /&gt;
+        &lt;img src=&#34;https://matsue.github.io/images/2014-06-12-euc2014/euc2014_tutorial_room.jpg&#34; alt=&#34;euc2014_tutorial_room&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -1425,7 +1425,7 @@ recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://matsue.github.io/images/2014-06-12-euc2014/euc2014_tutorial_lunch.jpg&#34; alt=&#34;euc2014_tutorial_lunch&#34; /&gt;
+        &lt;img src=&#34;https://matsue.github.io/images/2014-06-12-euc2014/euc2014_tutorial_lunch.jpg&#34; alt=&#34;euc2014_tutorial_lunch&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -1459,10 +1459,10 @@ recon_traceでオンラインtracingもできるらしい。&lt;/p&gt;
     
     <item>
       <title>第21回 AWS User Group - Japan 東京勉強会に参加しました</title>
-      <link>http://matsue.github.io/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</link>
+      <link>https://matsue.github.io/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</link>
       <pubDate>Wed, 21 May 2014 00:12:13 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</guid>
+      <guid>https://matsue.github.io/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</guid>
       <description>&lt;p&gt;AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。&lt;br /&gt;
 コード化された運用は形式知化である。そして手順であれコードであれ、「なんでそうしてるのか？」ということも共有されないといけない。なるほど、なるほど。&lt;br /&gt;
 紹介されていたQiita teamは使ったことないけれど、Markdownで書けて、気軽に投稿して、検索可能な情報共有の場があると、たしかに良さそうです。&lt;/p&gt;
@@ -1670,13 +1670,13 @@ EC2の金額抑えるために稼働時間は30~45分でコントロールして
     
     <item>
       <title>RubyWorld Conference 2013に参加しました</title>
-      <link>http://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</link>
+      <link>https://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</link>
       <pubDate>Sun, 24 Nov 2013 16:56:35 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</guid>
+      <guid>https://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</guid>
       <description>&lt;p&gt;RubyWorld Conference 2013に参加しました&lt;/p&gt;
 
-&lt;p&gt;島根県松江市で開催された&lt;a href=&#34;http://www.rubyworld-conf.org/ja/&#34;&gt;RubyWorld Conference 2013&lt;/a&gt;に参加してきたので、特に印象に残ったところをメモ(&lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/&#34;&gt;day1&lt;/a&gt;, &lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/&#34;&gt;day2&lt;/a&gt;)からピックアップ。
+&lt;p&gt;島根県松江市で開催された&lt;a href=&#34;http://www.rubyworld-conf.org/ja/&#34;&gt;RubyWorld Conference 2013&lt;/a&gt;に参加してきたので、特に印象に残ったところをメモ(&lt;a href=&#34;https://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/&#34;&gt;day1&lt;/a&gt;, &lt;a href=&#34;https://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/&#34;&gt;day2&lt;/a&gt;)からピックアップ。
 
 &lt;figure &gt;
     
@@ -1716,7 +1716,7 @@ EC2の金額抑えるために稼働時間は30~45分でコントロールして
 &lt;p&gt;非常にエンジニア心に響くセッションですので、気になった方は&lt;a href=&#34;http://tech.rakuten.co.jp/&#34;&gt;Rakuten Technology Conference 2013&lt;/a&gt;のビデオをご覧下さい。こちらの動画は英語での発表ですし、言い回しや構成も異なる部分がありますが、同じタイトルで発表をされています。&lt;/p&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/obiljftVy0g&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/obiljftVy0g&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -1954,10 +1954,10 @@ EC2の金額抑えるために稼働時間は30~45分でコントロールして
     
     <item>
       <title>RubyWorld Conference 2013 day2 memo</title>
-      <link>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</link>
+      <link>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</link>
       <pubDate>Sat, 23 Nov 2013 01:14:19 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</guid>
+      <guid>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</guid>
       <description>&lt;p&gt;RubyWorld Conference 2013 2日目にとったメモです。&lt;br /&gt;
 個人メモなので誤字などご容赦ください。&lt;/p&gt;
 
@@ -2887,10 +2887,10 @@ ruby色だからではない&lt;/p&gt;
     
     <item>
       <title>RubyWorld Conference 2013 day1 memo</title>
-      <link>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</link>
+      <link>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</link>
       <pubDate>Sat, 23 Nov 2013 01:01:58 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</guid>
+      <guid>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</guid>
       <description>&lt;p&gt;RubyWorld Conference 2013 1日目にとったメモです。&lt;br /&gt;
 個人メモなので誤字などご容赦ください。&lt;/p&gt;
 

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on Matsue Blog</title>
-    <link>http://matsue.github.io/tags/ruby/index.xml</link>
+    <link>https://matsue.github.io/tags/ruby/index.xml</link>
     <description>Recent content in Ruby on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <atom:link href="http://matsue.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://matsue.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rakuten Technology Conference 2015に参加しました</title>
-      <link>http://matsue.github.io/post/2015-11-24-rakuten-technology-conference-2015/</link>
+      <link>https://matsue.github.io/post/2015-11-24-rakuten-technology-conference-2015/</link>
       <pubDate>Tue, 24 Nov 2015 20:07:45 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2015-11-24-rakuten-technology-conference-2015/</guid>
+      <guid>https://matsue.github.io/post/2015-11-24-rakuten-technology-conference-2015/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/&#34;&gt;Rakuten Technology Conference 2015&lt;/a&gt;に参加しました。二子玉川にある楽天の新社屋Crimson Houseでの開催でした。&lt;/p&gt;
 
 &lt;p&gt;並行して複数のセッションが行われていたので見逃したセッションも多いですが、以下のタイムテーブルの各セッション詳細にYoutubeへのリンクがあるので安心です。
@@ -29,7 +29,7 @@
 &lt;p&gt;##　Will AI surpass human intelligence? &amp;ndash; Beyond Deep Learning (Yutaka Matsuo)&lt;/p&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/s7yey8hfQII&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s7yey8hfQII&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -48,7 +48,7 @@
 &lt;h2 id=&#34;programmable-iot-platform-soracom-ken-tamagawa&#34;&gt;Programmable IoT Platform “SORACOM&amp;rdquo; (Ken Tamagawa)&lt;/h2&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/XtdijMoKC1o&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/XtdijMoKC1o&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -104,7 +104,7 @@
 &lt;h2 id=&#34;rakuten-and-microsoft-talk-devops-in-real-world-kotaro-ogino-drew-robbins-tsuyoshi-ushio&#34;&gt;Rakuten and Microsoft talk DevOps in Real world (Kotaro Ogino / Drew Robbins / Tsuyoshi Ushio)&lt;/h2&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/mZ8tgEtubGE&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/mZ8tgEtubGE&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -114,8 +114,8 @@
 
 &lt;p&gt;&lt;strong&gt;The Phoenix Project&lt;/strong&gt;がアメリカではDevOpsのバイブル本とのことです。&lt;/p&gt;
 
-&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d128x128&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d80x80&#34; alt=&#34;The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f&#34; target=&#34;_blank&#34;&gt;The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：Gene Kim&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：3,421円（税込、送料込）&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d128x128&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d80x80&#34; alt=&#34;The　DevOps逆転だ！&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f&#34; target=&#34;_blank&#34;&gt;The　DevOps逆転だ！&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：ジーン・キム&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：2,376円（税込、送料込）&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/?pc=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d128x128&amp;amp;m=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d80x80&#34; alt=&#34;The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f&#34; target=&#34;_blank&#34;&gt;The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：Gene Kim&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：3,421円（税込、送料込）&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/?pc=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d128x128&amp;amp;m=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d80x80&#34; alt=&#34;The　DevOps逆転だ！&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f&#34; target=&#34;_blank&#34;&gt;The　DevOps逆転だ！&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：ジーン・キム&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：2,376円（税込、送料込）&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;h3 id=&#34;devops-journey-micorsoft&#34;&gt;DevOps Journey (Micorsoft)&lt;/h3&gt;
 
@@ -179,7 +179,7 @@
 &lt;h2 id=&#34;building-smart-applications-with-an-algorithm-marketplace-diego-oppenheimer-algorithmia-dex-dex-tra-dextra-daryl-arnold-diego-oppenheimer&#34;&gt;Building Smart Applications with an Algorithm Marketplace : Diego Oppenheimer, Algorithmia &amp;amp; DEX &amp;amp; DEX(TRA) : Dextra (Daryl Arnold / Diego Oppenheimer)&lt;/h2&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/T0Pob0hyRps&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/T0Pob0hyRps&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -213,7 +213,7 @@
 &lt;h2 id=&#34;devops-with-lego-and-chocolate-simulation-game-dana-pylayeva&#34;&gt;DevOps with Lego and Chocolate simulation game (Dana Pylayeva)&lt;/h2&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/Lup62Wf783Y&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Lup62Wf783Y&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -268,7 +268,7 @@
 
 &lt;p&gt;また、突然その場であった人たちとお互いの会社も国籍も分からないまま、ルールも手探りで、英語と日本語であれこれ言いながらやれた体験が特に面白く感じました。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;でもそうでしたが、こういったワークショップは気づきが多く、個人的には満足感が高いです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;でもそうでしたが、こういったワークショップは気づきが多く、個人的には満足感が高いです。&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -277,10 +277,10 @@
     
     <item>
       <title>Paris.rbに参加した</title>
-      <link>http://matsue.github.io/post/2014-08-06-paris-dot-rb/</link>
+      <link>https://matsue.github.io/post/2014-08-06-paris-dot-rb/</link>
       <pubDate>Wed, 06 Aug 2014 00:21:32 +0200</pubDate>
       
-      <guid>http://matsue.github.io/post/2014-08-06-paris-dot-rb/</guid>
+      <guid>https://matsue.github.io/post/2014-08-06-paris-dot-rb/</guid>
       <description>&lt;p&gt;7月より期間限定でパリにて勤務しており、せっかくの機会なのでParis.rbに参加してみた。
 今回、Meetup経由で申し込みをして参加した。
 &lt;a href=&#34;http://www.meetup.com/parisrb/events/146763542/&#34;&gt;http://www.meetup.com/parisrb/events/146763542/&lt;/a&gt;&lt;/p&gt;
@@ -350,13 +350,13 @@
     
     <item>
       <title>RubyWorld Conference 2013に参加しました</title>
-      <link>http://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</link>
+      <link>https://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</link>
       <pubDate>Sun, 24 Nov 2013 16:56:35 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</guid>
+      <guid>https://matsue.github.io/post/2013-11-24-rubyworld-conference-2013/</guid>
       <description>&lt;p&gt;RubyWorld Conference 2013に参加しました&lt;/p&gt;
 
-&lt;p&gt;島根県松江市で開催された&lt;a href=&#34;http://www.rubyworld-conf.org/ja/&#34;&gt;RubyWorld Conference 2013&lt;/a&gt;に参加してきたので、特に印象に残ったところをメモ(&lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/&#34;&gt;day1&lt;/a&gt;, &lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/&#34;&gt;day2&lt;/a&gt;)からピックアップ。
+&lt;p&gt;島根県松江市で開催された&lt;a href=&#34;http://www.rubyworld-conf.org/ja/&#34;&gt;RubyWorld Conference 2013&lt;/a&gt;に参加してきたので、特に印象に残ったところをメモ(&lt;a href=&#34;https://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/&#34;&gt;day1&lt;/a&gt;, &lt;a href=&#34;https://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/&#34;&gt;day2&lt;/a&gt;)からピックアップ。
 
 &lt;figure &gt;
     
@@ -396,7 +396,7 @@
 &lt;p&gt;非常にエンジニア心に響くセッションですので、気になった方は&lt;a href=&#34;http://tech.rakuten.co.jp/&#34;&gt;Rakuten Technology Conference 2013&lt;/a&gt;のビデオをご覧下さい。こちらの動画は英語での発表ですし、言い回しや構成も異なる部分がありますが、同じタイトルで発表をされています。&lt;/p&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/obiljftVy0g&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/obiljftVy0g&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -634,10 +634,10 @@
     
     <item>
       <title>RubyWorld Conference 2013 day2 memo</title>
-      <link>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</link>
+      <link>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</link>
       <pubDate>Sat, 23 Nov 2013 01:14:19 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</guid>
+      <guid>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day2-memo/</guid>
       <description>&lt;p&gt;RubyWorld Conference 2013 2日目にとったメモです。&lt;br /&gt;
 個人メモなので誤字などご容赦ください。&lt;/p&gt;
 
@@ -1567,10 +1567,10 @@ ruby色だからではない&lt;/p&gt;
     
     <item>
       <title>RubyWorld Conference 2013 day1 memo</title>
-      <link>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</link>
+      <link>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</link>
       <pubDate>Sat, 23 Nov 2013 01:01:58 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</guid>
+      <guid>https://matsue.github.io/post/2013-11-23-rubyworld-conference-2013-day1-memo/</guid>
       <description>&lt;p&gt;RubyWorld Conference 2013 1日目にとったメモです。&lt;br /&gt;
 個人メモなので誤字などご容赦ください。&lt;/p&gt;
 

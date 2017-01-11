@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Meetup | Matsue Blog]]></title>
-  <link href="http://matsue.github.io/blog/categories/meetup/atom.xml" rel="self"/>
-  <link href="http://matsue.github.io/"/>
+  <link href="https://matsue.github.io/blog/categories/meetup/atom.xml" rel="self"/>
+  <link href="https://matsue.github.io/"/>
   <updated>2015-12-03T22:26:10+09:00</updated>
-  <id>http://matsue.github.io/</id>
+  <id>https://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Regional Scrum Gathering Tokyo 2015に参加した]]></title>
-    <link href="http://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/"/>
+    <link href="https://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/"/>
     <updated>2015-03-05T20:43:28+09:00</updated>
-    <id>http://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015</id>
+    <id>https://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015</id>
     <content type="html"><![CDATA[<p><a href="http://2015.scrumgatheringtokyo.org/">Regional Scrum Gathering Tokyo 2015</a>に参加した。<br/>
 3日分の発表内容メモと感想のまとめ。長い。</p>
 
@@ -750,7 +750,7 @@
 
 <p>今回紹介されたDtoD本は日本語に翻訳されている。紹介動画もある。</p>
 
-<table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:260px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d240x240&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d80x80" alt="発見から納品へ [ Gottesdiener，Ellen ]" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f" target="_blank">発見から納品へ [ Gottesdiener，Ellen ]</a><br><span style="">価格：3,500円（税込、送料込）</span><br></p></div></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:260px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f" target="_blank"><img src="https://hbb.afl.rakuten.co.jp/hgb/?pc=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d240x240&amp;m=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d80x80" alt="発見から納品へ [ Gottesdiener，Ellen ]" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f" target="_blank">発見から納品へ [ Gottesdiener，Ellen ]</a><br><span style="">価格：3,500円（税込、送料込）</span><br></p></div></td></tr></table>
 
 
 <p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/x9oIpZaXTDs" allowfullscreen></iframe></div></p>
@@ -774,9 +774,9 @@
   
   <entry>
     <title type="html"><![CDATA[Unityで3D野球盤を作った]]></title>
-    <link href="http://matsue.github.io/blog/2015/02/04/unity-workshop/"/>
+    <link href="https://matsue.github.io/blog/2015/02/04/unity-workshop/"/>
     <updated>2015-02-04T22:15:42+09:00</updated>
-    <id>http://matsue.github.io/blog/2015/02/04/unity-workshop</id>
+    <id>https://matsue.github.io/blog/2015/02/04/unity-workshop</id>
     <content type="html"><![CDATA[<p><img class="<a" src="href="https://lh6.googleusercontent.com/-jREUCZKPIRA/VNIwE0Q0JBI/AAAAAAAAR_A/bkdtFf09lvE/w1056-h692-no/unity-baseball-game.png">https://lh6.googleusercontent.com/-jREUCZKPIRA/VNIwE0Q0JBI/AAAAAAAAR_A/bkdtFf09lvE/w1056-h692-no/unity-baseball-game.png</a>&#8221;></p>
 
 <p><a href="http://8a1-apc.connpass.com/event/11282/">&ldquo;【ハンズオン】初めてのUnityで作る「3D野球盤」APC勉強会 #14&rdquo;</a>に参加してきた。</p>
@@ -807,12 +807,12 @@
   
   <entry>
     <title type="html"><![CDATA[Paris Tech Talks 8th に参加した]]></title>
-    <link href="http://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th/"/>
+    <link href="https://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th/"/>
     <updated>2014-09-23T06:36:15+09:00</updated>
-    <id>http://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th</id>
+    <id>https://matsue.github.io/blog/2014/09/23/paris-tech-talks-8th</id>
     <content type="html"><![CDATA[<p><a href="http://www.meetup.com/Paris-Tech-Talks/events/206595892/">Paris Tech Talks #8</a> に参加してきた。
 Paris Tech Talksは新しい技術や事業の紹介をする場。
-<a href="http://matsue.github.io/blog/2014/08/06/paris-dot-rb/">Paris.rb</a> に続きパリでは2回目の勉強会参加になる。
+<a href="https://matsue.github.io/blog/2014/08/06/paris-dot-rb/">Paris.rb</a> に続きパリでは2回目の勉強会参加になる。
 珍しく英語開催のイベントということもあって参加してみた。</p>
 
 <p><img class="<a" src="href="https://lh3.googleusercontent.com/-a9Jgv7TzM-A/VCCTzKMc0mI/AAAAAAAAFGk/wa4WihFt4fg/w924-h693-no/IMG_20140922_194645.jpg">https://lh3.googleusercontent.com/-a9Jgv7TzM-A/VCCTzKMc0mI/AAAAAAAAFGk/wa4WihFt4fg/w924-h693-no/IMG_20140922_194645.jpg</a>&#8221;></p>
@@ -921,9 +921,9 @@ Deezerは音楽ストリーミングサイトで、日本とアメリカでは�
   
   <entry>
     <title type="html"><![CDATA[Erlang User Conference 2014 に参加した]]></title>
-    <link href="http://matsue.github.io/blog/2014/06/12/euc2014/"/>
+    <link href="https://matsue.github.io/blog/2014/06/12/euc2014/"/>
     <updated>2014-06-12T14:09:40+09:00</updated>
-    <id>http://matsue.github.io/blog/2014/06/12/euc2014</id>
+    <id>https://matsue.github.io/blog/2014/06/12/euc2014</id>
     <content type="html"><![CDATA[<p>ストックホルムで開催された<a href="http://www.erlang-factory.com/euc2014">Erlang User Conference 2014</a>に参加した。</p>
 
 <p><img src="/images/2014-06-12-euc2014/euc2014_sponsors.jpg" title="&lsquo;euc2014_sponsors&rsquo; &lsquo;The flag of sponsors ato Erlang User Conference 2014&rsquo;" ></p>
@@ -1327,9 +1327,9 @@ recon_traceでオンラインtracingもできるらしい。</p>
   
   <entry>
     <title type="html"><![CDATA[第21回 AWS User Group - Japan 東京勉強会に参加しました]]></title>
-    <link href="http://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521/"/>
+    <link href="https://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521/"/>
     <updated>2014-05-21T00:12:13+09:00</updated>
-    <id>http://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521</id>
+    <id>https://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521</id>
     <content type="html"><![CDATA[<p>AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。<br/>
 コード化された運用は形式知化である。そして手順であれコードであれ、「なんでそうしてるのか？」ということも共有されないといけない。なるほど、なるほど。<br/>
 紹介されていたQiita teamは使ったことないけれど、Markdownで書けて、気軽に投稿して、検索可能な情報共有の場があると、たしかに良さそうです。</p>

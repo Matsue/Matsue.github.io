@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scrum Meetup on Matsue Blog</title>
-    <link>http://matsue.github.io/categories/scrum-meetup/</link>
+    <link>https://matsue.github.io/categories/scrum-meetup/</link>
     <description>Recent content in Scrum Meetup on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Thu, 05 Mar 2015 20:43:28 +0900</lastBuildDate>
-    <atom:link href="http://matsue.github.io/categories/scrum-meetup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://matsue.github.io/categories/scrum-meetup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Regional Scrum Gathering Tokyo 2015に参加した</title>
-      <link>http://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</link>
+      <link>https://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</link>
       <pubDate>Thu, 05 Mar 2015 20:43:28 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</guid>
+      <guid>https://matsue.github.io/post/2015-03-01-scrumgatheringtokyo-2015/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;に参加した。&lt;br /&gt;
@@ -447,7 +447,7 @@
 &lt;p&gt;公演中に紹介されていたKen Schwaberさんの動画は多分これ。&lt;/p&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/_47VWIvOKH8&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_47VWIvOKH8&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -724,10 +724,10 @@
 
 &lt;p&gt;今回紹介されたDtoD本は日本語に翻訳されている。紹介動画もある。&lt;/p&gt;
 
-&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:260px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d240x240&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d80x80&#34; alt=&#34;発見から納品へ [ Gottesdiener，Ellen ]&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f&#34; target=&#34;_blank&#34;&gt;発見から納品へ [ Gottesdiener，Ellen ]&lt;/a&gt;&lt;br&gt;&lt;span&gt;価格：3,500円（税込、送料込）&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:260px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/?pc=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d240x240&amp;amp;m=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2fnoimage_01.gif%3f_ex%3d80x80&#34; alt=&#34;発見から納品へ [ Gottesdiener，Ellen ]&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbook%2f13138583%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17331482%2f&#34; target=&#34;_blank&#34;&gt;発見から納品へ [ Gottesdiener，Ellen ]&lt;/a&gt;&lt;br&gt;&lt;span&gt;価格：3,500円（税込、送料込）&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/x9oIpZaXTDs&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/x9oIpZaXTDs&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 

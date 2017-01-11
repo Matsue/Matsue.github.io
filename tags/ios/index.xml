@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ios on Matsue Blog</title>
-    <link>http://matsue.github.io/tags/ios/index.xml</link>
+    <link>https://matsue.github.io/tags/ios/index.xml</link>
     <description>Recent content in Ios on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <atom:link href="http://matsue.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://matsue.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to remove square brackets from Alamofire array values</title>
-      <link>http://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/</link>
+      <link>https://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/</link>
       <pubDate>Sat, 02 Jul 2016 17:59:16 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/</guid>
+      <guid>https://matsue.github.io/post/how-to-remove-square-brackets-with-alamofire/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Alamofire/Alamofire&#34;&gt;Alamofire&lt;/a&gt; will add square brackets for the key of array values. This article will show you how to remove those brackets.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
