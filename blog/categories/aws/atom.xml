@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Aws | Matsue Blog]]></title>
-  <link href="https://matsue.github.io/blog/categories/aws/atom.xml" rel="self"/>
-  <link href="https://matsue.github.io/"/>
+  <link href="http://matsue.github.io/blog/categories/aws/atom.xml" rel="self"/>
+  <link href="http://matsue.github.io/"/>
   <updated>2015-12-03T22:26:10+09:00</updated>
-  <id>https://matsue.github.io/</id>
+  <id>http://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[第21回 AWS User Group - Japan 東京勉強会に参加しました]]></title>
-    <link href="https://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521/"/>
+    <link href="http://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521/"/>
     <updated>2014-05-21T00:12:13+09:00</updated>
-    <id>https://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521</id>
+    <id>http://matsue.github.io/blog/2014/05/21/jaws-ug-tokyo-21th-20140521</id>
     <content type="html"><![CDATA[<p>AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。<br/>
 コード化された運用は形式知化である。そして手順であれコードであれ、「なんでそうしてるのか？」ということも共有されないといけない。なるほど、なるほど。<br/>
 紹介されていたQiita teamは使ったことないけれど、Markdownで書けて、気軽に投稿して、検索可能な情報共有の場があると、たしかに良さそうです。</p>

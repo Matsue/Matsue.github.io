@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Devops | Matsue Blog]]></title>
-  <link href="https://matsue.github.io/blog/categories/devops/atom.xml" rel="self"/>
-  <link href="https://matsue.github.io/"/>
+  <link href="http://matsue.github.io/blog/categories/devops/atom.xml" rel="self"/>
+  <link href="http://matsue.github.io/"/>
   <updated>2015-12-03T22:26:10+09:00</updated>
-  <id>https://matsue.github.io/</id>
+  <id>http://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Rakuten Technology Conference 2015に参加しました]]></title>
-    <link href="https://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015/"/>
+    <link href="http://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015/"/>
     <updated>2015-11-24T20:07:45+09:00</updated>
-    <id>https://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015</id>
+    <id>http://matsue.github.io/blog/2015/11/24/rakuten-technology-conference-2015</id>
     <content type="html"><![CDATA[<p><a href="http://rakutentechnologyconference2015.sched.org/">Rakuten Technology Conference 2015</a>に参加しました。二子玉川にある楽天の新社屋Crimson Houseでの開催でした。</p>
 
 <p>並行して複数のセッションが行われていたので見逃したセッションも多いですが、以下のタイムテーブルの各セッション詳細にYoutubeへのリンクがあるので安心です。
@@ -115,8 +115,8 @@
 
 <p><strong>The Phoenix Project</strong>がアメリカではDevOpsのバイブル本とのことです。</p>
 
-<table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f" target="_blank"><img src="https://hbb.afl.rakuten.co.jp/hgb/?pc=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d128x128&amp;m=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d80x80" alt="The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f" target="_blank">The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win</a><br><span style="">著者：Gene Kim</span><br><span style="">価格：3,421円（税込、送料込）</span></p></div></td>
-<td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f" target="_blank"><img src="https://hbb.afl.rakuten.co.jp/hgb/?pc=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d128x128&amp;m=https%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d80x80" alt="The　DevOps逆転だ！" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f" target="_blank">The　DevOps逆転だ！</a><br><span style="">著者：ジーン・キム</span><br><span style="">価格：2,376円（税込、送料込）</span></p></div></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d128x128&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d80x80" alt="The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f" target="_blank">The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win</a><br><span style="">著者：Gene Kim</span><br><span style="">価格：3,421円（税込、送料込）</span></p></div></td>
+<td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d128x128&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d80x80" alt="The　DevOps逆転だ！" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f" target="_blank">The　DevOps逆転だ！</a><br><span style="">著者：ジーン・キム</span><br><span style="">価格：2,376円（税込、送料込）</span></p></div></td></tr></table>
 
 
 <h3>DevOps Journey (Micorsoft)</h3>
@@ -266,7 +266,7 @@
 
 <p>また、突然その場であった人たちとお互いの会社も国籍も分からないまま、ルールも手探りで、英語と日本語であれこれ言いながらやれた体験が特に面白く感じました。</p>
 
-<p><a href="https://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/">Regional Scrum Gathering Tokyo 2015</a>でもそうでしたが、こういったワークショップは気づきが多く、個人的には満足感が高いです。</p>
+<p><a href="http://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/">Regional Scrum Gathering Tokyo 2015</a>でもそうでしたが、こういったワークショップは気づきが多く、個人的には満足感が高いです。</p>
 
 <hr />
 

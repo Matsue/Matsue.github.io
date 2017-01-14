@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Mobile | Matsue Blog]]></title>
-  <link href="https://matsue.github.io/blog/categories/mobile/atom.xml" rel="self"/>
-  <link href="https://matsue.github.io/"/>
+  <link href="http://matsue.github.io/blog/categories/mobile/atom.xml" rel="self"/>
+  <link href="http://matsue.github.io/"/>
   <updated>2015-12-03T22:26:10+09:00</updated>
-  <id>https://matsue.github.io/</id>
+  <id>http://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[パリ生活に役立つアプリ10選+α]]></title>
-    <link href="https://matsue.github.io/blog/2015/02/06/useful-apps-in-paris/"/>
+    <link href="http://matsue.github.io/blog/2015/02/06/useful-apps-in-paris/"/>
     <updated>2015-02-06T15:01:38+09:00</updated>
-    <id>https://matsue.github.io/blog/2015/02/06/useful-apps-in-paris</id>
+    <id>http://matsue.github.io/blog/2015/02/06/useful-apps-in-paris</id>
     <content type="html"><![CDATA[<p>パリに滞在していた際に、便利だったり面白いと感じたアプリやサービスの紹介。</p>
 
 <ul>

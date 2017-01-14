@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Erlang | Matsue Blog]]></title>
-  <link href="https://matsue.github.io/blog/categories/erlang/atom.xml" rel="self"/>
-  <link href="https://matsue.github.io/"/>
+  <link href="http://matsue.github.io/blog/categories/erlang/atom.xml" rel="self"/>
+  <link href="http://matsue.github.io/"/>
   <updated>2015-12-03T22:26:10+09:00</updated>
-  <id>https://matsue.github.io/</id>
+  <id>http://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Erlang User Conference 2014 に参加した]]></title>
-    <link href="https://matsue.github.io/blog/2014/06/12/euc2014/"/>
+    <link href="http://matsue.github.io/blog/2014/06/12/euc2014/"/>
     <updated>2014-06-12T14:09:40+09:00</updated>
-    <id>https://matsue.github.io/blog/2014/06/12/euc2014</id>
+    <id>http://matsue.github.io/blog/2014/06/12/euc2014</id>
     <content type="html"><![CDATA[<p>ストックホルムで開催された<a href="http://www.erlang-factory.com/euc2014">Erlang User Conference 2014</a>に参加した。</p>
 
 <p><img src="/images/2014-06-12-euc2014/euc2014_sponsors.jpg" title="&lsquo;euc2014_sponsors&rsquo; &lsquo;The flag of sponsors ato Erlang User Conference 2014&rsquo;" ></p>

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paris Meetup on Matsue Blog</title>
-    <link>https://matsue.github.io/categories/paris-meetup/</link>
+    <link>http://matsue.github.io/categories/paris-meetup/</link>
     <description>Recent content in Paris Meetup on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Mon, 22 Sep 2014 23:36:15 +0200</lastBuildDate>
-    <atom:link href="https://matsue.github.io/categories/paris-meetup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://matsue.github.io/categories/paris-meetup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Paris Tech Talks 8th に参加した</title>
-      <link>https://matsue.github.io/post/2014-09-22-paris-tech-talks-8th/</link>
+      <link>http://matsue.github.io/post/2014-09-22-paris-tech-talks-8th/</link>
       <pubDate>Mon, 22 Sep 2014 23:36:15 +0200</pubDate>
       
-      <guid>https://matsue.github.io/post/2014-09-22-paris-tech-talks-8th/</guid>
+      <guid>http://matsue.github.io/post/2014-09-22-paris-tech-talks-8th/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://www.meetup.com/Paris-Tech-Talks/events/206595892/&#34;&gt;Paris Tech Talks #8&lt;/a&gt; に参加してきた。
 Paris Tech Talksは新しい技術や事業の紹介をする場。
-&lt;a href=&#34;https://matsue.github.io/blog/2014/08/06/paris-dot-rb/&#34;&gt;Paris.rb&lt;/a&gt; に続きパリでは2回目の勉強会参加になる。
+&lt;a href=&#34;http://matsue.github.io/blog/2014/08/06/paris-dot-rb/&#34;&gt;Paris.rb&lt;/a&gt; に続きパリでは2回目の勉強会参加になる。
 珍しく英語開催のイベントということもあって参加してみた。&lt;/p&gt;
 
 

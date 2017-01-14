@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://matsue.github.io/sitemap.xml 
+Sitemap: http://matsue.github.io/sitemap.xml 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Bicycle | Matsue Blog]]></title>
-  <link href="https://matsue.github.io/blog/categories/bicycle/atom.xml" rel="self"/>
-  <link href="https://matsue.github.io/"/>
+  <link href="http://matsue.github.io/blog/categories/bicycle/atom.xml" rel="self"/>
+  <link href="http://matsue.github.io/"/>
   <updated>2015-12-03T22:26:10+09:00</updated>
-  <id>https://matsue.github.io/</id>
+  <id>http://matsue.github.io/</id>
   <author>
     <name><![CDATA[Hiroki Matsue]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tour De France 2014を見てきた]]></title>
-    <link href="https://matsue.github.io/blog/2014/08/22/tour-de-france-2014/"/>
+    <link href="http://matsue.github.io/blog/2014/08/22/tour-de-france-2014/"/>
     <updated>2014-08-22T05:18:06+09:00</updated>
-    <id>https://matsue.github.io/blog/2014/08/22/tour-de-france-2014</id>
+    <id>http://matsue.github.io/blog/2014/08/22/tour-de-france-2014</id>
     <content type="html"><![CDATA[<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
 

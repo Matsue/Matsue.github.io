@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby Paris on Matsue Blog</title>
-    <link>https://matsue.github.io/categories/ruby-paris/</link>
+    <link>http://matsue.github.io/categories/ruby-paris/</link>
     <description>Recent content in Ruby Paris on Matsue Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 06 Aug 2014 00:21:32 +0200</lastBuildDate>
-    <atom:link href="https://matsue.github.io/categories/ruby-paris/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://matsue.github.io/categories/ruby-paris/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Paris.rbに参加した</title>
-      <link>https://matsue.github.io/post/2014-08-06-paris-dot-rb/</link>
+      <link>http://matsue.github.io/post/2014-08-06-paris-dot-rb/</link>
       <pubDate>Wed, 06 Aug 2014 00:21:32 +0200</pubDate>
       
-      <guid>https://matsue.github.io/post/2014-08-06-paris-dot-rb/</guid>
+      <guid>http://matsue.github.io/post/2014-08-06-paris-dot-rb/</guid>
       <description>
 
 &lt;p&gt;7月より期間限定でパリにて勤務しており、せっかくの機会なのでParis.rbに参加してみた。
