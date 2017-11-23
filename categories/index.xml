@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 256DAYS</title>
+    <link>https://256days.com/categories/</link>
+    <description>Recent content in Categories on 256DAYS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp-ja</language>
+    <copyright>All rights reserved - 2015</copyright>
+    
+	<atom:link href="https://256days.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scrum Devops Ruby</title>
+      <link>https://256days.com/categories/scrum-devops-ruby/</link>
+      <pubDate>Tue, 24 Nov 2015 20:07:45 +0900</pubDate>
+      
+      <guid>https://256days.com/categories/scrum-devops-ruby/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

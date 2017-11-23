@@ -2,19 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on 256DAYS</title>
-    <link>http://matsue.github.io/tags/devops/index.xml</link>
+    <link>https://256days.com/tags/devops/</link>
     <description>Recent content in Devops on 256DAYS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <atom:link href="http://matsue.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Nov 2015 20:07:45 +0900</lastBuildDate>
+    
+	<atom:link href="https://256days.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Rakuten Technology Conference 2015に参加しました</title>
-      <link>http://matsue.github.io/post/2015-11-24-rakuten-technology-conference-2015/</link>
+      <link>https://256days.com/post/2015-11-24-rakuten-technology-conference-2015/</link>
       <pubDate>Tue, 24 Nov 2015 20:07:45 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2015-11-24-rakuten-technology-conference-2015/</guid>
+      <guid>https://256days.com/post/2015-11-24-rakuten-technology-conference-2015/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/&#34;&gt;Rakuten Technology Conference 2015&lt;/a&gt;に参加しました。二子玉川にある楽天の新社屋Crimson Houseでの開催でした。&lt;/p&gt;
 
 &lt;p&gt;並行して複数のセッションが行われていたので見逃したセッションも多いですが、以下のタイムテーブルの各セッション詳細にYoutubeへのリンクがあるので安心です。
@@ -24,255 +27,7 @@
 
 &lt;p&gt;以下は参加したセッションについてのまとめです。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;##　Will AI surpass human intelligence? &amp;ndash; Beyond Deep Learning (Yutaka Matsuo)&lt;/p&gt;
-
-&lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/s7yey8hfQII&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/4B4g/will-ai-surpass-human-intelligence-beyond-deep-hellip&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/4B4g/will-ai-surpass-human-intelligence-beyond-deep-hellip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;松尾先生による、これまでのAIの歴史とディープラーニングを用いた研究成果、そして今後の展望についてのお話。&lt;/p&gt;
-
-&lt;p&gt;上記動画の28分あたりから紹介されている、ディープラーニングに関連する映像が衝撃的です。
-画像解析とゲームスコアによる評価付けで、ブロック崩しやレースゲームをAIが効率良く解いている様子が紹介されています。
-どの動画でも前半はやみくもにゲームをプレイしているAIも学習が進むと、ブロック崩しで端に穴をあけてまとめてブロックを崩したり、レースゲームで最適なコース取りをしていて、その急成長ぶりは気味の悪さも感じさせます。&lt;/p&gt;
-
-&lt;p&gt;近年の画像解析のアルゴリズムコンペでも、同一人物の顔を見つける処理をした場合の誤認識率は5%を下回り、同一人物・別人物と誤認識していた画像は人間が見ても判別が難しいそうです。&lt;/p&gt;
-
-&lt;p&gt;また近年の学習をしていくAIのことを&lt;strong&gt;&amp;ldquo;Child AI&amp;rdquo;&lt;/strong&gt;、過去のAIにあったような人間が直接に解法や知識を与えておくアプローチでつくるAIを&lt;strong&gt;&amp;ldquo;Adult AI&amp;rdquo;&lt;/strong&gt;と呼び分けていました。&lt;/p&gt;
-
-&lt;h2 id=&#34;programmable-iot-platform-soracom-ken-tamagawa&#34;&gt;Programmable IoT Platform “SORACOM&amp;rdquo; (Ken Tamagawa)&lt;/h2&gt;
-
-&lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/XtdijMoKC1o&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/4N57/programmable-iot-platform-soracom&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/4N57/programmable-iot-platform-soracom&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;玉川さんによるSORACOMのお話。&lt;/p&gt;
-
-&lt;p&gt;キャリアが提供するパケット通信、帯域制限といった機能を賄うデータセンターのサーバーは、すべて用意しようとすると700億円近くもするらしいです。。&lt;/p&gt;
-
-&lt;p&gt;そこでMVNO。SORACOMはIoT向けのMVNOでAWSのようなWebコンソールから管理下のSIMの帯域制限などができます。&lt;/p&gt;
-
-&lt;p&gt;使っている例として大手企業や、以下の様なデバイスが紹介されていました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://akerun.com/&#34;&gt;Akerun&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://kibi-dango.jp/info.php?type=items&amp;amp;id=I0000137&#34;&gt;LiveConnect&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;soracom-beam&#34;&gt;SORACOM Beam&lt;/h3&gt;
-
-&lt;p&gt;SIMカードから送られたパケットをキャリアネットワークから先で自動で暗号化してくれるサービス。例えば&lt;strong&gt;HTTP通信はHTTPS通信に&lt;/strong&gt;してくれます。デバイス側ではSSL通信の処理をしなくてよいので、&lt;strong&gt;バッテリーの使用量削減&lt;/strong&gt;も期待できます。
-&lt;a href=&#34;http://whill.us/&#34;&gt;WHILL&lt;/a&gt;でも使われてるらしいです。&lt;/p&gt;
-
-&lt;h3 id=&#34;今後の展開&#34;&gt;今後の展開&lt;/h3&gt;
-
-&lt;p&gt;最近ではカスタムDNS等の機能をリリースしており、今後も既存のプラットフォームをAWS上で各国にリリースすることでグローバルに展開していくとのことです。&lt;/p&gt;
-
-&lt;h3 id=&#34;q-a&#34;&gt;Q&amp;amp;A&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;物理サーバは使ってないのか？それはボトルネックにならないのか？
-
-&lt;ul&gt;
-&lt;li&gt;ドコモのデータセンターにあるが、拡張可能なためボトルネックにはならない。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;なぜSORACOMをやろうと決心したのか？
-
-&lt;ul&gt;
-&lt;li&gt;AWSにいたころ、時差ボケで眠れない夜にSORACOMのプレスリリースを書いて、翌日の朝にそのプレスリリースを読んでこれはいけると思ったのがきっかけ&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;SORACOM Beamはどのくらい電力使用量を減らすのか？
-
-&lt;ul&gt;
-&lt;li&gt;具体的なデータは持ってないが、HTTPSの処理は多大なリソースを使っていた部分をHTTPで処理できる分、削減できると考える。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Software SIMについてどう考えるか？
-
-&lt;ul&gt;
-&lt;li&gt;いまのSORACOMはSIMカードが必要。リモートでプロファイルが書き換えられるSoftware SIMはSORACOMとも相性が良いので、調査中。実際にEU諸国での例もあるので展開が楽しみ。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;rakuten-and-microsoft-talk-devops-in-real-world-kotaro-ogino-drew-robbins-tsuyoshi-ushio&#34;&gt;Rakuten and Microsoft talk DevOps in Real world (Kotaro Ogino / Drew Robbins / Tsuyoshi Ushio)&lt;/h2&gt;
-
-&lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/mZ8tgEtubGE&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/3iON/rakuten-and-microsoft-talk-devops-in-real-world&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/3iON/rakuten-and-microsoft-talk-devops-in-real-world&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;動画冒頭の&amp;rdquo;DevOps!!!&amp;ldquo;コールは音量に注意してください笑&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Phoenix Project&lt;/strong&gt;がアメリカではDevOpsのバイブル本とのことです。&lt;/p&gt;
-
-&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d128x128&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f2508%2f9780988262508.jpg%3f_ex%3d80x80&#34; alt=&#34;The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12928326%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17111893%2f&#34; target=&#34;_blank&#34;&gt;The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：Gene Kim&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：3,421円（税込、送料込）&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:160px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d128x128&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5357%2f9784822285357.jpg%3f_ex%3d80x80&#34; alt=&#34;The　DevOps逆転だ！&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0ecae152.d6af1699.0ecae153.1dd72672/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f12883862%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f17062168%2f&#34; target=&#34;_blank&#34;&gt;The　DevOps逆転だ！&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：ジーン・キム&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：2,376円（税込、送料込）&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;h3 id=&#34;devops-journey-micorsoft&#34;&gt;DevOps Journey (Micorsoft)&lt;/h3&gt;
-
-&lt;p&gt;Visual Studioは1997年にリリースされ、当時は2、3年おきにリリースするというサイクルでした。
-そして最初のリリース後はバグ修正だけに終始してユーザのフィードバックに応えることはありませんでした。&lt;/p&gt;
-
-&lt;p&gt;2008年移行にその体制は変わって、2013年にはVisual Studio Onlineという形でリリースがされました。&lt;/p&gt;
-
-&lt;p&gt;DevとOpsとPMに分かれていたチームは&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Dev &amp;amp; Opsで&lt;strong&gt;Development Team&lt;/strong&gt;になり、&lt;/li&gt;
-&lt;li&gt;Dev &amp;amp; Ops &amp;amp; PMで&lt;strong&gt;Feature Team&lt;/strong&gt;になり、&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;顧客とコラボレーションして動くようになりました。
-その結果、いまでは1週間で80デプロイを行い、それでもインシデント数は1ヶ月で10個だけになったそうです。&lt;/p&gt;
-
-&lt;p&gt;さらに凄いのは、この変化は会社のサポートが最初からあって起きたわけではなく、以下のフェーズを経て少数の熱意から変化したそうです。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Change agent(s)&lt;/strong&gt; : DevOpsを始める少数の人、ユニコーンによるDevOps開始&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Grassroots&lt;/strong&gt; : 著名人などを招いた会社内でのイベントの実施&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tops down&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Scale&lt;/strong&gt; : Dojoシステム&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;今では&lt;strong&gt;Dojoシステム&lt;/strong&gt;というものがあり、週一程度で定期開催される会でCI等についていつでも学ぶことができます。
-それでもまだDevOps Journeyの途上だということです。&lt;/p&gt;
-
-&lt;p&gt;他社のDevOps Journeyとしては以下のストーリーが紹介されました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Rakuten: &lt;strong&gt;Microservices&lt;/strong&gt;により、大きな企業の中であっても、各チームはスタートアップのように振る舞う&lt;/li&gt;
-&lt;li&gt;Yahoo! Japan: DevとOpsの壁をなくすために、&lt;strong&gt;Devチームのユニコーン(リーダー格)の人をOpsに入れる&lt;/strong&gt;ことで、Opsに自動化の文化を生み出す&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;test-automation-for-devops-rakuten&#34;&gt;Test Automation for DevOps (Rakuten)&lt;/h3&gt;
-
-&lt;p&gt;発表者の荻野さんは楽天のIDやポイント、決済を管理するGroup Core Serviceという部署で働いていており、多くのビジネス要求がある中でどのようにDevOpsを回しているかの紹介がありました。&lt;/p&gt;
-
-&lt;p&gt;スケール可能なパフォーマンステストを行うため、楽天内のOpenStack環境を使い、数クリックでGatlingによるテストを実行できるとのことです。そして全てのCI結果はKibanaにより集計されていました。かっこいい。&lt;/p&gt;
-
-&lt;h3 id=&#34;ci-strategies-microsoft&#34;&gt;CI Strategies (Microsoft)&lt;/h3&gt;
-
-&lt;p&gt;Microsoftでは以下のような戦略・手法をとっています。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;クラウドとオンプレミスのコードベースを共有する&lt;/li&gt;
-&lt;li&gt;いつでもデプロイ可能にする&lt;/li&gt;
-&lt;li&gt;Canary testing (カナリアテスト) : 一部のサーバクラスタにだけ新機能をリリースし、問題がなければ他のクラスタにもスケールしていく&lt;/li&gt;
-&lt;li&gt;Feature flags : ランタイムで機能のON/OFF&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;continuous-delivery-strategy-map&#34;&gt;Continuous Delivery Strategy Map&lt;/h3&gt;
-
-&lt;p&gt;牛尾さんがDevOpsインタビューをする中で気づいた戦略マップにはSpeed、Qualityの2つの軸があります。&lt;/p&gt;
-
-&lt;p&gt;Cookpadが行っているような、いつでもロールバックできるようにする戦略はSpeed重視、荻野さんの例やカナリアテストを使う戦略はQuality重視になります。&lt;/p&gt;
-
-&lt;h2 id=&#34;building-smart-applications-with-an-algorithm-marketplace-diego-oppenheimer-algorithmia-dex-dex-tra-dextra-daryl-arnold-diego-oppenheimer&#34;&gt;Building Smart Applications with an Algorithm Marketplace : Diego Oppenheimer, Algorithmia &amp;amp; DEX &amp;amp; DEX(TRA) : Dextra (Daryl Arnold / Diego Oppenheimer)&lt;/h2&gt;
-
-&lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/T0Pob0hyRps&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/4B5P/building-smart-applications-with-an-algorithm-markehellip&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/4B5P/building-smart-applications-with-an-algorithm-markehellip&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;algorithmia&#34;&gt;Algorithmia&lt;/h3&gt;
-
-&lt;p&gt;Algorithmiaは人々がアルゴリズムを発見・利用できる状態にすることを目的とする会社で、様々なアルゴリズムをサイト上で試用・購入することができます。&lt;/p&gt;
-
-&lt;p&gt;アルゴリズムエコノミーが必要な背景としては以下の事例を挙げていました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2009年には8ゼタバイト(テラ-&amp;gt;ペタ-&amp;gt;エクサ-&amp;gt;ゼタ)のデータが生み出され、2020年には35ゼタバイトに上る&lt;/li&gt;
-&lt;li&gt;1時間あたり、100万台の新しいデバイスがオンラインになっている&lt;/li&gt;
-&lt;li&gt;1分あたり、20時間分の動画がアップロードされている&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;実際のアルゴリズムの例は、以下が挙げられていました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Nudity detection: &lt;a href=&#34;https://isitnude.com/&#34;&gt;isitnude&lt;/a&gt; / &lt;a href=&#34;http://blog.algorithmia.com/post/121967357859/isitnude&#34;&gt;ブログ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Face recognition: &lt;a href=&#34;http://fr-demo.aerobaticapp.com/&#34;&gt;Name That Actor&lt;/a&gt; / &lt;a href=&#34;http://blog.algorithmia.com/post/130768558569/whos-who-facial-recognition-made-simple&#34;&gt;ブログ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Web page recommender: &lt;a href=&#34;https://algorithmia.com/recommends&#34;&gt;https://algorithmia.com/recommends&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;keyword tags for a URL: &lt;a href=&#34;https://algorithmia.com/algorithms/tags/AutoTagURL&#34;&gt;https://algorithmia.com/algorithms/tags/AutoTagURL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;他の事例については以下のリンク先を見て、いくつか試してみるとわかりやすいです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://algorithmia.com/use-cases&#34;&gt;https://algorithmia.com/use-cases&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;devops-with-lego-and-chocolate-simulation-game-dana-pylayeva&#34;&gt;DevOps with Lego and Chocolate simulation game (Dana Pylayeva)&lt;/h2&gt;
-
-&lt;div class=&#34;embed-video-container&#34;&gt;
-  &lt;iframe src=&#34;http://www.youtube.com/embed/Lup62Wf783Y&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/event/4B4r/devops-with-lego-and-chocolate-simulation-game&#34;&gt;http://rakutentechnologyconference2015.sched.org/event/4B4r/devops-with-lego-and-chocolate-simulation-game&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;DevOpsについて、ワークショップ形式で実際に他の方々とゲームで学べるセッションです。
-文章では伝わりづらいかと思いますが、概ね以下のようなルールのゲームが行われました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ビジネス、Dev、Opsを持つ3つのチームにわかれ、さらにチーム内でそれぞれに、アドミンやテスターといった役割が割り振られる&lt;/li&gt;
-&lt;li&gt;ビジネスの要求を基に、レゴで組み立てられたプロダクトを各チームはたくさん生産することを目的に取り組む&lt;/li&gt;
-&lt;li&gt;生産する時間な数スプリント用意されていて、各スプリント間には振り返りの時間と、ルール変更がある&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;上記のルール変更が大きなポイントで、例えばゲーム開始当初は&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Devのみがレゴを組み立てて良い&lt;/li&gt;
-&lt;li&gt;Opsだけが使用できるレゴの種類を知っていて納品できる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;という風に完全に役割が分かれています。&lt;/p&gt;
-
-&lt;p&gt;スプリントが進むとルールが変化し、&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Devも使用できるレゴを知って良いし、納品しても良い&lt;/li&gt;
-&lt;li&gt;Opsもレゴを組み立てて良い&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;となります。&lt;/p&gt;
-
-&lt;p&gt;そうするとDevもOpsも待っているだけの時間がなくなり、スプリントを進めるごとに納品できるプロダクトが増えていきます。&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://lh3.googleusercontent.com/-B-9FHwzzITE/VmA3C9cA6XI/AAAAAAAAfzU/J5vvP4t3gWo/w530-h707-p-rw/_3748.JPG&#34;  /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-
-&lt;p&gt;このワークショップでは、以下の様な実際の現場にありそうなイベント・体験が用意されていたのが印象的でした。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Devが作ったものが完成してから、Opsの段階で&lt;strong&gt;セキュリティの要件でプロダクトが差し戻される&lt;/strong&gt;イベントがある&lt;/li&gt;
-&lt;li&gt;セキュリティ要件を修正したあと、&lt;strong&gt;ビジネス判断で完成品のデプロイが延期になる&lt;/strong&gt;イベントがある&lt;/li&gt;
-&lt;li&gt;スプリントが進んでDevがOpsを兼ねるようになると、Ops陣もDevに入らないと&lt;strong&gt;やることがなくなる&lt;/strong&gt;(逆も然り)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;また、突然その場であった人たちとお互いの会社も国籍も分からないまま、ルールも手探りで、英語と日本語であれこれ言いながらやれた体験が特に面白く感じました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://matsue.github.io/blog/2015/03/05/scrumgatheringtokyo-2015/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;でもそうでしたが、こういったワークショップは気づきが多く、個人的には満足感が高いです。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;以上です。さいごに、講演者・スタッフの皆様、素敵なカンファレンスをありがとうございました！&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

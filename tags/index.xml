@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 256DAYS</title>
+    <link>https://256days.com/tags/</link>
+    <description>Recent content in Tags on 256DAYS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp-ja</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Wed, 21 May 2014 00:12:13 +0900</lastBuildDate>
+    
+	<atom:link href="https://256days.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aws</title>
+      <link>https://256days.com/tags/aws/</link>
+      <pubDate>Wed, 21 May 2014 00:12:13 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bicycle</title>
+      <link>https://256days.com/tags/bicycle/</link>
+      <pubDate>Thu, 21 Aug 2014 22:18:06 +0200</pubDate>
+      
+      <guid>https://256days.com/tags/bicycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book</title>
+      <link>https://256days.com/tags/book/</link>
+      <pubDate>Sat, 24 Sep 2016 22:25:51 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>https://256days.com/tags/devops/</link>
+      <pubDate>Tue, 24 Nov 2015 20:07:45 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Erlang</title>
+      <link>https://256days.com/tags/erlang/</link>
+      <pubDate>Thu, 12 Jun 2014 14:09:40 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/erlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ios</title>
+      <link>https://256days.com/tags/ios/</link>
+      <pubDate>Sat, 02 Jul 2016 17:59:16 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meetup</title>
+      <link>https://256days.com/tags/meetup/</link>
+      <pubDate>Thu, 05 Mar 2015 20:43:28 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>https://256days.com/tags/mobile/</link>
+      <pubDate>Fri, 06 Feb 2015 15:01:38 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paris</title>
+      <link>https://256days.com/tags/paris/</link>
+      <pubDate>Fri, 06 Feb 2015 15:01:38 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/paris/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://256days.com/tags/ruby/</link>
+      <pubDate>Tue, 24 Nov 2015 20:07:45 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scrum</title>
+      <link>https://256days.com/tags/scrum/</link>
+      <pubDate>Tue, 24 Nov 2015 20:07:45 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>https://256days.com/tags/swift/</link>
+      <pubDate>Sat, 02 Jul 2016 17:59:16 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>https://256days.com/tags/unity/</link>
+      <pubDate>Wed, 04 Feb 2015 22:15:42 +0900</pubDate>
+      
+      <guid>https://256days.com/tags/unity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

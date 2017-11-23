@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://matsue.github.io/sitemap.xml 
+Sitemap: https://256days.com/sitemap.xml 

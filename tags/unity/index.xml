@@ -2,19 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unity on 256DAYS</title>
-    <link>http://matsue.github.io/tags/unity/index.xml</link>
+    <link>https://256days.com/tags/unity/</link>
     <description>Recent content in Unity on 256DAYS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
-    <atom:link href="http://matsue.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Feb 2015 22:15:42 +0900</lastBuildDate>
+    
+	<atom:link href="https://256days.com/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Unityで3D野球盤を作った</title>
-      <link>http://matsue.github.io/post/2015-02-04-unity-workshop/</link>
+      <link>https://256days.com/post/2015-02-04-unity-workshop/</link>
       <pubDate>Wed, 04 Feb 2015 22:15:42 +0900</pubDate>
       
-      <guid>http://matsue.github.io/post/2015-02-04-unity-workshop/</guid>
+      <guid>https://256days.com/post/2015-02-04-unity-workshop/</guid>
       <description>&lt;figure &gt;
     
         &lt;img src=&#34;https://lh6.googleusercontent.com/-jREUCZKPIRA/VNIwE0Q0JBI/AAAAAAAAR_A/bkdtFf09lvE/w1056-h692-no/unity-baseball-game.png&#34;  /&gt;
@@ -26,26 +29,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://8a1-apc.connpass.com/event/11282/&#34;&gt;&amp;rdquo;【ハンズオン】初めてのUnityで作る「3D野球盤」APC勉強会 #14&amp;rdquo;&lt;/a&gt;に参加してきた。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;当日の資料はこちら: &lt;a href=&#34;http://www.slideshare.net/apc_8a1/8a120150204-unity&#34;&gt;http://www.slideshare.net/apc_8a1/8a120150204-unity&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;上記の資料に沿ってUnityで3D野球盤を作ってきた。
-資料がスクリーンショットを交えながら丁寧に作られていたし、
-事前にオブジェクトやスクリプトが用意されていたこともあって、ちゃんと動くところまでいけた。
-細かい操作で詰まっても質問してすぐに解決しながら作成できたのも良かった。
-今回使用させてもらったオブジェクトやスクリプトが含まれるパッケージは、パスワード付きのリンクだったのでここには貼ってない。&lt;/p&gt;
-
-&lt;p&gt;今回のハンズオンでスクリプトの定義方法、コンポーネントの追加の仕方、Assetsの登録方法など基本的な操作が理解できた。&lt;/p&gt;
-
-&lt;p&gt;今回は時間短縮のためにパッケージで済ませた、
-オブジェクトやゲームスクリプトの作成でトライ&amp;amp;エラーを繰り返していたら、
-とても１時間程度では終わらなかったと思う。&lt;/p&gt;
-
-&lt;p&gt;ほとんど用意されていたものを使ったとはいえ、動くとやっぱり嬉しい。&lt;/p&gt;
-
-&lt;p&gt;Unityで作成したアプリなので、この野球盤アプリはAndroidでも動いた。
-ただ、ラップトップではキー操作で動く部分が、Androidでは画面タップにする必要があるのでそこは修正しないといけない。&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
