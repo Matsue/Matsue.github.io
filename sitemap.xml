@@ -44,17 +44,17 @@
   
   <url>
     <loc>https://256days.com/post/2014-09-22-paris-tech-talks-8th/</loc>
-    <lastmod>2014-09-22T23:36:15+02:00</lastmod>
+    <lastmod>2014-09-22T23:36:15+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://256days.com/post/2014-08-21-tour-de-france-2014/</loc>
-    <lastmod>2014-08-21T22:18:06+02:00</lastmod>
+    <lastmod>2014-08-21T22:18:06+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://256days.com/post/2014-08-06-paris-dot-rb/</loc>
-    <lastmod>2014-08-06T00:21:32+02:00</lastmod>
+    <lastmod>2014-08-06T00:21:32+09:00</lastmod>
   </url>
   
   <url>
@@ -96,7 +96,7 @@
   
   <url>
     <loc>https://256days.com/tags/bicycle/</loc>
-    <lastmod>2014-08-21T22:18:06+02:00</lastmod>
+    <lastmod>2014-08-21T22:18:06+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -161,12 +161,6 @@
   
   <url>
     <loc>https://256days.com/tags/scrum/</loc>
-    <lastmod>2015-11-24T20:07:45+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://256days.com/categories/scrum-devops-ruby/</loc>
     <lastmod>2015-11-24T20:07:45+09:00</lastmod>
     <priority>0</priority>
   </url>
