@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aws on 256days</title>
+    <title>aws on 256days</title>
     <link>https://256days.com/tags/aws/</link>
-    <description>Recent content in Aws on 256days</description>
+    <description>Recent content in aws on 256days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
@@ -18,13 +18,10 @@
       <pubDate>Wed, 21 May 2014 00:12:13 +0900</pubDate>
       
       <guid>https://256days.com/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</guid>
-      <description>&lt;p&gt;AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。&lt;br /&gt;
-コード化された運用は形式知化である。そして手順であれコードであれ、「なんでそうしてるのか？」ということも共有されないといけない。なるほど、なるほど。&lt;br /&gt;
+      <description>&lt;p&gt;AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。&lt;br&gt;
+コード化された運用は形式知化である。そして手順であれコードであれ、「なんでそうしてるのか？」ということも共有されないといけない。なるほど、なるほど。&lt;br&gt;
 紹介されていたQiita teamは使ったことないけれど、Markdownで書けて、気軽に投稿して、検索可能な情報共有の場があると、たしかに良さそうです。&lt;/p&gt;
-
-&lt;p&gt;以下、イベント参加時のメモです。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;以下、イベント参加時のメモです。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -65,7 +65,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.48" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <link rel="canonical" href="https://256days.com/post/how-to-remove-square-brackets-with-alamofire/" />
 
@@ -78,13 +78,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": 
+        "name":  null 
     },
     "author": {
         "@type": "Person",
-        "name": ,
+        "name":  null ,
         
-        "url": https://256days.com/,
+        "url": "https://256days.com/",
         "sameAs": [
             
             
@@ -96,23 +96,23 @@
             
         ]
     },
-    "headline": How to remove square brackets from Alamofire array values,
-    "name": How to remove square brackets from Alamofire array values,
-    "wordCount": 328,
+    "headline": "How to remove square brackets from Alamofire array values",
+    "name": "How to remove square brackets from Alamofire array values",
+    "wordCount":  328 ,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": https://256days.com/post/how-to-remove-square-brackets-with-alamofire/,
-    "datePublished": 2016-07-02T17:59Z,
-    "dateModified": 2016-07-02T17:59Z,
+    "url": "https://256days.com/post/how-to-remove-square-brackets-with-alamofire/",
+    "datePublished": "2016-07-02T17:59Z",
+    "dateModified": "2016-07-02T17:59Z",
     
-    "keywords": ios, swift,
-    "description": ,
+    "keywords": "ios, swift",
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": https://256days.com/post/how-to-remove-square-brackets-with-alamofire/
+        "@id": "https://256days.com/post/how-to-remove-square-brackets-with-alamofire/"
     }
 }
     </script>
@@ -233,88 +233,64 @@
 
     <section class="post-content">
       <p><a href="https://github.com/Alamofire/Alamofire">Alamofire</a> will add square brackets for the key of array values. This article will show you how to remove those brackets.</p>
-
-<p></p>
-
 <p>By default, array values will be encoded to parameters like this.</p>
-
 <p><code>foo[]=bar1&amp;foo[]=bar2</code></p>
-
 <p>This time we will make no square brackets parameters with ParameterEncoding.</p>
-
 <p><code>foo=bar1&amp;foo=bar2</code></p>
-
-<p>EDIT: We can use <code>URLEncoding(arrayEncoding: .noBrackets)</code> from <a href="https://github.com/Alamofire/Alamofire/commit/0456f5b501f46591a77b4bb6f2e2e2a97d095042">Alamofire 4.7.0</a>.<br />
+<p>EDIT: We can use <code>URLEncoding(arrayEncoding: .noBrackets)</code> from <a href="https://github.com/Alamofire/Alamofire/commit/0456f5b501f46591a77b4bb6f2e2e2a97d095042">Alamofire 4.7.0</a>.<br>
 Thanks Von! <a href="http://disq.us/p/1vkqkqx">http://disq.us/p/1vkqkqx</a></p>
-
 <h2 id="examples-with-parameterencoding">Examples with ParameterEncoding</h2>
-
 <p>Alamofire allow to change encoding formats with ParameterEncoding.</p>
-
 <h3 id="swift3">Swift3</h3>
-
-<pre><code class="language-swift">// Remove square brackets for GET request
-struct CustomGetEncoding: ParameterEncoding {
-    func encode(_ urlRequest: URLRequestConvertible, with parameters: Parameters?) throws -&gt; URLRequest {
-        var request = try URLEncoding().encode(urlRequest, with: parameters)
-        request.url = URL(string: request.url!.absoluteString.replacingOccurrences(of: &quot;%5B%5D=&quot;, with: &quot;=&quot;))
-        return request
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#75715e">// Remove square brackets for GET request</span>
+<span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">CustomGetEncoding</span>: ParameterEncoding {
+    <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">encode</span>(<span style="color:#66d9ef">_</span> urlRequest: URLRequestConvertible, with parameters: Parameters?) <span style="color:#66d9ef">throws</span> -&gt; URLRequest {
+        <span style="color:#66d9ef">var</span> request = <span style="color:#66d9ef">try</span> URLEncoding().encode(urlRequest, with: parameters)
+        request.url = URL(string: request.url!.absoluteString.replacingOccurrences(of: <span style="color:#e6db74">&#34;%5B%5D=&#34;</span>, with: <span style="color:#e6db74">&#34;=&#34;</span>))
+        <span style="color:#66d9ef">return</span> request
     }
 }
 
 ...
 
-Alamofire.request(&quot;http://example.com&quot;, method: .get, parameters: [&quot;foo&quot;: [&quot;bar1&quot;, &quot;bar2&quot;]], encoding: CustomGetEncoding())
-</code></pre>
-
-<pre><code class="language-swift">// Remove square brackets for POST request
-struct CustomPostEncoding: ParameterEncoding {
-    func encode(_ urlRequest: URLRequestConvertible, with parameters: Parameters?) throws -&gt; URLRequest {
-        var request = try URLEncoding().encode(urlRequest, with: parameters)
-        let httpBody = NSString(data: request.httpBody!, encoding: String.Encoding.utf8.rawValue)!
-        request.httpBody = httpBody.replacingOccurrences(of: &quot;%5B%5D=&quot;, with: &quot;=&quot;).data(using: .utf8)
-        return request
+Alamofire.request(<span style="color:#e6db74">&#34;http://example.com&#34;</span>, method: .<span style="color:#66d9ef">get</span>, parameters: [<span style="color:#e6db74">&#34;foo&#34;</span>: [<span style="color:#e6db74">&#34;bar1&#34;</span>, <span style="color:#e6db74">&#34;bar2&#34;</span>]], encoding: CustomGetEncoding())
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#75715e">// Remove square brackets for POST request</span>
+<span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">CustomPostEncoding</span>: ParameterEncoding {
+    <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">encode</span>(<span style="color:#66d9ef">_</span> urlRequest: URLRequestConvertible, with parameters: Parameters?) <span style="color:#66d9ef">throws</span> -&gt; URLRequest {
+        <span style="color:#66d9ef">var</span> request = <span style="color:#66d9ef">try</span> URLEncoding().encode(urlRequest, with: parameters)
+        <span style="color:#66d9ef">let</span> httpBody = NSString(data: request.httpBody!, encoding: String.Encoding.utf8.rawValue)<span style="color:#f92672">!</span>
+        request.httpBody = httpBody.replacingOccurrences(of: <span style="color:#e6db74">&#34;%5B%5D=&#34;</span>, with: <span style="color:#e6db74">&#34;=&#34;</span>).data(using: .utf8)
+        <span style="color:#66d9ef">return</span> request
     }
 }
 
 ...
 
-Alamofire.request(&quot;http://example.com&quot;, method: .post, parameters: [&quot;foo&quot;: [&quot;bar1&quot;, &quot;bar2&quot;]], encoding: CustomPostEncoding())
-</code></pre>
-
-<h3 id="swift2">Swift2</h3>
-
-<pre><code class="language-swift">// Remove square brackets for GET request
-let parameterEncoding = ParameterEncoding.Custom { requestConvertible, parameters in
-    let (mutableRequest, error) = ParameterEncoding.URL.encode(requestConvertible, parameters: parameters)
-    mutableRequest.URL = NSURL(string: mutableRequest.URLString.stringByReplacingOccurrencesOfString(&quot;%5B%5D=&quot;, withString: &quot;=&quot;))
-    return (mutableRequest, error)
+Alamofire.request(<span style="color:#e6db74">&#34;http://example.com&#34;</span>, method: .post, parameters: [<span style="color:#e6db74">&#34;foo&#34;</span>: [<span style="color:#e6db74">&#34;bar1&#34;</span>, <span style="color:#e6db74">&#34;bar2&#34;</span>]], encoding: CustomPostEncoding())
+</code></pre></div><h3 id="swift2">Swift2</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#75715e">// Remove square brackets for GET request</span>
+<span style="color:#66d9ef">let</span> parameterEncoding = ParameterEncoding.Custom { requestConvertible, parameters <span style="color:#66d9ef">in</span>
+    <span style="color:#66d9ef">let</span> (mutableRequest, error) = ParameterEncoding.URL.encode(requestConvertible, parameters: parameters)
+    mutableRequest.URL = NSURL(string: mutableRequest.URLString.stringByReplacingOccurrencesOfString(<span style="color:#e6db74">&#34;%5B%5D=&#34;</span>, withString: <span style="color:#e6db74">&#34;=&#34;</span>))
+    <span style="color:#66d9ef">return</span> (mutableRequest, error)
 }
 
-Alamofire.request(.GET, &quot;http://example.com&quot;, parameters: [&quot;foo&quot;: [&quot;bar1&quot;, &quot;bar2&quot;]], encoding: parameterEncoding)
-</code></pre>
-
-<pre><code class="language-swift">// Remove square brackets for POST request
-let parameterEncoding = ParameterEncoding.Custom { requestConvertible, parameters in
-    let (mutableRequest, error) = ParameterEncoding.URL.encode(requestConvertible, parameters: parameters)
-    let httpBody = NSString(data: mutableRequest.HTTPBody!, encoding: NSUTF8StringEncoding)!
-    mutableRequest.HTTPBody = httpBody.stringByReplacingOccurrencesOfString(&quot;%5B%5D=&quot;, withString: &quot;=&quot;).dataUsingEncoding(NSUTF8StringEncoding)
-    return (mutableRequest, error)
+Alamofire.request(.GET, <span style="color:#e6db74">&#34;http://example.com&#34;</span>, parameters: [<span style="color:#e6db74">&#34;foo&#34;</span>: [<span style="color:#e6db74">&#34;bar1&#34;</span>, <span style="color:#e6db74">&#34;bar2&#34;</span>]], encoding: parameterEncoding)
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#75715e">// Remove square brackets for POST request</span>
+<span style="color:#66d9ef">let</span> parameterEncoding = ParameterEncoding.Custom { requestConvertible, parameters <span style="color:#66d9ef">in</span>
+    <span style="color:#66d9ef">let</span> (mutableRequest, error) = ParameterEncoding.URL.encode(requestConvertible, parameters: parameters)
+    <span style="color:#66d9ef">let</span> httpBody = NSString(data: mutableRequest.HTTPBody!, encoding: NSUTF8StringEncoding)<span style="color:#f92672">!</span>
+    mutableRequest.HTTPBody = httpBody.stringByReplacingOccurrencesOfString(<span style="color:#e6db74">&#34;%5B%5D=&#34;</span>, withString: <span style="color:#e6db74">&#34;=&#34;</span>).dataUsingEncoding(NSUTF8StringEncoding)
+    <span style="color:#66d9ef">return</span> (mutableRequest, error)
 }
 
-Alamofire.request(.POST, &quot;http://example.com&quot;, parameters: [&quot;foo&quot;: [&quot;bar1&quot;, &quot;bar2&quot;]], encoding: parameterEncoding)
-</code></pre>
-
-<h2 id="why-collection-types-have-multiple-implementation-ways">Why collection types have multiple implementation ways</h2>
-
+Alamofire.request(.POST, <span style="color:#e6db74">&#34;http://example.com&#34;</span>, parameters: [<span style="color:#e6db74">&#34;foo&#34;</span>: [<span style="color:#e6db74">&#34;bar1&#34;</span>, <span style="color:#e6db74">&#34;bar2&#34;</span>]], encoding: parameterEncoding)
+</code></pre></div><h2 id="why-collection-types-have-multiple-implementation-ways">Why collection types have multiple implementation ways</h2>
 <p>Current RFC does not define clear ways for how to encode collection types. Alamofire&rsquo;s <a href="https://github.com/Alamofire/Alamofire/blob/dae3ed1b22d33c28de0f50e1271fb4e0d54ad44a/README.md">README</a> mentioned it.</p>
-
 <blockquote>
 <p>Since there is no published specification for how to encode collection types, Alamofire follows the convention of appending [] to the key for array values (foo[]=1&amp;foo[]=2), and appending the key surrounded by square brackets for nested dictionary values (foo[bar]=baz).</p>
 </blockquote>
-
 <h2 id="references">References</h2>
-
 <p><a href="https://github.com/Alamofire/Alamofire/issues/965">https://github.com/Alamofire/Alamofire/issues/965</a></p>
     </section>
 

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Swift on 256days</title>
+    <title>swift on 256days</title>
     <link>https://256days.com/tags/swift/</link>
-    <description>Recent content in Swift on 256days</description>
+    <description>Recent content in swift on 256days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
@@ -18,9 +18,7 @@
       <pubDate>Sat, 02 Jul 2016 17:59:16 +0900</pubDate>
       
       <guid>https://256days.com/post/how-to-remove-square-brackets-with-alamofire/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Alamofire/Alamofire&#34;&gt;Alamofire&lt;/a&gt; will add square brackets for the key of array values. This article will show you how to remove those brackets.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Alamofire/Alamofire&#34;&gt;Alamofire&lt;/a&gt; will add square brackets for the key of array values. This article will show you how to remove those brackets.&lt;/p&gt;</description>
     </item>
     
   </channel>

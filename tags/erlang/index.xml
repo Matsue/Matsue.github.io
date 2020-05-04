@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Erlang on 256days</title>
+    <title>erlang on 256days</title>
     <link>https://256days.com/tags/erlang/</link>
-    <description>Recent content in Erlang on 256days</description>
+    <description>Recent content in erlang on 256days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
@@ -19,7 +19,6 @@
       
       <guid>https://256days.com/post/2014-06-12-euc2014/</guid>
       <description>&lt;p&gt;ストックホルムで開催された&lt;a href=&#34;http://www.erlang-factory.com/euc2014&#34;&gt;Erlang User Conference 2014&lt;/a&gt;に参加した。&lt;/p&gt;
-
 
 &lt;figure &gt;
     
@@ -38,12 +37,8 @@
 &lt;/figure&gt;
 
 
-
 &lt;p&gt;大変有難いことに&lt;a href=&#34;http://www.erlang-factory.com/euc2014/yosuke-hara&#34;&gt;LeoFSのセッション&lt;/a&gt;の一部で、7分ほど登壇させていただいた。&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/35673208&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
   </channel>

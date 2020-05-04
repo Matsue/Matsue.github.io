@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mobile on 256days</title>
+    <title>mobile on 256days</title>
     <link>https://256days.com/tags/mobile/</link>
-    <description>Recent content in Mobile on 256days</description>
+    <description>Recent content in mobile on 256days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
@@ -19,10 +19,8 @@
       
       <guid>https://256days.com/post/2015-02-06-useful-apps-in-paris/</guid>
       <description>&lt;p&gt;パリに滞在していた際に、便利だったり面白いと感じたアプリやサービスの紹介。&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;パリ生活に役立つアプリ
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#citymapper&#34;&gt;Citymapper - 街中の移動に役立つアプリ&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#flashInvaders&#34;&gt;FlashInvaders - 街を歩くのが楽しくなるアプリ&lt;/a&gt;&lt;/li&gt;
@@ -30,23 +28,22 @@
 &lt;li&gt;&lt;a href=&#34;#vivino&#34;&gt;Vivino - ワインの記録のお供に&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#allocine&#34;&gt;AlloCiné - 映画を観たくなった時に&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#priceminister&#34;&gt;PriceMinister - ネットでお買い物&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;旅行に役立つアプリ
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#capitaine-train&#34;&gt;Capitaine Train - 列車の予約&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#skyscanner&#34;&gt;Skyscanner - 飛行機の予約&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#booking-com&#34;&gt;Booking.com - 宿の予約&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;その他の気になったサービス達
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#car-sharing&#34;&gt;車の貸し借り&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#study-japanese&#34;&gt;日本語の勉強&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

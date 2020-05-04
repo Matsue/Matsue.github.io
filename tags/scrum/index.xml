@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Scrum on 256days</title>
+    <title>scrum on 256days</title>
     <link>https://256days.com/tags/scrum/</link>
-    <description>Recent content in Scrum on 256days</description>
+    <description>Recent content in scrum on 256days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
@@ -19,15 +19,10 @@
       
       <guid>https://256days.com/post/2015-11-24-rakuten-technology-conference-2015/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/&#34;&gt;Rakuten Technology Conference 2015&lt;/a&gt;に参加しました。二子玉川にある楽天の新社屋Crimson Houseでの開催でした。&lt;/p&gt;
-
 &lt;p&gt;並行して複数のセッションが行われていたので見逃したセッションも多いですが、以下のタイムテーブルの各セッション詳細にYoutubeへのリンクがあるので安心です。
 &lt;a href=&#34;http://rakutentechnologyconference2015.sched.org/grid/&#34;&gt;http://rakutentechnologyconference2015.sched.org/grid/&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;全てのセッションが英語ですので、その点でも動画で再確認できるのは素敵です。&lt;/p&gt;
-
-&lt;p&gt;以下は参加したセッションについてのまとめです。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;以下は参加したセッションについてのまとめです。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -36,18 +31,14 @@
       <pubDate>Thu, 05 Mar 2015 20:43:28 +0900</pubDate>
       
       <guid>https://256days.com/post/2015-03-01-scrumgatheringtokyo-2015/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;に参加した。&lt;br /&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;に参加した。&lt;br&gt;
 3日分の発表内容メモと感想のまとめ。長い。&lt;/p&gt;
-
 &lt;p&gt;3日間のイベントで、初日は主にスクラム実践者の方々のセッション、2日目はオープンスペーステクノロジーというディスカッション形式、
 3日目はコーチや本の執筆をされている方々からのキーノートという構成。3日目のみ有料だった。&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.facebook.com/ScrumGatheringTokyo&#34;&gt;https://www.facebook.com/ScrumGatheringTokyo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/search?q=%23rsgt2015&#34;&gt;https://twitter.com/search?q=%23rsgt2015&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

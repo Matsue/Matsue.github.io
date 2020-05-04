@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meetup on 256days</title>
+    <title>meetup on 256days</title>
     <link>https://256days.com/tags/meetup/</link>
-    <description>Recent content in Meetup on 256days</description>
+    <description>Recent content in meetup on 256days</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     <copyright>All rights reserved - 2015</copyright>
@@ -18,18 +18,14 @@
       <pubDate>Thu, 05 Mar 2015 20:43:28 +0900</pubDate>
       
       <guid>https://256days.com/post/2015-03-01-scrumgatheringtokyo-2015/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;に参加した。&lt;br /&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://2015.scrumgatheringtokyo.org/&#34;&gt;Regional Scrum Gathering Tokyo 2015&lt;/a&gt;に参加した。&lt;br&gt;
 3日分の発表内容メモと感想のまとめ。長い。&lt;/p&gt;
-
 &lt;p&gt;3日間のイベントで、初日は主にスクラム実践者の方々のセッション、2日目はオープンスペーステクノロジーというディスカッション形式、
 3日目はコーチや本の執筆をされている方々からのキーノートという構成。3日目のみ有料だった。&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.facebook.com/ScrumGatheringTokyo&#34;&gt;https://www.facebook.com/ScrumGatheringTokyo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/search?q=%23rsgt2015&#34;&gt;https://twitter.com/search?q=%23rsgt2015&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -46,10 +42,7 @@
 &lt;/figure&gt;
 
 
-
-&lt;p&gt;&lt;a href=&#34;http://8a1-apc.connpass.com/event/11282/&#34;&gt;&amp;rdquo;【ハンズオン】初めてのUnityで作る「3D野球盤」APC勉強会 #14&amp;rdquo;&lt;/a&gt;に参加してきた。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://8a1-apc.connpass.com/event/11282/&#34;&gt;&amp;rdquo;【ハンズオン】初めてのUnityで作る「3D野球盤」APC勉強会 #14&amp;rdquo;&lt;/a&gt;に参加してきた。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -63,17 +56,12 @@ Paris Tech Talksは新しい技術や事業の紹介をする場。
 &lt;a href=&#34;http://matsue.github.io/blog/2014/08/06/paris-dot-rb/&#34;&gt;Paris.rb&lt;/a&gt; に続きパリでは2回目の勉強会参加になる。
 珍しく英語開催のイベントということもあって参加してみた。&lt;/p&gt;
 
-
 &lt;figure &gt;
     
         &lt;img src=&#34;https://lh3.googleusercontent.com/-a9Jgv7TzM-A/VCCTzKMc0mI/AAAAAAAAFGk/wa4WihFt4fg/w924-h693-no/_20140922_194645.jpg&#34;  /&gt;
     
     
-&lt;/figure&gt;
-
-
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/figure&gt;</description>
     </item>
     
     <item>
@@ -83,7 +71,6 @@ Paris Tech Talksは新しい技術や事業の紹介をする場。
       
       <guid>https://256days.com/post/2014-06-12-euc2014/</guid>
       <description>&lt;p&gt;ストックホルムで開催された&lt;a href=&#34;http://www.erlang-factory.com/euc2014&#34;&gt;Erlang User Conference 2014&lt;/a&gt;に参加した。&lt;/p&gt;
-
 
 &lt;figure &gt;
     
@@ -102,12 +89,8 @@ Paris Tech Talksは新しい技術や事業の紹介をする場。
 &lt;/figure&gt;
 
 
-
 &lt;p&gt;大変有難いことに&lt;a href=&#34;http://www.erlang-factory.com/euc2014/yosuke-hara&#34;&gt;LeoFSのセッション&lt;/a&gt;の一部で、7分ほど登壇させていただいた。&lt;/p&gt;
-
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/35673208&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
@@ -116,13 +99,10 @@ Paris Tech Talksは新しい技術や事業の紹介をする場。
       <pubDate>Wed, 21 May 2014 00:12:13 +0900</pubDate>
       
       <guid>https://256days.com/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</guid>
-      <description>&lt;p&gt;AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。&lt;br /&gt;
-コード化された運用は形式知化である。そして手順であれコードであれ、「なんでそうしてるのか？」ということも共有されないといけない。なるほど、なるほど。&lt;br /&gt;
+      <description>&lt;p&gt;AWSのユーザイベントということで、naoyaさんの自動化の話から始まりました。このセッションが一番印象に残りました。&lt;br&gt;
+コード化された運用は形式知化である。そして手順であれコードであれ、「なんでそうしてるのか？」ということも共有されないといけない。なるほど、なるほど。&lt;br&gt;
 紹介されていたQiita teamは使ったことないけれど、Markdownで書けて、気軽に投稿して、検索可能な情報共有の場があると、たしかに良さそうです。&lt;/p&gt;
-
-&lt;p&gt;以下、イベント参加時のメモです。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;以下、イベント参加時のメモです。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -132,7 +112,6 @@ Paris Tech Talksは新しい技術や事業の紹介をする場。
       
       <guid>https://256days.com/post/2013-11-24-rubyworld-conference-2013/</guid>
       <description>&lt;p&gt;RubyWorld Conference 2013に参加しました&lt;/p&gt;
-
 &lt;p&gt;島根県松江市で開催された&lt;a href=&#34;http://www.rubyworld-conf.org/ja/&#34;&gt;RubyWorld Conference 2013&lt;/a&gt;に参加してきたので、特に印象に残ったところをメモ(&lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day1-memo/&#34;&gt;day1&lt;/a&gt;, &lt;a href=&#34;http://matsue.github.io/blog/2013/11/23/rubyworld-conference-2013-day2-memo/&#34;&gt;day2&lt;/a&gt;)からピックアップ。
 
 &lt;figure &gt;
@@ -142,9 +121,7 @@ Paris Tech Talksは新しい技術や事業の紹介をする場。
     
 &lt;/figure&gt;
 
-&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -153,10 +130,8 @@ Paris Tech Talksは新しい技術や事業の紹介をする場。
       <pubDate>Sat, 23 Nov 2013 01:14:19 +0900</pubDate>
       
       <guid>https://256days.com/post/2013-11-23-rubyworld-conference-2013-day2-memo/</guid>
-      <description>&lt;p&gt;RubyWorld Conference 2013 2日目にとったメモです。&lt;br /&gt;
-個人メモなので誤字などご容赦ください。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;RubyWorld Conference 2013 2日目にとったメモです。&lt;br&gt;
+個人メモなので誤字などご容赦ください。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -165,10 +140,8 @@ Paris Tech Talksは新しい技術や事業の紹介をする場。
       <pubDate>Sat, 23 Nov 2013 01:01:58 +0900</pubDate>
       
       <guid>https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/</guid>
-      <description>&lt;p&gt;RubyWorld Conference 2013 1日目にとったメモです。&lt;br /&gt;
-個人メモなので誤字などご容赦ください。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;RubyWorld Conference 2013 1日目にとったメモです。&lt;br&gt;
+個人メモなので誤字などご容赦ください。&lt;/p&gt;</description>
     </item>
     
   </channel>
