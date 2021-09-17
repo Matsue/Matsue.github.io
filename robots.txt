@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: 
-
-Sitemap: https://256days.com/sitemap.xml 
+Disallow:
+Sitemap: https://256days.com/sitemap.xml

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>swift on 256days</title>
     <link>https://256days.com/tags/swift/</link>
     <description>Recent content in swift on 256days</description>
+    <image>
+      <url>https://256days.com/images/cover.jpg</url>
+      <link>https://256days.com/images/cover.jpg</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
-    <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Sat, 02 Jul 2016 17:59:16 +0900</lastBuildDate>
-    
-	<atom:link href="https://256days.com/tags/swift/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright © 2013 Hiroki Matsue All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 02 Jul 2016 17:59:16 +0900</lastBuildDate><atom:link href="https://256days.com/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to remove square brackets from Alamofire array values</title>
       <link>https://256days.com/post/how-to-remove-square-brackets-with-alamofire/</link>

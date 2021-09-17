@@ -1,241 +1,481 @@
 <!DOCTYPE html>
-<html lang="jp-ja">
-<head>
+<html lang="ja" dir="auto">
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>RubyWorld Conference 2013 day1 memo | 256days</title>
+<meta name="keywords" content="ruby, meetup" />
+<meta name="description" content="RubyWorld Conference 2013 1日目にとったメモです。
+個人メモなので誤字などご容赦ください。">
+<meta name="author" content="Hiroki Matsue">
+<link rel="canonical" href="https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/" />
+<link crossorigin="anonymous" href="https://256days.com/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css" integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="https://256days.com/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://256days.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://256days.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://256days.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://256days.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://256days.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.88.1" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-    
-    
-        <meta name="twitter:card" content="summary"/>
-    
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-45951684-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><meta property="og:title" content="RubyWorld Conference 2013 day1 memo" />
+<meta property="og:description" content="RubyWorld Conference 2013 1日目にとったメモです。
+個人メモなので誤字などご容赦ください。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/" /><meta property="og:image" content="https://256days.com/images/cover.jpg"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2013-11-23T01:01:58&#43;09:00" />
+<meta property="article:modified_time" content="2013-11-23T01:01:58&#43;09:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://256days.com/images/cover.jpg"/>
 
 <meta name="twitter:title" content="RubyWorld Conference 2013 day1 memo"/>
-<meta name="twitter:description" content=""/>
-<meta name="twitter:site" content="@macs_6"/>
+<meta name="twitter:description" content="RubyWorld Conference 2013 1日目にとったメモです。
+個人メモなので誤字などご容赦ください。"/>
 
 
-
-  	<meta property="og:title" content="RubyWorld Conference 2013 day1 memo &middot; 256days" />
-  	<meta property="og:site_name" content="256days" />
-  	<meta property="og:url" content="https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/" />
-
-    
-        
-            <meta property="og:image" content="/images/cover.jpg"/>
-        
-    
-
-    
-    <meta property="og:description" content="" />
-  	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2013-11-23T01:01:58&#43;09:00" />
-
-    
-    <meta property="article:tag" content="ruby" />
-    
-    <meta property="article:tag" content="meetup" />
-    
-    
-
-    <title>RubyWorld Conference 2013 day1 memo &middot; 256days</title>
-
-    
-    <meta name="description" content="&lt;p&gt;RubyWorld Conference 2013 1日目にとったメモです。&lt;br&gt;
-個人メモなので誤字などご容赦ください。&lt;/p&gt;" />
-    
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="https://256days.com/images/favicon.ico">
-	  <link rel="apple-touch-icon" href="https://256days.com/images/apple-touch-icon.png" />
-
-    <link rel="stylesheet" type="text/css" href="https://256days.com/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="https://256days.com/css/nav.css" />
-
-    
-
-    
-
-    
-      
-          <link href="https://256days.com/index.xml" rel="alternate" type="application/rss+xml" title="256days" />
-      
-      
-    
-    <meta name="generator" content="Hugo 0.69.2" />
-
-    <link rel="canonical" href="https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/" />
-
-    
-      
-    
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "publisher": {
-        "@type": "Organization",
-        "name":  null 
-    },
-    "author": {
-        "@type": "Person",
-        "name":  null ,
-        
-        "url": "https://256days.com/",
-        "sameAs": [
-            
-            
-             
-             
-             
-             
-             
-            
-        ]
-    },
-    "headline": "RubyWorld Conference 2013 day1 memo",
-    "name": "RubyWorld Conference 2013 day1 memo",
-    "wordCount":  6901 ,
-    "timeRequired": "PT14M",
-    "inLanguage": {
-      "@type": "Language",
-      "alternateName": "en"
-    },
-    "url": "https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/",
-    "datePublished": "2013-11-23T01:01Z",
-    "dateModified": "2013-11-23T01:01Z",
-    
-    "keywords": "ruby, meetup",
-    "description": "",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/"
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://256days.com/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "RubyWorld Conference 2013 day1 memo",
+      "item": "https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/"
     }
+  ]
 }
-    </script>
-    
-
-
-    
-
-    
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-45951684-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-    
-
-    
-        <link rel="apple-touch-icon" sizes="57x57" href="https://256days.com/images/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://256days.com/images/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://256days.com/images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://256days.com/images/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://256days.com/images/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://256days.com/images/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://256days.com/images/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://256days.com/images/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://256days.com/images/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="https://256days.com/images/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://256days.com/images/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="https://256days.com/images/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://256days.com/images/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="https://256days.com/manifest.json">
-<link rel="mask-icon" href="https://256days.com/images/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-TileImage" content="https://256days.com/images/mstile-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
-<link rel="stylesheet" type="text/css" href="https://256days.com/css/custom-main.css" />
-
-    
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "RubyWorld Conference 2013 day1 memo",
+  "name": "RubyWorld Conference 2013 day1 memo",
+  "description": "RubyWorld Conference 2013 1日目にとったメモです。\n個人メモなので誤字などご容赦ください。\n",
+  "keywords": [
+    "ruby", "meetup"
+  ],
+  "articleBody": "RubyWorld Conference 2013 1日目にとったメモです。\n個人メモなので誤字などご容赦ください。\n全体関連リンク  公式サイト: http://www.rubyworld-conf.org/ 公式UST: http://www.ustream.tv/channel/rubyw-conf-13 togetter day1: http://togetter.com/li/592855 togetter day2: http://togetter.com/li/593359 my memo day1: https://gist.github.com/Matsue/7585061 my memo day2: https://gist.github.com/Matsue/7600639 Social Translatingの資料: https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide  Aiming the Moving Target by matz\nlinks  english memo https://www.evernote.com/shard/s54/sh/9cd05cf6-6119-4baa-a1ae-31bd2f23ae34/16638f82bd08ac21c5ad4206d81630de  1990 1990年に社会人\nその会社ではプロジェクトは3年単位で動いていた\n 日本語で設計書書いて それをそのまま実装 テスト 納品  スゴく詳細なドキュメント\nドキュメントは厚さ(センチ)ではかってたくらい\nウォーターフォールだった\nなにか違うと思ってたが説明できなかった\n経験もなかった\n20年経った今は説明できるようになった\n間違った前提 その１ 「なにを作っているか把握してる」\nと、思ってること\nsoftwareは物理法則に制限されない\n最近は記憶容量大きくなりプログラムサイズは制限されない\nいまや、もっとも複雑な被造物といえる\n人間の能力を超え、ドキュメントでカバーできない\nソフトウェアは柔らかくない\nソフトウェアはハード(固く、難しい)\n更新は大変\nその２ 「何を作りたいか把握してる」\nなにをしたらビジネスが成功するかわかっている人は少ない\nソフトウェアを使った時の状態を想像するのは今も昔も難しい\n納品すると大体、「私が思ったのと違う」\n上司や顧客がバカ扱いになりがちだが\n何を作ったらビジネス価値を最大化できるか分かる人は少ない\n実際はみんなバカだった\nその3 「状況は変化しない」という前提\n対策 無知であることを認めるべきだった\n我々ができることは少ない\n保守的戦略 過去から学ぶ\n状況が変化しないなら、良い戦略\nITでは変化が激しいので成立しない\nアリスの赤の女王いわく、\n留まるには速く動き、移動するにはもっと速く動かないといけない\nダチョウアルゴリズム ダチョウは砂嵐きたら砂に頭を埋める\nなにもかも投げ出して、ただ待つ\n冬眠も似てる\n状況が回復するなら良い戦略\nこれまでの2つの戦略 ここまでの２つは現実に反しており、おとぎの国に向かうような戦略\n20年前は上記の戦略をとっちゃってた\nコンピュータは高価で持っているだけで差別化できていた\nネットワークも高価\nなので失敗しないことを最優先してた\nたとえ満足度を犠牲にしても\nそれが唯一のソフトウェア開発の方法であると信じたかった\nいまは持つだけでは差別化できない\nいまもすごいソフトウェアの作り方は分からない\n無知の知\nコンピュータ、クラウド、ネットワーク安くなった\nソフト開発も安くなった\nツールとか言語とかのおかげ\n以前は海外にメールすることもできない世界だった\nrubyはたくさんの海外の方からサポート\n母国語や住んでる場所、性別もしらないこともある\nいまや、巨人の方に乗ることができる\n試行錯誤(try \u0026 errors) 何度でも挑戦できることが必要\nコスト最小化が大事\nそこをrubyはサポートしてきた\nそれができるようになって初めて動く標的を狙うことができる\nAiming the Moving Target\n動くターゲットとは本当に価値のあるソフトウェア\n価値は人間の欲求に基づく\nリリースがいまや個人でできる\nプリウスは一人でつくれないだろうが、\nソフトウェアでは一人でつくったもので世界を変えられる\n当たらなかったらピボットできる\n「安く速く何度も」が成功の秘訣\nアジャイルもそれを反映している\n変化に対応する\n成功するかは分からないが成功確率は上がる\n自戒を込めて、\n熱心にコードを書かない\n複雑になり失敗したときのダメージも大きい\nコードを書かないために熱心に働く\n最初のボールだけ転がして、みんなに頑張ってもらう\nrubyもひとりで作っていない\nここも巨人の肩にのる\n競争力維持に必要な物以外はOSSにしてしまうのが正しい戦略\nコアパートも小さくとどめる\nOSSの定義にはないがコミュニティというのは不可欠\nOSSでなくてもコミュニティは有効だろう\nプロジェクトを最小化し、プロジェクトの組織というものが解体されるだろう\n技術ベースでプロジェクトをわたり歩くようになるだろう\nOSSコミュニティはサメ\n進み続けなければ、死ぬ\n大部分は技術的に面白いことで参加してるので、止まると人が離れる\nrubyもコミュニティ開いたり、新しい技術応援したり、カンファレンス開いたりしている\nOSSでなくても進み続けることは必要だろう\nアリスの世界と同様、なるべく速く、何度もためして、何度も撤退すべき\nそして大局的構造を変えられるだろう\n「失敗したら終わりだ」から「失敗してもいい」へ\nまずは失敗をナイストライに言い換えるところから\nコードかかず、\nいいソフトウェアをつくり、\n世界を変えよう\nQA これからrubyで挑戦したいことある？ webでは流行ってきてるがもっと広い世界で使えるようになるといいと思う\nたとえば大学の科学技術計算など助成してる\nあとはmrubyで組み込み目指してる\n公開するもの公開しないものの判断は？ 競争力に関わる物であるか\n最小になるか\nたとえばビジネスロジックだけ出さない\nクックパッドをすべてOSSにしても問題ないと思ってる\nレシピ・ユーザデータが大事\n Speeding up Rails internals using unique Ruby techniques. by Aaron Patterson (AT \u0026 T)\nYak Shaving バグを見つけたらわかるまで調べてる\nなのでYak Shavingになる\nよくコンピュータ壊す\nとあるバグ報告の調査を開始 シンボルはGCされない\nDos攻撃になるのが心配なので文字列にしたが遅くなったとの報告\nrubyソースを追った\nとあるソースでruby安全性と速度を担保するには？\n= 定数を使う\n2.1のフローズン文字列を使うと、安全で速い\nしかし、define_methodはmodue_evalより遅いとのコメントがつく\nそこでベンチマークで確認した\nたしかに遅かったが\nしかしdefine_methodは異なるインタフェースも用意されており、そちらで呼んだら速度改善した\nメモリ使用量についてもコメントあったのでベンチマークをして調査した\nmodule_evalのほうが消費する\n速くて、メモリ使用量も少ない方法はないか？\nを考え改善に至る\n数値列(?)からselectすると文字列で返るというバグから始まり、\nrubyのVMを学び、\nDoS攻撃の対策になり、\nrailsの高速化に寄与でき、\nrailsのメモリ効率がよくなった\nただしバグはまだ直ってないがw\n大事なことは\n「知りたがりましょう」\nQA どれくらいそのバグ修正時間かかった？ 1monthくらい\nまだ直ってないがw\nどれくらい日本語勉強してる？ 日本語は7年勉強してて\nプレゼンは３週間くらい練習した\n クックパッドの継続的デリバリー by 高井直人 (クックパッド株式会社)\n20M UU/month\n1.5Mrecipes\n14432 testsが\n10minutesで終わる\nデプロイ頻度\n11+ deploys/days\n継続的デリバリーの方法 デプロイメントパイプラインで行う\n今日はこれに追って解説\nDBは本番のものをレプリケーションしてdevで使ってる\n少ないデータでは遅い処理検知できない\ngithub enterprise使ってる\nテストは分散実行してるので10分で終わる\nブランチ戦略 GitHub Flow\nfeature toggle\nターゲットユーザに新しい機能出してる\nそれをするのがchanko\nハロウィンデザイン chankoで時期になったらフラグたって表示される\nデザイナがpull requestだしたり\nそれがレビューされてデプロイされる\n月間 800 くらいのpull request\ngithub enterpiseがEC2で動かないのでサーバわけてる\nclone pusherをsinatraで作成\nomkinsというjenkinsで管理してる\nhipchat連携してる\nプラグインは公開してる\nCIサーバは8くらいいる\nテスト増加にあわせて増えている\n目標時間を10分にしてる\nその時間もhipchatに出してる\nテストは本番と同じ環境のSTGで実施\n最新のCI通過分が\n平日の9:30am - 5:00pmでデプロイされる\n金曜は3:00pmまで\nbundle exec cap production deployでデプロイ\nデプロイ後はhipchat, wikiに自動で投稿される\ninfraµモニターおかしかったら、インフラ担当がログ見る\n音も出せるが使われてない\nデプロイしてほしくないときは\ndeploy:lockも用意してる\nたとえばバグでロールバック中、サーバスケール中とか\nQA DB migrationはどうやってる？ devは変えたいタイミングでやってる\n変更時にdumpしてgithubにpushしてる\n本番はインフラと相談しながら\nCI のメンテナンスに割いてるコスト割合は？ むらたさん、ふくもりさんの２名\nソース全部公開する予定とかは？ 依存してない部分は抽象化して出してる\n chanko 分散テスト環境(予定)   JRubyを用いたRailsアプリ開発の実情 by 三好秀徳 (株式会社日立ソリューションズ)\n自己紹介  OSSフォーラム推進 yokohama.rb ruby world conf 2012のまとめしてる るびま編集者になった  Jrubyの紹介  Java API使える 処理速度はCRubyと遜色無し JVMの起動がボトルネックになることはある  Jruby使う理由: Javaの資産を活用したい\n実例 内製Accesssアプリケーションの移行の話 メンテナンス性と速度が低下していたので移行になった\n用件  パスワードzipファイル出力 excel出力 既存のJavaサーバで動かす  = rubygemsから使えそうな物をピックアップ = warblerでwarファイル化\ngemの選定 xlsを使えるgem\n spreadsheet axlsx  それぞれバージョン対応しなかったり、開けないことがあった。。\nのでApache POIで代替することになった。\nそれなら動作も問題なかった。\n動かないgem  pg therubyraer unicorn  などなどあるが、\nrailsが自動で代替用意してくれる\njrubyのwikiにもまとまってる\nただし、全て網羅しているわけではない\n zipruby SimpleCov  が実際には動かなかった\n ziprubyはJavaのライブラリで代替 SimpleCovはgithubのissue確認してJRubyのバージョンアップで対応  ここ、ソースだけでなく解決状況を見れるOSSのいいとこ\nrails/rake遅い問題 JVMの起動が遅かった\n CRuby: 0.8sec JRuby: 8.5sec  高速化ライブラリもJRubyだと使えない\n Zeus Spring  対策 Java VMのオプションを修正 Client VMを利用 8.5 - 3.62秒になった\n個々のPCで処理しないようにした  guard gem sextant  JRubyは互換性あがってきてる  passenger spork  等は対応済み\n新たな高速化gemも出てきた\n= commands gem\nまとめ gemの互換性注意\nJava利用環境でJRubyは使いどころがある\nQA 文字コード対応できる？ parameter-encodingで指定すれば対応できる\nJRubyを選定に加えた理由は? 一部の要件がRubyではできないがJavaでできることはわかっていたから\nなぜJavaで開発しなかったのか？ Ruby好きだから!\n Ruby開発者を増やすための教育について－8年間のRuby教育で得た知見 by 吉田裕美 (有限会社EY-Office)\nRuby教育の現状 一般データはもっていないのでEY-Officeの教育を紹介\n2012年から研修申し込みが入るようになってきた\n教育業者を使うことのメリット  講義や教育のノウハウがある  社内で教えることのメリット  企業のノウハウを伝えられる 教える側もスキルが上がる  研修期間設定に関連するパラメータ  経験値 能力 etc  EY-Officeの教育コース  1日コース 3日コース\u2028- 5日コース  3日が人気\n1日で済む人は本でも済む\n5日は期間として取りづらい\nコース内容   1日目\n Rubyの基本 ループとか正規表現    2日目\n web application scaffold使いつつrails    3日目\n 国際化対応 TDD体験 脆弱性対応など ブログアプリ等のソースコードリーディング    教育の場でやるべきこと 英語ドキュメントの読み方も教える exampleから見るとか\nデバッグ方法 エラーメッセージはどう読むのか\n良いコードの書き方  なぜ必要か 名前重要  webアプリの基本 html, cssとか\nwebの脆弱性 XSS, SQL injectionとか\n実際のデモが良い\nポイント 関係者の顔を見えるように 開発者はmatzだよとか\nメタ教育 –helpで大体ヘルプでるとか\nmanコマンドとか\n定着 実際に作って、発表\nコミュニケーション 確認しながら進める\n場数をふむ 同僚に聞いてもらうとか\n練習の場を作る\n環境 windowsは入門程度なら問題ないが動かないgemなどある\n多いのはwindows+VM+Linux\nVMイメージ渡してる\n印刷物はJekyllでつくってpdfにしてキンコーズで対応してる\nQA その場でいれると環境ずれて困るのでは？ bundle済みのrubyごと渡してる\nIDEは使わないの？ 隠蔽されてしまうので基本的には使ってない\n Social Translating: Rails TutorialとRuby Hacking Guideの翻訳を支える仕組み by 安川要平 (YasuLab)、八田昌三 (ビヨンド・パースペクティブ・ソリューションズ株式会社)\nlinks  http://railstutorial.jp/  (事例1) Rail Tutorialの事例 約600page\nTwitter-likeなページをサンプルで作るとかが書かれてる\n7/1に日本語版も公開\n約10人で1ヶ月で対応\n4.0対応は2人で1ヶ月で対応\n(事例2) Rubyソースコード完全解説 Ruby Hacking Guideの英語化\nどうやって対応したのか？ githubを使って実施した\nRHGはJekyllで実施\n7.5 yearsかかった\nGitHub移行後は1.3年\nこれを踏まえてRails Tutorialは工夫した\n改善点 みんなgitに慣れてる訳ではない word使いたい人とか\nプロの翻訳者に相談して仕組みを変えた\nsocial coding のような social translating\nなるべくみんなが使いやすいwebツールで対処\nツール1: facebook group pin機能を使ってREADMEのような投稿を常に表示\n 概要 役割分担 参加方法  ツール2: google translator toolkit  翻訳サポートツール URL指定で翻訳できる 翻訳メモリ、用語集を使える  翻訳メモリとは 原文と訳文のペアが蓄積したもの\n次の翻訳開始時にメモリから一気に翻訳できる\n原文の更新の追尾が楽になる\nメモリの記述形式はテキストやXML\n翻訳のボリュームが大きい時は非常に効果的\nweb記事などは効果薄い\n続きはtechrachoの技術ブログにhachi8833で掲載予定\ndeploy部分の工夫 エンジニアが自動化\ntoolkit上のタグ単位でzipダウンロードしてheroku push\n問題点  pull requestが使えない diffがとりづらい  HTMLからepub化した!! 達人出版ででてる\nCreative Commonsなので配布などOK!\n学生さん、割り勘購入とかもできるよ\nQA 複数人で翻訳すると言い回しの監修はどうしてる？ 例も示してスタイルガイドを定義していた\n適宜きづいた点も指摘していた\n翻訳メモリ、順番変わって言い回し変わったらどうなる？ updateとか名詞なのか動詞なのかとか変わる\n明確な対処方法はない\n表が特に危ないので気をつけるべき\nもしstackover flowなどを追従翻訳しようとすると大変、なにかアイデアある？ READMEを翻訳メモリのようにしてGitHub上でtoolkitにすることを考えたことはある\ntoolkitにpull requestを追加することも考えたことがある\n ひろがるRubyの学びの場 by 五十嵐邦明 (株式会社spice life・一橋大学)\nLinks  https://github.com/igaiga/hitotsubashi-ruby-2013 http://c4sa.nifty.com/ https://github.com/ruby-no-kai/official/wiki  一橋でのRuby講義  ニフティの寄附講義 島根Ruby合宿でも単位がもらえる  講義資料  https://github.com/igaiga/hitotsubashi-ruby-2013 たのしいRuby  などなど\n講義内容  ruby, shellの基本的な解説 wikipediaのアクセス数解析 twitterの解析 ニフティのC4SAでデプロイしたり  ブラウザ上で編集もできるクラウド http://c4sa.nifty.com/    やってみて気づいたところ  そもそもshellとirbの違いとか分からないもの 文法よりもアルゴリズムが難しい  eachで中間データを持たしておくとか   hash理解されづらい プログラマー向け入門書はあるが、初心者向け無い エンジニアが教えることでで最新rubyなどに追従できる  rails girls 参加者の動機\n 同僚のやっている内容知りたい 旦那さんの仕事知りたい などなど  万葉では卒業生むけの勉強会も開催中\nrails 寺子屋 学生向けrailsワークショップ\nいまは高専卒業生多い\n 講義 pull request道場 コード大喜利  pull request道場 開発の流れに慣れるためのpull request練習\nミサワ画像でコミュニケーションw\nコード大喜利 課題を解く形式\nうまく動けば○でる仕組みになってる\n動いてても師範が脆弱性ついたりする\n環境 VMはあまり使ってもらえなかったのでネイティブで\nゴール 社会人も含めた未来に設定することが大事\nなので、たのしい雰囲気や仲間作りを大切にしてる\n場所があるということは重要 興味があっても始めるきっかけがなかったり方法がわからないことがある\n何が出来るのか、どうやってトラブル解決方法、勉強方法まなべる\n五十嵐さんのrubyはじめたきっかけ 先輩がtdiary使ってた\nそこから学ぶことが楽しかった\nQA VMなぜ使ってもらえなかった？  linuxに慣れてない方が多い ネイティブでないのでもっさりしてる  ので敬遠されている模様\n初めての言語がRubyであることのメリット・デメリットは？  ライブラリが豊富であること webですぐ動かせること  が条件だと考えていてそれをruby満たしてる\nあとはくせがなく読みやすいという声も生徒からあった\n参加者の学習状況に差が出た場合の対処は？ 基本的に多数の方にあわせる\n演習の時間多いので、その時にサポートする\n初めてだと翌週でも忘れるし、新規の方もいるので、聞かれたらもう一度説明をするようにしている\n",
+  "wordCount" : "6901",
+  "inLanguage": "ja",
+  "datePublished": "2013-11-23T01:01:58+09:00",
+  "dateModified": "2013-11-23T01:01:58+09:00",
+  "author":{
+    "@type": "Person",
+    "name": "Hiroki Matsue"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "256days",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://256days.com/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
-<body class="nav-closed">
 
-  <div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="#" class="nav-close">
-        <span class="hidden">Close</span>
-    </a>
-    <ul>
-        
-        
-        
-            
-            <li class="nav-opened" role="presentation">
-            	<a href="https://speakerdeck.com/matsue">Slides</a>
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://256days.com/" accesskey="h" title="256days (Alt + H)">256days</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://256days.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
             </li>
-        
-            
-            <li class="nav-opened" role="presentation">
-            	<a href="https://256days.com/">Blog posts</a>
+            <li>
+                <a href="https://256days.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
             </li>
-        
-        
-    </ul>
-
-    
-    <a class="subscribe-button icon-feed" href="https://256days.com/index.xml">Subscribe</a>
-    
-</div>
-<span class="nav-cover"></span>
-
-
- <div class="site-wrapper">
-
-
-
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
-
-
-  
-  
-      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
-  
-  </nav>
+        </ul>
+    </nav>
 </header>
+<main class="main">
 
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://256days.com/">Home</a>&nbsp;»&nbsp;<a href="https://256days.com/post/">Posts</a></div>
+    <h1 class="post-title">
+      RubyWorld Conference 2013 day1 memo
+    </h1>
+    <div class="post-meta">November 23, 2013&nbsp;·&nbsp;14 分&nbsp;·&nbsp;Hiroki Matsue
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目次</span>
+        </summary>
 
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%85%a8%e4%bd%93%e9%96%a2%e9%80%a3%e3%83%aa%e3%83%b3%e3%82%af" aria-label="全体関連リンク">全体関連リンク</a></li>
+                <li>
+                    <a href="#aiming-the-moving-target" aria-label="Aiming the Moving Target">Aiming the Moving Target</a><ul>
+                        
+                <li>
+                    <a href="#links" aria-label="links">links</a></li>
+                <li>
+                    <a href="#1990" aria-label="1990">1990</a></li>
+                <li>
+                    <a href="#%e9%96%93%e9%81%95%e3%81%a3%e3%81%9f%e5%89%8d%e6%8f%90" aria-label="間違った前提">間違った前提</a><ul>
+                        
+                <li>
+                    <a href="#%e3%81%9d%e3%81%ae%ef%bc%91" aria-label="その１">その１</a></li>
+                <li>
+                    <a href="#%e3%81%9d%e3%81%ae%ef%bc%92" aria-label="その２">その２</a></li>
+                <li>
+                    <a href="#%e3%81%9d%e3%81%ae3" aria-label="その3">その3</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e5%af%be%e7%ad%96" aria-label="対策">対策</a><ul>
+                        
+                <li>
+                    <a href="#%e4%bf%9d%e5%ae%88%e7%9a%84%e6%88%a6%e7%95%a5" aria-label="保守的戦略">保守的戦略</a></li>
+                <li>
+                    <a href="#%e3%83%80%e3%83%81%e3%83%a7%e3%82%a6%e3%82%a2%e3%83%ab%e3%82%b4%e3%83%aa%e3%82%ba%e3%83%a0" aria-label="ダチョウアルゴリズム">ダチョウアルゴリズム</a></li>
+                <li>
+                    <a href="#%e3%81%93%e3%82%8c%e3%81%be%e3%81%a7%e3%81%ae2%e3%81%a4%e3%81%ae%e6%88%a6%e7%95%a5" aria-label="これまでの2つの戦略">これまでの2つの戦略</a></li>
+                <li>
+                    <a href="#%e8%a9%a6%e8%a1%8c%e9%8c%af%e8%aa%a4try--errors" aria-label="試行錯誤(try &amp;amp; errors)">試行錯誤(try &amp; errors)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#qa" aria-label="QA">QA</a><ul>
+                        
+                <li>
+                    <a href="#%e3%81%93%e3%82%8c%e3%81%8b%e3%82%89ruby%e3%81%a7%e6%8c%91%e6%88%a6%e3%81%97%e3%81%9f%e3%81%84%e3%81%93%e3%81%a8%e3%81%82%e3%82%8b" aria-label="これからrubyで挑戦したいことある？">これからrubyで挑戦したいことある？</a></li>
+                <li>
+                    <a href="#%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b%e3%82%82%e3%81%ae%e5%85%ac%e9%96%8b%e3%81%97%e3%81%aa%e3%81%84%e3%82%82%e3%81%ae%e3%81%ae%e5%88%a4%e6%96%ad%e3%81%af" aria-label="公開するもの公開しないものの判断は？">公開するもの公開しないものの判断は？</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#speeding-up-rails-internals-using-unique-ruby-techniques" aria-label="Speeding up Rails internals using unique Ruby techniques.">Speeding up Rails internals using unique Ruby techniques.</a><ul>
+                        
+                <li>
+                    <a href="#yak-shaving" aria-label="Yak Shaving">Yak Shaving</a></li>
+                <li>
+                    <a href="#%e3%81%a8%e3%81%82%e3%82%8b%e3%83%90%e3%82%b0%e5%a0%b1%e5%91%8a%e3%81%ae%e8%aa%bf%e6%9f%bb%e3%82%92%e9%96%8b%e5%a7%8b" aria-label="とあるバグ報告の調査を開始">とあるバグ報告の調査を開始</a></li>
+                <li>
+                    <a href="#qa-1" aria-label="QA">QA</a><ul>
+                        
+                <li>
+                    <a href="#%e3%81%a9%e3%82%8c%e3%81%8f%e3%82%89%e3%81%84%e3%81%9d%e3%81%ae%e3%83%90%e3%82%b0%e4%bf%ae%e6%ad%a3%e6%99%82%e9%96%93%e3%81%8b%e3%81%8b%e3%81%a3%e3%81%9f" aria-label="どれくらいそのバグ修正時間かかった？">どれくらいそのバグ修正時間かかった？</a></li>
+                <li>
+                    <a href="#%e3%81%a9%e3%82%8c%e3%81%8f%e3%82%89%e3%81%84%e6%97%a5%e6%9c%ac%e8%aa%9e%e5%8b%89%e5%bc%b7%e3%81%97%e3%81%a6%e3%82%8b" aria-label="どれくらい日本語勉強してる？">どれくらい日本語勉強してる？</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#%e3%82%af%e3%83%83%e3%82%af%e3%83%91%e3%83%83%e3%83%89%e3%81%ae%e7%b6%99%e7%b6%9a%e7%9a%84%e3%83%87%e3%83%aa%e3%83%90%e3%83%aa%e3%83%bc" aria-label="クックパッドの継続的デリバリー">クックパッドの継続的デリバリー</a></li>
+                <li>
+                    <a href="#%e7%b6%99%e7%b6%9a%e7%9a%84%e3%83%87%e3%83%aa%e3%83%90%e3%83%aa%e3%83%bc%e3%81%ae%e6%96%b9%e6%b3%95" aria-label="継続的デリバリーの方法">継続的デリバリーの方法</a></li>
+                <li>
+                    <a href="#%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e6%88%a6%e7%95%a5" aria-label="ブランチ戦略">ブランチ戦略</a><ul>
+                        
+                <li>
+                    <a href="#%e3%83%8f%e3%83%ad%e3%82%a6%e3%82%a3%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3" aria-label="ハロウィンデザイン">ハロウィンデザイン</a></li></ul>
+                </li>
+                <li>
+                    <a href="#qa-2" aria-label="QA">QA</a><ul>
+                        
+                <li>
+                    <a href="#db-migration%e3%81%af%e3%81%a9%e3%81%86%e3%82%84%e3%81%a3%e3%81%a6%e3%82%8b" aria-label="DB migrationはどうやってる？">DB migrationはどうやってる？</a></li>
+                <li>
+                    <a href="#ci-%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a%e3%83%b3%e3%82%b9%e3%81%ab%e5%89%b2%e3%81%84%e3%81%a6%e3%82%8b%e3%82%b3%e3%82%b9%e3%83%88%e5%89%b2%e5%90%88%e3%81%af" aria-label="CI のメンテナンスに割いてるコスト割合は？">CI のメンテナンスに割いてるコスト割合は？</a></li>
+                <li>
+                    <a href="#%e3%82%bd%e3%83%bc%e3%82%b9%e5%85%a8%e9%83%a8%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b%e4%ba%88%e5%ae%9a%e3%81%a8%e3%81%8b%e3%81%af" aria-label="ソース全部公開する予定とかは？">ソース全部公開する予定とかは？</a></li></ul>
+                </li>
+                <li>
+                    <a href="#jruby%e3%82%92%e7%94%a8%e3%81%84%e3%81%9frails%e3%82%a2%e3%83%97%e3%83%aa%e9%96%8b%e7%99%ba%e3%81%ae%e5%ae%9f%e6%83%85" aria-label="JRubyを用いたRailsアプリ開発の実情">JRubyを用いたRailsアプリ開発の実情</a><ul>
+                        
+                <li>
+                    <a href="#%e8%87%aa%e5%b7%b1%e7%b4%b9%e4%bb%8b" aria-label="自己紹介">自己紹介</a></li>
+                <li>
+                    <a href="#jruby%e3%81%ae%e7%b4%b9%e4%bb%8b" aria-label="Jrubyの紹介">Jrubyの紹介</a></li>
+                <li>
+                    <a href="#%e5%ae%9f%e4%be%8b" aria-label="実例">実例</a></li>
+                <li>
+                    <a href="#%e7%94%a8%e4%bb%b6" aria-label="用件">用件</a></li>
+                <li>
+                    <a href="#gem%e3%81%ae%e9%81%b8%e5%ae%9a" aria-label="gemの選定">gemの選定</a></li>
+                <li>
+                    <a href="#%e5%8b%95%e3%81%8b%e3%81%aa%e3%81%84gem" aria-label="動かないgem">動かないgem</a></li>
+                <li>
+                    <a href="#railsrake%e9%81%85%e3%81%84%e5%95%8f%e9%a1%8c" aria-label="rails/rake遅い問題">rails/rake遅い問題</a><ul>
+                        
+                <li>
+                    <a href="#%e5%af%be%e7%ad%96-1" aria-label="対策">対策</a><ul>
+                        
+                <li>
+                    <a href="#java-vm%e3%81%ae%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e4%bf%ae%e6%ad%a3" aria-label="Java VMのオプションを修正">Java VMのオプションを修正</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e5%80%8b%e3%80%85%e3%81%aepc%e3%81%a7%e5%87%a6%e7%90%86%e3%81%97%e3%81%aa%e3%81%84%e3%82%88%e3%81%86%e3%81%ab%e3%81%97%e3%81%9f" aria-label="個々のPCで処理しないようにした">個々のPCで処理しないようにした</a></li></ul>
+                </li>
+                <li>
+                    <a href="#jruby%e3%81%af%e4%ba%92%e6%8f%9b%e6%80%a7%e3%81%82%e3%81%8c%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%a6%e3%82%8b" aria-label="JRubyは互換性あがってきてる">JRubyは互換性あがってきてる</a></li>
+                <li>
+                    <a href="#%e3%81%be%e3%81%a8%e3%82%81" aria-label="まとめ">まとめ</a></li>
+                <li>
+                    <a href="#qa-3" aria-label="QA">QA</a><ul>
+                        
+                <li>
+                    <a href="#%e6%96%87%e5%ad%97%e3%82%b3%e3%83%bc%e3%83%89%e5%af%be%e5%bf%9c%e3%81%a7%e3%81%8d%e3%82%8b" aria-label="文字コード対応できる？">文字コード対応できる？</a></li>
+                <li>
+                    <a href="#jruby%e3%82%92%e9%81%b8%e5%ae%9a%e3%81%ab%e5%8a%a0%e3%81%88%e3%81%9f%e7%90%86%e7%94%b1%e3%81%af" aria-label="JRubyを選定に加えた理由は?">JRubyを選定に加えた理由は?</a></li>
+                <li>
+                    <a href="#%e3%81%aa%e3%81%9cjava%e3%81%a7%e9%96%8b%e7%99%ba%e3%81%97%e3%81%aa%e3%81%8b%e3%81%a3%e3%81%9f%e3%81%ae%e3%81%8b" aria-label="なぜJavaで開発しなかったのか？">なぜJavaで開発しなかったのか？</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#ruby%e9%96%8b%e7%99%ba%e8%80%85%e3%82%92%e5%a2%97%e3%82%84%e3%81%99%e3%81%9f%e3%82%81%e3%81%ae%e6%95%99%e8%82%b2%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a68%e5%b9%b4%e9%96%93%e3%81%aeruby%e6%95%99%e8%82%b2%e3%81%a7%e5%be%97%e3%81%9f%e7%9f%a5%e8%a6%8b" aria-label="Ruby開発者を増やすための教育について－8年間のRuby教育で得た知見">Ruby開発者を増やすための教育について－8年間のRuby教育で得た知見</a><ul>
+                        
+                <li>
+                    <a href="#ruby%e6%95%99%e8%82%b2%e3%81%ae%e7%8f%be%e7%8a%b6" aria-label="Ruby教育の現状">Ruby教育の現状</a></li>
+                <li>
+                    <a href="#%e6%95%99%e8%82%b2%e6%a5%ad%e8%80%85%e3%82%92%e4%bd%bf%e3%81%86%e3%81%93%e3%81%a8%e3%81%ae%e3%83%a1%e3%83%aa%e3%83%83%e3%83%88" aria-label="教育業者を使うことのメリット">教育業者を使うことのメリット</a></li>
+                <li>
+                    <a href="#%e7%a4%be%e5%86%85%e3%81%a7%e6%95%99%e3%81%88%e3%82%8b%e3%81%93%e3%81%a8%e3%81%ae%e3%83%a1%e3%83%aa%e3%83%83%e3%83%88" aria-label="社内で教えることのメリット">社内で教えることのメリット</a></li>
+                <li>
+                    <a href="#%e7%a0%94%e4%bf%ae%e6%9c%9f%e9%96%93%e8%a8%ad%e5%ae%9a%e3%81%ab%e9%96%a2%e9%80%a3%e3%81%99%e3%82%8b%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf" aria-label="研修期間設定に関連するパラメータ">研修期間設定に関連するパラメータ</a></li>
+                <li>
+                    <a href="#ey-office%e3%81%ae%e6%95%99%e8%82%b2%e3%82%b3%e3%83%bc%e3%82%b9" aria-label="EY-Officeの教育コース">EY-Officeの教育コース</a></li>
+                <li>
+                    <a href="#%e3%82%b3%e3%83%bc%e3%82%b9%e5%86%85%e5%ae%b9" aria-label="コース内容">コース内容</a></li>
+                <li>
+                    <a href="#%e6%95%99%e8%82%b2%e3%81%ae%e5%a0%b4%e3%81%a7%e3%82%84%e3%82%8b%e3%81%b9%e3%81%8d%e3%81%93%e3%81%a8" aria-label="教育の場でやるべきこと">教育の場でやるべきこと</a><ul>
+                        
+                <li>
+                    <a href="#%e8%8b%b1%e8%aa%9e%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ae%e8%aa%ad%e3%81%bf%e6%96%b9%e3%82%82%e6%95%99%e3%81%88%e3%82%8b" aria-label="英語ドキュメントの読み方も教える">英語ドキュメントの読み方も教える</a></li>
+                <li>
+                    <a href="#%e3%83%87%e3%83%90%e3%83%83%e3%82%b0%e6%96%b9%e6%b3%95" aria-label="デバッグ方法">デバッグ方法</a></li>
+                <li>
+                    <a href="#%e8%89%af%e3%81%84%e3%82%b3%e3%83%bc%e3%83%89%e3%81%ae%e6%9b%b8%e3%81%8d%e6%96%b9" aria-label="良いコードの書き方">良いコードの書き方</a></li>
+                <li>
+                    <a href="#web%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e5%9f%ba%e6%9c%ac" aria-label="webアプリの基本">webアプリの基本</a></li>
+                <li>
+                    <a href="#web%e3%81%ae%e8%84%86%e5%bc%b1%e6%80%a7" aria-label="webの脆弱性">webの脆弱性</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" aria-label="ポイント">ポイント</a><ul>
+                        
+                <li>
+                    <a href="#%e9%96%a2%e4%bf%82%e8%80%85%e3%81%ae%e9%a1%94%e3%82%92%e8%a6%8b%e3%81%88%e3%82%8b%e3%82%88%e3%81%86%e3%81%ab" aria-label="関係者の顔を見えるように">関係者の顔を見えるように</a></li>
+                <li>
+                    <a href="#%e3%83%a1%e3%82%bf%e6%95%99%e8%82%b2" aria-label="メタ教育">メタ教育</a></li>
+                <li>
+                    <a href="#%e5%ae%9a%e7%9d%80" aria-label="定着">定着</a></li>
+                <li>
+                    <a href="#%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" aria-label="コミュニケーション">コミュニケーション</a></li>
+                <li>
+                    <a href="#%e5%a0%b4%e6%95%b0%e3%82%92%e3%81%b5%e3%82%80" aria-label="場数をふむ">場数をふむ</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e7%92%b0%e5%a2%83" aria-label="環境">環境</a></li>
+                <li>
+                    <a href="#qa-4" aria-label="QA">QA</a><ul>
+                        
+                <li>
+                    <a href="#%e3%81%9d%e3%81%ae%e5%a0%b4%e3%81%a7%e3%81%84%e3%82%8c%e3%82%8b%e3%81%a8%e7%92%b0%e5%a2%83%e3%81%9a%e3%82%8c%e3%81%a6%e5%9b%b0%e3%82%8b%e3%81%ae%e3%81%a7%e3%81%af" aria-label="その場でいれると環境ずれて困るのでは？">その場でいれると環境ずれて困るのでは？</a></li>
+                <li>
+                    <a href="#ide%e3%81%af%e4%bd%bf%e3%82%8f%e3%81%aa%e3%81%84%e3%81%ae" aria-label="IDEは使わないの？">IDEは使わないの？</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#social-translating-rails-tutorial%e3%81%a8ruby-hacking-guide%e3%81%ae%e7%bf%bb%e8%a8%b3%e3%82%92%e6%94%af%e3%81%88%e3%82%8b%e4%bb%95%e7%b5%84%e3%81%bf" aria-label="Social Translating: Rails TutorialとRuby Hacking Guideの翻訳を支える仕組み">Social Translating: Rails TutorialとRuby Hacking Guideの翻訳を支える仕組み</a><ul>
+                        
+                <li>
+                    <a href="#links-1" aria-label="links">links</a></li>
+                <li>
+                    <a href="#%e4%ba%8b%e4%be%8b1-rail-tutorial%e3%81%ae%e4%ba%8b%e4%be%8b" aria-label="(事例1) Rail Tutorialの事例">(事例1) Rail Tutorialの事例</a></li>
+                <li>
+                    <a href="#%e4%ba%8b%e4%be%8b2-ruby%e3%82%bd%e3%83%bc%e3%82%b9%e3%82%b3%e3%83%bc%e3%83%89%e5%ae%8c%e5%85%a8%e8%a7%a3%e8%aa%ac" aria-label="(事例2) Rubyソースコード完全解説">(事例2) Rubyソースコード完全解説</a></li>
+                <li>
+                    <a href="#%e3%81%a9%e3%81%86%e3%82%84%e3%81%a3%e3%81%a6%e5%af%be%e5%bf%9c%e3%81%97%e3%81%9f%e3%81%ae%e3%81%8b" aria-label="どうやって対応したのか？">どうやって対応したのか？</a></li>
+                <li>
+                    <a href="#%e6%94%b9%e5%96%84%e7%82%b9" aria-label="改善点">改善点</a><ul>
+                        
+                <li>
+                    <a href="#%e3%81%bf%e3%82%93%e3%81%aagit%e3%81%ab%e6%85%a3%e3%82%8c%e3%81%a6%e3%82%8b%e8%a8%b3%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84" aria-label="みんなgitに慣れてる訳ではない">みんなgitに慣れてる訳ではない</a></li>
+                <li>
+                    <a href="#%e3%83%84%e3%83%bc%e3%83%ab1-facebook-group" aria-label="ツール1: facebook group">ツール1: facebook group</a></li>
+                <li>
+                    <a href="#%e3%83%84%e3%83%bc%e3%83%ab2-google-translator-toolkit" aria-label="ツール2: google translator toolkit">ツール2: google translator toolkit</a></li>
+                <li>
+                    <a href="#%e7%bf%bb%e8%a8%b3%e3%83%a1%e3%83%a2%e3%83%aa%e3%81%a8%e3%81%af" aria-label="翻訳メモリとは">翻訳メモリとは</a></li></ul>
+                </li>
+                <li>
+                    <a href="#deploy%e9%83%a8%e5%88%86%e3%81%ae%e5%b7%a5%e5%a4%ab" aria-label="deploy部分の工夫">deploy部分の工夫</a></li>
+                <li>
+                    <a href="#%e5%95%8f%e9%a1%8c%e7%82%b9" aria-label="問題点">問題点</a></li>
+                <li>
+                    <a href="#html%e3%81%8b%e3%82%89epub%e5%8c%96%e3%81%97%e3%81%9f" aria-label="HTMLからepub化した!!">HTMLからepub化した!!</a></li>
+                <li>
+                    <a href="#qa-5" aria-label="QA">QA</a><ul>
+                        
+                <li>
+                    <a href="#%e8%a4%87%e6%95%b0%e4%ba%ba%e3%81%a7%e7%bf%bb%e8%a8%b3%e3%81%99%e3%82%8b%e3%81%a8%e8%a8%80%e3%81%84%e5%9b%9e%e3%81%97%e3%81%ae%e7%9b%a3%e4%bf%ae%e3%81%af%e3%81%a9%e3%81%86%e3%81%97%e3%81%a6%e3%82%8b" aria-label="複数人で翻訳すると言い回しの監修はどうしてる？">複数人で翻訳すると言い回しの監修はどうしてる？</a></li>
+                <li>
+                    <a href="#%e7%bf%bb%e8%a8%b3%e3%83%a1%e3%83%a2%e3%83%aa%e9%a0%86%e7%95%aa%e5%a4%89%e3%82%8f%e3%81%a3%e3%81%a6%e8%a8%80%e3%81%84%e5%9b%9e%e3%81%97%e5%a4%89%e3%82%8f%e3%81%a3%e3%81%9f%e3%82%89%e3%81%a9%e3%81%86%e3%81%aa%e3%82%8b" aria-label="翻訳メモリ、順番変わって言い回し変わったらどうなる？">翻訳メモリ、順番変わって言い回し変わったらどうなる？</a></li>
+                <li>
+                    <a href="#%e3%82%82%e3%81%97stackover-flow%e3%81%aa%e3%81%a9%e3%82%92%e8%bf%bd%e5%be%93%e7%bf%bb%e8%a8%b3%e3%81%97%e3%82%88%e3%81%86%e3%81%a8%e3%81%99%e3%82%8b%e3%81%a8%e5%a4%a7%e5%a4%89%e3%81%aa%e3%81%ab%e3%81%8b%e3%82%a2%e3%82%a4%e3%83%87%e3%82%a2%e3%81%82%e3%82%8b" aria-label="もしstackover flowなどを追従翻訳しようとすると大変、なにかアイデアある？">もしstackover flowなどを追従翻訳しようとすると大変、なにかアイデアある？</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#%e3%81%b2%e3%82%8d%e3%81%8c%e3%82%8bruby%e3%81%ae%e5%ad%a6%e3%81%b3%e3%81%ae%e5%a0%b4" aria-label="ひろがるRubyの学びの場">ひろがるRubyの学びの場</a><ul>
+                        
+                <li>
+                    <a href="#links-2" aria-label="Links">Links</a></li>
+                <li>
+                    <a href="#%e4%b8%80%e6%a9%8b%e3%81%a7%e3%81%aeruby%e8%ac%9b%e7%be%a9" aria-label="一橋でのRuby講義">一橋でのRuby講義</a></li>
+                <li>
+                    <a href="#%e8%ac%9b%e7%be%a9%e8%b3%87%e6%96%99" aria-label="講義資料">講義資料</a></li>
+                <li>
+                    <a href="#%e8%ac%9b%e7%be%a9%e5%86%85%e5%ae%b9" aria-label="講義内容">講義内容</a></li>
+                <li>
+                    <a href="#%e3%82%84%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%a6%e6%b0%97%e3%81%a5%e3%81%84%e3%81%9f%e3%81%a8%e3%81%93%e3%82%8d" aria-label="やってみて気づいたところ">やってみて気づいたところ</a></li>
+                <li>
+                    <a href="#rails-girls" aria-label="rails girls">rails girls</a></li>
+                <li>
+                    <a href="#rails-%e5%af%ba%e5%ad%90%e5%b1%8b" aria-label="rails 寺子屋">rails 寺子屋</a><ul>
+                        
+                <li>
+                    <a href="#pull-request%e9%81%93%e5%a0%b4" aria-label="pull request道場">pull request道場</a></li>
+                <li>
+                    <a href="#%e3%82%b3%e3%83%bc%e3%83%89%e5%a4%a7%e5%96%9c%e5%88%a9" aria-label="コード大喜利">コード大喜利</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e7%92%b0%e5%a2%83-1" aria-label="環境">環境</a></li>
+                <li>
+                    <a href="#%e3%82%b4%e3%83%bc%e3%83%ab" aria-label="ゴール">ゴール</a></li>
+                <li>
+                    <a href="#%e5%a0%b4%e6%89%80%e3%81%8c%e3%81%82%e3%82%8b%e3%81%a8%e3%81%84%e3%81%86%e3%81%93%e3%81%a8%e3%81%af%e9%87%8d%e8%a6%81" aria-label="場所があるということは重要">場所があるということは重要</a></li>
+                <li>
+                    <a href="#%e4%ba%94%e5%8d%81%e5%b5%90%e3%81%95%e3%82%93%e3%81%aeruby%e3%81%af%e3%81%98%e3%82%81%e3%81%9f%e3%81%8d%e3%81%a3%e3%81%8b%e3%81%91" aria-label="五十嵐さんのrubyはじめたきっかけ">五十嵐さんのrubyはじめたきっかけ</a></li>
+                <li>
+                    <a href="#qa-6" aria-label="QA">QA</a><ul>
+                        
+                <li>
+                    <a href="#vm%e3%81%aa%e3%81%9c%e4%bd%bf%e3%81%a3%e3%81%a6%e3%82%82%e3%82%89%e3%81%88%e3%81%aa%e3%81%8b%e3%81%a3%e3%81%9f" aria-label="VMなぜ使ってもらえなかった？">VMなぜ使ってもらえなかった？</a></li>
+                <li>
+                    <a href="#%e5%88%9d%e3%82%81%e3%81%a6%e3%81%ae%e8%a8%80%e8%aa%9e%e3%81%8cruby%e3%81%a7%e3%81%82%e3%82%8b%e3%81%93%e3%81%a8%e3%81%ae%e3%83%a1%e3%83%aa%e3%83%83%e3%83%88%e3%83%87%e3%83%a1%e3%83%aa%e3%83%83%e3%83%88%e3%81%af" aria-label="初めての言語がRubyであることのメリット・デメリットは？">初めての言語がRubyであることのメリット・デメリットは？</a></li>
+                <li>
+                    <a href="#%e5%8f%82%e5%8a%a0%e8%80%85%e3%81%ae%e5%ad%a6%e7%bf%92%e7%8a%b6%e6%b3%81%e3%81%ab%e5%b7%ae%e3%81%8c%e5%87%ba%e3%81%9f%e5%a0%b4%e5%90%88%e3%81%ae%e5%af%be%e5%87%a6%e3%81%af" aria-label="参加者の学習状況に差が出た場合の対処は？">参加者の学習状況に差が出た場合の対処は？</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
 
-<main class="content" role="main">
-
-
-
-
-  <article class="post post">
-
-    <header class="post-header">
-        <h1 class="post-title">RubyWorld Conference 2013 day1 memo</h1>
-        <small></small>
-
-        <section class="post-meta">
-        
-          <time class="post-date" datetime="2013-11-23T01:01:58&#43;09:00">
-            Nov 23, 2013
-          </time>
-        
-         
-          <span class="post-tag small"><a href="https://256days.com//tags/ruby/">#ruby</a></span>
-         
-          <span class="post-tag small"><a href="https://256days.com//tags/meetup/">#meetup</a></span>
-         
-        </section>
-    </header>
-
-    <section class="post-content">
-      <p>RubyWorld Conference 2013 1日目にとったメモです。<br>
+  <div class="post-content"><p>RubyWorld Conference 2013 1日目にとったメモです。<br>
 個人メモなので誤字などご容赦ください。</p>
-<h2 id="全体関連リンク">全体関連リンク</h2>
+<h2 id="全体関連リンク">全体関連リンク<a hidden class="anchor" aria-hidden="true" href="#全体関連リンク">#</a></h2>
 <ul>
 <li>公式サイト: <a href="http://www.rubyworld-conf.org/">http://www.rubyworld-conf.org/</a></li>
 <li>公式UST: <a href="http://www.ustream.tv/channel/rubyw-conf-13">http://www.ustream.tv/channel/rubyw-conf-13</a></li>
@@ -245,14 +485,14 @@
 <li>my memo day2: <a href="https://gist.github.com/Matsue/7600639">https://gist.github.com/Matsue/7600639</a></li>
 <li>Social Translatingの資料: <a href="https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide">https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide</a></li>
 </ul>
-<h2 id="aiming-the-moving-target">Aiming the Moving Target</h2>
+<h2 id="aiming-the-moving-target">Aiming the Moving Target<a hidden class="anchor" aria-hidden="true" href="#aiming-the-moving-target">#</a></h2>
 <p>by matz</p>
-<h3 id="links">links</h3>
+<h3 id="links">links<a hidden class="anchor" aria-hidden="true" href="#links">#</a></h3>
 <ul>
 <li>english memo
 <a href="https://www.evernote.com/shard/s54/sh/9cd05cf6-6119-4baa-a1ae-31bd2f23ae34/16638f82bd08ac21c5ad4206d81630de">https://www.evernote.com/shard/s54/sh/9cd05cf6-6119-4baa-a1ae-31bd2f23ae34/16638f82bd08ac21c5ad4206d81630de</a></li>
 </ul>
-<h3 id="1990">1990</h3>
+<h3 id="1990">1990<a hidden class="anchor" aria-hidden="true" href="#1990">#</a></h3>
 <p>1990年に社会人<br>
 その会社ではプロジェクトは3年単位で動いていた</p>
 <ul>
@@ -267,8 +507,8 @@
 <p>なにか違うと思ってたが説明できなかった<br>
 経験もなかった<br>
 20年経った今は説明できるようになった</p>
-<h3 id="間違った前提">間違った前提</h3>
-<h4 id="その１">その１</h4>
+<h3 id="間違った前提">間違った前提<a hidden class="anchor" aria-hidden="true" href="#間違った前提">#</a></h3>
+<h4 id="その１">その１<a hidden class="anchor" aria-hidden="true" href="#その１">#</a></h4>
 <p>「なにを作っているか把握してる」<br>
 と、思ってること</p>
 <p>softwareは物理法則に制限されない<br>
@@ -278,7 +518,7 @@
 ソフトウェアは柔らかくない<br>
 ソフトウェアはハード(固く、難しい)</p>
 <p>更新は大変</p>
-<h4 id="その２">その２</h4>
+<h4 id="その２">その２<a hidden class="anchor" aria-hidden="true" href="#その２">#</a></h4>
 <p>「何を作りたいか把握してる」<br>
 なにをしたらビジネスが成功するかわかっている人は少ない</p>
 <p>ソフトウェアを使った時の状態を想像するのは今も昔も難しい<br>
@@ -286,23 +526,23 @@
 <p>上司や顧客がバカ扱いになりがちだが<br>
 何を作ったらビジネス価値を最大化できるか分かる人は少ない<br>
 実際はみんなバカだった</p>
-<h4 id="その3">その3</h4>
+<h4 id="その3">その3<a hidden class="anchor" aria-hidden="true" href="#その3">#</a></h4>
 <p>「状況は変化しない」という前提</p>
-<h3 id="対策">対策</h3>
+<h3 id="対策">対策<a hidden class="anchor" aria-hidden="true" href="#対策">#</a></h3>
 <p>無知であることを認めるべきだった<br>
 我々ができることは少ない</p>
-<h4 id="保守的戦略">保守的戦略</h4>
+<h4 id="保守的戦略">保守的戦略<a hidden class="anchor" aria-hidden="true" href="#保守的戦略">#</a></h4>
 <p>過去から学ぶ<br>
 状況が変化しないなら、良い戦略<br>
 ITでは変化が激しいので成立しない</p>
 <p>アリスの赤の女王いわく、<br>
 留まるには速く動き、移動するにはもっと速く動かないといけない</p>
-<h4 id="ダチョウアルゴリズム">ダチョウアルゴリズム</h4>
+<h4 id="ダチョウアルゴリズム">ダチョウアルゴリズム<a hidden class="anchor" aria-hidden="true" href="#ダチョウアルゴリズム">#</a></h4>
 <p>ダチョウは砂嵐きたら砂に頭を埋める<br>
 なにもかも投げ出して、ただ待つ<br>
 冬眠も似てる</p>
 <p>状況が回復するなら良い戦略</p>
-<h4 id="これまでの2つの戦略">これまでの2つの戦略</h4>
+<h4 id="これまでの2つの戦略">これまでの2つの戦略<a hidden class="anchor" aria-hidden="true" href="#これまでの2つの戦略">#</a></h4>
 <p>ここまでの２つは現実に反しており、おとぎの国に向かうような戦略<br>
 20年前は上記の戦略をとっちゃってた</p>
 <p>コンピュータは高価で持っているだけで差別化できていた<br>
@@ -320,7 +560,7 @@ ITでは変化が激しいので成立しない</p>
 <p>rubyはたくさんの海外の方からサポート<br>
 母国語や住んでる場所、性別もしらないこともある</p>
 <p>いまや、巨人の方に乗ることができる</p>
-<h4 id="試行錯誤try--errors">試行錯誤(try &amp; errors)</h4>
+<h4 id="試行錯誤try--errors">試行錯誤(try &amp; errors)<a hidden class="anchor" aria-hidden="true" href="#試行錯誤try--errors">#</a></h4>
 <p>何度でも挑戦できることが必要<br>
 コスト最小化が大事<br>
 そこをrubyはサポートしてきた<br>
@@ -361,25 +601,25 @@ OSSでなくても進み続けることは必要だろう</p>
 <p>コードかかず、<br>
 いいソフトウェアをつくり、<br>
 世界を変えよう</p>
-<h3 id="qa">QA</h3>
-<h4 id="これからrubyで挑戦したいことある">これからrubyで挑戦したいことある？</h4>
+<h3 id="qa">QA<a hidden class="anchor" aria-hidden="true" href="#qa">#</a></h3>
+<h4 id="これからrubyで挑戦したいことある">これからrubyで挑戦したいことある？<a hidden class="anchor" aria-hidden="true" href="#これからrubyで挑戦したいことある">#</a></h4>
 <p>webでは流行ってきてるがもっと広い世界で使えるようになるといいと思う<br>
 たとえば大学の科学技術計算など助成してる</p>
 <p>あとはmrubyで組み込み目指してる</p>
-<h4 id="公開するもの公開しないものの判断は">公開するもの公開しないものの判断は？</h4>
+<h4 id="公開するもの公開しないものの判断は">公開するもの公開しないものの判断は？<a hidden class="anchor" aria-hidden="true" href="#公開するもの公開しないものの判断は">#</a></h4>
 <p>競争力に関わる物であるか<br>
 最小になるか</p>
 <p>たとえばビジネスロジックだけ出さない</p>
 <p>クックパッドをすべてOSSにしても問題ないと思ってる<br>
 レシピ・ユーザデータが大事</p>
 <hr>
-<h2 id="speeding-up-rails-internals-using-unique-ruby-techniques">Speeding up Rails internals using unique Ruby techniques.</h2>
+<h2 id="speeding-up-rails-internals-using-unique-ruby-techniques">Speeding up Rails internals using unique Ruby techniques.<a hidden class="anchor" aria-hidden="true" href="#speeding-up-rails-internals-using-unique-ruby-techniques">#</a></h2>
 <p>by Aaron Patterson (AT &amp; T)</p>
-<h3 id="yak-shaving">Yak Shaving</h3>
+<h3 id="yak-shaving">Yak Shaving<a hidden class="anchor" aria-hidden="true" href="#yak-shaving">#</a></h3>
 <p>バグを見つけたらわかるまで調べてる<br>
 なのでYak Shavingになる<br>
 よくコンピュータ壊す</p>
-<h3 id="とあるバグ報告の調査を開始">とあるバグ報告の調査を開始</h3>
+<h3 id="とあるバグ報告の調査を開始">とあるバグ報告の調査を開始<a hidden class="anchor" aria-hidden="true" href="#とあるバグ報告の調査を開始">#</a></h3>
 <p>シンボルはGCされない<br>
 Dos攻撃になるのが心配なので文字列にしたが遅くなったとの報告<br>
 rubyソースを追った</p>
@@ -402,15 +642,15 @@ railsのメモリ効率がよくなった</p>
 <p>ただしバグはまだ直ってないがw</p>
 <p>大事なことは<br>
 「知りたがりましょう」</p>
-<h3 id="qa-1">QA</h3>
-<h4 id="どれくらいそのバグ修正時間かかった">どれくらいそのバグ修正時間かかった？</h4>
+<h3 id="qa-1">QA<a hidden class="anchor" aria-hidden="true" href="#qa-1">#</a></h3>
+<h4 id="どれくらいそのバグ修正時間かかった">どれくらいそのバグ修正時間かかった？<a hidden class="anchor" aria-hidden="true" href="#どれくらいそのバグ修正時間かかった">#</a></h4>
 <p>1monthくらい<br>
 まだ直ってないがw</p>
-<h4 id="どれくらい日本語勉強してる">どれくらい日本語勉強してる？</h4>
+<h4 id="どれくらい日本語勉強してる">どれくらい日本語勉強してる？<a hidden class="anchor" aria-hidden="true" href="#どれくらい日本語勉強してる">#</a></h4>
 <p>日本語は7年勉強してて<br>
 プレゼンは３週間くらい練習した</p>
 <hr>
-<h2 id="クックパッドの継続的デリバリー">クックパッドの継続的デリバリー</h2>
+<h2 id="クックパッドの継続的デリバリー">クックパッドの継続的デリバリー<a hidden class="anchor" aria-hidden="true" href="#クックパッドの継続的デリバリー">#</a></h2>
 <p>by 高井直人 (クックパッド株式会社)</p>
 <p>20M UU/month<br>
 1.5Mrecipes</p>
@@ -418,19 +658,19 @@ railsのメモリ効率がよくなった</p>
 10minutesで終わる</p>
 <p>デプロイ頻度<br>
 11+ deploys/days</p>
-<h2 id="継続的デリバリーの方法">継続的デリバリーの方法</h2>
+<h2 id="継続的デリバリーの方法">継続的デリバリーの方法<a hidden class="anchor" aria-hidden="true" href="#継続的デリバリーの方法">#</a></h2>
 <p>デプロイメントパイプラインで行う<br>
 今日はこれに追って解説</p>
 <p>DBは本番のものをレプリケーションしてdevで使ってる<br>
 少ないデータでは遅い処理検知できない</p>
 <p>github enterprise使ってる</p>
 <p>テストは分散実行してるので10分で終わる</p>
-<h2 id="ブランチ戦略">ブランチ戦略</h2>
+<h2 id="ブランチ戦略">ブランチ戦略<a hidden class="anchor" aria-hidden="true" href="#ブランチ戦略">#</a></h2>
 <p>GitHub Flow<br>
 feature toggle<br>
 ターゲットユーザに新しい機能出してる<br>
 それをするのがchanko</p>
-<h3 id="ハロウィンデザイン">ハロウィンデザイン</h3>
+<h3 id="ハロウィンデザイン">ハロウィンデザイン<a hidden class="anchor" aria-hidden="true" href="#ハロウィンデザイン">#</a></h3>
 <p>chankoで時期になったらフラグたって表示される<br>
 デザイナがpull requestだしたり<br>
 それがレビューされてデプロイされる</p>
@@ -455,40 +695,40 @@ infraµモニターおかしかったら、インフラ担当がログ見る<br>
 <p>デプロイしてほしくないときは<br>
 deploy:lockも用意してる<br>
 たとえばバグでロールバック中、サーバスケール中とか</p>
-<h2 id="qa-2">QA</h2>
-<h3 id="db-migrationはどうやってる">DB migrationはどうやってる？</h3>
+<h2 id="qa-2">QA<a hidden class="anchor" aria-hidden="true" href="#qa-2">#</a></h2>
+<h3 id="db-migrationはどうやってる">DB migrationはどうやってる？<a hidden class="anchor" aria-hidden="true" href="#db-migrationはどうやってる">#</a></h3>
 <p>devは変えたいタイミングでやってる<br>
 変更時にdumpしてgithubにpushしてる<br>
 本番はインフラと相談しながら</p>
-<h3 id="ci-のメンテナンスに割いてるコスト割合は">CI のメンテナンスに割いてるコスト割合は？</h3>
+<h3 id="ci-のメンテナンスに割いてるコスト割合は">CI のメンテナンスに割いてるコスト割合は？<a hidden class="anchor" aria-hidden="true" href="#ci-のメンテナンスに割いてるコスト割合は">#</a></h3>
 <p>むらたさん、ふくもりさんの２名</p>
-<h3 id="ソース全部公開する予定とかは">ソース全部公開する予定とかは？</h3>
+<h3 id="ソース全部公開する予定とかは">ソース全部公開する予定とかは？<a hidden class="anchor" aria-hidden="true" href="#ソース全部公開する予定とかは">#</a></h3>
 <p>依存してない部分は抽象化して出してる</p>
 <ul>
 <li>chanko</li>
 <li>分散テスト環境(予定)</li>
 </ul>
 <hr>
-<h2 id="jrubyを用いたrailsアプリ開発の実情">JRubyを用いたRailsアプリ開発の実情</h2>
+<h2 id="jrubyを用いたrailsアプリ開発の実情">JRubyを用いたRailsアプリ開発の実情<a hidden class="anchor" aria-hidden="true" href="#jrubyを用いたrailsアプリ開発の実情">#</a></h2>
 <p>by 三好秀徳 (株式会社日立ソリューションズ)</p>
-<h3 id="自己紹介">自己紹介</h3>
+<h3 id="自己紹介">自己紹介<a hidden class="anchor" aria-hidden="true" href="#自己紹介">#</a></h3>
 <ul>
 <li>OSSフォーラム推進</li>
 <li>yokohama.rb</li>
 <li>ruby world conf 2012のまとめしてる</li>
 <li>るびま編集者になった</li>
 </ul>
-<h3 id="jrubyの紹介">Jrubyの紹介</h3>
+<h3 id="jrubyの紹介">Jrubyの紹介<a hidden class="anchor" aria-hidden="true" href="#jrubyの紹介">#</a></h3>
 <ul>
 <li>Java API使える</li>
 <li>処理速度はCRubyと遜色無し
 JVMの起動がボトルネックになることはある</li>
 </ul>
 <p>Jruby使う理由: Javaの資産を活用したい</p>
-<h3 id="実例">実例</h3>
+<h3 id="実例">実例<a hidden class="anchor" aria-hidden="true" href="#実例">#</a></h3>
 <p>内製Accesssアプリケーションの移行の話
 メンテナンス性と速度が低下していたので移行になった</p>
-<h3 id="用件">用件</h3>
+<h3 id="用件">用件<a hidden class="anchor" aria-hidden="true" href="#用件">#</a></h3>
 <ul>
 <li>パスワードzipファイル出力</li>
 <li>excel出力</li>
@@ -496,7 +736,7 @@ JVMの起動がボトルネックになることはある</li>
 </ul>
 <p>=&gt; rubygemsから使えそうな物をピックアップ
 =&gt; warblerでwarファイル化</p>
-<h3 id="gemの選定">gemの選定</h3>
+<h3 id="gemの選定">gemの選定<a hidden class="anchor" aria-hidden="true" href="#gemの選定">#</a></h3>
 <p>xlsを使えるgem</p>
 <ul>
 <li>spreadsheet</li>
@@ -505,7 +745,7 @@ JVMの起動がボトルネックになることはある</li>
 <p>それぞれバージョン対応しなかったり、開けないことがあった。。<br>
 のでApache POIで代替することになった。<br>
 それなら動作も問題なかった。</p>
-<h3 id="動かないgem">動かないgem</h3>
+<h3 id="動かないgem">動かないgem<a hidden class="anchor" aria-hidden="true" href="#動かないgem">#</a></h3>
 <ul>
 <li>pg</li>
 <li>therubyraer</li>
@@ -525,7 +765,7 @@ railsが自動で代替用意してくれる</p>
 <li>SimpleCovはgithubのissue確認してJRubyのバージョンアップで対応</li>
 </ul>
 <p>ここ、ソースだけでなく解決状況を見れるOSSのいいとこ</p>
-<h3 id="railsrake遅い問題">rails/rake遅い問題</h3>
+<h3 id="railsrake遅い問題">rails/rake遅い問題<a hidden class="anchor" aria-hidden="true" href="#railsrake遅い問題">#</a></h3>
 <p>JVMの起動が遅かった</p>
 <ul>
 <li>CRuby: 0.8sec</li>
@@ -536,16 +776,16 @@ railsが自動で代替用意してくれる</p>
 <li>Zeus</li>
 <li>Spring</li>
 </ul>
-<h4 id="対策-1">対策</h4>
-<h5 id="java-vmのオプションを修正">Java VMのオプションを修正</h5>
+<h4 id="対策-1">対策<a hidden class="anchor" aria-hidden="true" href="#対策-1">#</a></h4>
+<h5 id="java-vmのオプションを修正">Java VMのオプションを修正<a hidden class="anchor" aria-hidden="true" href="#java-vmのオプションを修正">#</a></h5>
 <p>Client VMを利用
 8.5 -&gt; 3.62秒になった</p>
-<h4 id="個々のpcで処理しないようにした">個々のPCで処理しないようにした</h4>
+<h4 id="個々のpcで処理しないようにした">個々のPCで処理しないようにした<a hidden class="anchor" aria-hidden="true" href="#個々のpcで処理しないようにした">#</a></h4>
 <ul>
 <li>guard gem</li>
 <li>sextant</li>
 </ul>
-<h3 id="jrubyは互換性あがってきてる">JRubyは互換性あがってきてる</h3>
+<h3 id="jrubyは互換性あがってきてる">JRubyは互換性あがってきてる<a hidden class="anchor" aria-hidden="true" href="#jrubyは互換性あがってきてる">#</a></h3>
 <ul>
 <li>passenger</li>
 <li>spork</li>
@@ -553,38 +793,38 @@ railsが自動で代替用意してくれる</p>
 <p>等は対応済み</p>
 <p>新たな高速化gemも出てきた<br>
 =&gt; commands gem</p>
-<h3 id="まとめ">まとめ</h3>
+<h3 id="まとめ">まとめ<a hidden class="anchor" aria-hidden="true" href="#まとめ">#</a></h3>
 <p>gemの互換性注意<br>
 Java利用環境でJRubyは使いどころがある</p>
-<h3 id="qa-3">QA</h3>
-<h4 id="文字コード対応できる">文字コード対応できる？</h4>
+<h3 id="qa-3">QA<a hidden class="anchor" aria-hidden="true" href="#qa-3">#</a></h3>
+<h4 id="文字コード対応できる">文字コード対応できる？<a hidden class="anchor" aria-hidden="true" href="#文字コード対応できる">#</a></h4>
 <p>parameter-encodingで指定すれば対応できる</p>
-<h4 id="jrubyを選定に加えた理由は">JRubyを選定に加えた理由は?</h4>
+<h4 id="jrubyを選定に加えた理由は">JRubyを選定に加えた理由は?<a hidden class="anchor" aria-hidden="true" href="#jrubyを選定に加えた理由は">#</a></h4>
 <p>一部の要件がRubyではできないがJavaでできることはわかっていたから</p>
-<h4 id="なぜjavaで開発しなかったのか">なぜJavaで開発しなかったのか？</h4>
+<h4 id="なぜjavaで開発しなかったのか">なぜJavaで開発しなかったのか？<a hidden class="anchor" aria-hidden="true" href="#なぜjavaで開発しなかったのか">#</a></h4>
 <p>Ruby好きだから!</p>
 <hr>
-<h2 id="ruby開発者を増やすための教育について8年間のruby教育で得た知見">Ruby開発者を増やすための教育について－8年間のRuby教育で得た知見</h2>
+<h2 id="ruby開発者を増やすための教育について8年間のruby教育で得た知見">Ruby開発者を増やすための教育について－8年間のRuby教育で得た知見<a hidden class="anchor" aria-hidden="true" href="#ruby開発者を増やすための教育について8年間のruby教育で得た知見">#</a></h2>
 <p>by 吉田裕美 (有限会社EY-Office)</p>
-<h3 id="ruby教育の現状">Ruby教育の現状</h3>
+<h3 id="ruby教育の現状">Ruby教育の現状<a hidden class="anchor" aria-hidden="true" href="#ruby教育の現状">#</a></h3>
 <p>一般データはもっていないのでEY-Officeの教育を紹介<br>
 2012年から研修申し込みが入るようになってきた</p>
-<h3 id="教育業者を使うことのメリット">教育業者を使うことのメリット</h3>
+<h3 id="教育業者を使うことのメリット">教育業者を使うことのメリット<a hidden class="anchor" aria-hidden="true" href="#教育業者を使うことのメリット">#</a></h3>
 <ul>
 <li>講義や教育のノウハウがある</li>
 </ul>
-<h3 id="社内で教えることのメリット">社内で教えることのメリット</h3>
+<h3 id="社内で教えることのメリット">社内で教えることのメリット<a hidden class="anchor" aria-hidden="true" href="#社内で教えることのメリット">#</a></h3>
 <ul>
 <li>企業のノウハウを伝えられる</li>
 <li>教える側もスキルが上がる</li>
 </ul>
-<h3 id="研修期間設定に関連するパラメータ">研修期間設定に関連するパラメータ</h3>
+<h3 id="研修期間設定に関連するパラメータ">研修期間設定に関連するパラメータ<a hidden class="anchor" aria-hidden="true" href="#研修期間設定に関連するパラメータ">#</a></h3>
 <ul>
 <li>経験値</li>
 <li>能力</li>
 <li>etc</li>
 </ul>
-<h3 id="ey-officeの教育コース">EY-Officeの教育コース</h3>
+<h3 id="ey-officeの教育コース">EY-Officeの教育コース<a hidden class="anchor" aria-hidden="true" href="#ey-officeの教育コース">#</a></h3>
 <ul>
 <li>1日コース</li>
 <li>3日コース - 5日コース</li>
@@ -592,7 +832,7 @@ Java利用環境でJRubyは使いどころがある</p>
 <p>3日が人気<br>
 1日で済む人は本でも済む<br>
 5日は期間として取りづらい</p>
-<h3 id="コース内容">コース内容</h3>
+<h3 id="コース内容">コース内容<a hidden class="anchor" aria-hidden="true" href="#コース内容">#</a></h3>
 <ul>
 <li>
 <p>1日目</p>
@@ -618,85 +858,85 @@ Java利用環境でJRubyは使いどころがある</p>
 </ul>
 </li>
 </ul>
-<h3 id="教育の場でやるべきこと">教育の場でやるべきこと</h3>
-<h4 id="英語ドキュメントの読み方も教える">英語ドキュメントの読み方も教える</h4>
+<h3 id="教育の場でやるべきこと">教育の場でやるべきこと<a hidden class="anchor" aria-hidden="true" href="#教育の場でやるべきこと">#</a></h3>
+<h4 id="英語ドキュメントの読み方も教える">英語ドキュメントの読み方も教える<a hidden class="anchor" aria-hidden="true" href="#英語ドキュメントの読み方も教える">#</a></h4>
 <p>exampleから見るとか</p>
-<h4 id="デバッグ方法">デバッグ方法</h4>
+<h4 id="デバッグ方法">デバッグ方法<a hidden class="anchor" aria-hidden="true" href="#デバッグ方法">#</a></h4>
 <p>エラーメッセージはどう読むのか</p>
-<h4 id="良いコードの書き方">良いコードの書き方</h4>
+<h4 id="良いコードの書き方">良いコードの書き方<a hidden class="anchor" aria-hidden="true" href="#良いコードの書き方">#</a></h4>
 <ul>
 <li>なぜ必要か</li>
 <li>名前重要</li>
 </ul>
-<h4 id="webアプリの基本">webアプリの基本</h4>
+<h4 id="webアプリの基本">webアプリの基本<a hidden class="anchor" aria-hidden="true" href="#webアプリの基本">#</a></h4>
 <p>html, cssとか</p>
-<h4 id="webの脆弱性">webの脆弱性</h4>
+<h4 id="webの脆弱性">webの脆弱性<a hidden class="anchor" aria-hidden="true" href="#webの脆弱性">#</a></h4>
 <p>XSS, SQL injectionとか<br>
 実際のデモが良い</p>
-<h3 id="ポイント">ポイント</h3>
-<h4 id="関係者の顔を見えるように">関係者の顔を見えるように</h4>
+<h3 id="ポイント">ポイント<a hidden class="anchor" aria-hidden="true" href="#ポイント">#</a></h3>
+<h4 id="関係者の顔を見えるように">関係者の顔を見えるように<a hidden class="anchor" aria-hidden="true" href="#関係者の顔を見えるように">#</a></h4>
 <p>開発者はmatzだよとか</p>
-<h4 id="メタ教育">メタ教育</h4>
+<h4 id="メタ教育">メタ教育<a hidden class="anchor" aria-hidden="true" href="#メタ教育">#</a></h4>
 <p>&ndash;helpで大体ヘルプでるとか<br>
 manコマンドとか</p>
-<h4 id="定着">定着</h4>
+<h4 id="定着">定着<a hidden class="anchor" aria-hidden="true" href="#定着">#</a></h4>
 <p>実際に作って、発表</p>
-<h4 id="コミュニケーション">コミュニケーション</h4>
+<h4 id="コミュニケーション">コミュニケーション<a hidden class="anchor" aria-hidden="true" href="#コミュニケーション">#</a></h4>
 <p>確認しながら進める</p>
-<h4 id="場数をふむ">場数をふむ</h4>
+<h4 id="場数をふむ">場数をふむ<a hidden class="anchor" aria-hidden="true" href="#場数をふむ">#</a></h4>
 <p>同僚に聞いてもらうとか<br>
 練習の場を作る</p>
-<h3 id="環境">環境</h3>
+<h3 id="環境">環境<a hidden class="anchor" aria-hidden="true" href="#環境">#</a></h3>
 <p>windowsは入門程度なら問題ないが動かないgemなどある<br>
 多いのはwindows+VM+Linux<br>
 VMイメージ渡してる</p>
 <p>印刷物はJekyllでつくってpdfにしてキンコーズで対応してる</p>
-<h3 id="qa-4">QA</h3>
-<h4 id="その場でいれると環境ずれて困るのでは">その場でいれると環境ずれて困るのでは？</h4>
+<h3 id="qa-4">QA<a hidden class="anchor" aria-hidden="true" href="#qa-4">#</a></h3>
+<h4 id="その場でいれると環境ずれて困るのでは">その場でいれると環境ずれて困るのでは？<a hidden class="anchor" aria-hidden="true" href="#その場でいれると環境ずれて困るのでは">#</a></h4>
 <p>bundle済みのrubyごと渡してる</p>
-<h4 id="ideは使わないの">IDEは使わないの？</h4>
+<h4 id="ideは使わないの">IDEは使わないの？<a hidden class="anchor" aria-hidden="true" href="#ideは使わないの">#</a></h4>
 <p>隠蔽されてしまうので基本的には使ってない</p>
 <hr>
-<h2 id="social-translating-rails-tutorialとruby-hacking-guideの翻訳を支える仕組み">Social Translating: Rails TutorialとRuby Hacking Guideの翻訳を支える仕組み</h2>
+<h2 id="social-translating-rails-tutorialとruby-hacking-guideの翻訳を支える仕組み">Social Translating: Rails TutorialとRuby Hacking Guideの翻訳を支える仕組み<a hidden class="anchor" aria-hidden="true" href="#social-translating-rails-tutorialとruby-hacking-guideの翻訳を支える仕組み">#</a></h2>
 <p>by 安川要平 (YasuLab)、八田昌三 (ビヨンド・パースペクティブ・ソリューションズ株式会社)</p>
-<h3 id="links-1">links</h3>
+<h3 id="links-1">links<a hidden class="anchor" aria-hidden="true" href="#links-1">#</a></h3>
 <ul>
 <li><a href="http://railstutorial.jp/">http://railstutorial.jp/</a></li>
 </ul>
-<h3 id="事例1-rail-tutorialの事例">(事例1) Rail Tutorialの事例</h3>
+<h3 id="事例1-rail-tutorialの事例">(事例1) Rail Tutorialの事例<a hidden class="anchor" aria-hidden="true" href="#事例1-rail-tutorialの事例">#</a></h3>
 <p>約600page<br>
 Twitter-likeなページをサンプルで作るとかが書かれてる</p>
 <p>7/1に日本語版も公開<br>
 約10人で1ヶ月で対応<br>
 4.0対応は2人で1ヶ月で対応</p>
-<h3 id="事例2-rubyソースコード完全解説">(事例2) Rubyソースコード完全解説</h3>
+<h3 id="事例2-rubyソースコード完全解説">(事例2) Rubyソースコード完全解説<a hidden class="anchor" aria-hidden="true" href="#事例2-rubyソースコード完全解説">#</a></h3>
 <p>Ruby Hacking Guideの英語化</p>
-<h3 id="どうやって対応したのか">どうやって対応したのか？</h3>
+<h3 id="どうやって対応したのか">どうやって対応したのか？<a hidden class="anchor" aria-hidden="true" href="#どうやって対応したのか">#</a></h3>
 <p>githubを使って実施した<br>
 RHGはJekyllで実施</p>
 <p>7.5 yearsかかった<br>
 GitHub移行後は1.3年<br>
 これを踏まえてRails Tutorialは工夫した</p>
-<h3 id="改善点">改善点</h3>
-<h4 id="みんなgitに慣れてる訳ではない">みんなgitに慣れてる訳ではない</h4>
+<h3 id="改善点">改善点<a hidden class="anchor" aria-hidden="true" href="#改善点">#</a></h3>
+<h4 id="みんなgitに慣れてる訳ではない">みんなgitに慣れてる訳ではない<a hidden class="anchor" aria-hidden="true" href="#みんなgitに慣れてる訳ではない">#</a></h4>
 <p>word使いたい人とか<br>
 プロの翻訳者に相談して仕組みを変えた<br>
 social coding のような social translating<br>
 なるべくみんなが使いやすいwebツールで対処</p>
-<h4 id="ツール1-facebook-group">ツール1: facebook group</h4>
+<h4 id="ツール1-facebook-group">ツール1: facebook group<a hidden class="anchor" aria-hidden="true" href="#ツール1-facebook-group">#</a></h4>
 <p>pin機能を使ってREADMEのような投稿を常に表示</p>
 <ul>
 <li>概要</li>
 <li>役割分担</li>
 <li>参加方法</li>
 </ul>
-<h4 id="ツール2-google-translator-toolkit">ツール2: google translator toolkit</h4>
+<h4 id="ツール2-google-translator-toolkit">ツール2: google translator toolkit<a hidden class="anchor" aria-hidden="true" href="#ツール2-google-translator-toolkit">#</a></h4>
 <ul>
 <li>翻訳サポートツール</li>
 <li>URL指定で翻訳できる</li>
 <li>翻訳メモリ、用語集を使える</li>
 </ul>
-<h4 id="翻訳メモリとは">翻訳メモリとは</h4>
+<h4 id="翻訳メモリとは">翻訳メモリとは<a hidden class="anchor" aria-hidden="true" href="#翻訳メモリとは">#</a></h4>
 <p>原文と訳文のペアが蓄積したもの<br>
 次の翻訳開始時にメモリから一気に翻訳できる<br>
 原文の更新の追尾が楽になる</p>
@@ -704,50 +944,50 @@ social coding のような social translating<br>
 翻訳のボリュームが大きい時は非常に効果的<br>
 web記事などは効果薄い</p>
 <p>続きはtechrachoの技術ブログにhachi8833で掲載予定</p>
-<h3 id="deploy部分の工夫">deploy部分の工夫</h3>
+<h3 id="deploy部分の工夫">deploy部分の工夫<a hidden class="anchor" aria-hidden="true" href="#deploy部分の工夫">#</a></h3>
 <p>エンジニアが自動化<br>
 toolkit上のタグ単位でzipダウンロードしてheroku push</p>
-<h3 id="問題点">問題点</h3>
+<h3 id="問題点">問題点<a hidden class="anchor" aria-hidden="true" href="#問題点">#</a></h3>
 <ul>
 <li>pull requestが使えない</li>
 <li>diffがとりづらい</li>
 </ul>
-<h3 id="htmlからepub化した">HTMLからepub化した!!</h3>
+<h3 id="htmlからepub化した">HTMLからepub化した!!<a hidden class="anchor" aria-hidden="true" href="#htmlからepub化した">#</a></h3>
 <p>達人出版ででてる<br>
 Creative Commonsなので配布などOK!<br>
 学生さん、割り勘購入とかもできるよ</p>
-<h3 id="qa-5">QA</h3>
-<h4 id="複数人で翻訳すると言い回しの監修はどうしてる">複数人で翻訳すると言い回しの監修はどうしてる？</h4>
+<h3 id="qa-5">QA<a hidden class="anchor" aria-hidden="true" href="#qa-5">#</a></h3>
+<h4 id="複数人で翻訳すると言い回しの監修はどうしてる">複数人で翻訳すると言い回しの監修はどうしてる？<a hidden class="anchor" aria-hidden="true" href="#複数人で翻訳すると言い回しの監修はどうしてる">#</a></h4>
 <p>例も示してスタイルガイドを定義していた<br>
 適宜きづいた点も指摘していた</p>
-<h4 id="翻訳メモリ順番変わって言い回し変わったらどうなる">翻訳メモリ、順番変わって言い回し変わったらどうなる？</h4>
+<h4 id="翻訳メモリ順番変わって言い回し変わったらどうなる">翻訳メモリ、順番変わって言い回し変わったらどうなる？<a hidden class="anchor" aria-hidden="true" href="#翻訳メモリ順番変わって言い回し変わったらどうなる">#</a></h4>
 <p>updateとか名詞なのか動詞なのかとか変わる<br>
 明確な対処方法はない<br>
 表が特に危ないので気をつけるべき</p>
-<h4 id="もしstackover-flowなどを追従翻訳しようとすると大変なにかアイデアある">もしstackover flowなどを追従翻訳しようとすると大変、なにかアイデアある？</h4>
+<h4 id="もしstackover-flowなどを追従翻訳しようとすると大変なにかアイデアある">もしstackover flowなどを追従翻訳しようとすると大変、なにかアイデアある？<a hidden class="anchor" aria-hidden="true" href="#もしstackover-flowなどを追従翻訳しようとすると大変なにかアイデアある">#</a></h4>
 <p>READMEを翻訳メモリのようにしてGitHub上でtoolkitにすることを考えたことはある<br>
 toolkitにpull requestを追加することも考えたことがある</p>
 <hr>
-<h2 id="ひろがるrubyの学びの場">ひろがるRubyの学びの場</h2>
+<h2 id="ひろがるrubyの学びの場">ひろがるRubyの学びの場<a hidden class="anchor" aria-hidden="true" href="#ひろがるrubyの学びの場">#</a></h2>
 <p>by 五十嵐邦明 (株式会社spice life・一橋大学)</p>
-<h3 id="links-2">Links</h3>
+<h3 id="links-2">Links<a hidden class="anchor" aria-hidden="true" href="#links-2">#</a></h3>
 <ul>
 <li><a href="https://github.com/igaiga/hitotsubashi-ruby-2013">https://github.com/igaiga/hitotsubashi-ruby-2013</a></li>
 <li><a href="http://c4sa.nifty.com/">http://c4sa.nifty.com/</a></li>
 <li><a href="https://github.com/ruby-no-kai/official/wiki">https://github.com/ruby-no-kai/official/wiki</a></li>
 </ul>
-<h3 id="一橋でのruby講義">一橋でのRuby講義</h3>
+<h3 id="一橋でのruby講義">一橋でのRuby講義<a hidden class="anchor" aria-hidden="true" href="#一橋でのruby講義">#</a></h3>
 <ul>
 <li>ニフティの寄附講義</li>
 <li>島根Ruby合宿でも単位がもらえる</li>
 </ul>
-<h3 id="講義資料">講義資料</h3>
+<h3 id="講義資料">講義資料<a hidden class="anchor" aria-hidden="true" href="#講義資料">#</a></h3>
 <ul>
 <li><a href="https://github.com/igaiga/hitotsubashi-ruby-2013">https://github.com/igaiga/hitotsubashi-ruby-2013</a></li>
 <li>たのしいRuby</li>
 </ul>
 <p>などなど</p>
-<h3 id="講義内容">講義内容</h3>
+<h3 id="講義内容">講義内容<a hidden class="anchor" aria-hidden="true" href="#講義内容">#</a></h3>
 <ul>
 <li>ruby, shellの基本的な解説</li>
 <li>wikipediaのアクセス数解析</li>
@@ -759,7 +999,7 @@ toolkitにpull requestを追加することも考えたことがある</p>
 </ul>
 </li>
 </ul>
-<h3 id="やってみて気づいたところ">やってみて気づいたところ</h3>
+<h3 id="やってみて気づいたところ">やってみて気づいたところ<a hidden class="anchor" aria-hidden="true" href="#やってみて気づいたところ">#</a></h3>
 <ul>
 <li>そもそもshellとirbの違いとか分からないもの</li>
 <li>文法よりもアルゴリズムが難しい
@@ -771,7 +1011,7 @@ toolkitにpull requestを追加することも考えたことがある</p>
 <li>プログラマー向け入門書はあるが、初心者向け無い</li>
 <li>エンジニアが教えることでで最新rubyなどに追従できる</li>
 </ul>
-<h3 id="rails-girls">rails girls</h3>
+<h3 id="rails-girls">rails girls<a hidden class="anchor" aria-hidden="true" href="#rails-girls">#</a></h3>
 <p>参加者の動機</p>
 <ul>
 <li>同僚のやっている内容知りたい</li>
@@ -779,7 +1019,7 @@ toolkitにpull requestを追加することも考えたことがある</p>
 などなど</li>
 </ul>
 <p>万葉では卒業生むけの勉強会も開催中</p>
-<h3 id="rails-寺子屋">rails 寺子屋</h3>
+<h3 id="rails-寺子屋">rails 寺子屋<a hidden class="anchor" aria-hidden="true" href="#rails-寺子屋">#</a></h3>
 <p>学生向けrailsワークショップ<br>
 いまは高専卒業生多い</p>
 <ul>
@@ -787,175 +1027,241 @@ toolkitにpull requestを追加することも考えたことがある</p>
 <li>pull request道場</li>
 <li>コード大喜利</li>
 </ul>
-<h4 id="pull-request道場">pull request道場</h4>
+<h4 id="pull-request道場">pull request道場<a hidden class="anchor" aria-hidden="true" href="#pull-request道場">#</a></h4>
 <p>開発の流れに慣れるためのpull request練習<br>
 ミサワ画像でコミュニケーションw</p>
-<h4 id="コード大喜利">コード大喜利</h4>
+<h4 id="コード大喜利">コード大喜利<a hidden class="anchor" aria-hidden="true" href="#コード大喜利">#</a></h4>
 <p>課題を解く形式<br>
 うまく動けば○でる仕組みになってる<br>
 動いてても師範が脆弱性ついたりする</p>
-<h3 id="環境-1">環境</h3>
+<h3 id="環境-1">環境<a hidden class="anchor" aria-hidden="true" href="#環境-1">#</a></h3>
 <p>VMはあまり使ってもらえなかったのでネイティブで</p>
-<h3 id="ゴール">ゴール</h3>
+<h3 id="ゴール">ゴール<a hidden class="anchor" aria-hidden="true" href="#ゴール">#</a></h3>
 <p>社会人も含めた未来に設定することが大事<br>
 なので、たのしい雰囲気や仲間作りを大切にしてる</p>
-<h3 id="場所があるということは重要">場所があるということは重要</h3>
+<h3 id="場所があるということは重要">場所があるということは重要<a hidden class="anchor" aria-hidden="true" href="#場所があるということは重要">#</a></h3>
 <p>興味があっても始めるきっかけがなかったり方法がわからないことがある<br>
 何が出来るのか、どうやってトラブル解決方法、勉強方法まなべる</p>
-<h3 id="五十嵐さんのrubyはじめたきっかけ">五十嵐さんのrubyはじめたきっかけ</h3>
+<h3 id="五十嵐さんのrubyはじめたきっかけ">五十嵐さんのrubyはじめたきっかけ<a hidden class="anchor" aria-hidden="true" href="#五十嵐さんのrubyはじめたきっかけ">#</a></h3>
 <p>先輩がtdiary使ってた<br>
 そこから学ぶことが楽しかった</p>
-<h3 id="qa-6">QA</h3>
-<h4 id="vmなぜ使ってもらえなかった">VMなぜ使ってもらえなかった？</h4>
+<h3 id="qa-6">QA<a hidden class="anchor" aria-hidden="true" href="#qa-6">#</a></h3>
+<h4 id="vmなぜ使ってもらえなかった">VMなぜ使ってもらえなかった？<a hidden class="anchor" aria-hidden="true" href="#vmなぜ使ってもらえなかった">#</a></h4>
 <ul>
 <li>linuxに慣れてない方が多い</li>
 <li>ネイティブでないのでもっさりしてる</li>
 </ul>
 <p>ので敬遠されている模様</p>
-<h4 id="初めての言語がrubyであることのメリットデメリットは">初めての言語がRubyであることのメリット・デメリットは？</h4>
+<h4 id="初めての言語がrubyであることのメリットデメリットは">初めての言語がRubyであることのメリット・デメリットは？<a hidden class="anchor" aria-hidden="true" href="#初めての言語がrubyであることのメリットデメリットは">#</a></h4>
 <ul>
 <li>ライブラリが豊富であること</li>
 <li>webですぐ動かせること</li>
 </ul>
 <p>が条件だと考えていてそれをruby満たしてる</p>
 <p>あとはくせがなく読みやすいという声も生徒からあった</p>
-<h4 id="参加者の学習状況に差が出た場合の対処は">参加者の学習状況に差が出た場合の対処は？</h4>
+<h4 id="参加者の学習状況に差が出た場合の対処は">参加者の学習状況に差が出た場合の対処は？<a hidden class="anchor" aria-hidden="true" href="#参加者の学習状況に差が出た場合の対処は">#</a></h4>
 <p>基本的に多数の方にあわせる<br>
 演習の時間多いので、その時にサポートする<br>
 初めてだと翌週でも忘れるし、新規の方もいるので、聞かれたらもう一度説明をするようにしている</p>
-    </section>
 
+  </div>
 
   <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://256days.com/tags/ruby/">ruby</a></li>
+      <li><a href="https://256days.com/tags/meetup/">meetup</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://256days.com/post/2013-11-23-rubyworld-conference-2013-day2-memo/">
+    <span class="title">« 前のページ</span>
+    <br>
+    <span>RubyWorld Conference 2013 day2 memo</span>
+  </a>
+</nav>
 
 
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share RubyWorld Conference 2013 day1 memo on twitter"
+        href="https://twitter.com/intent/tweet/?text=RubyWorld%20Conference%202013%20day1%20memo&amp;url=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f&amp;hashtags=ruby%2cmeetup">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share RubyWorld Conference 2013 day1 memo on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f&amp;title=RubyWorld%20Conference%202013%20day1%20memo&amp;summary=RubyWorld%20Conference%202013%20day1%20memo&amp;source=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share RubyWorld Conference 2013 day1 memo on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f&title=RubyWorld%20Conference%202013%20day1%20memo">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share RubyWorld Conference 2013 day1 memo on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share RubyWorld Conference 2013 day1 memo on whatsapp"
+        href="https://api.whatsapp.com/send?text=RubyWorld%20Conference%202013%20day1%20memo%20-%20https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share RubyWorld Conference 2013 day1 memo on telegram"
+        href="https://telegram.me/share/url?text=RubyWorld%20Conference%202013%20day1%20memo&amp;url=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f">
+        <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+</div>
+
+  </footer><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
     
-
-
-
-
-
-
-
-
-
-<section class="author">
-  <h4><a href="https://256days.com/">Hiroki Matsue</a></h4>
-  
-  <p>Read <a href="https://256days.com/">more posts</a> by this author.</p>
-  
-  <div class="author-meta">
-    <span class="author-location icon-location">Tokyo, Japan</span>
-    <span class="author-link icon-link"><a href="https://256days.com/">https://256days.com/</a></span>
-  </div>
-</section>
-
-
-
-
     
-<section class="share">
-  <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=RubyWorld%20Conference%202013%20day1%20memo&amp;url=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f"
-      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-      <span class="hidden">Twitter</span>
-  </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f"
-      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-      <span class="hidden">Facebook</span>
-  </a>
-  <a class="icon-hatena" style="font-size: 1.4em" href="http://b.hatena.ne.jp/entry/https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/"
-      onclick="window.open(this.href, 'hatena-share', 'width=550,height=235');return false;">
-      <span class="hidden">Hatena</span>
-  </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f&amp;description=RubyWorld%20Conference%202013%20day1%20memo"
-      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-      <span class="hidden">Pinterest</span>
-  </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f"
-     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-      <span class="hidden">Google+</span>
-  </a>
-  <a class="icon-pocket" style="font-size: 1.4em" href="http://getpocket.com/edit?url=https%3a%2f%2f256days.com%2fpost%2f2013-11-23-rubyworld-conference-2013-day1-memo%2f"
-      onclick="window.open(this.href, 'pocket-share', 'width=550,height=235');return false;">
-      <span class="hidden">Pocket</span>
-  </a>
-</section>
-
-
-
     
-
-<div id="disqus_thread"></div>
-<script>
-
-
-
-
-var disqus_config = function () {
-this.page.url = "https:\/\/256days.com\/post\/2013-11-23-rubyworld-conference-2013-day1-memo\/";  
-this.page.identifier = "https:\/\/256days.com\/post\/2013-11-23-rubyworld-conference-2013-day1-memo\/"; 
-};
-
-(function() { 
-var d = document, s = d.createElement('script');
-s.src = 'https://waytoa.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "waytoa" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-
-
-
-
-
-
-
-  </footer>
 </article>
-
-</main>
-
-
-  <aside class="read-next">
-  
-      <a class="read-next-story" style="no-cover" href="https://256days.com/post/2013-11-23-rubyworld-conference-2013-day2-memo/">
-          <section class="post">
-              <h2>RubyWorld Conference 2013 day2 memo</h2>
-              
-          </section>
-      </a>
-  
-  
-</aside>
-
-
-
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">256days</a> All rights reserved - 2015</section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
-        
-    </footer>
-    </div>
-    <script type="text/javascript" src="https://256days.com/js/jquery.js"></script>
-    <script type="text/javascript" src="https://256days.com/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://256days.com/js/index.js"></script>
+    </main>
     
-        <script type="text/javascript">
-  amzn_assoc_ad_type = "link_enhancement_widget";
-  amzn_assoc_tracking_id = "waytoa-22";
-  amzn_assoc_placement = "";
-  amzn_assoc_marketplace = "amazon";
-  amzn_assoc_region = "JP";
+<footer class="footer">
+    <span>Copyright © 2013 Hiroki Matsue All Rights Reserved.</span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
 </script>
-<script src="//z-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=JP"></script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
 
-<script type="text/javascript" src="https://256days.com/js/custom-main.js"></script>
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-    
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
 </body>
-</html>
 
+</html>

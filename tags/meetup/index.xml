@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>meetup on 256days</title>
     <link>https://256days.com/tags/meetup/</link>
     <description>Recent content in meetup on 256days</description>
+    <image>
+      <url>https://256days.com/images/cover.jpg</url>
+      <link>https://256days.com/images/cover.jpg</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
-    <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Thu, 05 Mar 2015 20:43:28 +0900</lastBuildDate>
-    
-	<atom:link href="https://256days.com/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright © 2013 Hiroki Matsue All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 05 Mar 2015 20:43:28 +0900</lastBuildDate><atom:link href="https://256days.com/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Regional Scrum Gathering Tokyo 2015に参加した</title>
       <link>https://256days.com/post/2015-03-01-scrumgatheringtokyo-2015/</link>
@@ -42,7 +42,7 @@
 &lt;/figure&gt;
 
 
-&lt;p&gt;&lt;a href=&#34;http://8a1-apc.connpass.com/event/11282/&#34;&gt;&amp;rdquo;【ハンズオン】初めてのUnityで作る「3D野球盤」APC勉強会 #14&amp;rdquo;&lt;/a&gt;に参加してきた。&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://8a1-apc.connpass.com/event/11282/&#34;&gt;&amp;quot;【ハンズオン】初めてのUnityで作る「3D野球盤」APC勉強会 #14&amp;quot;&lt;/a&gt;に参加してきた。&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>aws on 256days</title>
     <link>https://256days.com/tags/aws/</link>
     <description>Recent content in aws on 256days</description>
+    <image>
+      <url>https://256days.com/images/cover.jpg</url>
+      <link>https://256days.com/images/cover.jpg</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
-    <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Wed, 21 May 2014 00:12:13 +0900</lastBuildDate>
-    
-	<atom:link href="https://256days.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright © 2013 Hiroki Matsue All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 21 May 2014 00:12:13 +0900</lastBuildDate><atom:link href="https://256days.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>第21回 AWS User Group - Japan 東京勉強会に参加しました</title>
       <link>https://256days.com/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</link>

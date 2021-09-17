@@ -1,169 +1,107 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://256days.com/</loc>
     <lastmod>2016-09-24T22:25:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/book/</loc>
     <lastmod>2016-09-24T22:25:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/</loc>
     <lastmod>2016-09-24T22:25:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/</loc>
     <lastmod>2016-09-24T22:25:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/lifenet-marketing/</loc>
     <lastmod>2016-09-24T22:25:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/full-steam-ahead/</loc>
     <lastmod>2016-09-04T22:09:29+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/how-to-remove-square-brackets-with-alamofire/</loc>
     <lastmod>2016-07-02T17:59:16+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/ios/</loc>
     <lastmod>2016-07-02T17:59:16+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/swift/</loc>
     <lastmod>2016-07-02T17:59:16+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/rocket-start-working-style/</loc>
     <lastmod>2016-06-19T22:46:25+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/devops/</loc>
     <lastmod>2015-11-24T20:07:45+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2015-11-24-rakuten-technology-conference-2015/</loc>
     <lastmod>2015-11-24T20:07:45+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/ruby/</loc>
     <lastmod>2015-11-24T20:07:45+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/scrum/</loc>
     <lastmod>2015-11-24T20:07:45+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/meetup/</loc>
     <lastmod>2015-03-05T20:43:28+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2015-03-01-scrumgatheringtokyo-2015/</loc>
     <lastmod>2015-03-05T20:43:28+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/mobile/</loc>
     <lastmod>2015-02-06T15:01:38+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/paris/</loc>
     <lastmod>2015-02-06T15:01:38+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2015-02-06-useful-apps-in-paris/</loc>
     <lastmod>2015-02-06T15:01:38+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/unity/</loc>
     <lastmod>2015-02-04T22:15:42+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2015-02-04-unity-workshop/</loc>
     <lastmod>2015-02-04T22:15:42+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2014-09-22-paris-tech-talks-8th/</loc>
     <lastmod>2014-09-22T23:36:15+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/bicycle/</loc>
     <lastmod>2014-08-21T22:18:06+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2014-08-21-tour-de-france-2014/</loc>
     <lastmod>2014-08-21T22:18:06+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2014-08-06-paris-dot-rb/</loc>
     <lastmod>2014-08-06T00:21:32+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/erlang/</loc>
     <lastmod>2014-06-12T14:09:40+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2014-06-12-euc2014/</loc>
     <lastmod>2014-06-12T14:09:40+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/tags/aws/</loc>
     <lastmod>2014-05-21T00:12:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2014-05-21-jaws-ug-tokyo-21th-20140521/</loc>
     <lastmod>2014-05-21T00:12:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2013-11-24-rubyworld-conference-2013/</loc>
     <lastmod>2013-11-24T16:56:35+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2013-11-23-rubyworld-conference-2013-day2-memo/</loc>
     <lastmod>2013-11-23T01:14:19+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/post/2013-11-23-rubyworld-conference-2013-day1-memo/</loc>
     <lastmod>2013-11-23T01:01:58+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://256days.com/categories/</loc>
+  </url><url>
+    <loc>https://256days.com/search/</loc>
+  </url><url>
+    <loc>https://256days.com/series/</loc>
   </url>
-  
 </urlset>
